@@ -1,13 +1,3 @@
-# Curated 10 sources — prioritized for international exit / Group-A AI reachability.
-# Trimmed from the full MihomoSaz Sublist; prefer sources that previously
-# parsed successfully and skew US/global aggregators over IR-local lists.
+# Single source for end-to-end pipeline validation.
+# Expand again later once one full cycle succeeds.
 https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/SnapdragonLee_clash_config_extra_US.yaml
-https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/10ium/V2RayAggregator-Eternity.yml
-https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/free18.yaml
-https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/hamedp-71/Trojan_hp.yaml
-https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/whitedns.yaml
-https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/server_channel_pro/vpnmarket.yaml
-https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/maimengmeng/500.yaml
-https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/liketolivefree.yaml
-https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/hamedp-71/Sub_Checker_Creator_final.yaml
-https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/snakem982-clash/meta.yaml
