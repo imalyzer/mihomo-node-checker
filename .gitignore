@@ -1,0 +1,12 @@
+work/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+bin/
+.mihomo/
+*.exe
+*.gz
+*.zip
+.DS_Store

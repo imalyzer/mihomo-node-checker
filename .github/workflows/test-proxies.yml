@@ -1,0 +1,76 @@
+name: Test Proxies
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: node-checker
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Install clash-speedtest
+        run: |
+          go install github.com/faceair/clash-speedtest@latest
+          echo "$HOME/go/bin" >> "$GITHUB_PATH"
+
+      - name: Download Mihomo
+        run: |
+          set -euo pipefail
+          mkdir -p bin work output
+          TAG=$(curl -fsSL https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | python -c "import sys,json; print(json.load(sys.stdin)['tag_name'])")
+          echo "Using Mihomo $TAG"
+          ASSET="mihomo-linux-amd64-${TAG}.gz"
+          URL="https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/${ASSET}"
+          curl -fsSL -o /tmp/mihomo.gz "$URL"
+          gunzip -c /tmp/mihomo.gz > bin/mihomo
+          chmod +x bin/mihomo
+          ./bin/mihomo -v
+          echo "MIHOMO_BIN=$PWD/bin/mihomo" >> "$GITHUB_ENV"
+
+      - name: Run pipeline
+        run: |
+          python scripts/run_pipeline.py \
+            --sources sources.txt \
+            --targets data/group-a-targets.txt \
+            --work-dir work \
+            --output output/backup-nodes.yaml \
+            --mihomo-bin "${MIHOMO_BIN}"
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/backup-nodes.yaml
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: refresh backup nodes [skip ci]"
+          git push

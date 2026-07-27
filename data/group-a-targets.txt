@@ -1,0 +1,16 @@
+ml.googleapis.com
+aistudio.google.com
+chatgpt.com
+api.openai.com
+claude.ai
+api.anthropic.com
+cursor.sh
+api.cursor.sh
+x.ai
+api.x.ai
+api.spotify.com
+ap.spotify.com
+api.dittomusic.com
+app.dittomusic.com
+api.nuget.org
+aka.ms
