@@ -38,7 +38,7 @@ from sanitize_proxies import sanitize_proxies, strip_internal  # noqa: E402
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_SPEEDTEST_CAP = 500
+DEFAULT_SPEEDTEST_CAP = 100
 PROXY_INDEX_RE = re.compile(r"proxy\s+(\d+)\s*:", re.IGNORECASE)
 LIGHT_MIN_RATIO = 0.5
 FULL_MIN_RATIO = 0.7
