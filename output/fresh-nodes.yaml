@@ -1,0 +1,219 @@
+# last-updated: 2026-07-27T16:03:40Z
+# node-count: 23
+proxies:
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸 US 002 | ⚡ 56.00ms
+  password: amazonskr05
+  port: 443
+  server: 54.197.30.38
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸 US 003 | ⚡ 78.00ms
+  password: amazonskr05
+  port: 443
+  server: 34.207.112.128
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸 US 004 | ⚡ 100.00ms
+  password: amazonskr05
+  port: 443
+  server: 54.167.54.100
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 🇺🇸 US 005 | ⚡ 105.00ms
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.170
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 006 | ⚡ 115.00ms
+  network: tcp
+  port: 18000
+  server: 38.110.1.246
+  skip-cert-verify: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 007 | ⚡ 116.00ms
+  network: tcp
+  port: 18000
+  server: 67.220.85.46
+  skip-cert-verify: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  ws-path: /
+- country: 🇺🇸US
+  name: 🇺🇸 US 008 | ⚡ 128.00ms
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.118
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: rc4-md5
+  country: 🇺🇸US
+  name: 🇨🇦 CA 001 | ⚡ 133.00ms
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 🇺🇸 US 009 | ⚡ 136.00ms
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.169
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 🇺🇸 US 010 | ⚡ 159.00ms
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.167
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 011 | ⚡ 173.00ms
+  network: tcp
+  port: 18000
+  server: 67.220.95.3
+  skip-cert-verify: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  ws-path: /
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 🇺🇸 US 012 | ⚡ 175.00ms
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.168
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 🇨🇦 CA 002 | ⚡ 195.00ms
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 🇺🇸 US 013 | ⚡ 209.00ms
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.6
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 🇺🇸 US 014 | ⚡ 223.00ms
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.9
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇩🇪 DE 003 | ⚡ 286.00ms
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇬🇧 GB 001 | ⚡ 331.00ms
+  network: tcp
+  port: 22324
+  server: 66.163.117.58
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  ws-path: /
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 🇯🇵 JP 002 | ⚡ 451.00ms
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇹🇷 TR 001 | ⚡ 462.00ms
+  network: ws
+  port: 443
+  server: 94.131.108.36
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
+  ws-opts:
+    path: /
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 🇯🇵 JP 003 | ⚡ 468.00ms
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
+- alterId: 1
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 016 | ⚡ 572.00ms
+  network: tcp
+  port: 22324
+  server: 67.220.72.237
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇲🇾 MY 001 | ⚡ 605.00ms
+  network: tcp
+  port: 10000
+  server: 47.250.135.244
+  skip-cert-verify: true
+  type: vmess
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇦 CA 003 | ⚡ 1016.00ms
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      HOST: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/

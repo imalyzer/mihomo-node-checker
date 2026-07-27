@@ -1,3 +1,4 @@
-# Single source for end-to-end pipeline validation.
-# Expand again later once one full cycle succeeds.
+# Curated 3 sources for Group-A reachability (US / global aggregators).
 https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/SnapdragonLee_clash_config_extra_US.yaml
+https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/10ium/V2RayAggregator-Eternity.yml
+https://raw.githubusercontent.com/10ium/MihomoSaz/main/Sublist/hamedp-71/Sub_Checker_Creator_final.yaml

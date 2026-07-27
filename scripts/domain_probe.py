@@ -99,7 +99,7 @@ async def probe_all(
         logger.warning("No targets; accepting all %d proxies", len(proxies))
         return proxies, {"probed": len(proxies), "passed": len(proxies), "targets": 0}
 
-    cfg_path = work_dir / "mihomo-probe.yaml"
+    cfg_path = work_dir / f"mihomo-probe-{controller.replace(':', '-').replace('.', '_')}.yaml"
     write_temp_config(proxies, cfg_path, controller)
     bin_path = shutil.which(mihomo_bin) or mihomo_bin
     proc = subprocess.Popen(

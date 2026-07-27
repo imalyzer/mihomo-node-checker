@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Orchestrate fetch → sanitize → speedtest → domain probe → write backup-nodes.yaml."""
+"""Orchestrate sticky pool: fetch → sanitize → light-recheck old → full-test new → dual outputs."""
 
 from __future__ import annotations
 
@@ -24,13 +24,23 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from domain_probe import load_targets, probe_all  # noqa: E402
 from fetch_and_merge import fetch_and_merge  # noqa: E402
-from sanitize_proxies import sanitize_proxies  # noqa: E402
+from pool_state import (  # noqa: E402
+    LIGHT_TARGETS,
+    bootstrap_state_from_outputs,
+    fp_key,
+    partition_stable_fresh,
+    save_state,
+    split_newcomers,
+    utc_now,
+)
+from sanitize_proxies import sanitize_proxies, strip_internal  # noqa: E402
 
 logger = logging.getLogger(__name__)
 
-# Cap candidates before speedtest so a 90-minute Actions job stays reliable.
 DEFAULT_SPEEDTEST_CAP = 500
 PROXY_INDEX_RE = re.compile(r"proxy\s+(\d+)\s*:", re.IGNORECASE)
+LIGHT_MIN_RATIO = 0.5
+FULL_MIN_RATIO = 0.7
 
 
 class SpeedtestCrashError(RuntimeError):
@@ -129,10 +139,8 @@ def run_speedtest(
             logger.info("Speedtest kept %d proxies", len(kept))
             return kept
 
-        # Try to drop the specific bad proxy and retry.
         m = PROXY_INDEX_RE.search(combined)
         if load_failed and m:
-            # clash-speedtest indexes appear 1-based in messages like "proxy 522:"
             idx = int(m.group(1))
             drop_at = idx - 1 if idx >= 1 else idx
             if 0 <= drop_at < len(candidates):
@@ -161,7 +169,8 @@ def main() -> int:
     parser.add_argument("--sources", default=str(ROOT / "sources.txt"))
     parser.add_argument("--targets", default=str(ROOT / "data" / "group-a-targets.txt"))
     parser.add_argument("--work-dir", default=str(ROOT / "work"))
-    parser.add_argument("--output", default=str(ROOT / "output" / "backup-nodes.yaml"))
+    parser.add_argument("--output-dir", default=str(ROOT / "output"))
+    parser.add_argument("--state", default=str(ROOT / "data" / "pool-state.json"))
     parser.add_argument("--mihomo-bin", default=os.environ.get("MIHOMO_BIN", "mihomo"))
     parser.add_argument("--skip-speedtest", action="store_true")
     parser.add_argument("--skip-domain-probe", action="store_true")
@@ -173,23 +182,33 @@ def main() -> int:
 
     work = Path(args.work_dir)
     work.mkdir(parents=True, exist_ok=True)
+    out_dir = Path(args.output_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    backup_path = out_dir / "backup-nodes.yaml"
+    stable_path = out_dir / "stable-nodes.yaml"
+    fresh_path = out_dir / "fresh-nodes.yaml"
+    state_path = Path(args.state)
+
     merged_path = work / "merged.yaml"
     sanitized_path = work / "sanitized.yaml"
     speed_path = work / "speed-filtered.yaml"
     capped_path = work / "speedtest-input.yaml"
-    out_path = Path(args.output)
 
     stats: dict[str, Any] = {}
 
+    # --- Sticky pool load ---
+    state = bootstrap_state_from_outputs(state_path, backup_path, stable_path, fresh_path)
+    pool_nodes: dict[str, dict[str, Any]] = dict(state.get("nodes") or {})
+    previous_proxies = [dict(e["proxy"]) for e in pool_nodes.values() if isinstance(e.get("proxy"), dict)]
+    pool_fps = set(pool_nodes.keys())
+    logger.info("Loaded sticky pool: %d previous nodes", len(previous_proxies))
+    stats["pool_before"] = len(previous_proxies)
+
+    # --- Fetch / sanitize newcomers source material ---
     merge_stats = fetch_and_merge(Path(args.sources), merged_path)
     stats["merge"] = merge_stats
 
-    if merge_stats["proxies_merged"] == 0:
-        write_output([], out_path, note="no proxies after merge")
-        Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
-        return 0
-
-    data = yaml.safe_load(merged_path.read_text(encoding="utf-8")) or {}
+    data = yaml.safe_load(merged_path.read_text(encoding="utf-8")) if merged_path.exists() else {}
     all_proxies = data.get("proxies") if isinstance(data, dict) else None
     if not isinstance(all_proxies, list):
         all_proxies = []
@@ -198,62 +217,144 @@ def main() -> int:
     stats["sanitize"] = sanitize_stats
     _dump_proxies(sanitized_path, sanitized)
 
-    if not sanitized:
-        write_output([], out_path, note="no proxies after sanitize")
-        Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
-        return 0
+    _known_in_source, newcomers = split_newcomers(sanitized, pool_fps)
+    logger.info(
+        "Candidates: %d sanitized, %d already in pool, %d newcomers",
+        len(sanitized),
+        len(_known_in_source),
+        len(newcomers),
+    )
 
-    candidates = list(sanitized)
-    if args.speedtest_cap > 0 and len(candidates) > args.speedtest_cap:
+    # Cap newcomers for full test budget.
+    if args.speedtest_cap > 0 and len(newcomers) > args.speedtest_cap:
         rng = random.Random(42)
-        rng.shuffle(candidates)
-        candidates = candidates[: args.speedtest_cap]
-        logger.info("Capped speedtest candidates to %d", len(candidates))
-    stats["speedtest_candidates"] = len(candidates)
+        rng.shuffle(newcomers)
+        newcomers = newcomers[: args.speedtest_cap]
+        logger.info("Capped newcomers for full test to %d", len(newcomers))
+    stats["newcomers"] = len(newcomers)
 
-    if args.skip_speedtest:
-        speed_proxies = candidates
-        stats["speedtest"] = {"passed": len(speed_proxies), "skipped": True, "mode": "skipped"}
-    else:
-        try:
-            speed_proxies = run_speedtest(candidates, capped_path, speed_path)
-        except SpeedtestCrashError:
-            logger.exception("speedtest crashed")
-            Path(args.stats_json).parent.mkdir(parents=True, exist_ok=True)
-            Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
-            return 2
-        stats["speedtest"] = {
-            "passed": len(speed_proxies),
-            "skipped": False,
-            "mode": "fast-latency",
-        }
-        _dump_proxies(speed_path, speed_proxies)
-
-    if not speed_proxies:
-        write_output([], out_path, note="no proxies passed speedtest latency filter")
-        Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
-        logger.info("Pipeline stats: %s", json.dumps(stats))
-        return 0
-
-    targets = load_targets(Path(args.targets))
-    if args.skip_domain_probe:
-        passed = speed_proxies
-        stats["domain_probe"] = {"passed": len(passed), "skipped": True, "targets": len(targets)}
-    else:
-        passed, probe_stats = asyncio.run(
-            probe_all(
-                speed_proxies,
-                targets,
-                mihomo_bin=args.mihomo_bin,
-                work_dir=work,
+    # --- Light recheck previous pool ---
+    survivors: list[dict[str, Any]] = []
+    if previous_proxies:
+        if args.skip_domain_probe:
+            survivors = previous_proxies
+            stats["light_recheck"] = {"probed": len(previous_proxies), "passed": len(survivors), "skipped": True}
+        else:
+            survivors, light_stats = asyncio.run(
+                probe_all(
+                    previous_proxies,
+                    LIGHT_TARGETS,
+                    controller="127.0.0.1:9090",
+                    mihomo_bin=args.mihomo_bin,
+                    work_dir=work,
+                    min_success_ratio=LIGHT_MIN_RATIO,
+                    concurrency=40,
+                    timeout_ms=6000,
+                )
             )
-        )
-        stats["domain_probe"] = {**probe_stats, "skipped": False}
+            stats["light_recheck"] = {**light_stats, "skipped": False}
+            logger.info(
+                "Light recheck: %d/%d previous nodes still healthy",
+                len(survivors),
+                len(previous_proxies),
+            )
+    else:
+        stats["light_recheck"] = {"probed": 0, "passed": 0, "skipped": False}
 
-    write_output(passed, out_path)
+    # Update streaks for survivors; drop dead from pool.
+    survivor_fps = {fp_key(p) for p in survivors}
+    new_pool: dict[str, dict[str, Any]] = {}
+    for key, entry in pool_nodes.items():
+        if key not in survivor_fps:
+            continue
+        proxy = strip_internal(dict(entry.get("proxy") or {}))
+        # Refresh proxy object from survivor list (may have renamed).
+        for s in survivors:
+            if fp_key(s) == key:
+                proxy = strip_internal(s)
+                break
+        streak = int(entry.get("streak") or 0) + 1
+        new_pool[key] = {
+            "streak": streak,
+            "last_ok_at": utc_now(),
+            "proxy": proxy,
+        }
+
+    # --- Full test newcomers only ---
+    new_passers: list[dict[str, Any]] = []
+    if newcomers:
+        if args.skip_speedtest:
+            speed_proxies = newcomers
+            stats["speedtest"] = {"passed": len(speed_proxies), "skipped": True, "mode": "skipped"}
+        else:
+            try:
+                speed_proxies = run_speedtest(newcomers, capped_path, speed_path)
+            except SpeedtestCrashError:
+                logger.exception("speedtest crashed")
+                Path(args.stats_json).parent.mkdir(parents=True, exist_ok=True)
+                Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
+                return 2
+            stats["speedtest"] = {
+                "passed": len(speed_proxies),
+                "skipped": False,
+                "mode": "fast-latency",
+            }
+            _dump_proxies(speed_path, speed_proxies)
+
+        targets = load_targets(Path(args.targets))
+        if args.skip_domain_probe:
+            new_passers = speed_proxies
+            stats["domain_probe"] = {
+                "passed": len(new_passers),
+                "skipped": True,
+                "targets": len(targets),
+            }
+        elif speed_proxies:
+            new_passers, probe_stats = asyncio.run(
+                probe_all(
+                    speed_proxies,
+                    targets,
+                    controller="127.0.0.1:9091",
+                    mihomo_bin=args.mihomo_bin,
+                    work_dir=work,
+                    min_success_ratio=FULL_MIN_RATIO,
+                )
+            )
+            stats["domain_probe"] = {**probe_stats, "skipped": False}
+        else:
+            stats["domain_probe"] = {"passed": 0, "skipped": False, "targets": 0, "probed": 0}
+    else:
+        stats["speedtest"] = {"passed": 0, "skipped": False, "mode": "no-newcomers"}
+        stats["domain_probe"] = {"passed": 0, "skipped": False, "targets": 0, "probed": 0}
+
+    for proxy in new_passers:
+        clean = strip_internal(proxy)
+        key = fp_key(clean)
+        new_pool[key] = {
+            "streak": 1,
+            "last_ok_at": utc_now(),
+            "proxy": clean,
+        }
+
+    stats["pool_after"] = len(new_pool)
+    stats["new_passers"] = len(new_passers)
+
+    save_state(state_path, new_pool)
+    stable, fresh, union = partition_stable_fresh(new_pool)
+
+    write_output(stable, stable_path, note="streak>=3 sticky survivors")
+    write_output(fresh, fresh_path, note="streak<3 or newly accepted")
+    write_output(union, backup_path, note="union of stable+fresh")
+
     Path(args.stats_json).parent.mkdir(parents=True, exist_ok=True)
     Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
     logger.info("Pipeline stats: %s", json.dumps(stats))
+    logger.info(
+        "Outputs: stable=%d fresh=%d backup=%d",
+        len(stable),
+        len(fresh),
+        len(union),
+    )
     return 0
 
 

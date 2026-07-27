@@ -2,7 +2,7 @@ name: Test Proxies
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -43,7 +43,7 @@ jobs:
       - name: Download Mihomo
         run: |
           set -euo pipefail
-          mkdir -p bin work output
+          mkdir -p bin work output data
           TAG=$(curl -fsSL https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | python -c "import sys,json; print(json.load(sys.stdin)['tag_name'])")
           echo "Using Mihomo $TAG"
           ASSET="mihomo-linux-amd64-${TAG}.gz"
@@ -60,14 +60,15 @@ jobs:
             --sources sources.txt \
             --targets data/group-a-targets.txt \
             --work-dir work \
-            --output output/backup-nodes.yaml \
+            --output-dir output \
+            --state data/pool-state.json \
             --mihomo-bin "${MIHOMO_BIN}"
 
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/backup-nodes.yaml
+          git add output/backup-nodes.yaml output/stable-nodes.yaml output/fresh-nodes.yaml data/pool-state.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
