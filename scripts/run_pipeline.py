@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Orchestrate fetch → speedtest → domain probe → write backup-nodes.yaml."""
+"""Orchestrate fetch → sanitize → speedtest → domain probe → write backup-nodes.yaml."""
 
 from __future__ import annotations
 
@@ -23,11 +23,16 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from domain_probe import load_targets, probe_all  # noqa: E402
 from fetch_and_merge import fetch_and_merge  # noqa: E402
+from sanitize_proxies import sanitize_proxies  # noqa: E402
 
 logger = logging.getLogger(__name__)
 
 # Cap candidates before speedtest so a 90-minute Actions job stays reliable.
 DEFAULT_SPEEDTEST_CAP = 800
+
+
+class SpeedtestCrashError(RuntimeError):
+    """clash-speedtest exited non-zero or failed to load the config."""
 
 
 def write_output(proxies: list[dict[str, Any]], path: Path, note: str | None = None) -> None:
@@ -61,6 +66,9 @@ def run_speedtest(
         else:
             raise FileNotFoundError("clash-speedtest not found in PATH or ~/go/bin")
 
+    if output_yaml.exists():
+        output_yaml.unlink()
+
     output_yaml.parent.mkdir(parents=True, exist_ok=True)
     cmd = [
         bin_name,
@@ -81,16 +89,25 @@ def run_speedtest(
     ]
     logger.info("Running: %s", " ".join(cmd))
     result = subprocess.run(cmd, check=False, capture_output=True, text=True)
-    if result.stdout:
-        logger.info(result.stdout[-4000:])
-    if result.stderr:
-        logger.warning(result.stderr[-4000:])
-    if result.returncode != 0 and not output_yaml.exists():
-        logger.warning("clash-speedtest exited %d with no output; treating as empty", result.returncode)
-        return []
+    stdout = (result.stdout or "")[-4000:]
+    stderr = (result.stderr or "")[-4000:]
+    if stdout:
+        logger.info(stdout)
+    if stderr:
+        logger.warning(stderr)
+
+    combined = f"{result.stdout or ''}\n{result.stderr or ''}"
+    load_failed = "load proxies failed" in combined.lower()
+
+    if result.returncode != 0 or load_failed:
+        raise SpeedtestCrashError(
+            f"speedtest crashed (exit={result.returncode}, load_failed={load_failed}): "
+            f"{(stderr or stdout or 'no output')[:500]}"
+        )
 
     if not output_yaml.exists():
-        logger.warning("No speedtest output file; treating as empty")
+        # Clean run but nothing written — treat as genuine empty filter result.
+        logger.info("Speedtest finished cleanly with no output file (0 proxies passed filters)")
         return []
 
     data = yaml.safe_load(output_yaml.read_text(encoding="utf-8")) or {}
@@ -119,6 +136,7 @@ def main() -> int:
     work = Path(args.work_dir)
     work.mkdir(parents=True, exist_ok=True)
     merged_path = work / "merged.yaml"
+    sanitized_path = work / "sanitized.yaml"
     speed_path = work / "speed-filtered.yaml"
     out_path = Path(args.output)
 
@@ -137,28 +155,49 @@ def main() -> int:
     if not isinstance(all_proxies, list):
         all_proxies = []
 
-    # Shuffle + cap before speedtest (installed clash-speedtest may lack -early-stop).
-    if args.speedtest_cap > 0 and len(all_proxies) > args.speedtest_cap:
+    sanitized, sanitize_stats = sanitize_proxies(all_proxies)
+    stats["sanitize"] = sanitize_stats
+    with sanitized_path.open("w", encoding="utf-8") as fh:
+        yaml.safe_dump({"proxies": sanitized}, fh, allow_unicode=True, sort_keys=False)
+
+    if not sanitized:
+        write_output([], out_path, note="no proxies after sanitize")
+        Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
+        return 0
+
+    # Shuffle + cap after sanitize (installed clash-speedtest may lack -early-stop).
+    candidates = list(sanitized)
+    if args.speedtest_cap > 0 and len(candidates) > args.speedtest_cap:
         rng = random.Random(42)
-        rng.shuffle(all_proxies)
-        all_proxies = all_proxies[: args.speedtest_cap]
-        logger.info("Capped speedtest candidates to %d", len(all_proxies))
-        with merged_path.open("w", encoding="utf-8") as fh:
-            yaml.safe_dump({"proxies": all_proxies}, fh, allow_unicode=True, sort_keys=False)
-    stats["speedtest_candidates"] = len(all_proxies)
+        rng.shuffle(candidates)
+        candidates = candidates[: args.speedtest_cap]
+        logger.info("Capped speedtest candidates to %d", len(candidates))
+    stats["speedtest_candidates"] = len(candidates)
+
+    capped_path = work / "speedtest-input.yaml"
+    with capped_path.open("w", encoding="utf-8") as fh:
+        yaml.safe_dump({"proxies": candidates}, fh, allow_unicode=True, sort_keys=False)
 
     if args.skip_speedtest:
-        speed_proxies = all_proxies
+        speed_proxies = candidates
         stats["speedtest"] = {"passed": len(speed_proxies), "skipped": True}
     else:
-        speed_proxies = run_speedtest(merged_path, speed_path)
+        try:
+            speed_proxies = run_speedtest(capped_path, speed_path)
+        except SpeedtestCrashError:
+            logger.exception("speedtest crashed")
+            Path(args.stats_json).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
+            return 2
         stats["speedtest"] = {"passed": len(speed_proxies), "skipped": False}
         with speed_path.open("w", encoding="utf-8") as fh:
             yaml.safe_dump({"proxies": speed_proxies}, fh, allow_unicode=True, sort_keys=False)
 
     if not speed_proxies:
-        write_output([], out_path, note="no proxies after speedtest")
+        # Genuine empty: sanitize + speedtest both ran cleanly, nothing met thresholds.
+        write_output([], out_path, note="no proxies passed speedtest thresholds")
         Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
+        logger.info("Pipeline stats: %s", json.dumps(stats))
         return 0
 
     targets = load_targets(Path(args.targets))

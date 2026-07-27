@@ -195,7 +195,10 @@ def fetch_and_merge(
                 if fp in seen:
                     continue
                 seen.add(fp)
-                merged.append(proxy)
+                # Keep source label for sanitize logs only; stripped before speedtest.
+                annotated = dict(proxy)
+                annotated["_source"] = label
+                merged.append(annotated)
                 kept += 1
             source_counts[label] = kept
             logger.info("OK   %s — %d unique proxies kept", label, kept)
