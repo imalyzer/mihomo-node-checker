@@ -9,6 +9,7 @@ import json
 import logging
 import os
 import random
+import re
 import shutil
 import subprocess
 import sys
@@ -28,7 +29,8 @@ from sanitize_proxies import sanitize_proxies  # noqa: E402
 logger = logging.getLogger(__name__)
 
 # Cap candidates before speedtest so a 90-minute Actions job stays reliable.
-DEFAULT_SPEEDTEST_CAP = 800
+DEFAULT_SPEEDTEST_CAP = 500
+PROXY_INDEX_RE = re.compile(r"proxy\s+(\d+)\s*:", re.IGNORECASE)
 
 
 class SpeedtestCrashError(RuntimeError):
@@ -49,16 +51,22 @@ def write_output(proxies: list[dict[str, Any]], path: Path, note: str | None = N
     logger.info("Wrote %s (%d nodes)", path, len(proxies))
 
 
+def _dump_proxies(path: Path, proxies: list[dict[str, Any]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as fh:
+        yaml.safe_dump({"proxies": proxies}, fh, allow_unicode=True, sort_keys=False)
+
+
 def run_speedtest(
+    proxies: list[dict[str, Any]],
     input_yaml: Path,
     output_yaml: Path,
     max_latency: str = "2000ms",
-    # 2 MB/s is unrealistic for most free nodes from Actions runners; 0.2 ≈ 200 KB/s.
-    min_download_speed: float = 0.2,
-    concurrent: int = 8,
-    timeout: str = "8s",
-    download_size: int = 10,
+    concurrent: int = 12,
+    timeout: str = "6s",
+    max_load_retries: int = 40,
 ) -> list[dict[str, Any]]:
+    """Latency-only filter (-fast). Retries after dropping proxies that fail to load."""
     bin_name = shutil.which("clash-speedtest")
     if not bin_name:
         go_bin = Path.home() / "go" / "bin" / "clash-speedtest"
@@ -67,83 +75,85 @@ def run_speedtest(
         else:
             raise FileNotFoundError("clash-speedtest not found in PATH or ~/go/bin")
 
-    if output_yaml.exists():
-        output_yaml.unlink()
+    candidates = list(proxies)
+    last_err = ""
 
-    output_yaml.parent.mkdir(parents=True, exist_ok=True)
-    cmd = [
-        bin_name,
-        "-c",
-        str(input_yaml),
-        "-output",
-        str(output_yaml),
-        "-max-latency",
-        max_latency,
-        "-min-download-speed",
-        str(min_download_speed),
-        "-concurrent",
-        str(concurrent),
-        "-timeout",
-        timeout,
-        "-download-size",
-        str(download_size),
-    ]
-    logger.info("Running: %s", " ".join(cmd))
-    result = subprocess.run(cmd, check=False, capture_output=True, text=True)
-    stdout = (result.stdout or "")[-4000:]
-    stderr = (result.stderr or "")[-4000:]
-    if stdout:
-        logger.info(stdout)
-    if stderr:
-        logger.warning(stderr)
+    for attempt in range(max_load_retries + 1):
+        if not candidates:
+            logger.info("No candidates left after load-failure retries")
+            return []
 
-    combined = f"{result.stdout or ''}\n{result.stderr or ''}"
-    load_failed = "load proxies failed" in combined.lower()
+        _dump_proxies(input_yaml, candidates)
+        if output_yaml.exists():
+            output_yaml.unlink()
 
-    # #region agent log
-    try:
-        dbg_path = Path(__file__).resolve().parents[1] / "debug-dc88d9.log"
-        import json as _json
-        import time as _time
+        cmd = [
+            bin_name,
+            "-c",
+            str(input_yaml),
+            "-output",
+            str(output_yaml),
+            "-fast",
+            "-max-latency",
+            max_latency,
+            "-concurrent",
+            str(concurrent),
+            "-timeout",
+            timeout,
+        ]
+        logger.info(
+            "Running speedtest attempt %d (%d proxies): %s",
+            attempt + 1,
+            len(candidates),
+            " ".join(cmd),
+        )
+        result = subprocess.run(cmd, check=False, capture_output=True, text=True)
+        stdout = result.stdout or ""
+        stderr = result.stderr or ""
+        if stdout:
+            logger.info(stdout[-4000:])
+        if stderr:
+            logger.warning(stderr[-4000:])
 
-        payload = {
-            "sessionId": "dc88d9",
-            "runId": "pre-fix",
-            "hypothesisId": "A",
-            "location": "run_pipeline.py:run_speedtest",
-            "message": "speedtest result",
-            "data": {
-                "exit_code": result.returncode,
-                "load_failed": load_failed,
-                "stderr_tail": (result.stderr or "")[-800:],
-                "stdout_tail": (result.stdout or "")[-400:],
-                "input": str(input_yaml),
-            },
-            "timestamp": int(_time.time() * 1000),
-        }
-        with dbg_path.open("a", encoding="utf-8") as fh:
-            fh.write(_json.dumps(payload, ensure_ascii=False) + "\n")
-    except Exception:
-        pass
-    # #endregion
+        combined = f"{stdout}\n{stderr}"
+        load_failed = "load proxies failed" in combined.lower()
 
-    if result.returncode != 0 or load_failed:
+        if result.returncode == 0 and not load_failed:
+            if not output_yaml.exists():
+                logger.info("Speedtest finished cleanly with no output file (0 proxies passed)")
+                return []
+            data = yaml.safe_load(output_yaml.read_text(encoding="utf-8")) or {}
+            kept = data.get("proxies") if isinstance(data, dict) else None
+            if not isinstance(kept, list):
+                return []
+            logger.info("Speedtest kept %d proxies", len(kept))
+            return kept
+
+        # Try to drop the specific bad proxy and retry.
+        m = PROXY_INDEX_RE.search(combined)
+        if load_failed and m:
+            # clash-speedtest indexes appear 1-based in messages like "proxy 522:"
+            idx = int(m.group(1))
+            drop_at = idx - 1 if idx >= 1 else idx
+            if 0 <= drop_at < len(candidates):
+                bad = candidates.pop(drop_at)
+                logger.warning(
+                    "Dropping unloadable proxy index=%d name=%r and retrying (%d left)",
+                    idx,
+                    bad.get("name"),
+                    len(candidates),
+                )
+                last_err = combined.strip()[:500]
+                continue
+
+        last_err = (stderr or stdout or "no output")[:500]
         raise SpeedtestCrashError(
-            f"speedtest crashed (exit={result.returncode}, load_failed={load_failed}): "
-            f"{(stderr or stdout or 'no output')[:500]}"
+            f"speedtest crashed (exit={result.returncode}, load_failed={load_failed}): {last_err}"
         )
 
-    if not output_yaml.exists():
-        # Clean run but nothing written — treat as genuine empty filter result.
-        logger.info("Speedtest finished cleanly with no output file (0 proxies passed filters)")
-        return []
-
-    data = yaml.safe_load(output_yaml.read_text(encoding="utf-8")) or {}
-    proxies = data.get("proxies") if isinstance(data, dict) else None
-    if not isinstance(proxies, list):
-        return []
-    logger.info("Speedtest kept %d proxies", len(proxies))
-    return proxies
+    raise SpeedtestCrashError(
+        f"speedtest crashed after {max_load_retries} load retries: {last_err}"
+    )
 
 
 def main() -> int:
@@ -166,6 +176,7 @@ def main() -> int:
     merged_path = work / "merged.yaml"
     sanitized_path = work / "sanitized.yaml"
     speed_path = work / "speed-filtered.yaml"
+    capped_path = work / "speedtest-input.yaml"
     out_path = Path(args.output)
 
     stats: dict[str, Any] = {}
@@ -185,15 +196,13 @@ def main() -> int:
 
     sanitized, sanitize_stats = sanitize_proxies(all_proxies)
     stats["sanitize"] = sanitize_stats
-    with sanitized_path.open("w", encoding="utf-8") as fh:
-        yaml.safe_dump({"proxies": sanitized}, fh, allow_unicode=True, sort_keys=False)
+    _dump_proxies(sanitized_path, sanitized)
 
     if not sanitized:
         write_output([], out_path, note="no proxies after sanitize")
         Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
         return 0
 
-    # Shuffle + cap after sanitize (installed clash-speedtest may lack -early-stop).
     candidates = list(sanitized)
     if args.speedtest_cap > 0 and len(candidates) > args.speedtest_cap:
         rng = random.Random(42)
@@ -202,28 +211,26 @@ def main() -> int:
         logger.info("Capped speedtest candidates to %d", len(candidates))
     stats["speedtest_candidates"] = len(candidates)
 
-    capped_path = work / "speedtest-input.yaml"
-    with capped_path.open("w", encoding="utf-8") as fh:
-        yaml.safe_dump({"proxies": candidates}, fh, allow_unicode=True, sort_keys=False)
-
     if args.skip_speedtest:
         speed_proxies = candidates
-        stats["speedtest"] = {"passed": len(speed_proxies), "skipped": True}
+        stats["speedtest"] = {"passed": len(speed_proxies), "skipped": True, "mode": "skipped"}
     else:
         try:
-            speed_proxies = run_speedtest(capped_path, speed_path)
+            speed_proxies = run_speedtest(candidates, capped_path, speed_path)
         except SpeedtestCrashError:
             logger.exception("speedtest crashed")
             Path(args.stats_json).parent.mkdir(parents=True, exist_ok=True)
             Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
             return 2
-        stats["speedtest"] = {"passed": len(speed_proxies), "skipped": False}
-        with speed_path.open("w", encoding="utf-8") as fh:
-            yaml.safe_dump({"proxies": speed_proxies}, fh, allow_unicode=True, sort_keys=False)
+        stats["speedtest"] = {
+            "passed": len(speed_proxies),
+            "skipped": False,
+            "mode": "fast-latency",
+        }
+        _dump_proxies(speed_path, speed_proxies)
 
     if not speed_proxies:
-        # Genuine empty: sanitize + speedtest both ran cleanly, nothing met thresholds.
-        write_output([], out_path, note="no proxies passed speedtest thresholds")
+        write_output([], out_path, note="no proxies passed speedtest latency filter")
         Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
         logger.info("Pipeline stats: %s", json.dumps(stats))
         return 0

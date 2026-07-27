@@ -10,3 +10,5 @@ bin/
 *.gz
 *.zip
 .DS_Store
+
+debug-*.log
