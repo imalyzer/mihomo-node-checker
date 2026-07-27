@@ -1,5 +1,5 @@
-# last-updated: 2026-07-27T19:52:30Z
-# node-count: 82
+# last-updated: 2026-07-27T21:13:34Z
+# node-count: 105
 # note: union of stable+fresh
 proxies:
 - cipher: aes-256-cfb
@@ -595,4 +595,153 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.186
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇳 IN 001 | ⬆️ 0.00MB/s-2
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.82
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⬆️ 0.00MB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.217
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸 US 009 | ⚡ 84.00ms
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.236
+  type: ss
+- name: 🇳🇱 NL 008 | ⚡ 255.00ms
+  password: NQ26071394
+  port: 443
+  server: 79.133.126.190
+  skip-cert-verify: false
+  sni: renewed-phoenix.rooster465.autos
+  type: trojan
+- name: 🇫🇷 FR 001 | ⚡ 284.00ms
+  password: WG39087154
+  port: 443
+  server: nearby-cod.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇫🇷 FR 002 | ⚡ 286.00ms
+  password: UZ15382649
+  port: 443
+  server: moral-dolphin.rooster465.autos
+  skip-cert-verify: false
+  sni: moral-dolphin.rooster465.autos
+  type: trojan
+- name: 🇳🇱 NL 009 | ⚡ 302.00ms
+  password: KV63147582
+  port: 443
+  server: game-firefly.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 010 | ⚡ 313.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 011 | ⚡ 328.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.187
+  type: ss
+- name: 🇵🇱 PL 017 | ⚡ 383.00ms
+  password: ON38567014
+  port: 443
+  server: strong-haddock.rooster465.autos
+  skip-cert-verify: false
+  sni: strong-haddock.rooster465.autos
+  type: trojan
+- name: 🇵🇱 PL 018 | ⚡ 393.00ms
+  password: KV63147582
+  port: 443
+  server: legible-possum.rooster465.autos
+  skip-cert-verify: false
+  sni: legible-possum.rooster465.autos
+  type: trojan
+- name: 🇵🇱 PL 019 | ⚡ 406.00ms
+  password: ON38567014
+  port: 443
+  server: smiling-ray.rooster465.autos
+  skip-cert-verify: false
+  sni: smiling-ray.rooster465.autos
+  type: trojan
+- cipher: aes-128-gcm
+  name: 🇯🇵 JP 003 | ⚡ 450.00ms
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 003 | ⚡ 554.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001287h3p.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 012 | ⚡ 590.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- name: 🇸🇬 SG 002 | ⚡ 615.00ms
+  password: FC60532879
+  port: 443
+  server: true-alpaca.rooster465.autos
+  skip-cert-verify: false
+  sni: true-alpaca.rooster465.autos
+  type: trojan
+- name: 🇭🇰 HK 003 | ⚡ 658.00ms
+  password: HW85960347
+  port: 443
+  server: 185.14.47.195
+  skip-cert-verify: false
+  sni: eminent-lamb.rooster465.autos
+  type: trojan
+- name: 🇸🇬 SG 003 | ⚡ 785.00ms
+  password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
+  port: 450
+  server: 167.150.100.133
+  skip-cert-verify: false
+  sni: grape-power-sg.roxa.org
+  type: trojan
+- name: 🇳🇱 NL 013 | ⚡ 867.00ms
+  password: NQ26071394
+  port: 443
+  server: 89.39.70.143
+  skip-cert-verify: false
+  sni: thorough-falcon.rooster465.autos
+  type: trojan
+- name: 🇦🇺 AU 001 | ⚡ 883.00ms
+  password: OD90375861
+  port: 443
+  server: 87.121.33.171
+  skip-cert-verify: false
+  sni: selected-bison.rooster465.autos
+  type: trojan
+- name: 🇦🇺 AU 002 | ⚡ 923.00ms
+  password: PD07395842
+  port: 443
+  server: big-bonefish.rooster465.autos
+  skip-cert-verify: false
+  sni: big-bonefish.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 014 | ⚡ 930.00ms
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 015 | ⚡ 1024.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.208
   type: ss
