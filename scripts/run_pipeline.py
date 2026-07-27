@@ -53,7 +53,8 @@ def run_speedtest(
     input_yaml: Path,
     output_yaml: Path,
     max_latency: str = "2000ms",
-    min_download_speed: float = 2.0,
+    # 2 MB/s is unrealistic for most free nodes from Actions runners; 0.2 ≈ 200 KB/s.
+    min_download_speed: float = 0.2,
     concurrent: int = 8,
     timeout: str = "8s",
     download_size: int = 10,
