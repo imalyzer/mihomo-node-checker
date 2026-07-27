@@ -100,6 +100,33 @@ def run_speedtest(
     combined = f"{result.stdout or ''}\n{result.stderr or ''}"
     load_failed = "load proxies failed" in combined.lower()
 
+    # #region agent log
+    try:
+        dbg_path = Path(__file__).resolve().parents[1] / "debug-dc88d9.log"
+        import json as _json
+        import time as _time
+
+        payload = {
+            "sessionId": "dc88d9",
+            "runId": "pre-fix",
+            "hypothesisId": "A",
+            "location": "run_pipeline.py:run_speedtest",
+            "message": "speedtest result",
+            "data": {
+                "exit_code": result.returncode,
+                "load_failed": load_failed,
+                "stderr_tail": (result.stderr or "")[-800:],
+                "stdout_tail": (result.stdout or "")[-400:],
+                "input": str(input_yaml),
+            },
+            "timestamp": int(_time.time() * 1000),
+        }
+        with dbg_path.open("a", encoding="utf-8") as fh:
+            fh.write(_json.dumps(payload, ensure_ascii=False) + "\n")
+    except Exception:
+        pass
+    # #endregion
+
     if result.returncode != 0 or load_failed:
         raise SpeedtestCrashError(
             f"speedtest crashed (exit={result.returncode}, load_failed={load_failed}): "

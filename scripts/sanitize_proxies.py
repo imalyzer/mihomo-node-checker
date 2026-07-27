@@ -4,8 +4,10 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import re
+import time
 from pathlib import Path
 from typing import Any
 
@@ -16,8 +18,31 @@ logger = logging.getLogger(__name__)
 SHORT_ID_RE = re.compile(r"^[0-9a-fA-F]{0,16}$")
 # x25519 public keys in Clash are typically URL-safe base64 (~43-44 chars).
 PUBLIC_KEY_RE = re.compile(r"^[A-Za-z0-9+/_-]{40,50}={0,2}$")
+VALID_OBFS_MODES = {"tls", "http", "websocket", "ws"}
 
 INTERNAL_KEYS = ("_source",)
+# #region agent log
+_DEBUG_LOG = Path(__file__).resolve().parents[1] / "debug-dc88d9.log"
+
+
+def _dbg(hypothesis_id: str, location: str, message: str, data: dict[str, Any]) -> None:
+    try:
+        payload = {
+            "sessionId": "dc88d9",
+            "runId": "pre-fix",
+            "hypothesisId": hypothesis_id,
+            "location": location,
+            "message": message,
+            "data": data,
+            "timestamp": int(time.time() * 1000),
+        }
+        with _DEBUG_LOG.open("a", encoding="utf-8") as fh:
+            fh.write(json.dumps(payload, ensure_ascii=False) + "\n")
+    except Exception:
+        pass
+
+
+# #endregion
 
 
 def _port_ok(port: Any) -> bool:
@@ -54,12 +79,27 @@ def validate_proxy(proxy: dict[str, Any]) -> str | None:
             return f"{ptype} missing uuid"
 
     if ptype in {"ss", "shadowsocks", "trojan", "ssr", "hysteria", "hysteria2", "anytls"}:
-        # hysteria2 may use password or auth; require at least one identity field.
         if ptype in {"hysteria", "hysteria2"}:
             if not (proxy.get("password") or proxy.get("auth")):
                 return f"{ptype} missing password/auth"
         elif not proxy.get("password"):
             return f"{ptype} missing password"
+
+    # SS/SSR plugin-opts: empty obfs mode crashes clash-speedtest loader entirely.
+    if ptype in {"ss", "shadowsocks", "ssr"}:
+        plugin = str(proxy.get("plugin") or "").strip().lower()
+        opts = proxy.get("plugin-opts")
+        if not isinstance(opts, dict):
+            opts = {}
+        mode = opts.get("mode")
+        mode_s = "" if mode is None else str(mode).strip().lower()
+        if plugin and ("obfs" in plugin or plugin in {"obfs", "obfs-local", "simple-obfs"}):
+            if not mode_s or mode_s not in VALID_OBFS_MODES:
+                return f"ss invalid/empty obfs mode: {mode!r} plugin={plugin!r}"
+        if "mode" in opts and mode_s == "":
+            return f"ss empty plugin-opts.mode plugin={plugin!r}"
+        if not proxy.get("cipher"):
+            return "ss missing cipher"
 
     reality = proxy.get("reality-opts")
     if isinstance(reality, dict) and reality:
@@ -74,7 +114,6 @@ def validate_proxy(proxy: dict[str, Any]) -> str | None:
         if not public_key or not str(public_key).strip():
             return "reality missing public-key"
         pk = str(public_key).strip()
-        # x25519 base64 is typically 43–44 chars; allow tiny padding variance.
         if not (43 <= len(pk) <= 44) or not PUBLIC_KEY_RE.fullmatch(pk):
             return f"invalid reality public-key length/format: len={len(pk)}"
 
@@ -89,6 +128,9 @@ def sanitize_proxies(proxies: list[dict[str, Any]]) -> tuple[list[dict[str, Any]
     kept: list[dict[str, Any]] = []
     rejected = 0
     reasons: dict[str, int] = {}
+    # #region agent log
+    ss_obfs_suspects = 0
+    # #endregion
 
     for proxy in proxies:
         if not isinstance(proxy, dict):
@@ -96,6 +138,16 @@ def sanitize_proxies(proxies: list[dict[str, Any]]) -> tuple[list[dict[str, Any]
             reasons["not a mapping"] = reasons.get("not a mapping", 0) + 1
             logger.warning("REJECT <unknown> source=- reason=not a mapping")
             continue
+        # #region agent log
+        ptype = str(proxy.get("type") or "").lower()
+        if ptype in {"ss", "shadowsocks"}:
+            opts = proxy.get("plugin-opts") if isinstance(proxy.get("plugin-opts"), dict) else {}
+            plugin = str(proxy.get("plugin") or "")
+            mode = opts.get("mode")
+            if plugin or "mode" in opts:
+                if mode is None or str(mode).strip() == "":
+                    ss_obfs_suspects += 1
+        # #endregion
         reason = validate_proxy(proxy)
         if reason:
             rejected += 1
@@ -115,6 +167,20 @@ def sanitize_proxies(proxies: list[dict[str, Any]]) -> tuple[list[dict[str, Any]
         "rejected": rejected,
         "reasons": reasons,
     }
+    # #region agent log
+    _dbg(
+        "A",
+        "sanitize_proxies.py:sanitize_proxies",
+        "sanitize summary",
+        {
+            **stats,
+            "ss_obfs_suspects_seen": ss_obfs_suspects,
+            "ss_obfs_reject_count": sum(
+                v for k, v in reasons.items() if "obfs" in k or "plugin-opts.mode" in k
+            ),
+        },
+    )
+    # #endregion
     logger.info(
         "Sanitize: kept %d/%d proxies (%d rejected)",
         len(kept),
