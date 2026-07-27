@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Download free Clash/Mihomo sources, merge proxies, and strong-dedupe."""
+"""Download free Clash/Mihomo sources, merge proxies, and strong-dedupe.
+
+MihomoSaz Sublist files are often full configs whose nodes live under
+proxy-providers.*.url — those nested URLs are followed automatically.
+"""
 
 from __future__ import annotations
 
@@ -80,24 +84,74 @@ def _source_label(url: str) -> str:
     return path.rsplit("/", 2)[-1] if path else url
 
 
+def _normalize_proxies(raw: Any) -> list[dict[str, Any]]:
+    if isinstance(raw, list):
+        items = raw
+    elif isinstance(raw, dict) and isinstance(raw.get("proxies"), list):
+        items = raw["proxies"]
+    else:
+        return []
+    return [p for p in items if isinstance(p, dict) and p.get("name") and p.get("type") and p.get("server")]
+
+
+def _provider_urls(data: dict[str, Any]) -> list[str]:
+    providers = data.get("proxy-providers")
+    if not isinstance(providers, dict):
+        return []
+    urls: list[str] = []
+    for _name, cfg in providers.items():
+        if not isinstance(cfg, dict):
+            continue
+        if str(cfg.get("type", "http")).lower() not in {"http", "https", ""}:
+            continue
+        url = cfg.get("url")
+        if isinstance(url, str):
+            url = url.strip()
+            if url.startswith("http://") or url.startswith("https://"):
+                urls.append(url)
+    return urls
+
+
+def _load_yaml(text: str) -> Any:
+    return yaml.safe_load(text)
+
+
+def _fetch_proxies_from_url(client: httpx.Client, url: str, depth: int = 0) -> list[dict[str, Any]]:
+    """Fetch a URL and return proxy objects, optionally following one provider hop."""
+    resp = client.get(url)
+    resp.raise_for_status()
+    text = resp.text
+    if not text.strip():
+        return []
+
+    try:
+        data = _load_yaml(text)
+    except Exception:  # noqa: BLE001
+        return []
+
+    proxies = _normalize_proxies(data)
+    if proxies:
+        return proxies
+
+    if depth >= 1 or not isinstance(data, dict):
+        return []
+
+    nested: list[dict[str, Any]] = []
+    for nested_url in _provider_urls(data):
+        try:
+            nested.extend(_fetch_proxies_from_url(client, nested_url, depth=depth + 1))
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("Nested provider fail %s — %s", _source_label(nested_url), exc)
+    return nested
+
+
 def fetch_one(client: httpx.Client, url: str) -> tuple[str, list[dict[str, Any]] | None, str | None]:
     label = _source_label(url)
     try:
-        resp = client.get(url)
-        resp.raise_for_status()
-        text = resp.text
-        if not text.strip():
-            return label, None, "empty body"
-        data = yaml.safe_load(text)
-        if not isinstance(data, dict):
-            return label, None, "not a YAML mapping"
-        proxies = data.get("proxies")
-        if not isinstance(proxies, list) or not proxies:
-            return label, None, "missing or empty proxies:"
-        cleaned = [p for p in proxies if isinstance(p, dict) and p.get("name") and p.get("type")]
-        if not cleaned:
-            return label, None, "no valid proxy objects"
-        return label, cleaned, None
+        proxies = _fetch_proxies_from_url(client, url, depth=0)
+        if not proxies:
+            return label, None, "no proxies (inline or via proxy-providers)"
+        return label, proxies, None
     except Exception as exc:  # noqa: BLE001 — per-source soft fail
         return label, None, f"{type(exc).__name__}: {exc}"
 
@@ -106,7 +160,7 @@ def fetch_and_merge(
     sources_file: Path,
     output: Path,
     concurrency: int = 16,
-    timeout: float = 30.0,
+    timeout: float = 45.0,
 ) -> dict[str, Any]:
     urls = load_sources(sources_file)
     logger.info("Downloading %d sources (concurrency=%d)", len(urls), concurrency)
@@ -117,33 +171,36 @@ def fetch_and_merge(
     seen: set[tuple] = set()
     source_counts: dict[str, int] = {}
 
-    with httpx.Client(
-        timeout=httpx.Timeout(timeout),
-        follow_redirects=True,
-        headers={"User-Agent": UA},
-    ) as client:
-        with ThreadPoolExecutor(max_workers=concurrency) as pool:
-            futures = {pool.submit(fetch_one, client, url): url for url in urls}
-            for fut in as_completed(futures):
-                label, proxies, err = fut.result()
-                if err or proxies is None:
-                    skipped += 1
-                    logger.warning("SKIP %s — %s", label, err)
+    # One client per worker thread keeps httpx usage simple under a pool.
+    def _worker(source_url: str) -> tuple[str, list[dict[str, Any]] | None, str | None]:
+        with httpx.Client(
+            timeout=httpx.Timeout(timeout),
+            follow_redirects=True,
+            headers={"User-Agent": UA},
+        ) as client:
+            return fetch_one(client, source_url)
+
+    with ThreadPoolExecutor(max_workers=concurrency) as pool:
+        futures = {pool.submit(_worker, url): url for url in urls}
+        for fut in as_completed(futures):
+            label, proxies, err = fut.result()
+            if err or proxies is None:
+                skipped += 1
+                logger.warning("SKIP %s — %s", label, err)
+                continue
+            ok += 1
+            kept = 0
+            for proxy in proxies:
+                fp = proxy_fingerprint(proxy)
+                if fp in seen:
                     continue
-                ok += 1
-                kept = 0
-                for proxy in proxies:
-                    fp = proxy_fingerprint(proxy)
-                    if fp in seen:
-                        continue
-                    seen.add(fp)
-                    merged.append(proxy)
-                    kept += 1
-                source_counts[label] = kept
-                logger.info("OK   %s — %d unique proxies kept", label, kept)
+                seen.add(fp)
+                merged.append(proxy)
+                kept += 1
+            source_counts[label] = kept
+            logger.info("OK   %s — %d unique proxies kept", label, kept)
 
     output.parent.mkdir(parents=True, exist_ok=True)
-    # Ensure unique names for clash-speedtest / mihomo.
     used_names: set[str] = set()
     for i, proxy in enumerate(merged):
         base = str(proxy.get("name", f"node-{i}"))

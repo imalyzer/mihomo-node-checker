@@ -73,4 +73,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: refresh backup nodes [skip ci]"
+          git pull --rebase origin main
           git push

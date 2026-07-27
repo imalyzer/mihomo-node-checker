@@ -74,6 +74,8 @@ def run_speedtest(
         timeout,
         "-download-size",
         str(download_size),
+        "-early-stop",
+        "300",
     ]
     logger.info("Running: %s", " ".join(cmd))
     result = subprocess.run(cmd, check=False, capture_output=True, text=True)
