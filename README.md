@@ -1,25 +1,17 @@
 # mihomo-node-checker
 
-Automated pipeline that harvests free Clash/Mihomo proxy lists, filters them with
-[`clash-speedtest`](https://github.com/faceair/clash-speedtest), then probes
-representative Group-A domains via Mihomo's `/proxies/{name}/delay` API.
+Automated pipeline that harvests free Clash/Mihomo proxy lists, keeps a
+**sticky pool** across runs, and publishes dual providers:
 
-## Live proxy-provider
+- [`output/stable-nodes.yaml`](output/stable-nodes.yaml) — nodes with streak ≥ 3
+- [`output/fresh-nodes.yaml`](output/fresh-nodes.yaml) — newer / lower-streak nodes
+- [`output/backup-nodes.yaml`](output/backup-nodes.yaml) — union of both
 
-After the GitHub Actions workflow succeeds, use:
+## Live proxy-providers
 
 ```text
-https://raw.githubusercontent.com/imalyzer/mihomo-node-checker/main/output/backup-nodes.yaml
+https://raw.githubusercontent.com/imalyzer/mihomo-node-checker/main/output/stable-nodes.yaml
+https://raw.githubusercontent.com/imalyzer/mihomo-node-checker/main/output/fresh-nodes.yaml
 ```
 
-## Local regenerate of domain targets
-
-```bash
-python scripts/extract_targets.py --config /path/to/Master-Config.yaml --output data/group-a-targets.txt
-```
-
-Do **not** commit `Master-Config.yaml` into this repo.
-
-## Schedule
-
-GitHub Actions runs every 2 hours (`0 */2 * * *`) and on `workflow_dispatch`.
+Schedule: every hour (`0 * * * *`) plus `workflow_dispatch`.

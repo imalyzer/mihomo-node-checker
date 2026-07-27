@@ -27,6 +27,7 @@ from fetch_and_merge import fetch_and_merge  # noqa: E402
 from pool_state import (  # noqa: E402
     LIGHT_TARGETS,
     bootstrap_state_from_outputs,
+    ensure_unique_names,
     fp_key,
     partition_stable_fresh,
     save_state,
@@ -199,7 +200,9 @@ def main() -> int:
     # --- Sticky pool load ---
     state = bootstrap_state_from_outputs(state_path, backup_path, stable_path, fresh_path)
     pool_nodes: dict[str, dict[str, Any]] = dict(state.get("nodes") or {})
-    previous_proxies = [dict(e["proxy"]) for e in pool_nodes.values() if isinstance(e.get("proxy"), dict)]
+    previous_proxies = ensure_unique_names(
+        [dict(e["proxy"]) for e in pool_nodes.values() if isinstance(e.get("proxy"), dict)]
+    )
     pool_fps = set(pool_nodes.keys())
     logger.info("Loaded sticky pool: %d previous nodes", len(previous_proxies))
     stats["pool_before"] = len(previous_proxies)
