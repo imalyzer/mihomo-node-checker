@@ -8,6 +8,7 @@ import asyncio
 import json
 import logging
 import os
+import random
 import shutil
 import subprocess
 import sys
@@ -24,6 +25,9 @@ from domain_probe import load_targets, probe_all  # noqa: E402
 from fetch_and_merge import fetch_and_merge  # noqa: E402
 
 logger = logging.getLogger(__name__)
+
+# Cap candidates before speedtest so a 90-minute Actions job stays reliable.
+DEFAULT_SPEEDTEST_CAP = 800
 
 
 def write_output(proxies: list[dict[str, Any]], path: Path, note: str | None = None) -> None:
@@ -74,8 +78,6 @@ def run_speedtest(
         timeout,
         "-download-size",
         str(download_size),
-        "-early-stop",
-        "300",
     ]
     logger.info("Running: %s", " ".join(cmd))
     result = subprocess.run(cmd, check=False, capture_output=True, text=True)
@@ -108,6 +110,7 @@ def main() -> int:
     parser.add_argument("--mihomo-bin", default=os.environ.get("MIHOMO_BIN", "mihomo"))
     parser.add_argument("--skip-speedtest", action="store_true")
     parser.add_argument("--skip-domain-probe", action="store_true")
+    parser.add_argument("--speedtest-cap", type=int, default=DEFAULT_SPEEDTEST_CAP)
     parser.add_argument("--stats-json", default=str(ROOT / "work" / "stats.json"))
     args = parser.parse_args()
 
@@ -129,9 +132,23 @@ def main() -> int:
         Path(args.stats_json).write_text(json.dumps(stats, indent=2), encoding="utf-8")
         return 0
 
+    data = yaml.safe_load(merged_path.read_text(encoding="utf-8")) or {}
+    all_proxies = data.get("proxies") if isinstance(data, dict) else None
+    if not isinstance(all_proxies, list):
+        all_proxies = []
+
+    # Shuffle + cap before speedtest (installed clash-speedtest may lack -early-stop).
+    if args.speedtest_cap > 0 and len(all_proxies) > args.speedtest_cap:
+        rng = random.Random(42)
+        rng.shuffle(all_proxies)
+        all_proxies = all_proxies[: args.speedtest_cap]
+        logger.info("Capped speedtest candidates to %d", len(all_proxies))
+        with merged_path.open("w", encoding="utf-8") as fh:
+            yaml.safe_dump({"proxies": all_proxies}, fh, allow_unicode=True, sort_keys=False)
+    stats["speedtest_candidates"] = len(all_proxies)
+
     if args.skip_speedtest:
-        data = yaml.safe_load(merged_path.read_text(encoding="utf-8")) or {}
-        speed_proxies = data.get("proxies") or []
+        speed_proxies = all_proxies
         stats["speedtest"] = {"passed": len(speed_proxies), "skipped": True}
     else:
         speed_proxies = run_speedtest(merged_path, speed_path)
