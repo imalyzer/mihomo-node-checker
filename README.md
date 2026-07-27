@@ -9,7 +9,7 @@ representative Group-A domains via Mihomo's `/proxies/{name}/delay` API.
 After the GitHub Actions workflow succeeds, use:
 
 ```text
-https://raw.githubusercontent.com/<owner>/mihomo-node-checker/main/output/backup-nodes.yaml
+https://raw.githubusercontent.com/imalyzer/mihomo-node-checker/main/output/backup-nodes.yaml
 ```
 
 ## Local regenerate of domain targets
