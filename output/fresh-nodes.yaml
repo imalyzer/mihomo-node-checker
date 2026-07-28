@@ -1,137 +1,7 @@
-# last-updated: 2026-07-28T10:34:44Z
-# node-count: 37
+# last-updated: 2026-07-28T17:12:12Z
+# node-count: 14
 # note: streak<3 or newly accepted
 proxies:
-- cipher: aes-128-gcm
-  name: 🇳🇱 NL 010 | ⚡ 233.00ms
-  password: shadowsocks
-  port: 443
-  server: 158.173.20.171
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 011 | ⚡ 237.00ms
-  password: VpKABcOpNNA0l5G2AVOmw8
-  port: 62685
-  server: 213.109.147.242
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧 GB 003 | ⚡ 239.00ms
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.178
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧 GB 004 | ⚡ 246.00ms
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 013 | ⚡ 253.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 014 | ⚡ 256.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.10
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 015 | ⚡ 258.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 016 | ⚡ 260.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.34
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 017 | ⚡ 261.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 018 | ⚡ 263.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.46
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 019 | ⚡ 263.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.155
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 020 | ⚡ 269.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.218
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 021 | ⚡ 270.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.36
-  type: ss
-- name: 🇫🇷 FR 004 | ⚡ 306.00ms
-  password: NQ26071394
-  port: 443
-  server: ready-kangaroo.rooster465.autos
-  skip-cert-verify: false
-  sni: ready-kangaroo.rooster465.autos
-  type: trojan
-- name: 🇵🇱 PL 010 | ⚡ 424.00ms
-  password: IQ68037294
-  port: 443
-  server: polite-martin.rooster465.autos
-  skip-cert-verify: false
-  sni: polite-martin.rooster465.autos
-  type: trojan
-- name: 🇸🇬 SG 002 | ⚡ 612.00ms
-  password: IQ68037294
-  port: 443
-  server: neat-duck.rooster465.autos
-  skip-cert-verify: false
-  sni: neat-duck.rooster465.autos
-  type: trojan
-- name: 🇸🇬 SG 003 | ⚡ 644.00ms
-  password: IQ68037294
-  port: 443
-  server: full-mackerel.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 🇰🇷 KR 001 | ⚡ 650.00ms
-  password: JT80563429
-  port: 443
-  server: touching-pigeon.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 001 | ⚡ 770.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0238 | 0.0MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇿🇦 ZA 001 | ⚡ 1378.00ms
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  port: 16233
-  server: 102.133.165.160
-  type: ss
 - cipher: aes-256-cfb
   country: 🇺🇸US
   name: 🇺🇸 US 007 | ⚡ 231.00ms
@@ -147,12 +17,6 @@ proxies:
   sni: 163.245.196.68.sslip.io
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 348.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 384.00ms
   password: CJmTCCx7Ltud
   port: 8388
@@ -164,72 +28,24 @@ proxies:
   port: 8080
   server: 82.38.31.202
   type: ss
-- name: 🇸🇬 SG 001 | ⚡ 435.00ms
-  password: IQ68037294
-  port: 443
-  server: pet-albacore.rooster465.autos
-  skip-cert-verify: false
-  sni: pet-albacore.rooster465.autos
-  type: trojan
-- name: 🇸🇬 SG 002 | ⚡ 437.00ms
-  password: WG39087154
-  port: 443
-  server: whole-grub.rooster465.autos
-  skip-cert-verify: false
-  sni: whole-grub.rooster465.autos
-  type: trojan
-- name: 🇸🇬 SG 003 | ⚡ 438.00ms
-  password: IQ68037294
-  port: 443
-  server: meet-doe.rooster465.autos
-  skip-cert-verify: false
-  sni: meet-doe.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.199-0249 | 1.127MB
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.199
   type: ss
-- name: 🇸🇬SG-81.28.13.48-0171 | 52.565MB
-  password: IQ68037294
-  port: 443
-  server: glowing-deer.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 🇸🇬SG-45.135.228.223-0507 | 33.265MB
-  password: WG39087154
-  port: 443
-  server: open-caribou.rooster465.autos
-  skip-cert-verify: false
-  sni: open-caribou.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 464.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.57
   type: ss
-- name: 🇫🇷FR-13.38.35.46-0259 | 0.294MB
-  password: ON38567014
-  port: 443
-  server: lucky-marmot.rooster465.autos
-  skip-cert-verify: false
-  sni: lucky-marmot.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.219-0258 | 0.902MB
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.219
   type: ss
-- name: 🇰🇷KR-109.61.127.79-0504 | 31.847MB
-  password: WG39087154
-  port: 443
-  server: fun-seagull.rooster465.autos
-  skip-cert-verify: false
-  sni: fun-seagull.rooster465.autos
-  type: trojan
 - cipher: aes-256-cfb
   name: 🇰🇷KR-218.237.185.230-0280 | 0.117MB
   password: qwerREWQ@@
@@ -241,4 +57,41 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.216
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸 US 007 | ⚡ 235.00ms
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.243
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.15-0116 | 80.858MB
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.15
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 483.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.194
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 001 | ⚡ 743.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0268 | 0.748MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⚡ 869.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.223
   type: ss
