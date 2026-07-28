@@ -1,172 +1,7 @@
-# last-updated: 2026-07-27T21:13:34Z
-# node-count: 50
+# last-updated: 2026-07-28T00:29:48Z
+# node-count: 51
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 003 | ⬆️ 0.00MB/s-2
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.191
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇳 IN 001 | ⬆️ 0.00MB/s
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.71
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 004 | ⚡ 165.00ms
-  password: amazonskr05
-  port: 443
-  server: 34.207.235.215
-  type: ss
-- name: 🇳🇱 NL 007 | ⚡ 329.00ms
-  password: XG59623478
-  port: 443
-  server: renewed-chigger.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 003 | ⚡ 334.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-- name: 🇳🇱 NL 008 | ⚡ 340.00ms
-  password: IQ68037294
-  port: 443
-  server: eager-louse.rooster465.autos
-  skip-cert-verify: false
-  sni: eager-louse.rooster465.autos
-  type: trojan
-- name: 🇳🇱 NL 009 | ⚡ 390.00ms
-  password: KV63147582
-  port: 443
-  server: 89.39.70.233
-  skip-cert-verify: false
-  sni: game-firefly.rooster465.autos
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 010 | ⚡ 394.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.192
-  type: ss
-- name: 🇫🇷 FR 002 | ⚡ 407.00ms
-  password: IQ68037294
-  port: 443
-  server: correct-pony.rooster465.autos
-  skip-cert-verify: false
-  sni: correct-pony.rooster465.autos
-  type: trojan
-- name: 🇵🇱 PL 021 | ⚡ 419.00ms
-  password: IQ68037294
-  port: 443
-  server: patient-gannet.rooster465.autos
-  skip-cert-verify: false
-  sni: patient-gannet.rooster465.autos
-  type: trojan
-- name: 🇵🇱 PL 022 | ⚡ 430.00ms
-  password: KV63147582
-  port: 443
-  server: more-trout.rooster465.autos
-  skip-cert-verify: false
-  sni: more-trout.rooster465.autos
-  type: trojan
-- name: 🇵🇱 PL 023 | ⚡ 435.00ms
-  password: PI36027154
-  port: 443
-  server: 62.112.222.26
-  skip-cert-verify: false
-  sni: upright-hamster.rooster465.autos
-  type: trojan
-- name: 🇵🇱 PL 024 | ⚡ 439.00ms
-  password: IQ68037294
-  port: 443
-  server: pl.levikogjgfdd.ir
-  skip-cert-verify: false
-  sni: optimal-urchin.rooster465.autos
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 011 | ⚡ 493.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.184
-  type: ss
-- name: 🇸🇬 SG 002 | ⚡ 503.00ms
-  password: IQ68037294
-  port: 443
-  server: open-eel.rooster465.autos
-  skip-cert-verify: false
-  sni: open-eel.rooster465.autos
-  type: trojan
-- name: 🇸🇬 SG 003 | ⚡ 504.00ms
-  password: IQ68037294
-  port: 443
-  server: sterling-fowl.rooster465.autos
-  skip-cert-verify: false
-  sni: sterling-fowl.rooster465.autos
-  type: trojan
-- name: 🇸🇬 SG 004 | ⚡ 508.00ms
-  password: FC60532879
-  port: 443
-  server: faithful-panther.rooster465.autos
-  skip-cert-verify: false
-  sni: faithful-panther.rooster465.autos
-  type: trojan
-- name: 🇸🇬 SG 005 | ⚡ 510.00ms
-  password: FC60532879
-  port: 443
-  server: actual-chicken.rooster465.autos
-  skip-cert-verify: false
-  sni: actual-chicken.rooster465.autos
-  type: trojan
-- name: 🇸🇬 SG 006 | ⚡ 546.00ms
-  password: IQ68037294
-  port: 443
-  server: casual-stallion.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 013 | ⚡ 592.00ms
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: 92.112.126.90
-  tfo: false
-  type: ss
-- name: 🇰🇷 KR 002 | ⚡ 689.00ms
-  password: FC60532879
-  port: 443
-  server: classic-pug.rooster465.autos
-  skip-cert-verify: false
-  sni: classic-pug.rooster465.autos
-  type: trojan
-- name: 🇰🇷 KR 003 | ⚡ 690.00ms
-  password: IQ68037294
-  port: 443
-  server: robust-toucan.rooster465.autos
-  skip-cert-verify: false
-  sni: robust-toucan.rooster465.autos
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 014 | ⚡ 832.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.214
-  type: ss
-- name: 🇦🇺 AU 001 | ⚡ 852.00ms
-  password: FC60532879
-  port: 443
-  server: welcome-labrador.rooster465.autos
-  skip-cert-verify: false
-  sni: welcome-labrador.rooster465.autos
-  type: trojan
-- name: 🇦🇺 AU 002 | ⚡ 857.00ms
-  password: PD07395842
-  port: 443
-  server: true-pony.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 015 | ⚡ 919.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -327,4 +162,179 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.208
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇲🇾 MY 001 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 10000
+  server: 47.250.135.244
+  skip-cert-verify: true
+  type: vmess
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  ws-path: /
+- cipher: aes-128-gcm
+  name: 🇳🇱 NL 010 | ⚡ 233.00ms
+  password: shadowsocks
+  port: 443
+  server: 158.173.20.171
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 011 | ⚡ 237.00ms
+  password: VpKABcOpNNA0l5G2AVOmw8
+  port: 62685
+  server: 213.109.147.242
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧 GB 003 | ⚡ 239.00ms
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧 GB 004 | ⚡ 246.00ms
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.179
+  type: ss
+- name: 🇳🇱 NL 012 | ⚡ 247.00ms
+  password: IQ68037294
+  port: 443
+  server: casual-bullfrog.rooster465.autos
+  skip-cert-verify: false
+  sni: casual-bullfrog.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 013 | ⚡ 253.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 014 | ⚡ 256.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.10
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 015 | ⚡ 258.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 016 | ⚡ 260.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.34
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 017 | ⚡ 261.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.35
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 018 | ⚡ 263.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.46
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 019 | ⚡ 263.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.155
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 020 | ⚡ 269.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.218
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 021 | ⚡ 270.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.36
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 022 | ⚡ 271.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+- name: 🇫🇷 FR 004 | ⚡ 306.00ms
+  password: NQ26071394
+  port: 443
+  server: ready-kangaroo.rooster465.autos
+  skip-cert-verify: false
+  sni: ready-kangaroo.rooster465.autos
+  type: trojan
+- name: 🇵🇱 PL 009 | ⚡ 378.00ms
+  password: NQ26071394
+  port: 443
+  server: ready-lion.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇵🇱 PL 010 | ⚡ 424.00ms
+  password: IQ68037294
+  port: 443
+  server: polite-martin.rooster465.autos
+  skip-cert-verify: false
+  sni: polite-martin.rooster465.autos
+  type: trojan
+- name: 🇸🇬 SG 002 | ⚡ 612.00ms
+  password: IQ68037294
+  port: 443
+  server: neat-duck.rooster465.autos
+  skip-cert-verify: false
+  sni: neat-duck.rooster465.autos
+  type: trojan
+- name: 🇸🇬 SG 003 | ⚡ 644.00ms
+  password: IQ68037294
+  port: 443
+  server: full-mackerel.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇰🇷 KR 001 | ⚡ 650.00ms
+  password: JT80563429
+  port: 443
+  server: touching-pigeon.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇭🇰 HK 002 | ⚡ 701.00ms
+  password: NQ26071394
+  port: 443
+  server: pretty-mollusk.rooster465.autos
+  skip-cert-verify: false
+  sni: pretty-mollusk.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 001 | ⚡ 770.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0238 | 0.0MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 002 | ⚡ 882.00ms
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 141.164.45.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇿🇦 ZA 001 | ⚡ 1378.00ms
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  port: 16233
+  server: 102.133.165.160
   type: ss
