@@ -1,44 +1,7 @@
-# last-updated: 2026-07-29T11:00:01Z
-# node-count: 20
+# last-updated: 2026-07-29T16:22:37Z
+# node-count: 16
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 008 | ⚡ 177.00ms
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 283.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.205
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 284.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.149
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧 GB 002 | ⚡ 284.00ms
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 287.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.48
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 010 | ⚡ 544.00ms
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: 92.112.126.90
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 253.00ms
   password: CJmTCCx7Ltud
@@ -50,24 +13,6 @@ proxies:
   password: CJmTCCx7Ltud
   port: 8388
   server: 108.181.126.122
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧 GB 001 | ⚡ 309.00ms
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.182
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧 GB 002 | ⚡ 342.00ms
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.178
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 011 | ⚡ 399.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.147
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 012 | ⚡ 469.00ms
@@ -94,13 +39,6 @@ proxies:
   port: 8080
   server: 82.38.31.155
   type: ss
-- name: 🇺🇸 US 004 | ⚡ 602.00ms
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 017 | ⚡ 720.00ms
   password: qwerREWQ@@
@@ -125,3 +63,47 @@ proxies:
   port: 8080
   server: 82.38.31.184
   type: ss
+- cipher: aes-128-cfb
+  name: 🇳🇱NL-109.201.152.181-0152 | 39.477MB
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-218.237.185.230-0301 | 0.027MB
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.16-0150 | 35.582MB
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.16
+  type: ss
+- name: 🇸🇬SG-167.150.100.133-0287 | 0.356MB
+  password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
+  port: 450
+  server: 167.150.100.133
+  skip-cert-verify: false
+  sni: grape-power-sg.roxa.org
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: UA-194.54.80.37-0443 | 5.198MB
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 194.54.80.37
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN-152.67.8.205-0288 | 0.008MB
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0288 | 0.008MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
