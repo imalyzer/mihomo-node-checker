@@ -1,79 +1,12 @@
-# last-updated: 2026-07-29T16:22:37Z
-# node-count: 16
+# last-updated: 2026-07-29T20:50:11Z
+# node-count: 5
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 253.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 010 | ⚡ 263.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 012 | ⚡ 469.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 001 | ⚡ 524.00ms
-  password: cfe685726eea2c4b
-  port: 10921
-  server: 185.22.154.103
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 003 | ⚡ 565.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 013 | ⚡ 579.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.155
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 017 | ⚡ 720.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 018 | ⚡ 732.00ms
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 014 | ⚡ 1072.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.49
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 015 | ⚡ 1396.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.184
-  type: ss
 - cipher: aes-128-cfb
   name: 🇳🇱NL-109.201.152.181-0152 | 39.477MB
   password: shadowsocks
   port: 443
   server: 109.201.152.181
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0301 | 0.027MB
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.16-0150 | 35.582MB
@@ -88,12 +21,6 @@ proxies:
   skip-cert-verify: false
   sni: grape-power-sg.roxa.org
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: UA-194.54.80.37-0443 | 5.198MB
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 194.54.80.37
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇮🇳IN-152.67.8.205-0288 | 0.008MB
@@ -107,3 +34,9 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 008 | ⚡ 1532.00ms
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
