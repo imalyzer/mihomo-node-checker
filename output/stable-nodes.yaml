@@ -1,5 +1,5 @@
-# last-updated: 2026-07-29T20:50:11Z
-# node-count: 75
+# last-updated: 2026-07-30T00:30:20Z
+# node-count: 78
 # note: streak>=3 sticky survivors
 proxies:
 - cipher: aes-256-cfb
@@ -275,12 +275,6 @@ proxies:
   server: 149.22.87.204
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 003 | ⚡ 554.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 011 | ⚡ 237.00ms
   password: VpKABcOpNNA0l5G2AVOmw8
   port: 62685
@@ -519,3 +513,35 @@ proxies:
   port: 8080
   server: 82.38.31.184
   type: ss
+- cipher: aes-128-cfb
+  name: 🇳🇱NL-109.201.152.181-0152 | 39.477MB
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.16-0150 | 35.582MB
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.16
+  type: ss
+- name: 🇸🇬SG-167.150.100.133-0287 | 0.356MB
+  password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
+  port: 450
+  server: 167.150.100.133
+  skip-cert-verify: false
+  sni: grape-power-sg.roxa.org
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN-152.67.8.205-0288 | 0.008MB
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0288 | 0.008MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
