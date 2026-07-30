@@ -1,5 +1,5 @@
-# last-updated: 2026-07-30T16:36:30Z
-# node-count: 73
+# last-updated: 2026-07-30T21:02:32Z
+# node-count: 74
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -311,12 +311,6 @@ proxies:
   sni: 163.245.196.68.sslip.io
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 393.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.202
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 464.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
@@ -496,18 +490,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-128-gcm
-  name: 🇬🇧 GB 004 | ⬆️ 0.00MB/s
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.181
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧 GB 005 | ⚡ 298.00ms
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.178
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 395.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -519,4 +501,29 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.208
+  type: ss
+- name: 🇺🇸 US 001 | ⬆️ 0.00MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20035
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 534.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-108.181.126.122-0103 | 22.863MB
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.194-0062 | 52.057MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.194
   type: ss
