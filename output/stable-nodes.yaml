@@ -1,5 +1,5 @@
-# last-updated: 2026-07-31T16:33:39Z
-# node-count: 62
+# last-updated: 2026-07-31T21:09:34Z
+# node-count: 59
 # note: streak>=3 sticky survivors
 proxies:
 - cipher: aes-128-gcm
@@ -201,12 +201,6 @@ proxies:
   server: 94.156.250.148
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 016 | ⚡ 1806.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⬆️ 0.00MB/s
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -223,12 +217,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.174
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 011 | ⚡ 328.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.187
   type: ss
 - cipher: aes-128-gcm
   name: 🇯🇵 JP 003 | ⚡ 450.00ms
@@ -261,24 +249,11 @@ proxies:
   server: 82.38.31.34
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 020 | ⚡ 269.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.218
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇿🇦 ZA 001 | ⚡ 1378.00ms
   password: Xsy8Ox4yOV3xLlpxtjzs3X
   port: 16233
   server: 102.133.165.160
   type: ss
-- name: 🇺🇸 US 008 | ⚡ 255.00ms
-  password: 0ebb269c9f2d4e8e46b0cd4105a55134
-  port: 49361
-  server: 163.245.196.68
-  skip-cert-verify: false
-  sni: 163.245.196.68.sslip.io
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 464.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -432,4 +407,10 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.194
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⚡ 271.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
   type: ss
