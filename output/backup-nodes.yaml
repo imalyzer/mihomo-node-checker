@@ -1,5 +1,5 @@
-# last-updated: 2026-08-02T11:57:43Z
-# node-count: 82
+# last-updated: 2026-08-02T16:06:45Z
+# node-count: 86
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -315,19 +315,6 @@ proxies:
   port: 443
   server: 109.201.152.181
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳IN-152.67.8.205-0288 | 0.008MB
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0288 | 0.008MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - cipher: rc4-md5
   name: 🇬🇧 GB 002 | ⚡ 229.00ms
   password: 14fFPrbezE3HDZzsMOr6
@@ -391,12 +378,6 @@ proxies:
   server: 92.112.126.90
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 1105.00ms
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
 - cipher: aes-128-gcm
   name: 🇬🇧 GB 004 | ⬆️ 0.00MB/s
   password: shadowsocks
@@ -445,26 +426,6 @@ proxies:
   port: 8080
   server: 193.29.139.168
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 003 | ⚡ 653.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 001 | ⚡ 798.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0156 | 0.266MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 004 | ⬆️ 0.00MB/s
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -570,4 +531,58 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⬆️ 0.00MB/s [fresh]
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.210
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 356.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.216
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⚡ 365.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 009 | ⚡ 454.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.219
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 467.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇷 TR 005 | ⚡ 477.00ms
+  password: rYfi4cQ3z7zts7BO4-Y9_A
+  port: 1080
+  server: Vpna.Poorifast.ir
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 002 | ⚡ 685.00ms
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 012 | ⚡ 984.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.223
   type: ss
