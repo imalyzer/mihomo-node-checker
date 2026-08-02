@@ -1,51 +1,7 @@
-# last-updated: 2026-08-01T20:35:43Z
-# node-count: 10
+# last-updated: 2026-08-02T07:05:17Z
+# node-count: 8
 # note: streak<3 or newly accepted
 proxies:
-- cipher: aes-128-gcm
-  name: 🇬🇧 GB 001 | ⬆️ 0.00MB/s
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 285.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 384.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 440.00ms
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.168
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 003 | ⚡ 653.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 001 | ⚡ 798.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0156 | 0.266MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 004 | ⬆️ 0.00MB/s
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -58,15 +14,47 @@ proxies:
   port: 8388
   server: 108.181.126.122
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 355.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.147
+- cipher: aes-128-gcm
+  name: 🇺🇸US-37.19.198.243-0082 | 104.987MB
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.243
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 014 | ⚡ 254.00ms
+  network: tcp
+  port: 10086
+  server: 107.172.75.141
+  skip-cert-verify: true
+  type: vmess
+  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸US_250_0@249
+  password: amazonskr05
+  port: 443
+  server: 100.59.198.171
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧GB-141.98.101.178-0139 | 2.598MB
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 425.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: 🇳🇱 NL 005 | ⚡ 389.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.16
+  server: 82.38.31.217
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸US_249_0@248
+  password: amazonskr05
+  port: 443
+  server: 13.62.231.217
   type: ss
