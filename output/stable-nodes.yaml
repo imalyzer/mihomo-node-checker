@@ -1,5 +1,5 @@
-# last-updated: 2026-08-03T22:11:10Z
-# node-count: 60
+# last-updated: 2026-08-04T08:08:07Z
+# node-count: 62
 # note: streak>=3 sticky survivors
 proxies:
 - cipher: aes-128-gcm
@@ -35,14 +35,6 @@ proxies:
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   ws-path: /
-- country: 🇺🇸US
-  name: 🇺🇸 US 008 | ⚡ 128.00ms
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: rc4-md5
   country: 🇺🇸US
   name: 🇨🇦 CA 001 | ⚡ 133.00ms
@@ -335,12 +327,6 @@ proxies:
   server: 138.199.42.68
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 355.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.205
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 008 | ⚡ 384.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
@@ -412,4 +398,37 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.176
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 005 | ⬆️ 0.00MB/s
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 Netherlands - 12
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: 92.112.126.90
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.192-0124 | 56.67MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.192
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.15-0113 | 75.603MB
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.15
   type: ss
