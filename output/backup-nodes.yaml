@@ -1,5 +1,5 @@
-# last-updated: 2026-08-04T16:38:58Z
-# node-count: 69
+# last-updated: 2026-08-04T21:20:48Z
+# node-count: 73
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -313,24 +313,11 @@ proxies:
   skip-cert-verify: false
   sni: 163.245.196.68.sslip.io
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 823.00ms
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: 92.112.126.90
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   name: 🇺🇸 US 013 | ⚡ 95.00ms
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 138.199.42.68
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 384.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.35
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 440.00ms
@@ -350,18 +337,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 002 | ⬆️ 0.00MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.36
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 003 | ⬆️ 0.00MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.35
-  type: ss
 - name: 🇺🇸 US 002 | ⬆️ 0.00MB/s
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
@@ -369,12 +344,6 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.176-0167 | 0.0MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇭🇰 HK 005 | ⬆️ 0.00MB/s
@@ -466,12 +435,6 @@ proxies:
   server: 82.38.31.214
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-108.181.126.122-5746 | 32.081MB
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.179-5753 | 54.74MB
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -488,4 +451,66 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.189
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 004 | ⬆️ 0.00MB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.184
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 343.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+- name: 🇯🇵 JP 003 | ⚡ 358.00ms
+  password: ND91608427
+  port: 443
+  server: definite-sturgeon.rooster465.autos
+  skip-cert-verify: false
+  sni: definite-sturgeon.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 401.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
+- name: 🇯🇵 JP 004 | ⚡ 410.00ms
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
+  skip-cert-verify: false
+  sni: upright-impala.rooster465.autos
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-218.237.185.230-5865 | 0.101MB
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳TW-36.224.161.244-5926 | 1.315MB
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-193.29.139.147-5882 | 55.635MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.147
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-211.178.105.134-5864 | 0.351MB
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.217-5756 | 50.107MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.217
   type: ss
