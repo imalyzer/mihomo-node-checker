@@ -1,85 +1,7 @@
-# last-updated: 2026-08-05T13:37:01Z
-# node-count: 16
+# last-updated: 2026-08-05T19:25:11Z
+# node-count: 13
 # note: streak<3 or newly accepted
 proxies:
-- country: 🇺🇸US
-  name: 🇺🇸 US 007 | ⚡ 115.00ms
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 366.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
-- country: 🇺🇸US
-  name: 🇯🇵 JP 005 | ⚡ 371.00ms
-  password: ND91608427
-  port: 443
-  server: 43.207.140.98
-  skip-cert-verify: true
-  sni: right-seahorse.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.10-5771 | 0.494MB
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.10
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.36-5769 | 46.522MB
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.36
-  type: ss
-- country: 🇺🇸US
-  name: 🇺🇸US_154 ⇽中转_1@153
-  password: ND91608427
-  port: 443
-  server: striking-maggot.rooster465.autos
-  skip-cert-verify: true
-  sni: striking-maggot.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: 🇺🇸US_149 ⇽中转_1@148
-  password: ND91608427
-  port: 443
-  server: distinct-llama.rooster465.autos
-  skip-cert-verify: true
-  sni: distinct-llama.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: 🇺🇸US_155_1@154
-  password: ND91608427
-  port: 443
-  server: 43.203.119.20
-  skip-cert-verify: true
-  sni: uncommon-feline.rooster465.autos
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: 🇺🇸US_157_1@156
-  password: ND91608427
-  port: 443
-  server: 43.203.244.203
-  skip-cert-verify: true
-  sni: grateful-owl.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇰🇷KR-13.125.239.182-0292 | 17.909MB
-  password: ND91608427
-  port: 443
-  server: saving-octopus.rooster465.autos
-  skip-cert-verify: false
-  sni: saving-octopus.rooster465.autos
-  type: trojan
 - name: 🇺🇸US-44.246.163.102-0440 | 28.104MB
   password: ND91608427
   port: 443
@@ -125,4 +47,60 @@ proxies:
   server: discrete-basilisk.rooster465.autos
   skip-cert-verify: false
   sni: discrete-basilisk.rooster465.autos
+  type: trojan
+- name: 🇺🇸 US 007 | ⚡ 187.00ms
+  password: ND91608427
+  port: 443
+  server: devoted-tapir.rooster465.autos
+  skip-cert-verify: false
+  sni: devoted-tapir.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 008 | ⚡ 242.00ms
+  network: ws
+  port: 20086
+  server: 173.249.209.146
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf
+  ws-opts:
+    path: /
+- country: 🇺🇸US
+  name: 🇫🇷 FR 002 | ⚡ 326.00ms
+  password: QV31589740
+  port: 443
+  server: great-krill.rooster465.autos
+  skip-cert-verify: true
+  sni: great-krill.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 437.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.35
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 467.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
+  type: ss
+- name: 🇰🇷 KR 002 | ⚡ 546.00ms
+  password: ND91608427
+  port: 443
+  server: definite-malamute.rooster465.autos
+  skip-cert-verify: false
+  sni: definite-malamute.rooster465.autos
+  type: trojan
+- name: 🇭🇰 HK 006 | ⚡ 577.00ms
+  password: ND91608427
+  port: 443
+  server: upright-hamster.rooster465.autos
+  skip-cert-verify: false
+  sni: upright-hamster.rooster465.autos
   type: trojan
