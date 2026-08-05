@@ -1,5 +1,5 @@
-# last-updated: 2026-08-05T06:31:42Z
-# node-count: 84
+# last-updated: 2026-08-05T13:37:01Z
+# node-count: 85
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -359,13 +359,6 @@ proxies:
       Host: n1747624274.4u9ma.icu
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 Netherlands - 12
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: 92.112.126.90
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.192-0124 | 56.67MB
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -383,24 +376,6 @@ proxies:
   port: 8080
   server: 193.29.139.223
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇦 CA 011 | ⚡ 401.00ms
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 TW 001 | ⚡ 614.00ms
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -428,12 +403,6 @@ proxies:
   skip-cert-verify: false
   sni: relaxing-bluebird.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.214-5782 | 46.55MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.214
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.179-5753 | 54.74MB
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -491,12 +460,6 @@ proxies:
   server: p141.panda001.net
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-36.224.161.244-5926 | 1.315MB
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL-193.29.139.147-5882 | 55.635MB
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -522,13 +485,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸 US 008 | ⚡ 177.00ms [fresh]
-  password: amazonskr05
-  port: 443
-  server: 54.163.196.142
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 366.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -598,4 +554,50 @@ proxies:
   server: saving-octopus.rooster465.autos
   skip-cert-verify: false
   sni: saving-octopus.rooster465.autos
+  type: trojan
+- name: 🇺🇸US-44.246.163.102-0440 | 28.104MB
+  password: ND91608427
+  port: 443
+  server: fleet-bonefish.rooster465.autos
+  skip-cert-verify: false
+  sni: fleet-bonefish.rooster465.autos
+  type: trojan
+- cipher: aes-128-gcm
+  name: 🇺🇸US-37.19.198.243-0097 | 220.895MB
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.243
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.187-0118 | 59.085MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.187
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US_222_0@221
+  network: tcp
+  port: 22324
+  server: 66.163.117.58
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  ws-path: /
+- name: 🇩🇪DE-3.124.187.220-0439 | 27.884MB
+  password: ND91608427
+  port: 443
+  server: rapid-firefly.rooster465.autos
+  skip-cert-verify: false
+  sni: rapid-firefly.rooster465.autos
+  type: trojan
+- name: 🇵🇱PL-202.78.163.148-2366 | 27.565MB
+  password: ND91608427
+  port: 443
+  server: discrete-basilisk.rooster465.autos
+  skip-cert-verify: false
+  sni: discrete-basilisk.rooster465.autos
   type: trojan
