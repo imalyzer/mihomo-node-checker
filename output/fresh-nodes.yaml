@@ -1,49 +1,7 @@
-# last-updated: 2026-08-05T23:50:56Z
-# node-count: 13
+# last-updated: 2026-08-06T10:32:59Z
+# node-count: 21
 # note: streak<3 or newly accepted
 proxies:
-- name: 🇺🇸 US 007 | ⚡ 187.00ms
-  password: ND91608427
-  port: 443
-  server: devoted-tapir.rooster465.autos
-  skip-cert-verify: false
-  sni: devoted-tapir.rooster465.autos
-  type: trojan
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 008 | ⚡ 242.00ms
-  network: ws
-  port: 20086
-  server: 173.249.209.146
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf
-  ws-opts:
-    path: /
-- country: 🇺🇸US
-  name: 🇫🇷 FR 002 | ⚡ 326.00ms
-  password: QV31589740
-  port: 443
-  server: great-krill.rooster465.autos
-  skip-cert-verify: true
-  sni: great-krill.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 437.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 467.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
-  type: ss
 - name: 🇰🇷 KR 002 | ⚡ 546.00ms
   password: ND91608427
   port: 443
@@ -58,13 +16,6 @@ proxies:
   skip-cert-verify: false
   sni: upright-hamster.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_224_0@223
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 414.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -103,3 +54,102 @@ proxies:
   skip-cert-verify: false
   sni: uncommon-feline.rooster465.autos
   type: trojan
+- country: 🇺🇸US
+  name: 🇺🇸 US 017 | ⚡ 127.00ms
+  password: ND91608427
+  port: 443
+  server: pet-ghost.rooster465.autos
+  skip-cert-verify: true
+  sni: pet-ghost.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇯🇵 JP 006 | ⚡ 357.00ms
+  password: amazonskr05
+  port: 443
+  server: 13.231.227.228
+  type: ss
+- name: 🇯🇵 JP 007 | ⚡ 360.00ms
+  password: ND91608427
+  port: 443
+  server: 57.180.13.78
+  skip-cert-verify: false
+  sni: healthy-louse.rooster465.autos
+  type: trojan
+- country: 🇺🇸US
+  name: 🇯🇵 JP 008 | ⚡ 362.00ms
+  password: ND91608427
+  port: 443
+  server: sensible-mongrel.rooster465.autos
+  skip-cert-verify: true
+  sni: sensible-mongrel.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵 JP 009 | ⚡ 364.00ms
+  password: ND91608427
+  port: 443
+  server: 18.179.31.199
+  skip-cert-verify: false
+  sni: prompt-duckling.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP-54.249.34.120-6230 | 27.674MB
+  password: ND91608427
+  port: 443
+  server: social-mutt.rooster465.autos
+  skip-cert-verify: false
+  sni: social-mutt.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.16-0117 | 58.019MB
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.16
+  type: ss
+- name: 🇯🇵JP-3.112.15.214-6223 | 20.013MB
+  password: ND91608427
+  port: 443
+  server: adjusted-labrador.rooster465.autos
+  skip-cert-verify: false
+  sni: adjusted-labrador.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.208-0115 | 55.026MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.208
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.35-0111 | 56.67MB
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.35
+  type: ss
+- name: 🇯🇵JP-52.196.121.8-6228 | 9.229MB
+  password: ND91608427
+  port: 443
+  server: thankful-mustang.rooster465.autos
+  skip-cert-verify: false
+  sni: thankful-mustang.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.189-0103 | 56.161MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.189
+  type: ss
+- name: 🇺🇸US-157.254.38.210-2365 | 0.211MB
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- country: 🇸🇬SG
+  name: 🇺🇸US_131 ⇽中转_1@130
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20068
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
