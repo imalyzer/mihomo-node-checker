@@ -1,5 +1,5 @@
-# last-updated: 2026-08-07T20:22:48Z
-# node-count: 71
+# last-updated: 2026-08-07T23:23:08Z
+# node-count: 81
 # note: streak<3 or newly accepted
 proxies:
 - name: 🇯🇵 JP 007 | ⚡ 360.00ms
@@ -523,3 +523,72 @@ proxies:
   skip-cert-verify: false
   sni: striking-maggot.rooster465.autos
   type: trojan
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 007 | ⚡ 217.00ms
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⚡ 228.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 009 | ⚡ 230.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 010 | ⚡ 252.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.184
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇴 NO 001 | ⚡ 317.00ms
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- name: 🇵🇱 PL 024 | ⚡ 359.00ms
+  password: ND91608427
+  port: 443
+  server: 202.78.163.248
+  skip-cert-verify: false
+  sni: relaxed-gull.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 007 | ⚡ 494.00ms
+  password: ND91608427
+  port: 443
+  server: 18.181.194.227
+  skip-cert-verify: false
+  sni: moral-buzzard.rooster465.autos
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 001 | ⚡ 629.00ms
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- name: 🇰🇷 KR 002 | ⚡ 644.00ms
+  password: ND91608427
+  port: 443
+  server: humorous-malamute.rooster465.autos
+  skip-cert-verify: false
+  sni: humorous-malamute.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 012 | ⚡ 1029.00ms
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
