@@ -1,5 +1,5 @@
-# last-updated: 2026-08-07T02:11:29Z
-# node-count: 113
+# last-updated: 2026-08-07T06:32:57Z
+# node-count: 118
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -131,12 +131,6 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⬆️ 0.00MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.151
-  type: ss
 - cipher: aes-128-gcm
   name: 🇺🇸 US 006 | ⚡ 116.00ms
   password: shadowsocks
@@ -166,12 +160,6 @@ proxies:
   password: aduB9HGxQHjA2SBMRjkHX6
   port: 443
   server: 102.37.156.224
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 003 | ⚡ 334.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
   type: ss
 - cipher: aes-128-gcm
   name: 🇺🇸 US 009 | ⚡ 84.00ms
@@ -512,13 +500,6 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   ws-path: /
-- name: 🇩🇪DE-3.124.187.220-0439 | 27.884MB
-  password: ND91608427
-  port: 443
-  server: rapid-firefly.rooster465.autos
-  skip-cert-verify: false
-  sni: rapid-firefly.rooster465.autos
-  type: trojan
 - name: 🇵🇱PL-202.78.163.148-2366 | 27.565MB
   password: ND91608427
   port: 443
@@ -703,22 +684,6 @@ proxies:
   port: 8080
   server: 82.38.31.189
   type: ss
-- name: 🇺🇸US-157.254.38.210-2365 | 0.211MB
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
-- country: 🇸🇬SG
-  name: 🇺🇸US_131 ⇽中转_1@130
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20068
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   country: 🇯🇵JP
@@ -814,3 +779,82 @@ proxies:
   server: 92.112.126.90
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-43.100.32.12-0198 | 0.525MB
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
+- country: 🇺🇸US
+  name: 🇺🇸 US 011 | ⚡ 93.00ms
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.118
+  skip-cert-verify: true
+  sni: 64.94.95.118
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 301.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.191
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.219-0176 | 15.369MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.219
+  type: ss
+- name: 🇩🇪DE-54.93.65.133-0150 | 34.194MB
+  password: ND91608427
+  port: 443
+  server: next-turkey.rooster465.autos
+  skip-cert-verify: false
+  sni: next-turkey.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-193.29.139.168-0121 | 59.71MB
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.168
+  type: ss
+- country: 🇺🇸US
+  name: 🇺🇸US_155_0@154
+  password: ND91608427
+  port: 443
+  server: 43.207.155.134
+  skip-cert-verify: true
+  sni: smart-pup.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵JP-13.231.232.184-6037 | 30.686MB
+  password: ND91608427
+  port: 443
+  server: better-molly.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- country: 🇺🇸US
+  name: 🇺🇸US_154 ⇽中转_0@153
+  password: ND91608427
+  port: 443
+  server: intimate-moray.rooster465.autos
+  skip-cert-verify: true
+  sni: intimate-moray.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇸🇬SG-54.255.35.23-6245 | 19.925MB
+  password: ND91608427
+  port: 443
+  server: tidy-gelding.rooster465.autos
+  skip-cert-verify: false
+  sni: tidy-gelding.rooster465.autos
+  type: trojan
