@@ -1,5 +1,5 @@
-# last-updated: 2026-08-07T14:53:05Z
-# node-count: 62
+# last-updated: 2026-08-07T17:56:29Z
+# node-count: 70
 # note: streak<3 or newly accepted
 proxies:
 - name: 🇰🇷KR-43.203.119.20-2363 | 25.124MB
@@ -148,12 +148,6 @@ proxies:
   server: intimate-moray.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0200 | 0.879MB
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
 - country: 🇺🇸US
   name: 🇺🇸 US 011 | ⚡ 93.00ms
   password: kkzh2prsyr2ik47as615
@@ -273,13 +267,6 @@ proxies:
   skip-cert-verify: false
   sni: stunning-mite.rooster465.autos
   type: trojan
-- name: 🇯🇵 JP 008 | ⚡ 487.00ms
-  password: ND91608427
-  port: 443
-  server: clear-snail.rooster465.autos
-  skip-cert-verify: false
-  sni: clear-snail.rooster465.autos
-  type: trojan
 - name: 🇯🇵 JP 009 | ⚡ 488.00ms
   password: ND91608427
   port: 443
@@ -338,24 +325,6 @@ proxies:
   sni: exotic-chow.rooster465.autos
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇦 CA 008 | ⚡ 1030.00ms
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
   name: 🇺🇸 US 009 | ⚡ 109.00ms
@@ -437,9 +406,96 @@ proxies:
   skip-cert-verify: false
   sni: dynamic-grubworm.rooster465.autos
   type: trojan
-- cipher: aes-256-gcm
-  name: IT-62.76.234.75-2438 | 0.696MB
-  password: d1fa2f4b98a38bc8
-  port: 10901
-  server: 62.76.234.75
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 006 | ⚡ 94.00ms
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸 US 007 | ⚡ 162.00ms
+  password: amazonskr05
+  port: 443
+  server: 3.85.61.177
   type: ss
+- name: 🇯🇵JP-3.112.15.214-0519 | 30.092MB
+  password: ND91608427
+  port: 443
+  server: 3.112.15.214
+  skip-cert-verify: false
+  sni: adjusted-labrador.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 003 | ⚡ 375.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.223
+  type: ss
+- name: 🇯🇵JP-13.231.232.184-0510 | 29.155MB
+  password: ND91608427
+  port: 443
+  server: 13.231.232.184
+  skip-cert-verify: false
+  sni: better-molly.rooster465.autos
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇯🇵JP-13.231.162.164-6084 | 24.077MB
+  password: amazonskr05
+  port: 443
+  server: 13.231.162.164
+  type: ss
+- name: 🇯🇵JP-52.194.230.221-0516 | 30.396MB
+  password: ND91608427
+  port: 443
+  server: 52.194.230.221
+  skip-cert-verify: false
+  sni: happy-mutt.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP-18.181.194.227-0166 | 24.55MB
+  password: ND91608427
+  port: 443
+  server: moral-buzzard.rooster465.autos
+  skip-cert-verify: false
+  sni: moral-buzzard.rooster465.autos
+  type: trojan
+- name: 🇮🇪 IE 001 | ⚡ 428.00ms
+  password: UO36402987
+  port: 443
+  server: definite-ladybird.rooster465.autos
+  skip-cert-verify: false
+  sni: definite-ladybird.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN-152.67.8.205-0219 | 4.522MB
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0219 | 4.522MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+- name: 🇩🇪DE-3.64.59.246-0495 | 31.258MB
+  password: ND91608427
+  port: 443
+  server: 3.64.59.246
+  skip-cert-verify: false
+  sni: gentle-raptor.rooster465.autos
+  type: trojan
+- name: 🇺🇸US-157.254.38.210-0233 | 0.046MB
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
