@@ -1,14 +1,7 @@
-# last-updated: 2026-08-08T10:19:04Z
-# node-count: 88
+# last-updated: 2026-08-08T11:34:16Z
+# node-count: 94
 # note: streak<3 or newly accepted
 proxies:
-- name: 🇯🇵JP-54.249.34.120-6230 | 27.674MB
-  password: ND91608427
-  port: 443
-  server: social-mutt.rooster465.autos
-  skip-cert-verify: false
-  sni: social-mutt.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.16-0117 | 58.019MB
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -534,12 +527,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⬆️ 0.00MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
 - cipher: aes-256-cfb
   country: 🇺🇸US
   name: 🇺🇸 US 011 | ⚡ 109.00ms
@@ -625,3 +612,73 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 009 | ⚡ 208.00ms
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇺🇸 US 010 | ⚡ 231.00ms
+  password: ND91608427
+  port: 443
+  server: 44.246.163.102
+  skip-cert-verify: false
+  sni: fleet-bonefish.rooster465.autos
+  type: trojan
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇸🇪 SE 001 | ⚡ 501.00ms
+  password: amazonskr05
+  port: 443
+  server: 13.61.13.49
+  type: ss
+- name: 🇯🇵 JP 004 | ⚡ 507.00ms
+  password: ND91608427
+  port: 443
+  server: 13.192.168.51
+  skip-cert-verify: false
+  sni: learning-leopard.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 564.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+- name: 🇰🇷 KR 003 | ⚡ 627.00ms
+  password: ND91608427
+  port: 443
+  server: grateful-owl.rooster465.autos
+  skip-cert-verify: false
+  sni: grateful-owl.rooster465.autos
+  type: trojan
+- name: 🇰🇷 KR 004 | ⚡ 636.00ms
+  password: ND91608427
+  port: 443
+  server: communal-sunbird.rooster465.autos
+  skip-cert-verify: false
+  sni: communal-sunbird.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇯🇵 JP 005 | ⚡ 1922.00ms
+  network: ws
+  port: 36801
+  server: cindy50.ceoiii.com
+  servername: ajax.microsoft.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      HOST: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8

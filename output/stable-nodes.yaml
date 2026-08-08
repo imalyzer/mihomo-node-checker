@@ -1,4 +1,4 @@
-# last-updated: 2026-08-08T10:19:04Z
+# last-updated: 2026-08-08T11:34:16Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -306,12 +306,6 @@ proxies:
   port: 443
   server: 82.38.31.15
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 614.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
 - country: 🇺🇸US
   name: 🇺🇸 US 005 | ⚡ 728.00ms
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -573,4 +567,11 @@ proxies:
   server: 18.179.31.199
   skip-cert-verify: false
   sni: prompt-duckling.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP-54.249.34.120-6230 | 27.674MB
+  password: ND91608427
+  port: 443
+  server: social-mutt.rooster465.autos
+  skip-cert-verify: false
+  sni: social-mutt.rooster465.autos
   type: trojan
