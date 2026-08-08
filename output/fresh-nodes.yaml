@@ -1,5 +1,5 @@
-# last-updated: 2026-08-08T21:36:11Z
-# node-count: 90
+# last-updated: 2026-08-08T23:22:12Z
+# node-count: 95
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -642,15 +642,70 @@ proxies:
   port: 990
   server: 185.213.23.63
   type: ss
-- alterId: 2
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⬆️ 0.00MB/s
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
+  country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_10 ⇽中转_0@9
+  name: 🇺🇸US_63 ⇽中转_0@62
   network: tcp
-  port: 30835
-  server: v35.hdacd.com
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_66 ⇽中转_0@65
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳TW-125.224.219.227-0232 | 0.0MB
+  password: a9a0d092-6f0e-4701-81ee-454643d6d506
+  port: 50099
+  server: namrcg001640lrm.cybervena.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_182 ⇽中转_0@181
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      HOST: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN-152.67.8.205-0234 | 0.935MB
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0234 | 0.935MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
