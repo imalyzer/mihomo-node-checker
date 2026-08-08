@@ -1,19 +1,7 @@
-# last-updated: 2026-08-08T14:24:54Z
-# node-count: 93
+# last-updated: 2026-08-08T16:21:34Z
+# node-count: 89
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.208-0115 | 55.026MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.35-0111 | 56.67MB
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.35
-  type: ss
 - name: 🇯🇵JP-52.196.121.8-6228 | 9.229MB
   password: ND91608427
   port: 443
@@ -420,18 +408,6 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 228.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 230.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 010 | ⚡ 252.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -568,12 +544,6 @@ proxies:
   skip-cert-verify: false
   sni: casual-bee.rooster465.autos
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-27.255.82.134-3225 | 0.785MB
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.186-0106 | 83.063MB
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -624,23 +594,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵 JP 005 | ⚡ 1922.00ms
-  network: ws
-  port: 36801
-  server: cindy50.ceoiii.com
-  servername: ajax.microsoft.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      HOST: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
@@ -651,13 +604,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_131_0@130
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL-193.29.139.168-0091 | 79.634MB
   password: QCXDxuDlTTMD7jtgHUjIoj
@@ -676,3 +622,28 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇳 CN 001 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇫🇷 FR 002 | ⚡ 258.00ms
+  password: ND91608427
+  port: 443
+  server: star-kiwi.rooster465.autos
+  skip-cert-verify: false
+  sni: star-kiwi.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 270.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.187
+  type: ss
