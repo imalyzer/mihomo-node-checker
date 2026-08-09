@@ -1,5 +1,5 @@
-# last-updated: 2026-08-09T20:20:40Z
-# node-count: 91
+# last-updated: 2026-08-09T22:24:56Z
+# node-count: 95
 # note: streak<3 or newly accepted
 proxies:
 - country: 🇺🇸US
@@ -652,4 +652,28 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 006 | ⚡ 150.00ms
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.194-0097 | 55.475MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.194
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-218.237.185.230-0228 | 0.0MB
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-221.139.79.57-0234 | 0.0MB
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
   type: ss
