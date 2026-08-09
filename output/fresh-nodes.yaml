@@ -1,5 +1,5 @@
-# last-updated: 2026-08-09T08:17:06Z
-# node-count: 101
+# last-updated: 2026-08-09T10:25:03Z
+# node-count: 100
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -390,12 +390,6 @@ proxies:
   skip-cert-verify: false
   sni: moral-buzzard.rooster465.autos
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 001 | ⚡ 629.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
 - name: 🇰🇷 KR 002 | ⚡ 644.00ms
   password: ND91608427
   port: 443
@@ -548,18 +542,6 @@ proxies:
   port: 8080
   server: 193.29.139.168
   type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇸🇬SG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇳 CN 001 | ⚡ 1556.00ms
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇫🇷 FR 002 | ⚡ 258.00ms
   password: ND91608427
   port: 443
@@ -629,13 +611,6 @@ proxies:
   port: 50099
   server: namrcg001640lrm.cybervena.com
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_191_0@190
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
 - country: 🇺🇸US
   name: 🇺🇸US_221_0@220
   password: kkzh2prsyr2ik47as615
@@ -649,12 +624,6 @@ proxies:
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-108.181.126.122-0133 | 34.336MB
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
   type: ss
 - country: 🇺🇸US
   name: 🇫🇷 FR 002 | ⚡ 417.00ms
@@ -718,12 +687,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: NO-185.213.23.63-0123 | 28.793MB
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
-  type: ss
 - name: 🇰🇷KR-43.201.56.44-0469 | 18.237MB
   password: ND91608427
   port: 443
@@ -731,3 +694,37 @@ proxies:
   skip-cert-verify: false
   sni: distinct-llama.rooster465.autos
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 004 | ⚡ 225.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+- name: 🇫🇷 FR 005 | ⚡ 552.00ms
+  password: ND91608427
+  port: 443
+  server: 13.36.175.151
+  skip-cert-verify: false
+  sni: classic-gator.rooster465.autos
+  type: trojan
+- country: 🇺🇸US
+  name: 🇺🇸 US 005 | ⚡ 638.00ms
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: 154.64.226.149
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 001 | ⚡ 815.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0220 | 0.77MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
