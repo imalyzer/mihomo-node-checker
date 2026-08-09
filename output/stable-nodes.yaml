@@ -1,4 +1,4 @@
-# last-updated: 2026-08-09T16:24:39Z
+# last-updated: 2026-08-09T18:25:27Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -172,12 +172,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.174
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵 JP 003 | ⚡ 450.00ms
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 011 | ⚡ 237.00ms
@@ -571,3 +565,9 @@ proxies:
   skip-cert-verify: false
   sni: thankful-mustang.rooster465.autos
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.189-0103 | 56.161MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.189
+  type: ss
