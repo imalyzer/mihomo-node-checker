@@ -1,5 +1,5 @@
-# last-updated: 2026-08-09T10:25:03Z
-# node-count: 100
+# last-updated: 2026-08-09T12:20:04Z
+# node-count: 103
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -593,24 +593,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_66 ⇽中转_0@65
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-125.224.219.227-0232 | 0.0MB
-  password: a9a0d092-6f0e-4701-81ee-454643d6d506
-  port: 50099
-  server: namrcg001640lrm.cybervena.com
-  type: ss
 - country: 🇺🇸US
   name: 🇺🇸US_221_0@220
   password: kkzh2prsyr2ik47as615
@@ -619,12 +601,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-36.224.147.65-0227 | 3.084MB
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
 - country: 🇺🇸US
   name: 🇫🇷 FR 002 | ⚡ 417.00ms
   password: QV31589740
@@ -728,3 +704,43 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
+- name: 🇺🇸 US 006 | ⬆️ 0.00MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- country: 🇺🇸US
+  name: 🇺🇸 US 011 | ⚡ 174.00ms
+  password: ND91608427
+  port: 443
+  server: pet-ghost.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 392.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.194
+  type: ss
+- cipher: chacha20-ietf
+  name: 🇸🇬 SG 002 | ⚡ 543.00ms
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 001 | ⚡ 764.00ms
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- name: 🇫🇷 FR 006 | ⚡ 820.00ms
+  password: ND91608427
+  port: 443
+  server: 15.237.137.197
+  skip-cert-verify: false
+  sni: fancy-skink.rooster465.autos
+  type: trojan
