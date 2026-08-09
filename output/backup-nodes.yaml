@@ -1,5 +1,5 @@
-# last-updated: 2026-08-09T05:05:59Z
-# node-count: 180
+# last-updated: 2026-08-09T08:17:06Z
+# node-count: 181
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -1051,12 +1051,6 @@ proxies:
   skip-cert-verify: false
   sni: humorous-malamute.rooster465.autos
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 004 | ⚡ 741.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
 - name: 🇯🇵 JP 006 | ⚡ 384.00ms
   password: ND91608427
   port: 443
@@ -1154,31 +1148,12 @@ proxies:
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
   type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇳 CN 001 | ⬆️ 0.00MB/s
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-128-gcm
   country: 🇺🇸US
   name: 🇺🇸 US 010 | ⚡ 174.00ms
   password: shadowsocks
   port: 443
   server: 37.19.198.243
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇸🇪 SE 001 | ⚡ 355.00ms
-  password: amazonskr05
-  port: 443
-  server: 13.61.13.49
   type: ss
 - name: 🇫🇷 FR 002 | ⚡ 585.00ms
   password: ND91608427
@@ -1223,31 +1198,6 @@ proxies:
   port: 50099
   server: namrcg001640lrm.cybervena.com
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳IN-152.67.8.205-0234 | 0.935MB
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0234 | 0.935MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇳 CN 001 | ⬆️ 0.00MB/s-2
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
   name: 🇺🇸US_191_0@190
@@ -1303,3 +1253,50 @@ proxies:
   port: 50099
   server: r3mrcg001287h3p.cybervena.com
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 003 | ⬆️ 0.00MB/s
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
+- cipher: aes-128-gcm
+  name: 🇬🇧GB-141.98.101.182-5959 | 22.728MB
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧GB-141.98.101.181-5962 | 22.846MB
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.181
+  type: ss
+- country: 🇺🇸US
+  name: 🇯🇵 JP 003 | ⚡ 422.00ms
+  password: ND91608427
+  port: 443
+  server: learning-leopard.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NO-185.213.23.63-0123 | 28.793MB
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- name: 🇰🇷KR-43.201.56.44-0469 | 18.237MB
+  password: ND91608427
+  port: 443
+  server: 43.201.56.44
+  skip-cert-verify: false
+  sni: distinct-llama.rooster465.autos
+  type: trojan
