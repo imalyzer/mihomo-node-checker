@@ -1,21 +1,7 @@
-# last-updated: 2026-08-09T18:25:27Z
-# node-count: 94
+# last-updated: 2026-08-09T20:20:40Z
+# node-count: 91
 # note: streak<3 or newly accepted
 proxies:
-- name: 🇯🇵 JP 005 | ⚡ 366.00ms
-  password: ND91608427
-  port: 443
-  server: sure-humpback.rooster465.autos
-  skip-cert-verify: false
-  sni: sure-humpback.rooster465.autos
-  type: trojan
-- name: 🇯🇵 JP 006 | ⚡ 374.00ms
-  password: ND91608427
-  port: 443
-  server: picked-guinea.rooster465.autos
-  skip-cert-verify: false
-  sni: picked-guinea.rooster465.autos
-  type: trojan
 - country: 🇺🇸US
   name: 🇺🇸US_179 ⇽中转_1@178
   password: ND91608427
@@ -529,24 +515,6 @@ proxies:
   skip-cert-verify: false
   sni: fancy-skink.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⬆️ 0.00MB/s
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_63 ⇽中转_0@62
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - country: 🇺🇸US
   name: 🇺🇸US_221_0@220
   password: kkzh2prsyr2ik47as615
@@ -619,12 +587,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 001 | ⚡ 764.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
 - name: 🇫🇷 FR 006 | ⚡ 820.00ms
   password: ND91608427
   port: 443
@@ -643,12 +605,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 13.50.4.72
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-36.224.177.236-0212 | 1.867MB
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
   type: ss
 - alterId: 0
   cipher: auto
@@ -677,3 +633,23 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
+- name: IE-54.217.133.71-0468 | 29.222MB
+  password: ND91608427
+  port: 443
+  server: 54.217.133.71
+  skip-cert-verify: false
+  sni: willing-beagle.rooster465.autos
+  type: trojan
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸US_183_0@182
+  password: amazonskr05
+  port: 443
+  server: 13.61.13.49
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧GB-94.156.250.148-0210 | 2.034MB
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  type: ss
