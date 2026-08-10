@@ -1,4 +1,4 @@
-# last-updated: 2026-08-10T18:19:45Z
+# last-updated: 2026-08-10T20:30:22Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -178,12 +178,6 @@ proxies:
   password: VpKABcOpNNA0l5G2AVOmw8
   port: 62685
   server: 213.109.147.242
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 013 | ⚡ 253.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 016 | ⚡ 260.00ms
@@ -567,3 +561,10 @@ proxies:
   sni: learning-leopard.rooster465.autos
   type: trojan
   udp: true
+- name: 🇫🇷FR-13.36.175.151-0151 | 32.336MB
+  password: ND91608427
+  port: 443
+  server: classic-gator.rooster465.autos
+  skip-cert-verify: false
+  sni: classic-gator.rooster465.autos
+  type: trojan

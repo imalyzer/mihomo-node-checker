@@ -1,5 +1,5 @@
-# last-updated: 2026-08-10T18:19:45Z
-# node-count: 173
+# last-updated: 2026-08-10T20:30:22Z
+# node-count: 171
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -178,12 +178,6 @@ proxies:
   password: VpKABcOpNNA0l5G2AVOmw8
   port: 62685
   server: 213.109.147.242
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 013 | ⚡ 253.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 016 | ⚡ 260.00ms
@@ -726,13 +720,6 @@ proxies:
   sni: exotic-chow.rooster465.autos
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸 US 010 | ⚡ 170.00ms
-  password: amazonskr05
-  port: 443
-  server: 54.163.196.142
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 383.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -794,13 +781,6 @@ proxies:
   skip-cert-verify: false
   sni: dynamic-grubworm.rooster465.autos
   type: trojan
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸 US 007 | ⚡ 162.00ms
-  password: amazonskr05
-  port: 443
-  server: 3.85.61.177
-  type: ss
 - name: 🇯🇵JP-3.112.15.214-0519 | 30.092MB
   password: ND91608427
   port: 443
@@ -1223,3 +1203,9 @@ proxies:
   skip-cert-verify: false
   sni: pure-ram.rooster465.autos
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: NO-185.213.23.63-6078 | 37.447MB
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
