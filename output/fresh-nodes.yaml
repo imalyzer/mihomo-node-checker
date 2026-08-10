@@ -1,5 +1,5 @@
-# last-updated: 2026-08-09T22:24:56Z
-# node-count: 95
+# last-updated: 2026-08-10T00:22:28Z
+# node-count: 101
 # note: streak<3 or newly accepted
 proxies:
 - country: 🇺🇸US
@@ -676,4 +676,41 @@ proxies:
   password: qwerREWQ@@
   port: 13979
   server: 221.139.79.57
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-193.29.139.151-0088 | 50.6MB
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇯🇵JP-149.22.87.204-0155 | 28.746MB
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧GB-141.98.101.179-5961 | 7.082MB
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: NO-185.213.23.63-0123 | 28.793MB
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-27.255.82.134-0222 | 0.0MB
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 Netherlands - 13
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: 92.112.126.90
+  tfo: false
   type: ss
