@@ -1,4 +1,4 @@
-# last-updated: 2026-08-10T14:59:33Z
+# last-updated: 2026-08-10T18:19:45Z
 # node-count: 93
 # note: streak<3 or newly accepted
 proxies:
@@ -29,15 +29,6 @@ proxies:
   server: intimate-moray.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- country: 🇺🇸US
-  name: 🇺🇸 US 011 | ⚡ 93.00ms
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  sni: 64.94.95.118
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 301.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -564,12 +555,6 @@ proxies:
   port: 8388
   server: 108.181.126.122
   type: ss
-- cipher: aes-256-cfb
-  name: SE-13.50.4.72-3178 | 28.718MB
-  password: amazonskr05
-  port: 443
-  server: 13.50.4.72
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇮🇳 IN 001 | ⚡ 823.00ms
@@ -615,12 +600,6 @@ proxies:
   server: 149.22.87.204
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-27.255.82.134-0222 | 0.0MB
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  type: ss
-- cipher: aes-256-cfb
   country: 🇺🇸US
   name: 🇸🇪 SE 002 | ⬆️ 0.00MB/s
   password: amazonskr05
@@ -640,16 +619,42 @@ proxies:
   port: 8080
   server: 82.38.31.198
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_186_0@185
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
 - name: SA-149.104.104.58-0211 | 0.862MB
   password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
   server: 149.104.104.58
   skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 001 | ⬆️ 0.00MB/s
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 342.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵 JP 007 | ⚡ 403.00ms
+  password: amazonskr05
+  port: 443
+  server: 13.114.17.103
+  type: ss
+- name: 🇰🇷 KR 001 | ⚡ 546.00ms
+  password: ND91608427
+  port: 443
+  server: 54.180.228.238
+  skip-cert-verify: false
+  sni: pure-ram.rooster465.autos
   type: trojan
