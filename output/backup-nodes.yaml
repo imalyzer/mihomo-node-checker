@@ -1,5 +1,5 @@
-# last-updated: 2026-08-11T08:53:59Z
-# node-count: 174
+# last-updated: 2026-08-11T11:52:37Z
+# node-count: 176
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -256,12 +256,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.202
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 449.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.46
   type: ss
 - cipher: rc4-md5
   name: 🇺🇸 US 013 | ⚡ 95.00ms
@@ -1174,24 +1168,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_165 ⇽中转_1@164
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
   name: 🇮🇳IN-152.67.8.205-6219 | 1.017MB
   network: ws
   port: 80
@@ -1208,12 +1184,6 @@ proxies:
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: switcher-nick-croquet.freesocks.work
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 001 | ⬆️ 0.00MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 141.164.45.187
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 008 | ⚡ 540.00ms
@@ -1241,12 +1211,6 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 004 | ⚡ 1027.00ms
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 141.164.45.187
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇹🇼TW
@@ -1259,3 +1223,44 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+- name: 🇺🇸 US 003 | ⬆️ 0.00MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- name: 🇯🇵JP-3.113.24.17-0524 | 27.158MB
+  password: ND91608427
+  port: 443
+  server: 3.113.24.17
+  skip-cert-verify: false
+  sni: nearby-egret.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP-18.178.132.111-0525 | 24.182MB
+  password: ND91608427
+  port: 443
+  server: 18.178.132.111
+  skip-cert-verify: false
+  sni: devoted-heron.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.210-0127 | 53.23MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.210
+  type: ss
+- country: 🇺🇸US
+  name: 🇺🇸US_202_0@201
+  password: ND91608427
+  port: 443
+  server: select-ferret.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  name: 🇭🇰HK-103.149.182.79-6206 | 0.056MB
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
