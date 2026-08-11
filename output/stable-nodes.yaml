@@ -1,4 +1,4 @@
-# last-updated: 2026-08-10T23:26:55Z
+# last-updated: 2026-08-11T05:09:25Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -464,12 +464,6 @@ proxies:
   sni: pet-ghost.rooster465.autos
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 🇯🇵 JP 006 | ⚡ 357.00ms
-  password: amazonskr05
-  port: 443
-  server: 13.231.227.228
-  type: ss
 - name: 🇯🇵 JP 007 | ⚡ 360.00ms
   password: ND91608427
   port: 443
@@ -567,4 +561,11 @@ proxies:
   server: classic-gator.rooster465.autos
   skip-cert-verify: false
   sni: classic-gator.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP-13.230.118.96-6221 | 29.728MB
+  password: ND91608427
+  port: 443
+  server: real-werewolf.rooster465.autos
+  skip-cert-verify: false
+  sni: real-werewolf.rooster465.autos
   type: trojan
