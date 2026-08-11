@@ -1,14 +1,7 @@
-# last-updated: 2026-08-11T05:09:25Z
-# node-count: 92
+# last-updated: 2026-08-11T08:53:59Z
+# node-count: 94
 # note: streak<3 or newly accepted
 proxies:
-- name: 🇭🇰HK-185.244.208.13-0179 | 19.401MB
-  password: ND91608427
-  port: 443
-  server: ace-starling.rooster465.autos
-  skip-cert-verify: false
-  sni: ace-starling.rooster465.autos
-  type: trojan
 - name: 🇰🇷KR-43.201.103.8-5962 | 24.14MB
   password: ND91608427
   port: 443
@@ -333,13 +326,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸 US 011 | ⚡ 109.00ms
-  password: amazonskr05
-  port: 443
-  server: 100.31.139.112
-  type: ss
 - name: 🇯🇵 JP 006 | ⚡ 443.00ms
   password: ND91608427
   port: 443
@@ -618,18 +604,6 @@ proxies:
   skip-cert-verify: false
   sni: natural-collie.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US-216.105.168.18-6173 | 46.041MB
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸US-3.85.61.177-0066 | 160.539MB
-  password: amazonskr05
-  port: 443
-  server: 3.85.61.177
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
@@ -667,3 +641,53 @@ proxies:
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 001 | ⬆️ 0.00MB/s
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⚡ 540.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
+  type: ss
+- name: 🇵🇱PL-202.78.163.148-0529 | 30.241MB
+  password: ND91608427
+  port: 443
+  server: 202.78.163.148
+  skip-cert-verify: false
+  sni: discrete-basilisk.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN-152.67.8.205-0270 | 0.128MB
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0270 | 0.128MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 004 | ⚡ 1027.00ms
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 141.164.45.187
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇹🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_120 ⇽中转_1@119
+  network: tcp
+  port: 51360
+  server: lt.badns.help
+  skip-cert-verify: true
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636

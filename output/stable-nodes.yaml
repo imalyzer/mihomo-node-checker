@@ -1,4 +1,4 @@
-# last-updated: 2026-08-11T05:09:25Z
+# last-updated: 2026-08-11T08:53:59Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -442,12 +442,6 @@ proxies:
   skip-cert-verify: false
   sni: upright-hamster.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.210-0123 | 178.762MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.210
-  type: ss
 - name: 🇰🇷KR-43.203.119.20-2363 | 25.124MB
   password: ND91608427
   port: 443
@@ -568,4 +562,11 @@ proxies:
   server: real-werewolf.rooster465.autos
   skip-cert-verify: false
   sni: real-werewolf.rooster465.autos
+  type: trojan
+- name: 🇭🇰HK-185.244.208.13-0179 | 19.401MB
+  password: ND91608427
+  port: 443
+  server: ace-starling.rooster465.autos
+  skip-cert-verify: false
+  sni: ace-starling.rooster465.autos
   type: trojan
