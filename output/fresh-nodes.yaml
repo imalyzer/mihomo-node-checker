@@ -1,25 +1,7 @@
-# last-updated: 2026-08-11T15:50:16Z
-# node-count: 97
+# last-updated: 2026-08-11T20:07:07Z
+# node-count: 91
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 301.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.191
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.219-0176 | 15.369MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.219
-  type: ss
-- name: 🇯🇵JP-13.231.232.184-6037 | 30.686MB
-  password: ND91608427
-  port: 443
-  server: better-molly.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
 - country: 🇺🇸US
   name: 🇺🇸US_154 ⇽中转_0@153
   password: ND91608427
@@ -382,12 +364,6 @@ proxies:
   port: 8080
   server: 193.29.139.168
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 270.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.187
-  type: ss
 - cipher: aes-128-gcm
   country: 🇺🇸US
   name: 🇺🇸 US 010 | ⚡ 174.00ms
@@ -459,13 +435,6 @@ proxies:
   port: 8388
   server: 108.181.58.239
   type: ss
-- name: 🇫🇷 FR 005 | ⚡ 552.00ms
-  password: ND91608427
-  port: 443
-  server: 13.36.175.151
-  skip-cert-verify: false
-  sni: classic-gator.rooster465.autos
-  type: trojan
 - country: 🇺🇸US
   name: 🇺🇸 US 011 | ⚡ 174.00ms
   password: ND91608427
@@ -538,24 +507,12 @@ proxies:
   skip-cert-verify: false
   sni: willing-beagle.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.198-0112 | 0.0MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.198
-  type: ss
 - name: SA-149.104.104.58-0211 | 0.862MB
   password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
   server: 149.104.104.58
   skip-cert-verify: false
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 342.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
 - name: 🇰🇷 KR 001 | ⚡ 546.00ms
   password: ND91608427
   port: 443
@@ -588,12 +545,6 @@ proxies:
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: switcher-nick-croquet.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 540.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.151
   type: ss
 - name: 🇵🇱PL-202.78.163.148-0529 | 30.241MB
   password: ND91608427
@@ -655,12 +606,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf
-  name: 🇭🇰HK-103.149.182.79-6206 | 0.056MB
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 324.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -692,4 +637,25 @@ proxies:
   password: asd123456
   port: 8388
   server: 103.36.91.32
+  type: ss
+- name: 🇺🇸 US 007 | ⬆️ 0.00MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- name: 🇺🇸US-44.242.235.129-0528 | 31.186MB
+  password: ND91608427
+  port: 443
+  server: 44.242.235.129
+  skip-cert-verify: false
+  sni: devoted-tapir.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 Netherlands - 12
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: 92.112.126.90
+  tfo: false
   type: ss

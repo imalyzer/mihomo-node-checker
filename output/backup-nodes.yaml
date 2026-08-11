@@ -1,5 +1,5 @@
-# last-updated: 2026-08-11T15:50:16Z
-# node-count: 177
+# last-updated: 2026-08-11T20:07:07Z
+# node-count: 171
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -281,12 +281,6 @@ proxies:
   port: 8080
   server: 82.38.31.179
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 401.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.199
-  type: ss
 - name: 🇯🇵 JP 004 | ⚡ 410.00ms
   password: ND91608427
   port: 443
@@ -468,13 +462,6 @@ proxies:
   sni: sensible-mongrel.rooster465.autos
   type: trojan
   udp: true
-- name: 🇯🇵 JP 009 | ⚡ 364.00ms
-  password: ND91608427
-  port: 443
-  server: 18.179.31.199
-  skip-cert-verify: false
-  sni: prompt-duckling.rooster465.autos
-  type: trojan
 - name: 🇯🇵JP-54.249.34.120-6230 | 27.674MB
   password: ND91608427
   port: 443
@@ -543,13 +530,6 @@ proxies:
   sni: learning-leopard.rooster465.autos
   type: trojan
   udp: true
-- name: 🇫🇷FR-13.36.175.151-0151 | 32.336MB
-  password: ND91608427
-  port: 443
-  server: classic-gator.rooster465.autos
-  skip-cert-verify: false
-  sni: classic-gator.rooster465.autos
-  type: trojan
 - name: 🇯🇵JP-13.230.118.96-6221 | 29.728MB
   password: ND91608427
   port: 443
@@ -950,12 +930,6 @@ proxies:
   port: 8080
   server: 193.29.139.168
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 270.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.187
-  type: ss
 - cipher: aes-128-gcm
   country: 🇺🇸US
   name: 🇺🇸 US 010 | ⚡ 174.00ms
@@ -1027,13 +1001,6 @@ proxies:
   port: 8388
   server: 108.181.58.239
   type: ss
-- name: 🇫🇷 FR 005 | ⚡ 552.00ms
-  password: ND91608427
-  port: 443
-  server: 13.36.175.151
-  skip-cert-verify: false
-  sni: classic-gator.rooster465.autos
-  type: trojan
 - country: 🇺🇸US
   name: 🇺🇸 US 011 | ⚡ 174.00ms
   password: ND91608427
@@ -1106,24 +1073,12 @@ proxies:
   skip-cert-verify: false
   sni: willing-beagle.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.198-0112 | 0.0MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.198
-  type: ss
 - name: SA-149.104.104.58-0211 | 0.862MB
   password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
   server: 149.104.104.58
   skip-cert-verify: false
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 342.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
 - name: 🇰🇷 KR 001 | ⚡ 546.00ms
   password: ND91608427
   port: 443
@@ -1156,12 +1111,6 @@ proxies:
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: switcher-nick-croquet.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 540.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.151
   type: ss
 - name: 🇵🇱PL-202.78.163.148-0529 | 30.241MB
   password: ND91608427
@@ -1223,12 +1172,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf
-  name: 🇭🇰HK-103.149.182.79-6206 | 0.056MB
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 324.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -1260,4 +1203,25 @@ proxies:
   password: asd123456
   port: 8388
   server: 103.36.91.32
+  type: ss
+- name: 🇺🇸 US 007 | ⬆️ 0.00MB/s
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- name: 🇺🇸US-44.242.235.129-0528 | 31.186MB
+  password: ND91608427
+  port: 443
+  server: 44.242.235.129
+  skip-cert-verify: false
+  sni: devoted-tapir.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 Netherlands - 12
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: 92.112.126.90
+  tfo: false
   type: ss
