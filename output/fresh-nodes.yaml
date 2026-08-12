@@ -1,5 +1,5 @@
-# last-updated: 2026-08-12T20:23:36Z
-# node-count: 93
+# last-updated: 2026-08-12T23:40:36Z
+# node-count: 97
 # note: streak<3 or newly accepted
 proxies:
 - name: 🇺🇸 US 010 | ⚡ 233.00ms
@@ -541,20 +541,6 @@ proxies:
   server: 92.112.126.90
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-43.100.32.4-0312 | 0.0MB
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  ws-opts:
-    headers:
-      Host: n1747624260.4u9ma.icu
-    path: /
 - name: 🇫🇷FR-13.36.175.151-0249 | 5.728MB
   password: ND91608427
   port: 443
@@ -687,4 +673,49 @@ proxies:
   ws-opts:
     headers:
       Host: rush-72frf.meeopp.site
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⬆️ 0.00MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸US-37.19.198.243-0155 | 101.668MB
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.243
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳TW-36.224.154.243-6270 | 0.213MB
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US_123_0@122
+  network: tcp
+  port: 22324
+  server: 66.163.117.58
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.242.195.37-0456 | 0.0MB
+  network: ws
+  port: 443
+  server: n1761296892.4u9ma.icu
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d6db128f-42b9-40b1-b979-5e0095fa593c
+  ws-opts:
+    headers:
+      Host: n1761296892.4u9ma.icu
     path: /
