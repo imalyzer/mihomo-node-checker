@@ -1,4 +1,4 @@
-# last-updated: 2026-08-11T22:42:02Z
+# last-updated: 2026-08-12T05:35:24Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -368,19 +368,6 @@ proxies:
   skip-cert-verify: false
   sni: fleet-bonefish.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US_222_0@221
-  network: tcp
-  port: 22324
-  server: 66.163.117.58
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  ws-path: /
 - name: 🇵🇱PL-202.78.163.148-2366 | 27.565MB
   password: ND91608427
   port: 443
@@ -568,3 +555,12 @@ proxies:
   server: better-molly.rooster465.autos
   skip-cert-verify: false
   type: trojan
+- country: 🇺🇸US
+  name: 🇺🇸US_154 ⇽中转_0@153
+  password: ND91608427
+  port: 443
+  server: intimate-moray.rooster465.autos
+  skip-cert-verify: true
+  sni: intimate-moray.rooster465.autos
+  type: trojan
+  udp: true
