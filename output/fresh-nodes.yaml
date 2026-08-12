@@ -1,5 +1,5 @@
-# last-updated: 2026-08-12T10:06:51Z
-# node-count: 96
+# last-updated: 2026-08-12T12:57:01Z
+# node-count: 92
 # note: streak<3 or newly accepted
 proxies:
 - name: 🇺🇸 US 010 | ⚡ 233.00ms
@@ -314,13 +314,6 @@ proxies:
   skip-cert-verify: false
   sni: casual-bee.rooster465.autos
   type: trojan
-- name: SA-149.104.104.58-2179 | 1.589MB
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  skip-cert-verify: false
-  sni: 149.104.104.58
-  type: trojan
 - name: 🇺🇸 US 010 | ⚡ 231.00ms
   password: ND91608427
   port: 443
@@ -393,18 +386,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: 🇬🇧GB-141.98.101.182-5959 | 22.728MB
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.182
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧GB-141.98.101.181-5962 | 22.846MB
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.181
-  type: ss
 - country: 🇺🇸US
   name: 🇯🇵 JP 003 | ⚡ 422.00ms
   password: ND91608427
@@ -420,12 +401,6 @@ proxies:
   skip-cert-verify: false
   sni: distinct-llama.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 225.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
 - country: 🇺🇸US
   name: 🇺🇸 US 011 | ⚡ 174.00ms
   password: ND91608427
@@ -441,12 +416,6 @@ proxies:
   skip-cert-verify: false
   sni: fancy-skink.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-108.181.126.122-0124 | 30.4MB
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇮🇳 IN 001 | ⚡ 823.00ms
@@ -484,12 +453,6 @@ proxies:
   port: 443
   server: 149.22.87.204
   type: ss
-- name: SA-149.104.104.58-0211 | 0.862MB
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  skip-cert-verify: false
-  type: trojan
 - name: 🇰🇷 KR 001 | ⚡ 546.00ms
   password: ND91608427
   port: 443
@@ -693,3 +656,27 @@ proxies:
   skip-cert-verify: false
   sni: t11.qifei.app
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⚡ 318.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇦 CA 005 | ⚡ 993.00ms
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      HOST: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
