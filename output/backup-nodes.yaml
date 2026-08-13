@@ -1,5 +1,5 @@
-# last-updated: 2026-08-13T16:33:56Z
-# node-count: 176
+# last-updated: 2026-08-13T20:19:16Z
+# node-count: 172
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -877,12 +877,6 @@ proxies:
   skip-cert-verify: false
   sni: communal-sunbird.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-193.29.139.168-0091 | 79.634MB
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.168
-  type: ss
 - name: 🇫🇷 FR 002 | ⚡ 585.00ms
   password: ND91608427
   port: 443
@@ -944,12 +938,6 @@ proxies:
   skip-cert-verify: false
   sni: fancy-skink.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.194-0097 | 55.475MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.194
-  type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷KR-221.139.79.57-0234 | 0.0MB
   password: qwerREWQ@@
@@ -1102,12 +1090,6 @@ proxies:
   skip-cert-verify: false
   sni: t11.qifei.app
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 002 | ⬆️ 0.00MB/s
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
 - name: 🇮🇪 IE 003 | ⚡ 487.00ms
   password: UO36402987
   port: 443
@@ -1115,12 +1097,6 @@ proxies:
   skip-cert-verify: false
   sni: definite-ladybird.rooster465.autos
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 002 | ⚡ 797.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇮🇳 IN 001 | ⚡ 915.00ms
@@ -1154,20 +1130,6 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.242.195.37-0456 | 0.0MB
-  network: ws
-  port: 443
-  server: n1761296892.4u9ma.icu
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: d6db128f-42b9-40b1-b979-5e0095fa593c
-  ws-opts:
-    headers:
-      Host: n1761296892.4u9ma.icu
-    path: /
 - cipher: aes-256-gcm
   name: 🇬🇧 GB 001 | ⬆️ 0.00MB/s
   password: RexnBgU7EV5ADxG
@@ -1239,12 +1201,6 @@ proxies:
   port: 443
   server: 141.98.101.182
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 DE 004 | ⚡ 326.00ms
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.150.162
-  type: ss
 - cipher: aes-256-cfb
   name: 🇫🇷 FR 002 | ⚡ 314.00ms
   password: amazonskr05
@@ -1282,3 +1238,15 @@ proxies:
     headers:
       HOST: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
+- cipher: chacha20-ietf-poly1305
+  name: 🏳️ KZ 002 | ⚡ 842.00ms
+  password: s8LbJCgUiGXeCKVc63tHJP
+  port: 64674
+  server: 94.198.220.183
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-193.29.139.151-0136 | 69.812MB
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
+  type: ss
