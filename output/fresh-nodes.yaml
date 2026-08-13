@@ -1,5 +1,5 @@
-# last-updated: 2026-08-13T10:06:37Z
-# node-count: 100
+# last-updated: 2026-08-13T12:56:47Z
+# node-count: 99
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -460,18 +460,6 @@ proxies:
   skip-cert-verify: false
   sni: discrete-basilisk.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  country: 🇹🇼TW
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_120 ⇽中转_1@119
-  network: tcp
-  port: 51360
-  server: lt.badns.help
-  skip-cert-verify: true
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
 - name: 🇯🇵JP-3.113.24.17-0524 | 27.158MB
   password: ND91608427
   port: 443
@@ -554,12 +542,6 @@ proxies:
   server: autodiscover.fuzzyaytor.cyou
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 253.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 263.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -583,12 +565,6 @@ proxies:
   password: CJmTCCx7Ltud
   port: 8388
   server: 108.181.58.239
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 238.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.198
   type: ss
 - name: 🇮🇪 IE 003 | ⚡ 487.00ms
   password: UO36402987
@@ -623,20 +599,6 @@ proxies:
   skip-cert-verify: false
   sni: classic-gator.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: RELAY-104.21.61.57-0550 | 15.449MB
-  network: ws
-  port: 443
-  server: rush-72frf.meeopp.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-72frf.meeopp.site
-    path: /
 - cipher: aes-128-gcm
   name: 🇺🇸US-37.19.198.243-0155 | 101.668MB
   password: shadowsocks
@@ -759,3 +721,27 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
+- alterId: 2
+  cipher: auto
+  country: 🇸🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇳 CN 001 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-128-gcm
+  name: 🇬🇧 GB 002 | ⚡ 292.00ms
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 DE 004 | ⚡ 326.00ms
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.150.162
+  type: ss
