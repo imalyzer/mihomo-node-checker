@@ -1,14 +1,7 @@
-# last-updated: 2026-08-14T20:37:05Z
-# node-count: 116
+# last-updated: 2026-08-14T22:12:54Z
+# node-count: 118
 # note: streak<3 or newly accepted
 proxies:
-- name: 🇯🇵 JP 005 | ⚡ 486.00ms
-  password: ND91608427
-  port: 443
-  server: tough-robin.rooster465.autos
-  skip-cert-verify: false
-  sni: tough-robin.rooster465.autos
-  type: trojan
 - name: 🇯🇵 JP 006 | ⚡ 486.00ms
   password: ND91608427
   port: 443
@@ -380,13 +373,6 @@ proxies:
   server: 54.180.228.238
   skip-cert-verify: false
   sni: pure-ram.rooster465.autos
-  type: trojan
-- name: 🇺🇸US-35.86.90.51-0460 | 36.098MB
-  password: ND91608427
-  port: 443
-  server: 35.86.90.51
-  skip-cert-verify: false
-  sni: natural-collie.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto
@@ -847,3 +833,40 @@ proxies:
   skip-cert-verify: false
   sni: t11.qifei.app
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.199-0184 | 0.122MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-108.181.126.122-0162 | 33.08MB
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
+- name: 🇸🇬 SG 002 | ⚡ 462.00ms
+  password: AE62539071
+  port: 443
+  server: integral-quetzal.rooster465.autos
+  skip-cert-verify: false
+  sni: integral-quetzal.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_156 ⇽中转_1@155
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      HOST: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/

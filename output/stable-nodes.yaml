@@ -1,4 +1,4 @@
-# last-updated: 2026-08-14T20:37:05Z
+# last-updated: 2026-08-14T22:12:54Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -145,12 +145,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.174
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 011 | ⚡ 237.00ms
-  password: VpKABcOpNNA0l5G2AVOmw8
-  port: 62685
-  server: 213.109.147.242
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 016 | ⚡ 260.00ms
@@ -553,4 +547,11 @@ proxies:
   server: 3.112.223.141
   skip-cert-verify: false
   sni: internal-sunbird.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 005 | ⚡ 486.00ms
+  password: ND91608427
+  port: 443
+  server: tough-robin.rooster465.autos
+  skip-cert-verify: false
+  sni: tough-robin.rooster465.autos
   type: trojan
