@@ -1,5 +1,5 @@
-# last-updated: 2026-08-14T10:00:04Z
-# node-count: 182
+# last-updated: 2026-08-14T12:48:21Z
+# node-count: 188
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -1059,13 +1059,6 @@ proxies:
   port: 8080
   server: 193.29.139.204
   type: ss
-- name: 🇯🇵 JP 005 | ⚡ 557.00ms
-  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
-  port: 55682
-  server: t11.qifei.app
-  skip-cert-verify: false
-  sni: t11.qifei.app
-  type: trojan
 - name: 🇮🇪 IE 003 | ⚡ 487.00ms
   password: UO36402987
   port: 443
@@ -1159,24 +1152,6 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
-- alterId: 2
-  cipher: auto
-  country: 🇸🇬SG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇳 CN 001 | ⬆️ 0.00MB/s
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 🇫🇷 FR 002 | ⚡ 314.00ms
-  password: amazonskr05
-  port: 443
-  server: 15.237.177.224
-  type: ss
 - alterId: 1
   cipher: auto
   country: 🇺🇸US
@@ -1300,3 +1275,67 @@ proxies:
   port: 4652
   server: p141.panda001.net
   type: ss
+- name: 🇫🇷 FR 001 | ⚡ 254.00ms
+  password: AE62539071
+  port: 443
+  server: distinct-quail.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇳🇱 NL 008 | ⚡ 261.00ms
+  password: AE62539071
+  port: 443
+  server: thorough-falcon.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 009 | ⚡ 361.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 003 | ⚡ 402.00ms
+  network: ws
+  port: 443
+  server: rush-72frf.meeopp.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: rush-72frf.meeopp.site
+    path: /
+- name: 🇯🇵 JP 005 | ⚡ 482.00ms
+  password: AE62539071
+  port: 443
+  server: supreme-lobster.rooster465.autos
+  skip-cert-verify: false
+  sni: supreme-lobster.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 006 | ⚡ 499.00ms
+  password: AE62539071
+  port: 443
+  server: literate-cow.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇰🇷 KR 001 | ⚡ 616.00ms
+  password: AE62539071
+  port: 443
+  server: sacred-hound.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇦🇺 AU 001 | ⚡ 797.00ms
+  password: AE62539071
+  port: 443
+  server: darling-mutt.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇦🇺 AU 002 | ⚡ 893.00ms
+  password: AE62539071
+  port: 443
+  server: humorous-llama.rooster465.autos
+  skip-cert-verify: false
+  sni: humorous-llama.rooster465.autos
+  type: trojan
