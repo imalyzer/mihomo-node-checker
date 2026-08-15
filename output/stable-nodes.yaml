@@ -1,4 +1,4 @@
-# last-updated: 2026-08-15T03:23:16Z
+# last-updated: 2026-08-15T07:37:25Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -407,15 +407,6 @@ proxies:
   skip-cert-verify: false
   sni: healthy-louse.rooster465.autos
   type: trojan
-- country: 🇺🇸US
-  name: 🇯🇵 JP 008 | ⚡ 362.00ms
-  password: ND91608427
-  port: 443
-  server: sensible-mongrel.rooster465.autos
-  skip-cert-verify: true
-  sni: sensible-mongrel.rooster465.autos
-  type: trojan
-  udp: true
 - name: 🇯🇵JP-54.249.34.120-6230 | 27.674MB
   password: ND91608427
   port: 443
@@ -554,4 +545,11 @@ proxies:
   server: tough-robin.rooster465.autos
   skip-cert-verify: false
   sni: tough-robin.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 006 | ⚡ 486.00ms
+  password: ND91608427
+  port: 443
+  server: 18.181.164.216
+  skip-cert-verify: false
+  sni: upright-impala.rooster465.autos
   type: trojan
