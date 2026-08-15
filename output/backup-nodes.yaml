@@ -1,4 +1,4 @@
-# last-updated: 2026-08-15T11:08:55Z
+# last-updated: 2026-08-15T12:00:38Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -1026,12 +1026,6 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 001 | ⬆️ 0.00MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
 - alterId: 0
   cipher: auto
   name: RELAY-104.21.43.92-0590 | 9.845MB
@@ -1091,12 +1085,6 @@ proxies:
   password: shadowsocks
   port: 443
   server: 173.244.56.6
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 399.00ms
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.168
   type: ss
 - name: 🇯🇵 JP 003 | ⚡ 367.00ms
   password: AE62539071
@@ -1332,18 +1320,6 @@ proxies:
   port: 443
   server: 37.19.198.243
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_60 ⇽中转_0@59
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - country: 🇺🇸US
   name: 🇺🇸US_143 ⇽中转_0@142
   password: AE62539071
@@ -1374,12 +1350,6 @@ proxies:
   sni: 64.94.95.118
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.194-0073 | 89.972MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.194
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.186-0100 | 37.356MB
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -1450,4 +1420,32 @@ proxies:
   port: 443
   server: charming-puma.rooster465.autos
   skip-cert-verify: false
+  type: trojan
+- name: 🇮🇪 IE 001 | ⚡ 314.00ms
+  password: FH72359861
+  port: 443
+  server: darling-mongrel.rooster465.autos
+  skip-cert-verify: false
+  sni: darling-mongrel.rooster465.autos
+  type: trojan
+- name: 🇮🇪 IE 002 | ⚡ 332.00ms
+  password: AE62539071
+  port: 443
+  server: 54.74.159.195
+  skip-cert-verify: false
+  sni: kind-stork.rooster465.autos
+  type: trojan
+- name: 🇩🇪DE-35.159.21.7-0393 | 30.661MB
+  password: FH72359861
+  port: 443
+  server: summary-lemming.rooster465.autos
+  skip-cert-verify: false
+  sni: summary-lemming.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP-52.194.223.176-4559 | 29.813MB
+  password: AE62539071
+  port: 443
+  server: clear-heron.rooster465.autos
+  skip-cert-verify: false
+  sni: clear-heron.rooster465.autos
   type: trojan
