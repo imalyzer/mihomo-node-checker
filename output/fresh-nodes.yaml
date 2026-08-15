@@ -1,4 +1,4 @@
-# last-updated: 2026-08-15T13:59:38Z
+# last-updated: 2026-08-15T15:11:18Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
@@ -817,12 +817,6 @@ proxies:
   sni: firm-krill.rooster465.autos
   type: trojan
   udp: true
-- name: 🇰🇷 KR 002 | ⚡ 609.00ms
-  password: FH72359861
-  port: 443
-  server: charming-puma.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
 - name: 🇮🇪 IE 001 | ⚡ 314.00ms
   password: FH72359861
   port: 443
@@ -875,4 +869,11 @@ proxies:
   port: 443
   server: kind-grizzly.rooster465.autos
   skip-cert-verify: false
+  type: trojan
+- name: 🇰🇷KR-13.125.144.78-4569 | 19.331MB
+  password: AE62539071
+  port: 443
+  server: viable-serval.rooster465.autos
+  skip-cert-verify: false
+  sni: viable-serval.rooster465.autos
   type: trojan
