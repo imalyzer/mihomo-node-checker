@@ -1,14 +1,7 @@
-# last-updated: 2026-08-15T07:37:25Z
+# last-updated: 2026-08-15T09:21:09Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
-- name: 🇯🇵 JP 007 | ⚡ 486.00ms
-  password: ND91608427
-  port: 443
-  server: 3.112.238.99
-  skip-cert-verify: false
-  sni: stunning-mite.rooster465.autos
-  type: trojan
 - name: 🇯🇵 JP 009 | ⚡ 488.00ms
   password: ND91608427
   port: 443
@@ -493,13 +486,6 @@ proxies:
   port: 7001
   server: 94.156.250.148
   type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸 US 014 | ⚡ 299.00ms
-  password: amazonskr05
-  port: 443
-  server: 18.188.213.207
-  type: ss
 - alterId: 0
   cipher: auto
   name: RELAY-104.21.43.92-0590 | 9.845MB
@@ -559,12 +545,6 @@ proxies:
   password: shadowsocks
   port: 443
   server: 173.244.56.6
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US-198.98.53.130-0249 | 0.461MB
-  password: eDfN7SODQceIOmIAbtJJtK
-  port: 443
-  server: 198.98.53.130
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 399.00ms
@@ -888,3 +868,24 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- country: 🇺🇸US
+  name: Pool_🇺🇸US_146_0@145
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.118
+  skip-cert-verify: true
+  sni: 64.94.95.118
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.194-0073 | 89.972MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.194
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.186-0100 | 37.356MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  type: ss
