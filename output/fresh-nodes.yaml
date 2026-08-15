@@ -1,14 +1,7 @@
-# last-updated: 2026-08-15T12:00:38Z
+# last-updated: 2026-08-15T13:59:38Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
-- name: 🇯🇵 JP 009 | ⚡ 488.00ms
-  password: ND91608427
-  port: 443
-  server: 57.180.27.225
-  skip-cert-verify: false
-  sni: picked-guinea.rooster465.autos
-  type: trojan
 - name: 🇯🇵 JP 010 | ⚡ 495.00ms
   password: ND91608427
   port: 443
@@ -354,19 +347,6 @@ proxies:
   skip-cert-verify: false
   sni: pure-ram.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳IN-152.67.8.205-6219 | 1.017MB
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-6219 | 1.017MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 1296.00ms
   password: 9tqhMdIrTkgQ46PvhyAtMH
@@ -463,19 +443,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇮🇳 IN 001 | ⚡ 915.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0284 | 0.603MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: RELAY-104.21.43.92-0590 | 9.845MB
   network: ws
   port: 443
@@ -495,19 +462,6 @@ proxies:
   skip-cert-verify: false
   sni: dynamic-grubworm.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 001 | ⚡ 705.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0236 | 0.657MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - alterId: 1
   cipher: auto
   country: 🇺🇸US
@@ -896,4 +850,29 @@ proxies:
   server: clear-heron.rooster465.autos
   skip-cert-verify: false
   sni: clear-heron.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP-13.113.71.200-1652 | 29.87MB
+  password: FH72359861
+  port: 443
+  server: trusting-elf.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇵🇱PL-202.78.163.156-0398 | 30.661MB
+  password: FH72359861
+  port: 443
+  server: primary-leech.rooster465.autos
+  skip-cert-verify: false
+  sni: primary-leech.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-3.38.152.121-0191 | 15.348MB
+  password: FH72359861
+  port: 443
+  server: apt-whippet.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇰🇷KR-13.125.103.245-1657 | 24.068MB
+  password: FH72359861
+  port: 443
+  server: kind-grizzly.rooster465.autos
+  skip-cert-verify: false
   type: trojan
