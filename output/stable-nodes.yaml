@@ -1,4 +1,4 @@
-# last-updated: 2026-08-15T18:04:23Z
+# last-updated: 2026-08-15T19:20:39Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -527,13 +527,6 @@ proxies:
   skip-cert-verify: false
   sni: internal-sunbird.rooster465.autos
   type: trojan
-- name: 🇯🇵 JP 005 | ⚡ 486.00ms
-  password: ND91608427
-  port: 443
-  server: tough-robin.rooster465.autos
-  skip-cert-verify: false
-  sni: tough-robin.rooster465.autos
-  type: trojan
 - name: 🇯🇵 JP 006 | ⚡ 486.00ms
   password: ND91608427
   port: 443
@@ -554,4 +547,11 @@ proxies:
   server: 57.180.27.225
   skip-cert-verify: false
   sni: picked-guinea.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 010 | ⚡ 495.00ms
+  password: ND91608427
+  port: 443
+  server: perfect-slug.rooster465.autos
+  skip-cert-verify: false
+  sni: perfect-slug.rooster465.autos
   type: trojan

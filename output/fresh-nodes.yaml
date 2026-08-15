@@ -1,14 +1,7 @@
-# last-updated: 2026-08-15T18:04:23Z
+# last-updated: 2026-08-15T19:20:39Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
-- name: 🇯🇵 JP 010 | ⚡ 495.00ms
-  password: ND91608427
-  port: 443
-  server: perfect-slug.rooster465.autos
-  skip-cert-verify: false
-  sni: perfect-slug.rooster465.autos
-  type: trojan
 - name: 🇰🇷 KR 001 | ⚡ 613.00ms
   password: ND91608427
   port: 443
@@ -401,13 +394,6 @@ proxies:
   server: 92.112.126.90
   tfo: false
   type: ss
-- name: 🇯🇵JP-54.65.167.167-0523 | 29.866MB
-  password: ND91608427
-  port: 443
-  server: 54.65.167.167
-  skip-cert-verify: false
-  sni: tough-robin.rooster465.autos
-  type: trojan
 - name: 🇺🇸US-44.242.235.129-0528 | 31.186MB
   password: ND91608427
   port: 443
@@ -427,12 +413,6 @@ proxies:
   password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
   port: 42982
   server: autodiscover.fuzzyaytor.cyou
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 279.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
   type: ss
 - name: 🇮🇪 IE 003 | ⚡ 487.00ms
   password: UO36402987
@@ -873,3 +853,28 @@ proxies:
   skip-cert-verify: false
   sni: wanted-marmoset.rooster465.autos
   type: trojan
+- name: 🇩🇪DE-3.120.70.66-1658 | 30.808MB
+  password: FH72359861
+  port: 443
+  server: renewed-porpoise.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇯🇵JP-52.194.223.176-0112 | 24.881MB
+  password: AE62539071
+  port: 443
+  server: 52.194.223.176
+  skip-cert-verify: false
+  sni: clear-heron.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 009 | ⚡ 194.00ms
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
