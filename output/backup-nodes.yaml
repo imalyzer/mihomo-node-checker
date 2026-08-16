@@ -1,4 +1,4 @@
-# last-updated: 2026-08-16T22:01:59Z
+# last-updated: 2026-08-16T23:09:16Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -236,12 +236,6 @@ proxies:
   port: 443
   server: 82.38.31.15
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.179-5753 | 54.74MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
 - name: 🇯🇵 JP 004 | ⚡ 410.00ms
   password: ND91608427
   port: 443
@@ -249,12 +243,6 @@ proxies:
   skip-cert-verify: false
   sni: upright-impala.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-193.29.139.147-5882 | 55.635MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.147
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.217-5756 | 50.107MB
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -1042,20 +1030,6 @@ proxies:
   server: thorough-falcon.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA 003 | ⚡ 402.00ms
-  network: ws
-  port: 443
-  server: rush-72frf.meeopp.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-72frf.meeopp.site
-    path: /
 - name: 🇯🇵 JP 006 | ⚡ 499.00ms
   password: AE62539071
   port: 443
@@ -1202,24 +1176,6 @@ proxies:
   sni: 64.94.95.118
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_141 ⇽中转_0@140
-  network: ws
-  port: 443
-  server: rush-72frf.meeopp.site
-  servername: rush-72frf.meeopp.site
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: rush-72frf.meeopp.site
-    path: /video/o2nwt7/r0r2dmbb.m3u8
 - name: 🇯🇵 JP 003 | ⚡ 512.00ms
   password: AE62539071
   port: 443
@@ -1412,3 +1368,27 @@ proxies:
   uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf
   ws-opts:
     path: /
+- name: 🇯🇵JP-18.183.164.199-0396 | 30.698MB
+  password: FH72359861
+  port: 443
+  server: helping-shark.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP-176.97.73.215-0192 | 25.307MB
+  password: ma6zc4JoLRJA
+  port: 8388
+  server: 176.97.73.215
+  type: ss
+- name: 🇯🇵JP-18.177.142.108-0390 | 30.882MB
+  password: FH72359861
+  port: 443
+  server: endless-kiwi.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇯🇵JP-57.180.38.121-0388 | 30.456MB
+  password: FH72359861
+  port: 443
+  server: champion-panther.rooster465.autos
+  skip-cert-verify: false
+  type: trojan

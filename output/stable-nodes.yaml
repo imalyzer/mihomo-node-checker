@@ -1,4 +1,4 @@
-# last-updated: 2026-08-16T22:01:59Z
+# last-updated: 2026-08-16T23:09:15Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -236,12 +236,6 @@ proxies:
   port: 443
   server: 82.38.31.15
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.179-5753 | 54.74MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
 - name: 🇯🇵 JP 004 | ⚡ 410.00ms
   password: ND91608427
   port: 443
@@ -249,12 +243,6 @@ proxies:
   skip-cert-verify: false
   sni: upright-impala.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-193.29.139.147-5882 | 55.635MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.147
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.217-5756 | 50.107MB
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -554,4 +542,18 @@ proxies:
   server: moved-meerkat.rooster465.autos
   skip-cert-verify: false
   sni: moved-meerkat.rooster465.autos
+  type: trojan
+- name: 🇰🇷 KR 002 | ⚡ 621.00ms
+  password: ND91608427
+  port: 443
+  server: 3.35.140.99
+  skip-cert-verify: false
+  sni: moved-meerkat.rooster465.autos
+  type: trojan
+- name: 🇰🇷 KR 003 | ⚡ 632.00ms
+  password: ND91608427
+  port: 443
+  server: 43.203.247.197
+  skip-cert-verify: false
+  sni: definite-malamute.rooster465.autos
   type: trojan
