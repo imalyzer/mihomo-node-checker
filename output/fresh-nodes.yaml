@@ -1,4 +1,4 @@
-# last-updated: 2026-08-16T20:05:24Z
+# last-updated: 2026-08-16T21:11:09Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
@@ -814,18 +814,6 @@ proxies:
   port: 8388
   server: 108.181.58.239
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 005 | ⚡ 199.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 250.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -857,3 +845,17 @@ proxies:
   port: 8080
   server: 193.29.139.204
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 006 | ⚡ 175.00ms
+  network: ws
+  port: 20086
+  server: 173.249.209.146
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf
+  ws-opts:
+    path: /
