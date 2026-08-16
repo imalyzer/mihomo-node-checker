@@ -1,4 +1,4 @@
-# last-updated: 2026-08-15T23:11:29Z
+# last-updated: 2026-08-16T00:00:27Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
@@ -548,13 +548,6 @@ proxies:
     headers:
       Host: rush-72frf.meeopp.site
     path: /
-- name: 🇯🇵 JP 005 | ⚡ 482.00ms
-  password: AE62539071
-  port: 443
-  server: supreme-lobster.rooster465.autos
-  skip-cert-verify: false
-  sni: supreme-lobster.rooster465.autos
-  type: trojan
 - name: 🇯🇵 JP 006 | ⚡ 499.00ms
   password: AE62539071
   port: 443
@@ -878,3 +871,10 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇵🇱 PL 019 | ⚡ 402.00ms
+  password: FH72359861
+  port: 443
+  server: magnetic-caiman.rooster465.autos
+  skip-cert-verify: false
+  sni: magnetic-caiman.rooster465.autos
+  type: trojan
