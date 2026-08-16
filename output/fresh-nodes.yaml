@@ -1,14 +1,7 @@
-# last-updated: 2026-08-16T09:21:49Z
+# last-updated: 2026-08-16T11:12:02Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
-- name: 🇰🇷 KR 001 | ⚡ 613.00ms
-  password: ND91608427
-  port: 443
-  server: moved-meerkat.rooster465.autos
-  skip-cert-verify: false
-  sni: moved-meerkat.rooster465.autos
-  type: trojan
 - name: 🇰🇷 KR 002 | ⚡ 621.00ms
   password: ND91608427
   port: 443
@@ -388,13 +381,6 @@ proxies:
   server: 92.112.126.90
   tfo: false
   type: ss
-- name: 🇺🇸US-44.242.235.129-0528 | 31.186MB
-  password: ND91608427
-  port: 443
-  server: 44.242.235.129
-  skip-cert-verify: false
-  sni: devoted-tapir.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 Netherlands - 12
   password: 9tqhMdIrTkgQ46PvhyAtMH
@@ -834,18 +820,6 @@ proxies:
   skip-cert-verify: false
   sni: clear-heron.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 009 | ⚡ 194.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 🇵🇱 PL 019 | ⚡ 402.00ms
   password: FH72359861
   port: 443
@@ -872,3 +846,27 @@ proxies:
   server: together-dingo.rooster465.autos
   skip-cert-verify: false
   type: trojan
+- name: 🇳🇱NL-89.39.70.120-1651 | 30.621MB
+  password: FH72359861
+  port: 443
+  server: pro-crane.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-108.181.58.239-0211 | 31.186MB
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 005 | ⚡ 199.00ms
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
