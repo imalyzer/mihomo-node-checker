@@ -1,4 +1,4 @@
-# last-updated: 2026-08-16T03:34:55Z
+# last-updated: 2026-08-16T05:24:04Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
@@ -632,19 +632,6 @@ proxies:
   server: premium-weevil.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 001 | ⚡ 800.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0212 | 0.562MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - name: 🇯🇵JP-52.68.175.30-0484 | 18.497MB
   password: AE62539071
   port: 443
@@ -878,3 +865,9 @@ proxies:
   skip-cert-verify: false
   sni: magnetic-caiman.rooster465.autos
   type: trojan
+- cipher: aes-128-gcm
+  name: 🇯🇵 JP 005 | ⚡ 495.00ms
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
