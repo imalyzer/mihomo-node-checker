@@ -1,4 +1,4 @@
-# last-updated: 2026-08-16T05:24:04Z
+# last-updated: 2026-08-16T08:04:51Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -1008,12 +1008,6 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-193.29.139.151-0136 | 69.812MB
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.151
-  type: ss
 - cipher: aes-128-gcm
   country: 🇺🇸US
   name: 🇺🇸 US 015 | ⚡ 198.00ms
@@ -1424,3 +1418,10 @@ proxies:
   port: 443
   server: 149.22.87.204
   type: ss
+- name: 🇰🇷 KR 001 | ⚡ 609.00ms
+  password: AE62539071
+  port: 443
+  server: capable-jay.rooster465.autos
+  skip-cert-verify: false
+  sni: capable-jay.rooster465.autos
+  type: trojan
