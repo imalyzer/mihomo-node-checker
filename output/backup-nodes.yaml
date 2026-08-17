@@ -1,4 +1,4 @@
-# last-updated: 2026-08-17T20:14:45Z
+# last-updated: 2026-08-17T21:19:23Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -360,15 +360,6 @@ proxies:
   skip-cert-verify: false
   sni: uncommon-feline.rooster465.autos
   type: trojan
-- country: 🇺🇸US
-  name: 🇺🇸 US 017 | ⚡ 127.00ms
-  password: ND91608427
-  port: 443
-  server: pet-ghost.rooster465.autos
-  skip-cert-verify: true
-  sni: pet-ghost.rooster465.autos
-  type: trojan
-  udp: true
 - name: 🇯🇵 JP 007 | ⚡ 360.00ms
   password: ND91608427
   port: 443
@@ -482,13 +473,6 @@ proxies:
   sni: intimate-moray.rooster465.autos
   type: trojan
   udp: true
-- name: 🇺🇸 US 010 | ⚡ 233.00ms
-  password: ND91608427
-  port: 443
-  server: 44.244.3.114
-  skip-cert-verify: false
-  sni: pet-ghost.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 257.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -840,14 +824,6 @@ proxies:
   skip-cert-verify: false
   sni: distinct-llama.rooster465.autos
   type: trojan
-- country: 🇺🇸US
-  name: 🇺🇸 US 011 | ⚡ 174.00ms
-  password: ND91608427
-  port: 443
-  server: pet-ghost.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: 🇫🇷 FR 006 | ⚡ 820.00ms
   password: ND91608427
   port: 443
@@ -1127,12 +1103,6 @@ proxies:
   server: unbiased-garfish.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.199-0184 | 0.122MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.199
-  type: ss
 - name: 🇸🇬 SG 002 | ⚡ 462.00ms
   password: AE62539071
   port: 443
@@ -1140,12 +1110,6 @@ proxies:
   skip-cert-verify: false
   sni: integral-quetzal.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 348.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.198
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⬆️ 0.00MB/s
   password: VpKABcOpNNA0l5G2AVOmw8
@@ -1391,4 +1355,36 @@ proxies:
   port: 443
   server: one-dove.rooster465.autos
   skip-cert-verify: false
+  type: trojan
+- name: 🇰🇷KR-54.180.250.102-1666 | 24.833MB
+  password: FH72359861
+  port: 443
+  server: aware-coyote.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇯🇵JP-13.113.131.176-1663 | 30.28MB
+  password: FH72359861
+  port: 443
+  server: wise-gibbon.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇰🇷KR-3.34.132.141-0395 | 24.954MB
+  password: FH72359861
+  port: 443
+  server: complete-narwhal.rooster465.autos
+  skip-cert-verify: false
+  sni: complete-narwhal.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 005 | ⚡ 501.00ms
+  password: FH72359861
+  port: 443
+  server: funny-squid.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇰🇷 KR 001 | ⚡ 621.00ms
+  password: HC04361579
+  port: 443
+  server: key-barnacle.rooster465.autos
+  skip-cert-verify: false
+  sni: key-barnacle.rooster465.autos
   type: trojan
