@@ -1,4 +1,4 @@
-# last-updated: 2026-08-17T03:35:48Z
+# last-updated: 2026-08-17T06:13:12Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -1318,22 +1318,10 @@ proxies:
   skip-cert-verify: false
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-108.181.58.239-0211 | 31.186MB
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 250.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 395.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
   type: ss
 - name: 🇭🇰HK-95.40.8.2-0151 | 24.507MB
   password: 6ec301428255a78a1d826988d86cc87e
@@ -1391,4 +1379,17 @@ proxies:
   port: 443
   server: champion-panther.rooster465.autos
   skip-cert-verify: false
+  type: trojan
+- name: 🇯🇵JP-3.112.69.18-1662 | 30.727MB
+  password: FH72359861
+  port: 443
+  server: light-filly.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇰🇷KR-43.202.61.210-0399 | 24.528MB
+  password: FH72359861
+  port: 443
+  server: 43.202.61.210
+  skip-cert-verify: false
+  sni: loyal-molly.rooster465.autos
   type: trojan
