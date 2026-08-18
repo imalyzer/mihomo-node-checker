@@ -1,4 +1,4 @@
-# last-updated: 2026-08-18T03:30:13Z
+# last-updated: 2026-08-18T05:36:52Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -541,13 +541,6 @@ proxies:
   skip-cert-verify: false
   sni: definite-malamute.rooster465.autos
   type: trojan
-- name: 🇰🇷 KR 004 | ⚡ 645.00ms
-  password: ND91608427
-  port: 443
-  server: 52.79.210.229
-  skip-cert-verify: false
-  sni: chief-bluegill.rooster465.autos
-  type: trojan
 - name: 🇭🇰 HK 002 | ⚡ 649.00ms
   password: ND91608427
   port: 443
@@ -597,13 +590,6 @@ proxies:
   server: 3.38.106.2
   skip-cert-verify: false
   sni: communal-sunbird.rooster465.autos
-  type: trojan
-- name: 🇰🇷KR-52.79.210.229-0504 | 22.777MB
-  password: ND91608427
-  port: 443
-  server: chief-bluegill.rooster465.autos
-  skip-cert-verify: false
-  sni: chief-bluegill.rooster465.autos
   type: trojan
 - name: 🇰🇷KR-54.180.228.238-0190 | 23.741MB
   password: ND91608427
@@ -1388,3 +1374,15 @@ proxies:
   skip-cert-verify: false
   sni: key-barnacle.rooster465.autos
   type: trojan
+- name: 🇭🇰 HK 002 | ⚡ 719.00ms
+  password: FH72359861
+  port: 443
+  server: natural-swan.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 369.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.184
+  type: ss
