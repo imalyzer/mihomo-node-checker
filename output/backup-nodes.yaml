@@ -1,4 +1,4 @@
-# last-updated: 2026-08-18T05:36:52Z
+# last-updated: 2026-08-18T08:18:13Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -35,13 +35,6 @@ proxies:
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   ws-path: /
-- cipher: rc4-md5
-  country: 🇺🇸US
-  name: 🇨🇦 CA 001 | ⚡ 133.00ms
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
-  type: ss
 - cipher: aes-128-gcm
   country: 🇺🇸US
   name: 🇺🇸 US 009 | ⚡ 136.00ms
@@ -1386,3 +1379,9 @@ proxies:
   port: 8080
   server: 82.38.31.184
   type: ss
+- name: 🇸🇬 SG 002 | ⚡ 515.00ms
+  password: FH72359861
+  port: 443
+  server: worthy-perch.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
