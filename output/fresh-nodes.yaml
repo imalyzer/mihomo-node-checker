@@ -1,4 +1,4 @@
-# last-updated: 2026-08-18T14:27:30Z
+# last-updated: 2026-08-18T16:22:23Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
@@ -218,14 +218,6 @@ proxies:
   skip-cert-verify: false
   sni: fancy-skink.rooster465.autos
   type: trojan
-- country: 🇺🇸US
-  name: 🇺🇸US_221_0@220
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - country: 🇺🇸US
   name: 🇫🇷 FR 002 | ⚡ 417.00ms
   password: QV31589740
@@ -556,15 +548,6 @@ proxies:
   sni: sharing-duck.rooster465.autos
   type: trojan
   udp: true
-- country: 🇺🇸US
-  name: Pool_🇺🇸US_146_0@145
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  sni: 64.94.95.118
-  type: trojan
-  udp: true
 - name: 🇯🇵 JP 003 | ⚡ 512.00ms
   password: AE62539071
   port: 443
@@ -832,3 +815,27 @@ proxies:
   skip-cert-verify: false
   sni: loyal-molly.rooster465.autos
   type: trojan
+- name: 🇯🇵JP-52.195.225.156-0398 | 30.277MB
+  password: FH72359861
+  port: 443
+  server: many-pangolin.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_146 ⇽中转_1@145
+  network: ws
+  port: 443
+  server: rush-6it6b.teeopp.quest
+  servername: rush-6it6b.teeopp.quest
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: rush-6it6b.teeopp.quest
+    path: /video/kz49hf/gbin5jve.m3u8
