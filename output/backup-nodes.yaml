@@ -1,4 +1,4 @@
-# last-updated: 2026-08-19T19:18:16Z
+# last-updated: 2026-08-19T21:04:10Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -653,13 +653,6 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 Netherlands - 13
   password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: 92.112.126.90
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 Netherlands - 12
-  password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: 92.112.126.90
   tfo: false
@@ -1381,3 +1374,17 @@ proxies:
   port: 443
   server: 82.38.31.57
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 004 | ⚡ 643.00ms
+  network: ws
+  port: 13118
+  server: 140.83.57.20
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  ws-opts:
+    headers:
+      Host: sg.11160321.de5.net
+    path: /
