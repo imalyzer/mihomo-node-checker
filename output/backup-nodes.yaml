@@ -1,4 +1,4 @@
-# last-updated: 2026-08-19T18:00:27Z
+# last-updated: 2026-08-19T19:18:16Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -1339,12 +1339,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 001 | ⚡ 391.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
 - name: 🇯🇵 JP 003 | ⚡ 396.00ms
   password: AE62539071
   port: 443
@@ -1380,4 +1374,10 @@ proxies:
   password: amazonskr05
   port: 443
   server: 15.237.177.224
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 001 | ⚡ 400.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.57
   type: ss
