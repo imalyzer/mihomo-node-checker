@@ -1,4 +1,4 @@
-# last-updated: 2026-08-19T09:56:48Z
+# last-updated: 2026-08-19T11:04:20Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
@@ -611,13 +611,6 @@ proxies:
   skip-cert-verify: false
   sni: classic-pug.rooster465.autos
   type: trojan
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸 US 010 | ⚡ 436.00ms
-  password: amazonskr05
-  port: 443
-  server: 18.189.171.163
-  type: ss
 - name: 🇯🇵 JP 003 | ⚡ 441.00ms
   password: FH72359861
   port: 443
@@ -841,4 +834,10 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 001 | ⚡ 251.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
   type: ss
