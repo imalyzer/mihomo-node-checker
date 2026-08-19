@@ -1,4 +1,4 @@
-# last-updated: 2026-08-19T08:01:15Z
+# last-updated: 2026-08-19T09:56:48Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -469,13 +469,6 @@ proxies:
   skip-cert-verify: false
   sni: internal-sunbird.rooster465.autos
   type: trojan
-- name: 🇰🇷KR-3.38.106.2-0522 | 23.733MB
-  password: ND91608427
-  port: 443
-  server: 3.38.106.2
-  skip-cert-verify: false
-  sni: communal-sunbird.rooster465.autos
-  type: trojan
 - name: 🇭🇰HK-91.199.84.120-0498 | 13.291MB
   password: ND91608427
   port: 443
@@ -550,3 +543,9 @@ proxies:
   skip-cert-verify: false
   sni: moral-buzzard.rooster465.autos
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⚡ 270.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.218
+  type: ss

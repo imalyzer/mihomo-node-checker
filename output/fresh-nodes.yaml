@@ -1,13 +1,7 @@
-# last-updated: 2026-08-19T08:01:15Z
+# last-updated: 2026-08-19T09:56:48Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 270.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.218
-  type: ss
 - name: 🇯🇵 JP 005 | ⚡ 493.00ms
   password: ND91608427
   port: 443
@@ -53,13 +47,6 @@ proxies:
   server: 44.246.163.102
   skip-cert-verify: false
   sni: fleet-bonefish.rooster465.autos
-  type: trojan
-- name: 🇰🇷 KR 004 | ⚡ 636.00ms
-  password: ND91608427
-  port: 443
-  server: communal-sunbird.rooster465.autos
-  skip-cert-verify: false
-  sni: communal-sunbird.rooster465.autos
   type: trojan
 - name: 🇫🇷 FR 002 | ⚡ 585.00ms
   password: ND91608427
@@ -237,12 +224,6 @@ proxies:
   server: literate-cow.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- name: 🇰🇷 KR 001 | ⚡ 616.00ms
-  password: AE62539071
-  port: 443
-  server: sacred-hound.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
 - name: 🇦🇺 AU 001 | ⚡ 797.00ms
   password: AE62539071
   port: 443
@@ -363,12 +344,6 @@ proxies:
   skip-cert-verify: false
   sni: eager-camel.rooster465.autos
   type: trojan
-- name: 🇰🇷 KR 001 | ⚡ 593.00ms
-  password: FH72359861
-  port: 443
-  server: massive-ocelot.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
 - name: 🇮🇪 IE 001 | ⚡ 314.00ms
   password: FH72359861
   port: 443
@@ -409,13 +384,6 @@ proxies:
   server: primary-leech.rooster465.autos
   skip-cert-verify: false
   sni: primary-leech.rooster465.autos
-  type: trojan
-- name: 🇰🇷KR-13.125.144.78-4569 | 19.331MB
-  password: AE62539071
-  port: 443
-  server: viable-serval.rooster465.autos
-  skip-cert-verify: false
-  sni: viable-serval.rooster465.autos
   type: trojan
 - name: 🇭🇰HK-91.199.84.155-0392 | 3.206MB
   password: FH72359861
@@ -513,13 +481,6 @@ proxies:
   server: light-filly.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- name: 🇰🇷KR-43.202.61.210-0399 | 24.528MB
-  password: FH72359861
-  port: 443
-  server: 43.202.61.210
-  skip-cert-verify: false
-  sni: loyal-molly.rooster465.autos
-  type: trojan
 - name: 🇯🇵JP-13.113.131.176-1663 | 30.28MB
   password: FH72359861
   port: 443
@@ -549,13 +510,6 @@ proxies:
   port: 443
   server: summary-firefly.rooster465.autos
   skip-cert-verify: false
-  type: trojan
-- name: 🇰🇷KR-43.202.61.210-0397 | 25.178MB
-  password: FH72359861
-  port: 443
-  server: loyal-molly.rooster465.autos
-  skip-cert-verify: false
-  sni: loyal-molly.rooster465.autos
   type: trojan
 - name: 🇯🇵JP-52.195.225.156-0398 | 30.277MB
   password: FH72359861
@@ -754,12 +708,6 @@ proxies:
   server: grateful-crawdad.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇺🇸US-18.188.213.207-0104 | 121.969MB
-  password: amazonskr05
-  port: 443
-  server: 18.188.213.207
-  type: ss
 - name: 🇯🇵JP-3.113.14.127-1342 | 27.628MB
   password: FH72359861
   port: 443
@@ -844,3 +792,53 @@ proxies:
   server: right-seahorse.rooster465.autos
   skip-cert-verify: false
   type: trojan
+- name: 🇯🇵 JP 004 | ⚡ 499.00ms
+  password: AE62539071
+  port: 443
+  server: central-jawfish.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 510.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.184
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.186-0149 | 50.446MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  type: ss
+- country: 🇺🇸US
+  name: 🇺🇸 US 004 | ⚡ 137.00ms
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.118
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇬🇧 GB 001 | ⚡ 391.00ms
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  type: ss
+- name: 🇯🇵 JP 003 | ⚡ 396.00ms
+  password: AE62539071
+  port: 443
+  server: awaited-lark.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇫🇷 FR 002 | ⚡ 413.00ms
+  password: PQ05174892
+  port: 443
+  server: lucky-marmot.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 001 | ⚡ 423.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.187
+  type: ss
