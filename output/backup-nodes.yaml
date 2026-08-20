@@ -1,4 +1,4 @@
-# last-updated: 2026-08-20T08:09:49Z
+# last-updated: 2026-08-20T10:09:25Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -849,13 +849,6 @@ proxies:
   server: unbiased-garfish.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- name: 🇸🇬 SG 002 | ⚡ 462.00ms
-  password: AE62539071
-  port: 443
-  server: integral-quetzal.rooster465.autos
-  skip-cert-verify: false
-  sni: integral-quetzal.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⬆️ 0.00MB/s
   password: VpKABcOpNNA0l5G2AVOmw8
@@ -1031,12 +1024,6 @@ proxies:
   password: FH72359861
   port: 443
   server: funny-squid.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 🇸🇬 SG 002 | ⚡ 515.00ms
-  password: FH72359861
-  port: 443
-  server: worthy-perch.rooster465.autos
   skip-cert-verify: false
   type: trojan
 - name: 🇮🇪 IE 001 | ⚡ 327.00ms
@@ -1324,14 +1311,6 @@ proxies:
   port: 8080
   server: 82.38.31.186
   type: ss
-- country: 🇺🇸US
-  name: 🇺🇸 US 004 | ⚡ 137.00ms
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: 🇯🇵 JP 003 | ⚡ 396.00ms
   password: AE62539071
   port: 443
@@ -1399,3 +1378,22 @@ proxies:
   ws-headers:
     HOST: rush-6it6b.teeopp.quest
   ws-path: /video/kz49hf/gbin5jve.m3u8
+- name: 🇯🇵 JP 002 | ⚡ 469.00ms
+  password: FH72359861
+  port: 443
+  server: settled-camel.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇯🇵 JP 003 | ⚡ 474.00ms
+  password: HC04361579
+  port: 443
+  server: driven-doberman.rooster465.autos
+  skip-cert-verify: false
+  sni: driven-doberman.rooster465.autos
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇫🇷 FR 001 | ⚡ 319.00ms
+  password: amazonskr05
+  port: 443
+  server: 15.237.189.197
+  type: ss
