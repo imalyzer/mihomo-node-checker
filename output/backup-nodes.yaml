@@ -1,4 +1,4 @@
-# last-updated: 2026-08-20T21:10:30Z
+# last-updated: 2026-08-20T23:04:21Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -978,12 +978,6 @@ proxies:
   server: helping-shark.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP-176.97.73.215-0192 | 25.307MB
-  password: ma6zc4JoLRJA
-  port: 8388
-  server: 176.97.73.215
-  type: ss
 - name: 🇯🇵JP-18.177.142.108-0390 | 30.882MB
   password: FH72359861
   port: 443
@@ -1395,4 +1389,11 @@ proxies:
   server: 109.206.241.10
   skip-cert-verify: false
   sni: russiapower.accesscam.org
+  type: trojan
+- name: 🇫🇷 FR 001 | ⚡ 360.00ms
+  password: PQ05174892
+  port: 443
+  server: lucky-marmot.rooster465.autos
+  skip-cert-verify: false
+  sni: lucky-marmot.rooster465.autos
   type: trojan
