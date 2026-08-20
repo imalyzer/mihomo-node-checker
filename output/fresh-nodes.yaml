@@ -1,25 +1,7 @@
-# last-updated: 2026-08-20T10:09:25Z
+# last-updated: 2026-08-20T12:02:00Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
-- name: 🇯🇵 JP 005 | ⚡ 493.00ms
-  password: ND91608427
-  port: 443
-  server: nearby-egret.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇸🇬 SG 001 | ⚡ 597.00ms
-  network: tcp
-  port: 18000
-  server: 149.88.23.202
-  skip-cert-verify: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - name: 🇯🇵 JP 006 | ⚡ 443.00ms
   password: ND91608427
   port: 443
@@ -849,4 +831,16 @@ proxies:
   password: amazonskr05
   port: 443
   server: 15.237.189.197
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 004 | ⚡ 491.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 358.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
   type: ss
