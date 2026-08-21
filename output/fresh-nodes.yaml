@@ -1,4 +1,4 @@
-# last-updated: 2026-08-21T08:09:25Z
+# last-updated: 2026-08-21T10:21:38Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
@@ -8,13 +8,6 @@ proxies:
   server: devoted-heron.rooster465.autos
   skip-cert-verify: false
   sni: devoted-heron.rooster465.autos
-  type: trojan
-- name: 🇯🇵 JP 006 | ⚡ 384.00ms
-  password: ND91608427
-  port: 443
-  server: casual-bee.rooster465.autos
-  skip-cert-verify: false
-  sni: casual-bee.rooster465.autos
   type: trojan
 - name: 🇺🇸 US 010 | ⚡ 231.00ms
   password: ND91608427
@@ -211,14 +204,6 @@ proxies:
   port: 443
   server: 173.244.56.9
   type: ss
-- country: 🇺🇸 US
-  name: 🇯🇵 JP 004 | ⚡ 488.00ms
-  password: ND91608427
-  port: 443
-  server: casual-bee.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: 🇯🇵 JP 005 | ⚡ 493.00ms-2
   password: AE62539071
   port: 443
@@ -827,4 +812,18 @@ proxies:
   port: 443
   server: upward-yak.rooster465.autos
   skip-cert-verify: false
+  type: trojan
+- name: 🇯🇵 JP 007 | ⚡ 438.00ms
+  password: FH72359861
+  port: 443
+  server: many-pangolin.rooster465.autos
+  skip-cert-verify: false
+  sni: many-pangolin.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 008 | ⚡ 439.00ms
+  password: HC04361579
+  port: 443
+  server: exact-sawfish.rooster465.autos
+  skip-cert-verify: false
+  sni: exact-sawfish.rooster465.autos
   type: trojan
