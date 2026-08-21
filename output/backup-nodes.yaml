@@ -1,4 +1,4 @@
-# last-updated: 2026-08-21T18:07:46Z
+# last-updated: 2026-08-21T19:57:24Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -913,12 +913,6 @@ proxies:
   server: together-dingo.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- name: 🇳🇱NL-89.39.70.120-1651 | 30.621MB
-  password: FH72359861
-  port: 443
-  server: pro-crane.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
@@ -1065,20 +1059,6 @@ proxies:
   skip-cert-verify: false
   sni: needed-gelding.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA 003 | ⚡ 286.00ms
-  network: ws
-  port: 443
-  server: rush-6it6b.teeopp.quest
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-6it6b.teeopp.quest
-    path: /
 - name: 🇯🇵JP-52.195.215.144-5194 | 27.412MB
   password: FH72359861
   port: 443
@@ -1371,4 +1351,18 @@ proxies:
   server: champion-panther.rooster465.autos
   skip-cert-verify: false
   sni: champion-panther.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 013 | ⚡ 450.00ms
+  password: HC04361579
+  port: 443
+  server: pet-albacore.rooster465.autos
+  skip-cert-verify: false
+  sni: pet-albacore.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 014 | ⚡ 455.00ms
+  password: FH72359861
+  port: 443
+  server: helping-shark.rooster465.autos
+  skip-cert-verify: false
+  sni: helping-shark.rooster465.autos
   type: trojan
