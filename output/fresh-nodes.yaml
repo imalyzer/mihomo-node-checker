@@ -1,4 +1,4 @@
-# last-updated: 2026-08-21T03:35:08Z
+# last-updated: 2026-08-21T05:54:44Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
@@ -735,20 +735,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 JP 004 | ⚡ 643.00ms
-  network: ws
-  port: 13118
-  server: 140.83.57.20
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
-  ws-opts:
-    headers:
-      Host: sg.11160321.de5.net
-    path: /
-- alterId: 0
-  cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
@@ -842,4 +828,11 @@ proxies:
   port: 443
   server: sacred-shepherd.rooster465.autos
   skip-cert-verify: false
+  type: trojan
+- name: 🇯🇵 JP 003 | ⚡ 431.00ms
+  password: EQ30679154
+  port: 443
+  server: wealthy-gobbler.rooster465.autos
+  skip-cert-verify: false
+  sni: wealthy-gobbler.rooster465.autos
   type: trojan
