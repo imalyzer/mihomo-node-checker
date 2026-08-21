@@ -1,4 +1,4 @@
-# last-updated: 2026-08-21T16:10:35Z
+# last-updated: 2026-08-21T18:07:46Z
 # node-count: 200
 # note: union of stable+fresh
 proxies:
@@ -194,12 +194,6 @@ proxies:
   server: 146.70.61.37
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.192-0124 | 56.67MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.15-0113 | 75.603MB
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
@@ -352,12 +346,6 @@ proxies:
   skip-cert-verify: false
   sni: ace-starling.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 301.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.191
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.219-0176 | 15.369MB
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -613,12 +601,6 @@ proxies:
   skip-cert-verify: false
   sni: devoted-heron.rooster465.autos
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.210-0127 | 53.23MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.210
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 324.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -1369,4 +1351,24 @@ proxies:
   server: definite-gazelle.rooster465.autos
   skip-cert-verify: false
   sni: definite-gazelle.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 011 | ⚡ 448.00ms
+  password: HC04361579
+  port: 443
+  server: legible-ocelot.rooster465.autos
+  skip-cert-verify: false
+  sni: legible-ocelot.rooster465.autos
+  type: trojan
+- name: 🇵🇱 PL 001 | ⚡ 449.00ms
+  password: EQ30679154
+  port: 443
+  server: pretty-mollusk.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇯🇵 JP 012 | ⚡ 450.00ms
+  password: FH72359861
+  port: 443
+  server: champion-panther.rooster465.autos
+  skip-cert-verify: false
+  sni: champion-panther.rooster465.autos
   type: trojan
