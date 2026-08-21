@@ -1,14 +1,7 @@
-# last-updated: 2026-08-21T19:57:24Z
+# last-updated: 2026-08-21T21:02:49Z
 # node-count: 120
 # note: streak<3 or newly accepted
 proxies:
-- name: 🇫🇷 FR 002 | ⚡ 585.00ms
-  password: ND91608427
-  port: 443
-  server: fancy-skink.rooster465.autos
-  skip-cert-verify: false
-  sni: fancy-skink.rooster465.autos
-  type: trojan
 - country: 🇺🇸US
   name: 🇫🇷 FR 002 | ⚡ 417.00ms
   password: QV31589740
@@ -809,4 +802,10 @@ proxies:
   server: helping-shark.rooster465.autos
   skip-cert-verify: false
   sni: helping-shark.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 015 | ⚡ 458.00ms
+  password: PQ05174892
+  port: 443
+  server: together-amoeba.rooster465.autos
+  skip-cert-verify: false
   type: trojan
