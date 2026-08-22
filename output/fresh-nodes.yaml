@@ -1,5 +1,5 @@
-# last-updated: 2026-08-22T09:20:15Z
-# node-count: 56
+# last-updated: 2026-08-22T11:06:44Z
+# node-count: 60
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -257,21 +257,6 @@ proxies:
   port: 8080
   server: 82.38.31.179
   type: ss
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: asia.cendora.ru
-  name: 🇮🇳 IN 001 | ⚡ 590.00ms
-  port: 443
-  reality-opts:
-    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
-    short-id: e53048e82bb20077
-  server: 5.253.28.189
-  servername: asia.cendora.ru
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 005 | ⚡ 86.00ms
   password: eDfN7SODQceIOmIAbtJJtK
@@ -336,18 +321,6 @@ proxies:
   server: pro-crane.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 009 | ⚡ 139.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 399.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -472,18 +445,6 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 004 | ⚡ 866.00ms
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
 - client-fingerprint: random
   host: deepl.com
   name: 🇺🇸 US 014 | ⬆️ 0.00MB/s
@@ -504,3 +465,76 @@ proxies:
   port: 13979
   server: 221.139.79.57
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⬆️ 0.00MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 016 | ⚡ 112.00ms
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 364.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
+- name: 🇵🇱PL-202.78.163.100-4881 | 16.732MB
+  password: AE62539071
+  port: 443
+  server: enough-basilisk.rooster465.autos
+  skip-cert-verify: false
+  sni: enough-basilisk.rooster465.autos
+  type: trojan
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_14 ⇽中转_0@13
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇦 CA 016 | ⚡ 1325.00ms
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      HOST: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_12 ⇽中转_0@11
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
