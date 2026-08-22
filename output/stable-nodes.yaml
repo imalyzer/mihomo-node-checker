@@ -1,4 +1,4 @@
-# last-updated: 2026-08-22T17:10:03Z
+# last-updated: 2026-08-22T18:01:54Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -396,20 +396,6 @@ proxies:
   port: 42982
   server: autodiscover.fuzzyaytor.cyou
   type: ss
-- alterId: 0
-  cipher: auto
-  name: RELAY-104.21.43.92-0590 | 9.845MB
-  network: ws
-  port: 443
-  server: rush-w1niu.teeopp.online
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-w1niu.teeopp.online
-    path: /
 - name: 🇭🇰HK-91.199.84.120-0493 | 4.723MB
   password: ND91608427
   port: 443
@@ -558,4 +544,10 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 193.29.139.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-142.4.216.225-5116 | 12.669MB
+  password: ytw2awn
+  port: 443
+  server: 142.4.216.225
   type: ss

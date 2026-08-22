@@ -1,5 +1,5 @@
-# last-updated: 2026-08-22T17:10:03Z
-# node-count: 131
+# last-updated: 2026-08-22T18:01:54Z
+# node-count: 133
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -396,20 +396,6 @@ proxies:
   port: 42982
   server: autodiscover.fuzzyaytor.cyou
   type: ss
-- alterId: 0
-  cipher: auto
-  name: RELAY-104.21.43.92-0590 | 9.845MB
-  network: ws
-  port: 443
-  server: rush-w1niu.teeopp.online
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-w1niu.teeopp.online
-    path: /
 - name: 🇭🇰HK-91.199.84.120-0493 | 4.723MB
   password: ND91608427
   port: 443
@@ -636,19 +622,6 @@ proxies:
   sni: 64.94.95.118
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇬🇧 GB 001 | ⚡ 687.00ms
-  network: tcp
-  port: 22324
-  server: 66.163.117.58
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 004 | ⚡ 87.00ms
   password: G5p6ww4o67HB
@@ -896,12 +869,6 @@ proxies:
   sni: game-firefly.rooster465.autos
   type: trojan
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-4905 | 0.021MB
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- cipher: aes-256-cfb
   name: 🇹🇭 TH 001 | ⚡ 551.00ms
   password: 7eadc6dbe2ae
   port: 65443
@@ -920,30 +887,11 @@ proxies:
   port: 6123
   server: 211.178.105.134
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 001 | ⚡ 756.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-4877 | 0.022MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 002 | ⚡ 673.00ms
   password: qwerREWQ@@
   port: 13979
   server: 221.139.79.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 364.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.199
   type: ss
 - name: 🇵🇱PL-202.78.163.100-4881 | 16.732MB
   password: AE62539071
@@ -982,24 +930,84 @@ proxies:
   port: 8388
   server: 108.181.58.239
   type: ss
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: asia.cendora.ru
-  name: 🇮🇳 IN 001 | ⚡ 899.00ms
-  port: 443
-  reality-opts:
-    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
-    short-id: e53048e82bb20077
-  server: 5.253.28.189
-  servername: asia.cendora.ru
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 004 | ⚡ 947.00ms
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: switcher-nick-croquet.freesocks.work
+  type: ss
+- client-fingerprint: random
+  host: deepl.com
+  name: 🇺🇸 US 001 | ⬆️ 0.00MB/s
+  port: 40443
+  reality-opts:
+    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
+    short-id: aae8
+  server: 194.55.189.249
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇳 CN 001 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⬆️ 0.00MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 017 | ⚡ 85.00ms
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_55 ⇽中转_0@54
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 002 | ⚡ 349.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+- cipher: chacha20-ietf
+  name: 🇭🇰 HK 003 | ⚡ 536.00ms
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: hamedvpns 11
+  password: eDfN7SODQceIOmIAbtJJtK
+  port: 443
+  server: 198.98.53.130
+  tfo: false
   type: ss
