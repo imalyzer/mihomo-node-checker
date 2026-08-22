@@ -1,4 +1,4 @@
-# last-updated: 2026-08-22T12:01:05Z
+# last-updated: 2026-08-22T14:00:23Z
 # node-count: 137
 # note: union of stable+fresh
 proxies:
@@ -930,12 +930,6 @@ proxies:
   port: 5601
   server: 51.222.155.113
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-114.25.9.70-4918 | 1.745MB
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
 - name: 🇵🇱 PL 002 | ⚡ 477.00ms
   password: AE62539071
   port: 443
@@ -1054,15 +1048,32 @@ proxies:
   port: 8388
   server: 108.181.58.239
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-156.245.232.239-4875 | 0.013MB
-  network: ws
-  port: 35043
-  server: 156.245.232.239
+- client-fingerprint: random
+  host: deepl.com
+  name: 🇺🇸 US 012 | ⬆️ 0.00MB/s
+  port: 40443
+  reality-opts:
+    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
+    short-id: aae8
+  server: 194.55.189.249
+  servername: deepl.com
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: asia.cendora.ru
+  name: 🇮🇳 IN 001 | ⚡ 899.00ms
+  port: 443
+  reality-opts:
+    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
+    short-id: e53048e82bb20077
+  server: 5.253.28.189
+  servername: asia.cendora.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
