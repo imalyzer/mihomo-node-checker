@@ -1,5 +1,5 @@
-# last-updated: 2026-08-22T11:06:44Z
-# node-count: 140
+# last-updated: 2026-08-22T12:01:05Z
+# node-count: 137
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -918,20 +918,6 @@ proxies:
   port: 8080
   server: 193.29.139.204
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 009 | ⚡ 648.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 DE 009 | ⚡ 502.00ms
-  password: eQvKkykBEbCky5p4BVghO0
-  port: 45640
-  server: 144.31.168.176
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧 GB 004 | ⬆️ 0.00MB/s
   password: RexnBgU7EV5ADxG
@@ -956,13 +942,6 @@ proxies:
   server: game-firefly.rooster465.autos
   skip-cert-verify: false
   sni: game-firefly.rooster465.autos
-  type: trojan
-- name: LV-85.159.228.177-1036 | 25.352MB
-  password: kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi
-  port: 443
-  server: tr-latvia1.unlimited-access.ru
-  skip-cert-verify: false
-  sni: tr-latvia1.unlimited-access.ru
   type: trojan
 - cipher: aes-256-cfb
   name: 🇰🇷KR-218.237.185.230-4905 | 0.021MB
@@ -1002,31 +981,11 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
-- client-fingerprint: random
-  host: deepl.com
-  name: 🇺🇸 US 014 | ⬆️ 0.00MB/s
-  port: 40443
-  reality-opts:
-    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
-    short-id: aae8
-  server: 194.55.189.249
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 002 | ⚡ 673.00ms
   password: qwerREWQ@@
   port: 13979
   server: 221.139.79.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⬆️ 0.00MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
   type: ss
 - alterId: 0
   cipher: auto
@@ -1053,18 +1012,6 @@ proxies:
   skip-cert-verify: false
   sni: enough-basilisk.rooster465.autos
   type: trojan
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_14 ⇽中转_0@13
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
@@ -1083,15 +1030,39 @@ proxies:
     headers:
       HOST: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- alterId: 2
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
+  country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_12 ⇽中转_0@11
+  name: 🇺🇸US_55 ⇽中转_0@54
   network: tcp
-  port: 30835
-  server: v35.hdacd.com
+  port: 180
+  server: 82.198.246.37
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-108.181.126.122-0240 | 34.98MB
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-108.181.58.239-0136 | 29.595MB
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-156.245.232.239-4875 | 0.013MB
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    path: /
