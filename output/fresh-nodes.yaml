@@ -1,5 +1,5 @@
-# last-updated: 2026-08-22T18:01:54Z
-# node-count: 53
+# last-updated: 2026-08-22T19:19:10Z
+# node-count: 50
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -94,21 +94,6 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   server: 169.40.42.16
-  servername: yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: yahoo.com
-  name: 🇺🇸 US 008 | ⚡ 104.00ms
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.133
   servername: yahoo.com
   skip-cert-verify: false
   tfo: false
@@ -306,12 +291,6 @@ proxies:
   port: 7001
   server: 94.156.250.148
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-51.222.155.113-0407 | 7.869MB
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 51.222.155.113
-  type: ss
 - name: 🇵🇱 PL 002 | ⚡ 477.00ms
   password: AE62539071
   port: 443
@@ -337,12 +316,6 @@ proxies:
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 002 | ⚡ 673.00ms
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
   type: ss
 - name: 🇵🇱PL-202.78.163.100-4881 | 16.732MB
   password: AE62539071
@@ -401,18 +374,6 @@ proxies:
   tls: true
   type: vless
   uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇳 CN 001 | ⬆️ 0.00MB/s
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 TW 001 | ⬆️ 0.00MB/s
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -431,29 +392,11 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_55 ⇽中转_0@54
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 TW 002 | ⚡ 349.00ms
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf
-  name: 🇭🇰 HK 003 | ⚡ 536.00ms
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: hamedvpns 11
@@ -462,3 +405,45 @@ proxies:
   server: 198.98.53.130
   tfo: false
   type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: deepl.com
+  name: 🇮🇳 IN 001 | ⬆️ 0.00MB/s
+  port: 40443
+  reality-opts:
+    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
+    short-id: 84fc
+  server: preview.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
+- client-fingerprint: random
+  host: deepl.com
+  name: 🇫🇷 FR 003 | ⬆️ 0.00MB/s
+  port: 40443
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+    short-id: a8ae
+  server: 194.76.154.31
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN-152.67.8.205-4877 | 0.022MB
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-4877 | 0.022MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
