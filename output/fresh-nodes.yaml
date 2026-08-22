@@ -1,5 +1,5 @@
-# last-updated: 2026-08-22T22:03:22Z
-# node-count: 55
+# last-updated: 2026-08-22T23:08:49Z
+# node-count: 59
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -493,4 +493,34 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.199
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇳 CN 001 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 015 | ⚡ 274.00ms
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 540.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 001 | ⚡ 599.00ms
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
   type: ss
