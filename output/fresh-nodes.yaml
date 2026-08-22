@@ -1,5 +1,5 @@
-# last-updated: 2026-08-22T03:16:14Z
-# node-count: 49
+# last-updated: 2026-08-22T05:14:17Z
+# node-count: 48
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -410,20 +410,6 @@ proxies:
   port: 443
   server: 82.38.31.15
   type: ss
-- client-fingerprint: random
-  host: deepl.com
-  name: 🇺🇸 US 011 | ⚡ 632.00ms
-  port: 40443
-  reality-opts:
-    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
-    short-id: aae8
-  server: 194.55.189.249
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 010 | ⚡ 701.00ms
   password: QCXDxuDlTTMD7jtgHUjIoj
