@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-21T23:59:00Z",
+  "updated_at": "2026-08-22T03:16:14Z",
   "nodes": {
     "ss|156.146.38.170|443|shadowsocks|||||": {
-      "streak": 200,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 201,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -15,8 +15,8 @@
       }
     },
     "vmess|38.110.1.246|18000|f8c8dc3d-0d37-46b0-8b34-a7232882fcfe||tcp|||": {
-      "streak": 200,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 201,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -34,8 +34,8 @@
       }
     },
     "vmess|67.220.85.46|18000|f8c8dc3d-0d37-46b0-8b34-a7232882fcfe||tcp|||": {
-      "streak": 200,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 201,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -53,8 +53,8 @@
       }
     },
     "ss|156.146.38.169|443|shadowsocks|||||": {
-      "streak": 200,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 201,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -66,8 +66,8 @@
       }
     },
     "ss|156.146.38.167|443|shadowsocks|||||": {
-      "streak": 200,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 201,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -79,8 +79,8 @@
       }
     },
     "vmess|67.220.95.3|18000|f8c8dc3d-0d37-46b0-8b34-a7232882fcfe||tcp|||": {
-      "streak": 200,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 201,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -98,8 +98,8 @@
       }
     },
     "ss|156.146.38.168|443|shadowsocks|||||": {
-      "streak": 200,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 201,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -111,8 +111,8 @@
       }
     },
     "ss|149.22.95.183|443|shadowsocks|||||": {
-      "streak": 200,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 201,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -124,8 +124,8 @@
       }
     },
     "ss|209.46.102.22|8388|1hhrqrokj3ag|||||": {
-      "streak": 200,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 201,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "country": "🇺🇸US",
@@ -137,8 +137,8 @@
       }
     },
     "ss|149.22.87.240|443|shadowsocks|||||": {
-      "streak": 200,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 201,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -150,8 +150,8 @@
       }
     },
     "ss|149.22.87.241|443|shadowsocks|||||": {
-      "streak": 200,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 201,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -163,8 +163,8 @@
       }
     },
     "ss|37.19.198.160|443|shadowsocks|||||": {
-      "streak": 199,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 200,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇺🇸 US 006 | ⚡ 116.00ms",
@@ -175,8 +175,8 @@
       }
     },
     "ss|37.19.198.244|443|shadowsocks|||||": {
-      "streak": 199,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 200,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇺🇸 US 007 | ⚡ 122.00ms",
@@ -187,8 +187,8 @@
       }
     },
     "ss|82.38.31.174|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 199,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 200,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 013 | ⚡ 475.00ms",
@@ -199,8 +199,8 @@
       }
     },
     "ss|82.38.31.2|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 199,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 200,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 014 | ⚡ 531.00ms",
@@ -211,8 +211,8 @@
       }
     },
     "ss|102.37.156.224|443|aduB9HGxQHjA2SBMRjkHX6|||||": {
-      "streak": 199,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 200,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇿🇦 ZA 001 | ⚡ 1030.00ms",
@@ -223,8 +223,8 @@
       }
     },
     "ss|37.19.198.236|443|shadowsocks|||||": {
-      "streak": 197,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 198,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇺🇸 US 009 | ⚡ 84.00ms",
@@ -235,8 +235,8 @@
       }
     },
     "ss|82.38.31.174|443|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 197,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 198,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 010 | ⚡ 313.00ms",
@@ -247,8 +247,8 @@
       }
     },
     "ss|82.38.31.34|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 196,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 197,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 016 | ⚡ 260.00ms",
@@ -259,8 +259,8 @@
       }
     },
     "ss|102.133.165.160|16233|Xsy8Ox4yOV3xLlpxtjzs3X|||||": {
-      "streak": 196,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 197,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇿🇦 ZA 001 | ⚡ 1378.00ms",
@@ -271,8 +271,8 @@
       }
     },
     "ss|193.29.139.235|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 193,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 194,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 008 | ⚡ 466.00ms",
@@ -283,8 +283,8 @@
       }
     },
     "ss|82.38.31.149|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 192,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 193,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 008 | ⚡ 284.00ms",
@@ -295,8 +295,8 @@
       }
     },
     "ss|82.38.31.48|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 192,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 193,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 009 | ⚡ 287.00ms",
@@ -307,8 +307,8 @@
       }
     },
     "ss|82.38.31.155|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 191,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 192,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 013 | ⚡ 579.00ms",
@@ -319,8 +319,8 @@
       }
     },
     "ss|82.38.31.49|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 191,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 192,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 014 | ⚡ 1072.00ms",
@@ -331,8 +331,8 @@
       }
     },
     "ss|109.201.152.181|443|shadowsocks|||||": {
-      "streak": 190,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 191,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-cfb",
         "name": "🇳🇱NL-109.201.152.181-0152 | 39.477MB",
@@ -343,8 +343,8 @@
       }
     },
     "ss|146.70.61.37|8080|14fFPrbezE3HDZzsMOr6|||||": {
-      "streak": 187,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 188,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "rc4-md5",
         "name": "🇬🇧 GB 002 | ⚡ 229.00ms",
@@ -354,22 +354,9 @@
         "type": "ss"
       }
     },
-    "trojan|upright-impala.rooster465.autos|443|ND91608427|||upright-impala.rooster465.autos||": {
-      "streak": 167,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 004 | ⚡ 410.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "upright-impala.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "upright-impala.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "ss|82.38.31.217|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 167,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 168,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.217-5756 | 50.107MB",
@@ -380,8 +367,8 @@
       }
     },
     "ss|82.38.31.10|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 166,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 167,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.10-5771 | 0.494MB",
@@ -392,8 +379,8 @@
       }
     },
     "ss|82.38.31.36|443|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 166,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 167,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.36-5769 | 46.522MB",
@@ -404,8 +391,8 @@
       }
     },
     "trojan|fleet-bonefish.rooster465.autos|443|ND91608427|||fleet-bonefish.rooster465.autos||": {
-      "streak": 165,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 166,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇺🇸US-44.246.163.102-0440 | 28.104MB",
         "password": "ND91608427",
@@ -417,8 +404,8 @@
       }
     },
     "trojan|discrete-basilisk.rooster465.autos|443|ND91608427|||discrete-basilisk.rooster465.autos||": {
-      "streak": 165,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 166,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇵🇱PL-202.78.163.148-2366 | 27.565MB",
         "password": "ND91608427",
@@ -429,24 +416,9 @@
         "type": "trojan"
       }
     },
-    "trojan|great-krill.rooster465.autos|443|QV31589740|||great-krill.rooster465.autos||": {
-      "streak": 164,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "country": "🇺🇸US",
-        "name": "🇫🇷 FR 002 | ⚡ 326.00ms",
-        "password": "QV31589740",
-        "port": 443,
-        "server": "great-krill.rooster465.autos",
-        "skip-cert-verify": true,
-        "sni": "great-krill.rooster465.autos",
-        "type": "trojan",
-        "udp": true
-      }
-    },
     "ss|82.38.31.35|443|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 164,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 165,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 005 | ⚡ 437.00ms",
@@ -457,8 +429,8 @@
       }
     },
     "ss|82.38.31.176|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 164,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 165,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 006 | ⚡ 467.00ms",
@@ -469,8 +441,8 @@
       }
     },
     "trojan|upright-hamster.rooster465.autos|443|ND91608427|||upright-hamster.rooster465.autos||": {
-      "streak": 164,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 165,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇭🇰 HK 006 | ⚡ 577.00ms",
         "password": "ND91608427",
@@ -481,35 +453,9 @@
         "type": "trojan"
       }
     },
-    "trojan|57.180.13.78|443|ND91608427|||healthy-louse.rooster465.autos||": {
-      "streak": 162,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 007 | ⚡ 360.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "57.180.13.78",
-        "skip-cert-verify": false,
-        "sni": "healthy-louse.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|social-mutt.rooster465.autos|443|ND91608427|||social-mutt.rooster465.autos||": {
-      "streak": 162,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵JP-54.249.34.120-6230 | 27.674MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "social-mutt.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "social-mutt.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "ss|82.38.31.16|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 162,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 163,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.16-0117 | 58.019MB",
@@ -519,22 +465,9 @@
         "type": "ss"
       }
     },
-    "trojan|adjusted-labrador.rooster465.autos|443|ND91608427|||adjusted-labrador.rooster465.autos||": {
-      "streak": 162,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵JP-3.112.15.214-6223 | 20.013MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "adjusted-labrador.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "adjusted-labrador.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "ss|82.38.31.208|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 162,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 163,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.208-0115 | 55.026MB",
@@ -545,8 +478,8 @@
       }
     },
     "ss|82.38.31.35|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 162,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 163,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.35-0111 | 56.67MB",
@@ -556,22 +489,9 @@
         "type": "ss"
       }
     },
-    "trojan|thankful-mustang.rooster465.autos|443|ND91608427|||thankful-mustang.rooster465.autos||": {
-      "streak": 162,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵JP-52.196.121.8-6228 | 9.229MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "thankful-mustang.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "thankful-mustang.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "ss|82.38.31.189|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 162,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 163,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.189-0103 | 56.161MB",
@@ -581,48 +501,9 @@
         "type": "ss"
       }
     },
-    "trojan|sure-humpback.rooster465.autos|443|ND91608427|||sure-humpback.rooster465.autos||": {
-      "streak": 161,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 005 | ⚡ 366.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "sure-humpback.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "sure-humpback.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|picked-guinea.rooster465.autos|443|ND91608427|||picked-guinea.rooster465.autos||": {
-      "streak": 161,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 006 | ⚡ 374.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "picked-guinea.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "picked-guinea.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|real-werewolf.rooster465.autos|443|ND91608427|||real-werewolf.rooster465.autos||": {
-      "streak": 161,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵JP-13.230.118.96-6221 | 29.728MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "real-werewolf.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "real-werewolf.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "trojan|ace-starling.rooster465.autos|443|ND91608427|||ace-starling.rooster465.autos||": {
-      "streak": 161,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 162,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇭🇰HK-185.244.208.13-0179 | 19.401MB",
         "password": "ND91608427",
@@ -634,8 +515,8 @@
       }
     },
     "ss|82.38.31.219|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 160,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 161,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.219-0176 | 15.369MB",
@@ -645,21 +526,9 @@
         "type": "ss"
       }
     },
-    "trojan|better-molly.rooster465.autos|443|ND91608427|||||": {
-      "streak": 160,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵JP-13.231.232.184-6037 | 30.686MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "better-molly.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
     "ss|82.38.31.214|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 159,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 160,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 005 | ⚡ 257.00ms",
@@ -670,8 +539,8 @@
       }
     },
     "ss|82.38.31.205|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 159,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 160,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 006 | ⚡ 273.00ms",
@@ -681,74 +550,9 @@
         "type": "ss"
       }
     },
-    "trojan|3.112.223.141|443|ND91608427|||internal-sunbird.rooster465.autos||": {
-      "streak": 159,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 004 | ⚡ 477.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "3.112.223.141",
-        "skip-cert-verify": false,
-        "sni": "internal-sunbird.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|18.181.164.216|443|ND91608427|||upright-impala.rooster465.autos||": {
-      "streak": 159,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 006 | ⚡ 486.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "18.181.164.216",
-        "skip-cert-verify": false,
-        "sni": "upright-impala.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|3.112.238.99|443|ND91608427|||stunning-mite.rooster465.autos||": {
-      "streak": 159,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 007 | ⚡ 486.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "3.112.238.99",
-        "skip-cert-verify": false,
-        "sni": "stunning-mite.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|57.180.27.225|443|ND91608427|||picked-guinea.rooster465.autos||": {
-      "streak": 159,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 009 | ⚡ 488.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "57.180.27.225",
-        "skip-cert-verify": false,
-        "sni": "picked-guinea.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|perfect-slug.rooster465.autos|443|ND91608427|||perfect-slug.rooster465.autos||": {
-      "streak": 159,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 010 | ⚡ 495.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "perfect-slug.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "perfect-slug.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "trojan|185.244.208.13|443|ND91608427|||ace-starling.rooster465.autos||": {
-      "streak": 159,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 160,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇭🇰 HK 002 | ⚡ 649.00ms",
         "password": "ND91608427",
@@ -760,8 +564,8 @@
       }
     },
     "ss|82.38.31.216|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 158,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 159,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 009 | ⚡ 383.00ms",
@@ -771,48 +575,9 @@
         "type": "ss"
       }
     },
-    "trojan|54.249.34.120|443|ND91608427|||social-mutt.rooster465.autos||": {
-      "streak": 158,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵JP-54.249.34.120-0518 | 30.364MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "54.249.34.120",
-        "skip-cert-verify": false,
-        "sni": "social-mutt.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|healthy-louse.rooster465.autos|443|ND91608427|||healthy-louse.rooster465.autos||": {
-      "streak": 158,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵JP-57.180.13.78-0503 | 29.248MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "healthy-louse.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "healthy-louse.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|internal-sunbird.rooster465.autos|443|ND91608427|||internal-sunbird.rooster465.autos||": {
-      "streak": 158,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵JP-3.112.223.141-0171 | 30.743MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "internal-sunbird.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "internal-sunbird.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "trojan|dynamic-grubworm.rooster465.autos|443|ND91608427|||dynamic-grubworm.rooster465.autos||": {
-      "streak": 158,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 159,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇭🇰HK-91.199.84.120-0498 | 13.291MB",
         "password": "ND91608427",
@@ -823,22 +588,9 @@
         "type": "trojan"
       }
     },
-    "trojan|3.112.15.214|443|ND91608427|||adjusted-labrador.rooster465.autos||": {
-      "streak": 157,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵JP-3.112.15.214-0519 | 30.092MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "3.112.15.214",
-        "skip-cert-verify": false,
-        "sni": "adjusted-labrador.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "ss|193.29.139.223|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 157,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 158,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 003 | ⚡ 375.00ms",
@@ -848,48 +600,9 @@
         "type": "ss"
       }
     },
-    "trojan|13.231.232.184|443|ND91608427|||better-molly.rooster465.autos||": {
-      "streak": 157,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵JP-13.231.232.184-0510 | 29.155MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "13.231.232.184",
-        "skip-cert-verify": false,
-        "sni": "better-molly.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|moral-buzzard.rooster465.autos|443|ND91608427|||moral-buzzard.rooster465.autos||": {
-      "streak": 157,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵JP-18.181.194.227-0166 | 24.55MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "moral-buzzard.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "moral-buzzard.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|definite-ladybird.rooster465.autos|443|UO36402987|||definite-ladybird.rooster465.autos||": {
-      "streak": 157,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇮🇪 IE 001 | ⚡ 428.00ms",
-        "password": "UO36402987",
-        "port": 443,
-        "server": "definite-ladybird.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "definite-ladybird.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "vmess|149.88.23.207|18000|f8c8dc3d-0d37-46b0-8b34-a7232882fcfe||tcp|||": {
-      "streak": 156,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 157,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -906,8 +619,8 @@
       }
     },
     "trojan|relaxed-gull.rooster465.autos|443|ND91608427|||relaxed-gull.rooster465.autos||": {
-      "streak": 156,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 157,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇵🇱PL-202.78.163.248-0155 | 31.052MB",
         "password": "ND91608427",
@@ -919,8 +632,8 @@
       }
     },
     "trojan|202.78.163.248|443|ND91608427|||relaxed-gull.rooster465.autos||": {
-      "streak": 155,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 156,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇵🇱 PL 024 | ⚡ 359.00ms",
         "password": "ND91608427",
@@ -931,22 +644,9 @@
         "type": "trojan"
       }
     },
-    "trojan|18.181.194.227|443|ND91608427|||moral-buzzard.rooster465.autos||": {
-      "streak": 155,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 007 | ⚡ 494.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "18.181.194.227",
-        "skip-cert-verify": false,
-        "sni": "moral-buzzard.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "ss|82.38.31.218|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 154,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 155,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 008 | ⚡ 270.00ms",
@@ -956,21 +656,9 @@
         "type": "ss"
       }
     },
-    "trojan|nearby-egret.rooster465.autos|443|ND91608427|||||": {
-      "streak": 154,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 005 | ⚡ 493.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "nearby-egret.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
     "vmess|149.88.23.202|18000|f8c8dc3d-0d37-46b0-8b34-a7232882fcfe||tcp|||": {
-      "streak": 154,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 155,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -986,35 +674,9 @@
         "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
       }
     },
-    "trojan|stunning-mite.rooster465.autos|443|ND91608427|||stunning-mite.rooster465.autos||": {
-      "streak": 153,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 006 | ⚡ 443.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "stunning-mite.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "stunning-mite.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|devoted-heron.rooster465.autos|443|ND91608427|||devoted-heron.rooster465.autos||": {
-      "streak": 153,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇯🇵 JP 008 | ⚡ 486.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "devoted-heron.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "devoted-heron.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "trojan|44.246.163.102|443|ND91608427|||fleet-bonefish.rooster465.autos||": {
-      "streak": 151,
-      "last_ok_at": "2026-08-21T23:53:31Z",
+      "streak": 152,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇺🇸 US 010 | ⚡ 231.00ms",
         "password": "ND91608427",
@@ -1025,49 +687,9 @@
         "type": "trojan"
       }
     },
-    "trojan|fancy-skink.rooster465.autos|443|ND91608427|||fancy-skink.rooster465.autos||": {
-      "streak": 147,
-      "last_ok_at": "2026-08-21T23:53:31Z",
-      "proxy": {
-        "name": "🇫🇷 FR 002 | ⚡ 585.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "fancy-skink.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "fancy-skink.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|great-krill.rooster465.autos|443|QV31589740|||||": {
-      "streak": 144,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "country": "🇺🇸US",
-        "name": "🇫🇷 FR 002 | ⚡ 417.00ms",
-        "password": "QV31589740",
-        "port": 443,
-        "server": "great-krill.rooster465.autos",
-        "skip-cert-verify": true,
-        "type": "trojan",
-        "udp": true
-      }
-    },
-    "trojan|15.237.137.197|443|ND91608427|||fancy-skink.rooster465.autos||": {
-      "streak": 141,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇫🇷 FR 006 | ⚡ 820.00ms",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "15.237.137.197",
-        "skip-cert-verify": false,
-        "sni": "fancy-skink.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "trojan|202.78.163.148|443|ND91608427|||discrete-basilisk.rooster465.autos||": {
-      "streak": 127,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 128,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇵🇱PL-202.78.163.148-0529 | 30.241MB",
         "password": "ND91608427",
@@ -1078,35 +700,9 @@
         "type": "trojan"
       }
     },
-    "trojan|3.113.24.17|443|ND91608427|||nearby-egret.rooster465.autos||": {
-      "streak": 126,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-3.113.24.17-0524 | 27.158MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "3.113.24.17",
-        "skip-cert-verify": false,
-        "sni": "nearby-egret.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|18.178.132.111|443|ND91608427|||devoted-heron.rooster465.autos||": {
-      "streak": 126,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-18.178.132.111-0525 | 24.182MB",
-        "password": "ND91608427",
-        "port": 443,
-        "server": "18.178.132.111",
-        "skip-cert-verify": false,
-        "sni": "devoted-heron.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "ss|82.38.31.46|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 125,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 126,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 006 | ⚡ 324.00ms",
@@ -1117,8 +713,8 @@
       }
     },
     "ss|92.112.126.90|443|RFK38Cg7APneSB5cWDcpbm|||||": {
-      "streak": 125,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 126,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 Netherlands - 13",
@@ -1130,8 +726,8 @@
       }
     },
     "ss|autodiscover.fuzzyaytor.cyou|42982|yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS|||||": {
-      "streak": 122,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 123,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇺🇸US-217.28.129.81-0456 | 0.0MB",
@@ -1141,22 +737,9 @@
         "type": "ss"
       }
     },
-    "trojan|34.251.228.118|443|UO36402987|||definite-ladybird.rooster465.autos||": {
-      "streak": 119,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇮🇪 IE 003 | ⚡ 487.00ms",
-        "password": "UO36402987",
-        "port": 443,
-        "server": "34.251.228.118",
-        "skip-cert-verify": false,
-        "sni": "definite-ladybird.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "vmess|rush-w1niu.teeopp.online|443|03fcc618-b93d-6796-6aed-8a38c975d581|/|ws|||": {
-      "streak": 115,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 116,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -1177,8 +760,8 @@
       }
     },
     "trojan|91.199.84.120|443|ND91608427|||dynamic-grubworm.rooster465.autos||": {
-      "streak": 115,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 116,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇭🇰HK-91.199.84.120-0493 | 4.723MB",
         "password": "ND91608427",
@@ -1190,8 +773,8 @@
       }
     },
     "ss|173.244.56.6|443|shadowsocks|||||": {
-      "streak": 111,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 112,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -1202,86 +785,9 @@
         "type": "ss"
       }
     },
-    "trojan|18.183.182.132|443|AE62539071|||exciting-grizzly.rooster465.autos||": {
-      "streak": 109,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 003 | ⚡ 367.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "18.183.182.132",
-        "skip-cert-verify": false,
-        "sni": "exciting-grizzly.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|54.95.128.248|443|AE62539071|||engaged-ram.rooster465.autos||": {
-      "streak": 109,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-54.95.128.248-0486 | 20.778MB",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "54.95.128.248",
-        "skip-cert-verify": false,
-        "sni": "engaged-ram.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|polished-imp.rooster465.autos|443|AE62539071|||polished-imp.rooster465.autos||": {
-      "streak": 109,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-13.115.230.84-2573 | 18.926MB",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "polished-imp.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "polished-imp.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|54.64.255.224|443|AE62539071|||maximum-elk.rooster465.autos||": {
-      "streak": 109,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-54.64.255.224-0475 | 17.412MB",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "54.64.255.224",
-        "skip-cert-verify": false,
-        "sni": "maximum-elk.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|kind-stork.rooster465.autos|443|AE62539071|||||": {
-      "streak": 109,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "IE-54.74.159.195-2567 | 14.742MB",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "kind-stork.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|maximum-elk.rooster465.autos|443|AE62539071|||maximum-elk.rooster465.autos||": {
-      "streak": 109,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-54.64.255.224-0478 | 18.473MB",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "maximum-elk.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "maximum-elk.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "trojan|tolerant-mosquito.rooster465.autos|443|AE62539071|||tolerant-mosquito.rooster465.autos||": {
-      "streak": 109,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 110,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇵🇱PL-202.78.163.89-0480 | 8.306MB",
         "password": "AE62539071",
@@ -1292,21 +798,9 @@
         "type": "trojan"
       }
     },
-    "trojan|distinct-quail.rooster465.autos|443|AE62539071|||||": {
-      "streak": 108,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇫🇷 FR 001 | ⚡ 254.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "distinct-quail.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
     "trojan|thorough-falcon.rooster465.autos|443|AE62539071|||||": {
-      "streak": 108,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 109,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇳🇱 NL 008 | ⚡ 261.00ms",
         "password": "AE62539071",
@@ -1316,21 +810,9 @@
         "type": "trojan"
       }
     },
-    "trojan|literate-cow.rooster465.autos|443|AE62539071|||||": {
-      "streak": 108,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 006 | ⚡ 499.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "literate-cow.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
     "trojan|darling-mutt.rooster465.autos|443|AE62539071|||||": {
-      "streak": 108,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 109,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇦🇺 AU 001 | ⚡ 797.00ms",
         "password": "AE62539071",
@@ -1341,8 +823,8 @@
       }
     },
     "trojan|humorous-llama.rooster465.autos|443|AE62539071|||humorous-llama.rooster465.autos||": {
-      "streak": 108,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 109,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇦🇺 AU 002 | ⚡ 893.00ms",
         "password": "AE62539071",
@@ -1354,8 +836,8 @@
       }
     },
     "ss|173.244.56.9|443|shadowsocks|||||": {
-      "streak": 107,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 108,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇺🇸 US 010 | ⚡ 342.00ms",
@@ -1365,22 +847,9 @@
         "type": "ss"
       }
     },
-    "trojan|13.114.122.131|443|AE62539071|||whole-grub.rooster465.autos||": {
-      "streak": 107,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 005 | ⚡ 493.00ms-2",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "13.114.122.131",
-        "skip-cert-verify": false,
-        "sni": "whole-grub.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "trojan|strong-haddock.rooster465.autos|443|AE62539071|||strong-haddock.rooster465.autos||": {
-      "streak": 107,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 108,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇭🇰 HK 004 | ⚡ 673.00ms",
         "password": "AE62539071",
@@ -1392,8 +861,8 @@
       }
     },
     "trojan|upright-bedbug.rooster465.autos|443|AE62539071|||||": {
-      "streak": 107,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 108,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇭🇰 HK 005 | ⚡ 699.00ms",
         "password": "AE62539071",
@@ -1404,8 +873,8 @@
       }
     },
     "ss|141.98.101.181|443|shadowsocks|||||": {
-      "streak": 106,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 107,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇬🇧 GB 003 | ⚡ 293.00ms",
@@ -1416,8 +885,8 @@
       }
     },
     "trojan|relative-locust.rooster465.autos|443|AE62539071|||||": {
-      "streak": 106,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 107,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇵🇱 PL 023 | ⚡ 397.00ms",
         "password": "AE62539071",
@@ -1427,59 +896,9 @@
         "type": "trojan"
       }
     },
-    "trojan|exciting-grizzly.rooster465.autos|443|AE62539071|||exciting-grizzly.rooster465.autos||": {
-      "streak": 106,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 009 | ⚡ 459.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "exciting-grizzly.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "exciting-grizzly.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|premium-weevil.rooster465.autos|443|AE62539071|||||": {
-      "streak": 106,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 010 | ⚡ 464.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "premium-weevil.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|52.68.175.30|443|AE62539071|||on-roughy.rooster465.autos||": {
-      "streak": 105,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-52.68.175.30-0484 | 18.497MB",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "52.68.175.30",
-        "skip-cert-verify": false,
-        "sni": "on-roughy.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|unbiased-garfish.rooster465.autos|443|AE62539071|||||": {
-      "streak": 105,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "IE-54.170.38.205-2568 | 14.958MB",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "unbiased-garfish.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
     "ss|213.109.147.242|62685|VpKABcOpNNA0l5G2AVOmw8|||||": {
-      "streak": 102,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 103,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 005 | ⬆️ 0.00MB/s",
@@ -1490,8 +909,8 @@
       }
     },
     "ss|37.19.198.243|443|shadowsocks|||||": {
-      "streak": 102,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 103,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇺🇸US-37.19.198.243-0229 | 37.158MB",
@@ -1501,101 +920,9 @@
         "type": "ss"
       }
     },
-    "trojan|sharing-duck.rooster465.autos|443|AE62539071|||sharing-duck.rooster465.autos||": {
-      "streak": 101,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "country": "🇺🇸US",
-        "name": "🇺🇸US_143 ⇽中转_0@142",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "sharing-duck.rooster465.autos",
-        "skip-cert-verify": true,
-        "sni": "sharing-duck.rooster465.autos",
-        "type": "trojan",
-        "udp": true
-      }
-    },
-    "trojan|eager-camel.rooster465.autos|443|AE62539071|||eager-camel.rooster465.autos||": {
-      "streak": 100,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 003 | ⚡ 512.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "eager-camel.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "eager-camel.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|darling-mongrel.rooster465.autos|443|FH72359861|||darling-mongrel.rooster465.autos||": {
-      "streak": 99,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇮🇪 IE 001 | ⚡ 314.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "darling-mongrel.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "darling-mongrel.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|54.74.159.195|443|AE62539071|||kind-stork.rooster465.autos||": {
-      "streak": 99,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇮🇪 IE 002 | ⚡ 332.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "54.74.159.195",
-        "skip-cert-verify": false,
-        "sni": "kind-stork.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|summary-lemming.rooster465.autos|443|FH72359861|||summary-lemming.rooster465.autos||": {
-      "streak": 99,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇩🇪DE-35.159.21.7-0393 | 30.661MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "summary-lemming.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "summary-lemming.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|clear-heron.rooster465.autos|443|AE62539071|||clear-heron.rooster465.autos||": {
-      "streak": 99,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-52.194.223.176-4559 | 29.813MB",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "clear-heron.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "clear-heron.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|trusting-elf.rooster465.autos|443|FH72359861|||||": {
-      "streak": 99,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-13.113.71.200-1652 | 29.87MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "trusting-elf.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
     "trojan|primary-leech.rooster465.autos|443|FH72359861|||primary-leech.rooster465.autos||": {
-      "streak": 99,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 100,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇵🇱PL-202.78.163.156-0398 | 30.661MB",
         "password": "FH72359861",
@@ -1607,8 +934,8 @@
       }
     },
     "trojan|modern-bedbug.rooster465.autos|443|FH72359861|||modern-bedbug.rooster465.autos||": {
-      "streak": 99,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 100,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇭🇰HK-91.199.84.155-0392 | 3.206MB",
         "password": "FH72359861",
@@ -1620,8 +947,8 @@
       }
     },
     "trojan|wanted-marmoset.rooster465.autos|443|AE62539071|||wanted-marmoset.rooster465.autos||": {
-      "streak": 99,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 100,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇦🇺AU-87.121.33.238-0833 | 5.347MB",
         "password": "AE62539071",
@@ -1632,34 +959,9 @@
         "type": "trojan"
       }
     },
-    "trojan|renewed-porpoise.rooster465.autos|443|FH72359861|||||": {
-      "streak": 98,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇩🇪DE-3.120.70.66-1658 | 30.808MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "renewed-porpoise.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|52.194.223.176|443|AE62539071|||clear-heron.rooster465.autos||": {
-      "streak": 98,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-52.194.223.176-0112 | 24.881MB",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "52.194.223.176",
-        "skip-cert-verify": false,
-        "sni": "clear-heron.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "trojan|magnetic-caiman.rooster465.autos|443|FH72359861|||magnetic-caiman.rooster465.autos||": {
-      "streak": 97,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 98,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇵🇱 PL 019 | ⚡ 402.00ms",
         "password": "FH72359861",
@@ -1671,8 +973,8 @@
       }
     },
     "ss|149.22.87.204|443|shadowsocks|||||": {
-      "streak": 97,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 98,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇯🇵 JP 005 | ⚡ 495.00ms",
@@ -1683,8 +985,8 @@
       }
     },
     "trojan|together-dingo.rooster465.autos|443|AE62539071|||||": {
-      "streak": 97,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 98,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇦🇺 AU 001 | ⚡ 923.00ms",
         "password": "AE62539071",
@@ -1695,8 +997,8 @@
       }
     },
     "vmess|173.249.209.146|20086|3935c2dc-dbb0-43f7-b367-fe89abe87fdf|/|ws|||": {
-      "streak": 84,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 85,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -1715,93 +1017,9 @@
         }
       }
     },
-    "trojan|helping-shark.rooster465.autos|443|FH72359861|||||": {
-      "streak": 83,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-18.183.164.199-0396 | 30.698MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "helping-shark.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|endless-kiwi.rooster465.autos|443|FH72359861|||||": {
-      "streak": 83,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-18.177.142.108-0390 | 30.882MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "endless-kiwi.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|champion-panther.rooster465.autos|443|FH72359861|||||": {
-      "streak": 83,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-57.180.38.121-0388 | 30.456MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "champion-panther.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|light-filly.rooster465.autos|443|FH72359861|||||": {
-      "streak": 83,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-3.112.69.18-1662 | 30.727MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "light-filly.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|wise-gibbon.rooster465.autos|443|FH72359861|||||": {
-      "streak": 82,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-13.113.131.176-1663 | 30.28MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "wise-gibbon.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|funny-squid.rooster465.autos|443|FH72359861|||||": {
-      "streak": 81,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 005 | ⚡ 501.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "funny-squid.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|summary-firefly.rooster465.autos|443|FH72359861|||||": {
-      "streak": 79,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇮🇪 IE 001 | ⚡ 327.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "summary-firefly.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
     "trojan|many-pangolin.rooster465.autos|443|FH72359861|||||": {
-      "streak": 77,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 78,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇯🇵JP-52.195.225.156-0398 | 30.277MB",
         "password": "FH72359861",
@@ -1812,8 +1030,8 @@
       }
     },
     "ss|193.29.139.147|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 69,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 70,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 010 | ⚡ 247.00ms",
@@ -1823,282 +1041,9 @@
         "type": "ss"
       }
     },
-    "trojan|correct-pony.rooster465.autos|443|FH72359861|||||": {
-      "streak": 68,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "country": "🇺🇸US",
-        "name": "🇫🇷 FR 002 | ⚡ 247.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "correct-pony.rooster465.autos",
-        "skip-cert-verify": true,
-        "type": "trojan",
-        "udp": true
-      }
-    },
-    "trojan|emerging-porpoise.rooster465.autos|443|FH72359861|||emerging-porpoise.rooster465.autos||": {
-      "streak": 67,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 004 | ⚡ 454.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "emerging-porpoise.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "emerging-porpoise.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|adapting-giraffe.rooster465.autos|443|FH72359861|||adapting-giraffe.rooster465.autos||": {
-      "streak": 67,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 005 | ⚡ 461.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "adapting-giraffe.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "adapting-giraffe.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|welcome-owl.rooster465.autos|443|FH72359861|||welcome-owl.rooster465.autos||": {
-      "streak": 67,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 006 | ⚡ 464.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "welcome-owl.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "welcome-owl.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|sterling-fowl.rooster465.autos|443|FH72359861|||sterling-fowl.rooster465.autos||": {
-      "streak": 67,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 007 | ⚡ 465.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "sterling-fowl.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "sterling-fowl.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|communal-troll.rooster465.autos|443|FH72359861|||communal-troll.rooster465.autos||": {
-      "streak": 67,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 008 | ⚡ 471.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "communal-troll.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "communal-troll.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|flying-swift.rooster465.autos|443|FH72359861|||flying-swift.rooster465.autos||": {
-      "streak": 67,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 009 | ⚡ 471.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "flying-swift.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "flying-swift.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|casual-stallion.rooster465.autos|443|FH72359861|||casual-stallion.rooster465.autos||": {
-      "streak": 67,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 010 | ⚡ 477.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "casual-stallion.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "casual-stallion.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|classic-pug.rooster465.autos|443|FH72359861|||classic-pug.rooster465.autos||": {
-      "streak": 67,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 011 | ⚡ 496.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "classic-pug.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "classic-pug.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|adapted-quetzal.rooster465.autos|443|FH72359861|||adapted-quetzal.rooster465.autos||": {
-      "streak": 66,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 003 | ⚡ 441.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "adapted-quetzal.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "adapted-quetzal.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|needed-gelding.rooster465.autos|443|FH72359861|||needed-gelding.rooster465.autos||": {
-      "streak": 66,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 004 | ⚡ 477.00ms-2",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "needed-gelding.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "needed-gelding.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|great-wasp.rooster465.autos|443|FH72359861|||great-wasp.rooster465.autos||": {
-      "streak": 65,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-52.195.215.144-5194 | 27.412MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "great-wasp.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "great-wasp.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|noted-cougar.rooster465.autos|443|FH72359861|||noted-cougar.rooster465.autos||": {
-      "streak": 65,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-43.207.171.97-1328 | 27.697MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "noted-cougar.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "noted-cougar.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|internal-mongoose.rooster465.autos|443|FH72359861|||internal-mongoose.rooster465.autos||": {
-      "streak": 65,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-54.168.45.85-0431 | 21.923MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "internal-mongoose.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "internal-mongoose.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|correct-pony.rooster465.autos|443|FH72359861|||correct-pony.rooster465.autos||": {
-      "streak": 64,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇫🇷FR-13.37.222.178-5170 | 50.633MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "correct-pony.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "correct-pony.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|engaged-lionfish.rooster465.autos|443|FH72359861|||engaged-lionfish.rooster465.autos||": {
-      "streak": 64,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 003 | ⚡ 437.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "engaged-lionfish.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "engaged-lionfish.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|touching-ostrich.rooster465.autos|443|FH72359861|||touching-ostrich.rooster465.autos||": {
-      "streak": 64,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 004 | ⚡ 444.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "touching-ostrich.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "touching-ostrich.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|magical-airedale.rooster465.autos|443|FH72359861|||magical-airedale.rooster465.autos||": {
-      "streak": 64,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-57.180.34.69-1341 | 27.77MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "magical-airedale.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "magical-airedale.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|pretty-adder.rooster465.autos|443|FH72359861|||pretty-adder.rooster465.autos||": {
-      "streak": 64,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-54.178.52.185-1326 | 27.341MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "pretty-adder.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "pretty-adder.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|grateful-crawdad.rooster465.autos|443|AE62539071|||||": {
-      "streak": 63,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-13.231.222.134-5116 | 22.733MB",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "grateful-crawdad.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|bright-quagga.rooster465.autos|443|FH72359861|||bright-quagga.rooster465.autos||": {
-      "streak": 61,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-3.113.14.127-1342 | 27.628MB",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "bright-quagga.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "bright-quagga.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "ss|142.4.216.225|443|ytw2awn|||||": {
-      "streak": 51,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 52,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇨🇦CA-142.4.216.225-5116 | 12.669MB",
@@ -2108,59 +1053,9 @@
         "type": "ss"
       }
     },
-    "trojan|merry-falcon.rooster465.autos|443|PQ05174892|||||": {
-      "streak": 51,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 004 | ⚡ 389.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "merry-falcon.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|43.206.241.145|443|PQ05174892|||concise-guinea.rooster465.autos||": {
-      "streak": 51,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-43.206.241.145-2277 | 28.197MB",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "43.206.241.145",
-        "skip-cert-verify": false,
-        "sni": "concise-guinea.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|sweeping-parakeet.rooster465.autos|443|AE62539071|||||": {
-      "streak": 51,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 005 | ⚡ 407.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "sweeping-parakeet.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|sterling-vervet.rooster465.autos|443|PQ05174892|||sterling-vervet.rooster465.autos||": {
-      "streak": 51,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 006 | ⚡ 426.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "sterling-vervet.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "sterling-vervet.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "ss|54.36.174.140|443|ytw2awn|||||": {
-      "streak": 50,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 51,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇵🇱 PL 022 | ⚡ 370.00ms",
@@ -2170,71 +1065,9 @@
         "type": "ss"
       }
     },
-    "trojan|52.196.139.154|443|PQ05174892|||sterling-vervet.rooster465.autos||": {
-      "streak": 50,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 005 | ⚡ 432.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "52.196.139.154",
-        "skip-cert-verify": false,
-        "sni": "sterling-vervet.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|54.238.100.160|443|PQ05174892|||witty-duckling.rooster465.autos||": {
-      "streak": 50,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-54.238.100.160-2282 | 28.145MB",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "54.238.100.160",
-        "skip-cert-verify": false,
-        "sni": "witty-duckling.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|known-albacore.rooster465.autos|443|AE62539071|||||": {
-      "streak": 50,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 006 | ⚡ 481.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "known-albacore.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|right-seahorse.rooster465.autos|443|AE62539071|||||": {
-      "streak": 49,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵JP-43.207.140.98-5104 | 27.73MB",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "right-seahorse.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|central-jawfish.rooster465.autos|443|AE62539071|||||": {
-      "streak": 48,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 004 | ⚡ 499.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "central-jawfish.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
     "ss|82.38.31.186|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 46,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 47,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.186-0149 | 50.446MB",
@@ -2244,33 +1077,9 @@
         "type": "ss"
       }
     },
-    "trojan|awaited-lark.rooster465.autos|443|AE62539071|||||": {
-      "streak": 45,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 003 | ⚡ 396.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "awaited-lark.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|lucky-marmot.rooster465.autos|443|PQ05174892|||||": {
-      "streak": 45,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇫🇷 FR 002 | ⚡ 413.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "lucky-marmot.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
     "ss|82.38.31.187|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 45,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 46,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 001 | ⚡ 423.00ms",
@@ -2281,8 +1090,8 @@
       }
     },
     "ss|82.38.31.57|443|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 43,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 44,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 001 | ⚡ 400.00ms",
@@ -2292,34 +1101,9 @@
         "type": "ss"
       }
     },
-    "trojan|settled-camel.rooster465.autos|443|FH72359861|||||": {
-      "streak": 37,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 002 | ⚡ 469.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "settled-camel.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|driven-doberman.rooster465.autos|443|HC04361579|||driven-doberman.rooster465.autos||": {
-      "streak": 37,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 003 | ⚡ 474.00ms",
-        "password": "HC04361579",
-        "port": 443,
-        "server": "driven-doberman.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "driven-doberman.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "ss|82.38.31.202|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 32,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 33,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 004 | ⚡ 491.00ms",
@@ -2330,8 +1114,8 @@
       }
     },
     "ss|82.38.31.212|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 24,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 006 | ⚡ 302.00ms",
@@ -2342,8 +1126,8 @@
       }
     },
     "ss|82.38.31.180|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 24,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 007 | ⚡ 305.00ms",
@@ -2354,8 +1138,8 @@
       }
     },
     "trojan|109.206.241.10|449|oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1|||russiapower.accesscam.org||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 24,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇪🇪 EE 001 | ⚡ 354.00ms",
         "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
@@ -2366,84 +1150,9 @@
         "type": "trojan"
       }
     },
-    "trojan|lucky-marmot.rooster465.autos|443|PQ05174892|||lucky-marmot.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇫🇷 FR 001 | ⚡ 360.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "lucky-marmot.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "lucky-marmot.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|sacred-shepherd.rooster465.autos|443|FH72359861|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 002 | ⚡ 428.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "sacred-shepherd.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|wealthy-gobbler.rooster465.autos|443|EQ30679154|||wealthy-gobbler.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 003 | ⚡ 431.00ms",
-        "password": "EQ30679154",
-        "port": 443,
-        "server": "wealthy-gobbler.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "wealthy-gobbler.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|endless-kiwi.rooster465.autos|443|FH72359861|||endless-kiwi.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 004 | ⚡ 431.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "endless-kiwi.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "endless-kiwi.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|humorous-starling.rooster465.autos|443|PQ05174892|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 005 | ⚡ 431.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "humorous-starling.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|upward-yak.rooster465.autos|443|AE62539071|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 006 | ⚡ 434.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "upward-yak.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
     "trojan|many-pangolin.rooster465.autos|443|FH72359861|||many-pangolin.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 24,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇯🇵 JP 007 | ⚡ 438.00ms",
         "password": "FH72359861",
@@ -2454,60 +1163,9 @@
         "type": "trojan"
       }
     },
-    "trojan|exact-sawfish.rooster465.autos|443|HC04361579|||exact-sawfish.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 008 | ⚡ 439.00ms",
-        "password": "HC04361579",
-        "port": 443,
-        "server": "exact-sawfish.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "exact-sawfish.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|open-octopus.rooster465.autos|443|EQ30679154|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 009 | ⚡ 446.00ms",
-        "password": "EQ30679154",
-        "port": 443,
-        "server": "open-octopus.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|definite-gazelle.rooster465.autos|443|EQ30679154|||definite-gazelle.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 010 | ⚡ 447.00ms",
-        "password": "EQ30679154",
-        "port": 443,
-        "server": "definite-gazelle.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "definite-gazelle.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|legible-ocelot.rooster465.autos|443|HC04361579|||legible-ocelot.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 011 | ⚡ 448.00ms",
-        "password": "HC04361579",
-        "port": 443,
-        "server": "legible-ocelot.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "legible-ocelot.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "trojan|pretty-mollusk.rooster465.autos|443|EQ30679154|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 24,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇵🇱 PL 001 | ⚡ 449.00ms",
         "password": "EQ30679154",
@@ -2517,209 +1175,9 @@
         "type": "trojan"
       }
     },
-    "trojan|champion-panther.rooster465.autos|443|FH72359861|||champion-panther.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 012 | ⚡ 450.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "champion-panther.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "champion-panther.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|pet-albacore.rooster465.autos|443|HC04361579|||pet-albacore.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 013 | ⚡ 450.00ms",
-        "password": "HC04361579",
-        "port": 443,
-        "server": "pet-albacore.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "pet-albacore.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|helping-shark.rooster465.autos|443|FH72359861|||helping-shark.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 014 | ⚡ 455.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "helping-shark.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "helping-shark.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|together-amoeba.rooster465.autos|443|PQ05174892|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 015 | ⚡ 458.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "together-amoeba.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|evolving-kangaroo.rooster465.autos|443|PQ05174892|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 016 | ⚡ 465.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "evolving-kangaroo.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|lasting-jaguar.rooster465.autos|443|FH72359861|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 017 | ⚡ 465.00ms",
-        "password": "FH72359861",
-        "port": 443,
-        "server": "lasting-jaguar.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|57.180.56.235|443|EQ30679154|||gentle-perch.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 018 | ⚡ 467.00ms",
-        "password": "EQ30679154",
-        "port": 443,
-        "server": "57.180.56.235",
-        "skip-cert-verify": false,
-        "sni": "gentle-perch.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|mighty-lemming.rooster465.autos|443|PQ05174892|||mighty-lemming.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 019 | ⚡ 467.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "mighty-lemming.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "mighty-lemming.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|accepted-starling.rooster465.autos|443|HC04361579|||accepted-starling.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 020 | ⚡ 468.00ms",
-        "password": "HC04361579",
-        "port": 443,
-        "server": "accepted-starling.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "accepted-starling.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|ethical-raccoon.rooster465.autos|443|PQ05174892|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 021 | ⚡ 474.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "ethical-raccoon.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|ready-monarch.rooster465.autos|443|PQ05174892|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 022 | ⚡ 475.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "ready-monarch.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|aware-puma.rooster465.autos|443|PQ05174892|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 023 | ⚡ 478.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "aware-puma.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|settling-shad.rooster465.autos|443|HC04361579|||settling-shad.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 024 | ⚡ 481.00ms",
-        "password": "HC04361579",
-        "port": 443,
-        "server": "settling-shad.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "settling-shad.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|balanced-goat.rooster465.autos|443|PQ05174892|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 025 | ⚡ 485.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "balanced-goat.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|well-jennet.rooster465.autos|443|PQ05174892|||||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 026 | ⚡ 487.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "well-jennet.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|kind-stork.rooster465.autos|443|AE62539071|||kind-stork.rooster465.autos||": {
-      "streak": 23,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇮🇪 IE 001 | ⚡ 573.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "kind-stork.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "kind-stork.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "trojan|64.94.95.118|57142|kkzh2prsyr2ik47as615|||64.94.95.118||": {
-      "streak": 21,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 22,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "country": "🇺🇸US",
         "name": "🇺🇸 US 002 | ⚡ 85.00ms",
@@ -2733,8 +1191,8 @@
       }
     },
     "vmess|66.163.117.58|22324|04621bae-ab36-11ec-b909-0242ac120002||tcp|||": {
-      "streak": 21,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 22,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -2752,8 +1210,8 @@
       }
     },
     "ss|108.181.0.177|8388|G5p6ww4o67HB|||||": {
-      "streak": 20,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 21,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇺🇸 US 004 | ⚡ 87.00ms",
@@ -2764,8 +1222,8 @@
       }
     },
     "ss|108.181.118.10|8388|G5p6ww4o67HB|||||": {
-      "streak": 20,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 21,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇺🇸 US 006 | ⚡ 93.00ms",
@@ -2776,8 +1234,8 @@
       }
     },
     "vless|169.40.42.16|443|d65cc14c-f53f-4fe2-b262-97856601319c|||yahoo.com|e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg|c39cc7310a": {
-      "streak": 18,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 19,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -2798,8 +1256,8 @@
       }
     },
     "vless|169.40.42.133|443|d65cc14c-f53f-4fe2-b262-97856601319c|||yahoo.com|e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg|c39cc7310a": {
-      "streak": 18,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 19,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -2820,8 +1278,8 @@
       }
     },
     "vless|169.40.42.75|443|d65cc14c-f53f-4fe2-b262-97856601319c|||yahoo.com|e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg|c39cc7310a": {
-      "streak": 18,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 19,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -2842,8 +1300,8 @@
       }
     },
     "vless|169.40.42.231|443|d65cc14c-f53f-4fe2-b262-97856601319c|||yahoo.com|e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg|c39cc7310a": {
-      "streak": 18,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 19,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -2864,8 +1322,8 @@
       }
     },
     "vless|169.40.42.74|443|d65cc14c-f53f-4fe2-b262-97856601319c|||yahoo.com|e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg|c39cc7310a": {
-      "streak": 18,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 19,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -2886,8 +1344,8 @@
       }
     },
     "vmess|82.198.246.233|180|d13fc2f5-3e05-4795-81eb-44143a09e552||tcp|||": {
-      "streak": 18,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 19,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -2904,8 +1362,8 @@
       }
     },
     "ss|45.77.232.213|15675|TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH|||||": {
-      "streak": 18,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 19,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇦🇺 AU 001 | ⚡ 902.00ms",
@@ -2917,8 +1375,8 @@
       }
     },
     "vless|169.40.42.104|443|d65cc14c-f53f-4fe2-b262-97856601319c|||yahoo.com|e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg|c39cc7310a": {
-      "streak": 17,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 18,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -2939,8 +1397,8 @@
       }
     },
     "vless|45.155.70.123|8443|f82332b2-dc8c-eac4-ac12-f276e37e278a|||s1.test.anti-zapret.com|0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY|58fbcddfaae3ade9": {
-      "streak": 17,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 18,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "client-fingerprint": "random",
         "host": "s1.test.anti-zapret.com",
@@ -2960,8 +1418,8 @@
       }
     },
     "ss|193.29.139.151|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 16,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 17,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 007 | ⬆️ 0.00MB/s",
@@ -2972,8 +1430,8 @@
       }
     },
     "vmess|rush-6it6b.teeopp.quest|443|03fcc618-b93d-6796-6aed-8a38c975d581|/video/kz49hf/gbin5jve.m3u8|ws|rush-6it6b.teeopp.quest||": {
-      "streak": 16,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 17,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -2998,8 +1456,8 @@
       }
     },
     "ss|82.38.31.179|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 16,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 17,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 008 | ⚡ 240.00ms",
@@ -3010,8 +1468,8 @@
       }
     },
     "vless|5.253.28.189|443|423b1d79-08c4-403f-9d5e-c541f791b55f|||asia.cendora.ru|eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU|e53048e82bb20077": {
-      "streak": 16,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 17,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -3032,8 +1490,8 @@
       }
     },
     "ss|198.98.53.130|443|eDfN7SODQceIOmIAbtJJtK|||||": {
-      "streak": 15,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 16,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇺🇸 US 005 | ⚡ 86.00ms",
@@ -3045,8 +1503,8 @@
       }
     },
     "ss|82.38.31.184|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 15,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 16,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 008 | ⚡ 257.00ms",
@@ -3057,8 +1515,8 @@
       }
     },
     "vmess|67.220.72.237|22324|04621bae-ab36-11ec-b909-0242ac120002||tcp|||": {
-      "streak": 14,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 15,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 1,
         "cipher": "auto",
@@ -3074,226 +1532,9 @@
         "uuid": "04621bae-ab36-11ec-b909-0242ac120002"
       }
     },
-    "trojan|dear-hermit.rooster465.autos|443|AE62539071|||||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇺🇸 US 006 | ⚡ 202.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "dear-hermit.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|13.230.97.36|443|AE62539071|||known-albacore.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 001 | ⚡ 455.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "13.230.97.36",
-        "skip-cert-verify": false,
-        "sni": "known-albacore.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|18.183.178.158|443|AE62539071|||inviting-burro.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 002 | ⚡ 456.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "18.183.178.158",
-        "skip-cert-verify": false,
-        "sni": "inviting-burro.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|coherent-newt.rooster465.autos|443|AE62539071|||||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 003 | ⚡ 456.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "coherent-newt.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|18.183.140.61|443|AE62539071|||harmless-imp.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 004 | ⚡ 457.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "18.183.140.61",
-        "skip-cert-verify": false,
-        "sni": "harmless-imp.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|climbing-frog.rooster465.autos|443|AE62539071|||||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 005 | ⚡ 458.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "climbing-frog.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|inviting-burro.rooster465.autos|443|AE62539071|||inviting-burro.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 006 | ⚡ 459.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "inviting-burro.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "inviting-burro.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|54.250.97.109|443|AE62539071|||current-barnacle.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 007 | ⚡ 461.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "54.250.97.109",
-        "skip-cert-verify": false,
-        "sni": "current-barnacle.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|57.181.88.104|443|AE62539071|||climbing-frog.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 008 | ⚡ 462.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "57.181.88.104",
-        "skip-cert-verify": false,
-        "sni": "climbing-frog.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|13.113.89.229|443|AE62539071|||coherent-newt.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 009 | ⚡ 462.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "13.113.89.229",
-        "skip-cert-verify": false,
-        "sni": "coherent-newt.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|relevant-cicada.rooster465.autos|443|AE62539071|||relevant-cicada.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 010 | ⚡ 462.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "relevant-cicada.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "relevant-cicada.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|54.249.32.173|443|AE62539071|||eager-camel.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 011 | ⚡ 463.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "54.249.32.173",
-        "skip-cert-verify": false,
-        "sni": "eager-camel.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|18.183.109.172|443|AE62539071|||well-jennet.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 012 | ⚡ 467.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "18.183.109.172",
-        "skip-cert-verify": false,
-        "sni": "well-jennet.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|easy-barnacle.rooster465.autos|443|AE62539071|||||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 013 | ⚡ 468.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "easy-barnacle.rooster465.autos",
-        "skip-cert-verify": false,
-        "type": "trojan"
-      }
-    },
-    "trojan|ideal-phoenix.rooster465.autos|443|PQ05174892|||ideal-phoenix.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 014 | ⚡ 468.00ms",
-        "password": "PQ05174892",
-        "port": 443,
-        "server": "ideal-phoenix.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "ideal-phoenix.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|13.231.24.177|443|AE62539071|||easy-barnacle.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 015 | ⚡ 469.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "13.231.24.177",
-        "skip-cert-verify": false,
-        "sni": "easy-barnacle.rooster465.autos",
-        "type": "trojan"
-      }
-    },
-    "trojan|frank-frog.rooster465.autos|443|AE62539071|||frank-frog.rooster465.autos||": {
-      "streak": 12,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "name": "🇯🇵 JP 016 | ⚡ 475.00ms",
-        "password": "AE62539071",
-        "port": 443,
-        "server": "frank-frog.rooster465.autos",
-        "skip-cert-verify": false,
-        "sni": "frank-frog.rooster465.autos",
-        "type": "trojan"
-      }
-    },
     "vmess|140.83.57.20|13118|1f01e389-fbcb-494c-e46a-210ec36329c2|/|ws|||": {
-      "streak": 10,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 11,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -3314,8 +1555,8 @@
       }
     },
     "ss|92.118.205.211|5600|Y6R9pAtvxxzmGC|||||": {
-      "streak": 7,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 8,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "aes-256-gcm",
         "name": "🇵🇱 PL 004 | ⚡ 1170.00ms",
@@ -3327,8 +1568,8 @@
       }
     },
     "vless|194.76.154.31|40443|9f0baff8-bdee-4de9-9515-bcc4932b41fa|||deepl.com|MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ|a8ae": {
-      "streak": 5,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 6,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "client-fingerprint": "random",
         "host": "deepl.com",
@@ -3348,8 +1589,8 @@
       }
     },
     "vmess|82.198.246.97|180|d13fc2f5-3e05-4795-81eb-44143a09e552||tcp|||": {
-      "streak": 4,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 5,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -3365,22 +1606,9 @@
         "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552"
       }
     },
-    "ss|137.184.174.93|8080|14fFPrbezE3HDZzsMOr6|||||": {
-      "streak": 4,
-      "last_ok_at": "2026-08-21T23:53:32Z",
-      "proxy": {
-        "cipher": "rc4-md5",
-        "country": "🇺🇸US",
-        "name": "🇨🇦 CA 013 | ⚡ 211.00ms",
-        "password": "14fFPrbezE3HDZzsMOr6",
-        "port": 8080,
-        "server": "137.184.174.93",
-        "type": "ss"
-      }
-    },
     "vmess|82.198.246.250|180|d13fc2f5-3e05-4795-81eb-44143a09e552||tcp|||": {
-      "streak": 4,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 5,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -3397,8 +1625,8 @@
       }
     },
     "ss|108.181.58.239|8388|CJmTCCx7Ltud|||||": {
-      "streak": 4,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 5,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 010 | ⚡ 233.00ms",
@@ -3409,8 +1637,8 @@
       }
     },
     "ss|108.181.126.122|8388|CJmTCCx7Ltud|||||": {
-      "streak": 4,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 5,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 011 | ⚡ 253.00ms",
@@ -3421,8 +1649,8 @@
       }
     },
     "vmess|104.17.77.77|8443|60441548-b68e-43b2-8191-e3b884be4b3c|/lMnsZUN4/|ws|v2ray1.dozapp.xyz||": {
-      "streak": 4,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 5,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -3447,8 +1675,8 @@
       }
     },
     "trojan|pro-crane.rooster465.autos|443|FH72359861|||||": {
-      "streak": 4,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 5,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "name": "🇳🇱 NL 013 | ⚡ 1037.00ms",
         "password": "FH72359861",
@@ -3459,8 +1687,8 @@
       }
     },
     "vmess|82.198.246.37|180|d13fc2f5-3e05-4795-81eb-44143a09e552||tcp|||": {
-      "streak": 3,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 4,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -3477,8 +1705,8 @@
       }
     },
     "ss|82.38.31.15|443|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 3,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 4,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 009 | ⚡ 399.00ms",
@@ -3489,8 +1717,8 @@
       }
     },
     "vless|194.55.189.249|40443|8212a50b-25bf-4739-bba1-aaffb5ffc84c|||deepl.com|KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo|aae8": {
-      "streak": 3,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 4,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "client-fingerprint": "random",
         "host": "deepl.com",
@@ -3510,8 +1738,8 @@
       }
     },
     "ss|193.29.139.168|8080|QCXDxuDlTTMD7jtgHUjIoj|||||": {
-      "streak": 3,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 4,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 010 | ⚡ 701.00ms",
@@ -3523,8 +1751,8 @@
       }
     },
     "vless|preview.netraidly.ru|40443|15fd22d1-8931-4d41-af37-8ba6711e93fe|||deepl.com|d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo|84fc": {
-      "streak": 3,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 4,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -3545,8 +1773,8 @@
       }
     },
     "ss|82.38.31.194|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 3,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 4,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 011 | ⚡ 1704.00ms",
@@ -3557,8 +1785,8 @@
       }
     },
     "ss|193.29.139.204|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 2,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 3,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 009 | ⚡ 365.00ms",
@@ -3569,8 +1797,8 @@
       }
     },
     "ss|216.105.168.18|443|hCCWOcIsK5wrFz4OX70rWf|||||": {
-      "streak": 2,
-      "last_ok_at": "2026-08-21T23:53:32Z",
+      "streak": 3,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "country": "🇺🇸US",
@@ -3582,8 +1810,8 @@
       }
     },
     "ss|144.31.168.176|45640|eQvKkykBEbCky5p4BVghO0|||||": {
-      "streak": 1,
-      "last_ok_at": "2026-08-21T23:59:00Z",
+      "streak": 2,
+      "last_ok_at": "2026-08-22T03:10:02Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇩🇪 DE 009 | ⚡ 502.00ms",
