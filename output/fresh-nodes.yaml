@@ -1,5 +1,5 @@
-# last-updated: 2026-08-22T08:00:49Z
-# node-count: 58
+# last-updated: 2026-08-22T09:20:15Z
+# node-count: 56
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -323,18 +323,6 @@ proxies:
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸 US 009 | ⚡ 211.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
   name: 🇺🇸 US 010 | ⚡ 214.00ms
   network: tcp
   port: 180
@@ -342,18 +330,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 010 | ⚡ 233.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 011 | ⚡ 253.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
 - name: 🇳🇱 NL 013 | ⚡ 1037.00ms
   password: FH72359861
   port: 443
@@ -470,12 +446,6 @@ proxies:
   port: 65443
   server: 103.169.67.34
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-4903 | 0.017MB
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
 - name: 🇭🇰 HK 003 | ⚡ 584.00ms
   password: AE62539071
   port: 443
@@ -514,3 +484,23 @@ proxies:
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     path: /
+- client-fingerprint: random
+  host: deepl.com
+  name: 🇺🇸 US 014 | ⬆️ 0.00MB/s
+  port: 40443
+  reality-opts:
+    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
+    short-id: aae8
+  server: 194.55.189.249
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 002 | ⚡ 673.00ms
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
+  type: ss
