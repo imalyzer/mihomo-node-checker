@@ -1,5 +1,5 @@
-# last-updated: 2026-08-23T14:38:07Z
-# node-count: 29
+# last-updated: 2026-08-23T15:37:20Z
+# node-count: 25
 # note: streak<3 or newly accepted
 proxies:
 - cipher: aes-256-cfb
@@ -7,12 +7,6 @@ proxies:
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 002 | ⚡ 349.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: hamedvpns 11
@@ -73,18 +67,6 @@ proxies:
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 003 | ⚡ 1032.00ms
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇭🇰 HK 004 | ⬆️ 0.00MB/s
   password: ljqdalu13..
@@ -148,20 +130,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: random
-  host: deepl.com
-  name: 🇫🇷 FR 005 | ⚡ 401.00ms
-  port: 40443
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-    short-id: a8ae
-  server: 194.76.154.31
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 696.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -204,12 +172,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.57
-  type: ss
-- cipher: chacha20-ietf
-  name: 🇭🇰 HK 006 | ⚡ 585.00ms
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
   type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 001 | ⚡ 947.00ms
