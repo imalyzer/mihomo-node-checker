@@ -1,20 +1,7 @@
-# last-updated: 2026-08-23T10:38:03Z
-# node-count: 24
+# last-updated: 2026-08-23T11:35:07Z
+# node-count: 22
 # note: streak<3 or newly accepted
 proxies:
-- cipher: aes-256-gcm
-  name: 🇵🇱 PL 004 | ⚡ 1170.00ms
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 92.118.205.211
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 399.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.15
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 010 | ⚡ 701.00ms
   password: QCXDxuDlTTMD7jtgHUjIoj
@@ -114,18 +101,6 @@ proxies:
   port: 5601
   server: 51.222.155.113
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-4905 | 0.021MB
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 476.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 003 | ⚡ 999.00ms
   password: 9tqhMdIrTkgQ46PvhyAtMH
@@ -175,12 +150,6 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
-- cipher: chacha20-ietf
-  name: 🇭🇰 HK 004 | ⬆️ 0.00MB/s-2
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -193,3 +162,38 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: random
+  host: deepl.com
+  name: hamedvpns 3 2
+  port: 40443
+  reality-opts:
+    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
+    short-id: aae8
+  server: 194.55.189.249
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-193.29.139.204-0078 | 54.961MB
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: deepl.com
+  name: hamedvpns
+  port: 40443
+  reality-opts:
+    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
+    short-id: 84fc
+  server: preview.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
