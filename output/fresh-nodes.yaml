@@ -1,5 +1,5 @@
-# last-updated: 2026-08-23T08:05:40Z
-# node-count: 29
+# last-updated: 2026-08-23T08:42:31Z
+# node-count: 30
 # note: streak<3 or newly accepted
 proxies:
 - cipher: aes-256-gcm
@@ -33,12 +33,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.204
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 004 | ⬆️ 0.00MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
   type: ss
 - cipher: aes-256-cfb
   name: 🇹🇭 TH 001 | ⚡ 551.00ms
@@ -147,12 +141,6 @@ proxies:
   tls: true
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 🇳🇱 NL 004 | ⚡ 741.00ms
-  password: FH72359861
-  port: 443
-  server: pro-crane.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -217,18 +205,6 @@ proxies:
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇳 CN 003 | ⬆️ 0.00MB/s
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 🇭🇰 HK 003 | ⚡ 1032.00ms
@@ -246,4 +222,36 @@ proxies:
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 HK 004 | ⬆️ 0.00MB/s
+  password: ljqdalu13..
+  port: 8319
+  server: 95.40.120.162
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 004 | ⚡ 236.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
+- client-fingerprint: random
+  host: deepl.com
+  name: 🇺🇸 US 013 | ⚡ 250.00ms
+  port: 40443
+  reality-opts:
+    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
+    short-id: aae8
+  server: 194.55.189.249
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 266.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
   type: ss
