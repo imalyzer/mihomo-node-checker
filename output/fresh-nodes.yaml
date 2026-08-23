@@ -1,5 +1,5 @@
-# last-updated: 2026-08-23T16:40:14Z
-# node-count: 25
+# last-updated: 2026-08-23T17:35:30Z
+# node-count: 23
 # note: streak<3 or newly accepted
 proxies:
 - cipher: aes-256-cfb
@@ -22,18 +22,6 @@ proxies:
   server: 144.31.168.176
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_55 ⇽中转_0@54
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -60,12 +48,6 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 51.222.155.113
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 003 | ⚡ 999.00ms
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 004 | ⚡ 236.00ms
@@ -145,12 +127,6 @@ proxies:
   port: 443
   server: 82.38.31.57
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 001 | ⚡ 947.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: asia.cendora.ru
@@ -180,31 +156,6 @@ proxies:
   tls: true
   type: vless
   uuid: f82332b2-dc8c-eac4-ac12-f276e37e278a
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 001 | ⚡ 980.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 457.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 001 | ⚡ 733.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0178 | 2.229MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - client-fingerprint: random
   host: deepl.com
   name: 🇫🇷 FR 004 | ⚡ 1191.00ms
@@ -224,4 +175,41 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸 US 013 | ⚡ 225.00ms
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇦 CA 014 | ⚡ 811.00ms
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      HOST: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 HK 004 | ⚡ 909.00ms
+  password: ljqdalu13..
+  port: 8319
+  server: 95.40.120.162
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧 GB 002 | ⚡ 1558.00ms
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
   type: ss
