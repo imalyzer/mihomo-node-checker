@@ -1,5 +1,5 @@
-# last-updated: 2026-08-23T03:47:05Z
-# node-count: 136
+# last-updated: 2026-08-23T05:32:08Z
+# node-count: 134
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -823,24 +823,6 @@ proxies:
   skip-cert-verify: false
   sni: enough-basilisk.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇦 CA 016 | ⚡ 1325.00ms
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL-108.181.126.122-0240 | 34.98MB
   password: CJmTCCx7Ltud
@@ -966,30 +948,6 @@ proxies:
   server: pro-crane.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-156.245.232.239-4875 | 0.013MB
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇳 CN 003 | ⚡ 1025.00ms
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -1030,26 +988,27 @@ proxies:
   server: 51.222.155.113
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷 KR 001 | ⚡ 599.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
-- cipher: aes-256-cfb
   name: 🇰🇷KR-218.237.185.230-4905 | 0.021MB
   password: qwerREWQ@@
   port: 4652
   server: p141.panda001.net
   type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_12 ⇽中转_0@11
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸 US 019 | ⚡ 372.00ms
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 476.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 003 | ⚡ 999.00ms
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
