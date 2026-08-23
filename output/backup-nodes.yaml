@@ -1,5 +1,5 @@
-# last-updated: 2026-08-23T11:35:07Z
-# node-count: 102
+# last-updated: 2026-08-23T12:54:15Z
+# node-count: 103
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -415,12 +415,6 @@ proxies:
   server: 82.38.31.187
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 001 | ⚡ 400.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 004 | ⚡ 491.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -469,6 +463,36 @@ proxies:
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
+  name: 🇺🇸 US 007 | ⚡ 100.00ms
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.16
+  servername: yahoo.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: yahoo.com
+  name: 🇺🇸 US 009 | ⚡ 105.00ms
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.75
+  servername: yahoo.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: yahoo.com
   name: 🇺🇸 US 010 | ⚡ 115.00ms
   port: 443
   reality-opts:
@@ -506,36 +530,6 @@ proxies:
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
-  name: 🇺🇸 US 007 | ⚡ 100.00ms
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.16
-  servername: yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: yahoo.com
-  name: 🇺🇸 US 009 | ⚡ 105.00ms
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.75
-  servername: yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: yahoo.com
   name: 🇺🇸 US 007 | ⚡ 149.00ms
   port: 443
   reality-opts:
@@ -548,20 +542,6 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: random
-  host: s1.test.anti-zapret.com
-  name: 🇩🇪 DE 006 | ⚡ 326.00ms
-  port: 8443
-  reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: 58fbcddfaae3ade9
-  server: 45.155.70.123
-  servername: s1.test.anti-zapret.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: f82332b2-dc8c-eac4-ac12-f276e37e278a
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 008 | ⚡ 240.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -658,21 +638,6 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  host: asia.cendora.ru
-  name: 🇮🇳 IN 001 | ⚡ 685.00ms
-  port: 443
-  reality-opts:
-    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
-    short-id: e53048e82bb20077
-  server: 5.253.28.189
-  servername: asia.cendora.ru
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: random
-  flow: xtls-rprx-vision
   host: yahoo.com
   name: 🇺🇸 US 015 | ⚡ 89.00ms
   port: 443
@@ -759,20 +724,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: random
-  host: deepl.com
-  name: hamedvpns 3 2
-  port: 40443
-  reality-opts:
-    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
-    short-id: aae8
-  server: 194.55.189.249
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL-193.29.139.204-0078 | 54.961MB
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -794,3 +745,53 @@ proxies:
   tls: true
   type: vless
   uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 002 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇳 CN 003 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: random
+  host: deepl.com
+  name: 🇫🇷 FR 005 | ⚡ 401.00ms
+  port: 40443
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+    short-id: a8ae
+  server: 194.76.154.31
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 696.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-221.139.79.57-0177 | 0.02MB
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
+  type: ss
