@@ -1,5 +1,5 @@
-# last-updated: 2026-08-22T23:08:49Z
-# node-count: 139
+# last-updated: 2026-08-23T00:00:20Z
+# node-count: 140
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -1071,4 +1071,10 @@ proxies:
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-218.237.185.230-4905 | 0.021MB
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
   type: ss
