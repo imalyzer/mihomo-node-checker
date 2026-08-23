@@ -1,5 +1,5 @@
-# last-updated: 2026-08-23T09:41:22Z
-# node-count: 107
+# last-updated: 2026-08-23T10:38:03Z
+# node-count: 104
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -630,12 +630,6 @@ proxies:
   port: 8080
   server: 82.38.31.194
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 365.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
-  type: ss
 - cipher: aes-256-cfb
   name: 🇹🇭 TH 001 | ⚡ 551.00ms
   password: 7eadc6dbe2ae
@@ -661,33 +655,6 @@ proxies:
   server: 198.98.53.130
   tfo: false
   type: ss
-- client-fingerprint: random
-  host: deepl.com
-  name: 🇫🇷 FR 003 | ⬆️ 0.00MB/s
-  port: 40443
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-    short-id: a8ae
-  server: 194.76.154.31
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳IN-152.67.8.205-4877 | 0.022MB
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-4877 | 0.022MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪 DE 006 | ⬆️ 0.00MB/s
   password: eQvKkykBEbCky5p4BVghO0
@@ -779,12 +746,6 @@ proxies:
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     path: /
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 002 | ⚡ 1061.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇭🇰 HK 004 | ⬆️ 0.00MB/s
   password: ljqdalu13..
@@ -797,20 +758,6 @@ proxies:
   port: 8388
   server: 108.181.126.122
   type: ss
-- client-fingerprint: random
-  host: deepl.com
-  name: 🇺🇸 US 013 | ⚡ 250.00ms
-  port: 40443
-  reality-opts:
-    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
-    short-id: aae8
-  server: 194.55.189.249
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 266.00ms
   password: CJmTCCx7Ltud
@@ -830,3 +777,21 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
+- cipher: chacha20-ietf
+  name: 🇭🇰 HK 004 | ⬆️ 0.00MB/s-2
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_51 ⇽中转_0@50
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
