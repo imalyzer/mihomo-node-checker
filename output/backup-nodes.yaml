@@ -1,5 +1,5 @@
-# last-updated: 2026-08-23T17:35:30Z
-# node-count: 103
+# last-updated: 2026-08-23T18:43:08Z
+# node-count: 99
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -397,18 +397,6 @@ proxies:
   server: 54.36.174.140
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.186-0149 | 50.446MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 001 | ⚡ 423.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.187
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 004 | ⚡ 491.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -669,18 +657,6 @@ proxies:
   port: 8080
   server: 193.29.139.204
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 002 | ⬆️ 0.00MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 696.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -693,24 +669,6 @@ proxies:
   port: 13979
   server: 221.139.79.57
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇦 CA 014 | ⚡ 66.00ms
-  network: ws
-  port: 443
-  server: rush-6it6b.teeopp.quest
-  servername: rush-6it6b.teeopp.quest
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: rush-6it6b.teeopp.quest
-    path: /video/kz49hf/gbin5jve.m3u8
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 243.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -746,26 +704,6 @@ proxies:
   tls: true
   type: vless
   uuid: f82332b2-dc8c-eac4-ac12-f276e37e278a
-- client-fingerprint: random
-  host: deepl.com
-  name: 🇫🇷 FR 004 | ⚡ 1191.00ms
-  port: 40443
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-    short-id: a8ae
-  server: 194.76.154.31
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 1910.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
-  type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
   name: 🇺🇸 US 013 | ⚡ 225.00ms
@@ -773,33 +711,55 @@ proxies:
   port: 443
   server: 216.105.168.18
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇦 CA 014 | ⚡ 811.00ms
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: chacha20-ietf-poly1305
   name: 🇭🇰 HK 004 | ⚡ 909.00ms
   password: ljqdalu13..
   port: 8319
   server: 95.40.120.162
   type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 002 | ⚡ 1558.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 590.00ms
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 001 | ⚡ 761.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0178 | 2.229MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: deepl.com
+  name: 🇮🇳 IN 002 | ⚡ 876.00ms
+  port: 40443
+  reality-opts:
+    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
+    short-id: 84fc
+  server: preview.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 006 | ⚡ 1532.00ms
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    path: /
