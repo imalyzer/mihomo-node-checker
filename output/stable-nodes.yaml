@@ -1,4 +1,4 @@
-# last-updated: 2026-08-23T18:43:08Z
+# last-updated: 2026-08-23T19:35:45Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -580,16 +580,25 @@ proxies:
   port: 65443
   server: 103.169.67.34
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 001 | ⚡ 642.00ms
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: hamedvpns 11
-  password: eDfN7SODQceIOmIAbtJJtK
-  port: 443
-  server: 198.98.53.130
+  name: 🇩🇪 DE 006 | ⬆️ 0.00MB/s
+  password: eQvKkykBEbCky5p4BVghO0
+  port: 45640
+  server: 144.31.168.176
   tfo: false
   type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: yahoo.com
+  name: 🇺🇸 US 015 | ⚡ 89.00ms
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.133
+  servername: yahoo.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
