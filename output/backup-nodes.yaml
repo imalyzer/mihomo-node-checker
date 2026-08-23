@@ -1,5 +1,5 @@
-# last-updated: 2026-08-23T05:32:08Z
-# node-count: 134
+# last-updated: 2026-08-23T08:05:40Z
+# node-count: 109
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -218,13 +218,6 @@ proxies:
   skip-cert-verify: false
   sni: fleet-bonefish.rooster465.autos
   type: trojan
-- name: 🇵🇱PL-202.78.163.148-2366 | 27.565MB
-  password: ND91608427
-  port: 443
-  server: discrete-basilisk.rooster465.autos
-  skip-cert-verify: false
-  sni: discrete-basilisk.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 437.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -237,13 +230,6 @@ proxies:
   port: 8080
   server: 82.38.31.176
   type: ss
-- name: 🇭🇰 HK 006 | ⚡ 577.00ms
-  password: ND91608427
-  port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: false
-  sni: upright-hamster.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.16-0117 | 58.019MB
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -268,13 +254,6 @@ proxies:
   port: 8080
   server: 82.38.31.189
   type: ss
-- name: 🇭🇰HK-185.244.208.13-0179 | 19.401MB
-  password: ND91608427
-  port: 443
-  server: ace-starling.rooster465.autos
-  skip-cert-verify: false
-  sni: ace-starling.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.219-0176 | 15.369MB
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -293,26 +272,12 @@ proxies:
   port: 8080
   server: 82.38.31.205
   type: ss
-- name: 🇭🇰 HK 002 | ⚡ 649.00ms
-  password: ND91608427
-  port: 443
-  server: 185.244.208.13
-  skip-cert-verify: false
-  sni: ace-starling.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 383.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.216
   type: ss
-- name: 🇭🇰HK-91.199.84.120-0498 | 13.291MB
-  password: ND91608427
-  port: 443
-  server: dynamic-grubworm.rooster465.autos
-  skip-cert-verify: false
-  sni: dynamic-grubworm.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 003 | ⚡ 375.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -331,20 +296,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: 🇵🇱PL-202.78.163.248-0155 | 31.052MB
-  password: ND91608427
-  port: 443
-  server: relaxed-gull.rooster465.autos
-  skip-cert-verify: false
-  sni: relaxed-gull.rooster465.autos
-  type: trojan
-- name: 🇵🇱 PL 024 | ⚡ 359.00ms
-  password: ND91608427
-  port: 443
-  server: 202.78.163.248
-  skip-cert-verify: false
-  sni: relaxed-gull.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 008 | ⚡ 270.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -370,13 +321,6 @@ proxies:
   skip-cert-verify: false
   sni: fleet-bonefish.rooster465.autos
   type: trojan
-- name: 🇵🇱PL-202.78.163.148-0529 | 30.241MB
-  password: ND91608427
-  port: 443
-  server: 202.78.163.148
-  skip-cert-verify: false
-  sni: discrete-basilisk.rooster465.autos
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 324.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -389,13 +333,6 @@ proxies:
   port: 42982
   server: autodiscover.fuzzyaytor.cyou
   type: ss
-- name: 🇭🇰HK-91.199.84.120-0493 | 4.723MB
-  password: ND91608427
-  port: 443
-  server: 91.199.84.120
-  skip-cert-verify: false
-  sni: dynamic-grubworm.rooster465.autos
-  type: trojan
 - cipher: aes-128-gcm
   country: 🇺🇸US
   name: 🇺🇸 US 015 | ⚡ 198.00ms
@@ -403,63 +340,18 @@ proxies:
   port: 443
   server: 173.244.56.6
   type: ss
-- name: 🇵🇱PL-202.78.163.89-0480 | 8.306MB
-  password: AE62539071
-  port: 443
-  server: tolerant-mosquito.rooster465.autos
-  skip-cert-verify: false
-  sni: tolerant-mosquito.rooster465.autos
-  type: trojan
-- name: 🇳🇱 NL 008 | ⚡ 261.00ms
-  password: AE62539071
-  port: 443
-  server: thorough-falcon.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 🇦🇺 AU 001 | ⚡ 797.00ms
-  password: AE62539071
-  port: 443
-  server: darling-mutt.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 🇦🇺 AU 002 | ⚡ 893.00ms
-  password: AE62539071
-  port: 443
-  server: humorous-llama.rooster465.autos
-  skip-cert-verify: false
-  sni: humorous-llama.rooster465.autos
-  type: trojan
 - cipher: aes-128-gcm
   name: 🇺🇸 US 010 | ⚡ 342.00ms
   password: shadowsocks
   port: 443
   server: 173.244.56.9
   type: ss
-- name: 🇭🇰 HK 004 | ⚡ 673.00ms
-  password: AE62539071
-  port: 443
-  server: strong-haddock.rooster465.autos
-  skip-cert-verify: false
-  sni: strong-haddock.rooster465.autos
-  type: trojan
-- name: 🇭🇰 HK 005 | ⚡ 699.00ms
-  password: AE62539071
-  port: 443
-  server: upright-bedbug.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
 - cipher: aes-128-gcm
   name: 🇬🇧 GB 003 | ⚡ 293.00ms
   password: shadowsocks
   port: 443
   server: 141.98.101.181
   type: ss
-- name: 🇵🇱 PL 023 | ⚡ 397.00ms
-  password: AE62539071
-  port: 443
-  server: relative-locust.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⬆️ 0.00MB/s
   password: VpKABcOpNNA0l5G2AVOmw8
@@ -472,46 +364,12 @@ proxies:
   port: 443
   server: 37.19.198.243
   type: ss
-- name: 🇵🇱PL-202.78.163.156-0398 | 30.661MB
-  password: FH72359861
-  port: 443
-  server: primary-leech.rooster465.autos
-  skip-cert-verify: false
-  sni: primary-leech.rooster465.autos
-  type: trojan
-- name: 🇭🇰HK-91.199.84.155-0392 | 3.206MB
-  password: FH72359861
-  port: 443
-  server: modern-bedbug.rooster465.autos
-  skip-cert-verify: false
-  sni: modern-bedbug.rooster465.autos
-  type: trojan
-- name: 🇦🇺AU-87.121.33.238-0833 | 5.347MB
-  password: AE62539071
-  port: 443
-  server: wanted-marmoset.rooster465.autos
-  skip-cert-verify: false
-  sni: wanted-marmoset.rooster465.autos
-  type: trojan
-- name: 🇵🇱 PL 019 | ⚡ 402.00ms
-  password: FH72359861
-  port: 443
-  server: magnetic-caiman.rooster465.autos
-  skip-cert-verify: false
-  sni: magnetic-caiman.rooster465.autos
-  type: trojan
 - cipher: aes-128-gcm
   name: 🇯🇵 JP 005 | ⚡ 495.00ms
   password: shadowsocks
   port: 443
   server: 149.22.87.204
   type: ss
-- name: 🇦🇺 AU 001 | ⚡ 923.00ms
-  password: AE62539071
-  port: 443
-  server: together-dingo.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
@@ -586,12 +444,6 @@ proxies:
   server: 109.206.241.10
   skip-cert-verify: false
   sni: russiapower.accesscam.org
-  type: trojan
-- name: 🇵🇱 PL 001 | ⚡ 449.00ms
-  password: EQ30679154
-  port: 443
-  server: pretty-mollusk.rooster465.autos
-  skip-cert-verify: false
   type: trojan
 - country: 🇺🇸US
   name: 🇺🇸 US 002 | ⚡ 85.00ms
@@ -790,63 +642,18 @@ proxies:
   port: 7001
   server: 94.156.250.148
   type: ss
-- name: 🇵🇱 PL 002 | ⚡ 477.00ms
-  password: AE62539071
-  port: 443
-  server: game-firefly.rooster465.autos
-  skip-cert-verify: false
-  sni: game-firefly.rooster465.autos
-  type: trojan
 - cipher: aes-256-cfb
   name: 🇹🇭 TH 001 | ⚡ 551.00ms
   password: 7eadc6dbe2ae
   port: 65443
   server: 103.169.67.34
   type: ss
-- name: 🇭🇰 HK 003 | ⚡ 584.00ms
-  password: AE62539071
-  port: 443
-  server: magical-kodiak.rooster465.autos
-  skip-cert-verify: false
-  sni: magical-kodiak.rooster465.autos
-  type: trojan
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 001 | ⚡ 642.00ms
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
   type: ss
-- name: 🇵🇱PL-202.78.163.100-4881 | 16.732MB
-  password: AE62539071
-  port: 443
-  server: enough-basilisk.rooster465.autos
-  skip-cert-verify: false
-  sni: enough-basilisk.rooster465.autos
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-108.181.126.122-0240 | 34.98MB
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-108.181.58.239-0136 | 29.595MB
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 017 | ⚡ 85.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 TW 002 | ⚡ 349.00ms
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -1011,4 +818,34 @@ proxies:
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: switcher-nick-croquet.freesocks.work
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇳 CN 003 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 003 | ⚡ 1032.00ms
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 002 | ⚡ 1061.00ms
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
   type: ss
