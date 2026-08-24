@@ -1,4 +1,4 @@
-# last-updated: 2026-08-24T03:17:34Z
+# last-updated: 2026-08-24T04:58:19Z
 # node-count: 109
 # note: union of stable+fresh
 proxies:
@@ -608,18 +608,6 @@ proxies:
   port: 5601
   server: 51.222.155.113
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_51 ⇽中转_0@50
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL-193.29.139.204-0078 | 54.961MB
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -726,18 +714,6 @@ proxies:
   port: 6123
   server: 211.178.105.134
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 015 | ⚡ 176.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
@@ -869,8 +845,36 @@ proxies:
   type: vless
   uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 HK 005 | ⚡ 514.00ms
-  password: ljqdalu13..
-  port: 8319
-  server: 95.40.120.162
+  country: 🇺🇸US
+  name: 🇺🇸US_113_0@112
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
   type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: google.com
+  name: hamedvpns 🇳🇱 2
+  port: 443
+  reality-opts:
+    public-key: 1_a2G1x-DIEjDogZAiV4WFuOczGWcj-3zPiPxenUZhs
+    short-id: 23ae46816e87c7b8
+  server: 153.80.249.125
+  servername: google.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 901e6dca-1b73-4266-978b-f7dc1266a7f6
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-156.245.232.239-0181 | 0.0MB
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    path: /
