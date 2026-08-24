@@ -1,5 +1,5 @@
-# last-updated: 2026-08-24T08:13:04Z
-# node-count: 109
+# last-updated: 2026-08-24T09:11:06Z
+# node-count: 111
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -818,29 +818,11 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 014 | ⚡ 228.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 🇱🇹 LT 001 | ⚡ 353.00ms
   password: J1InuU6QRT5JOh1mQfkjU2
   port: 16015
   server: 144.31.243.2
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 479.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
   type: ss
 - alterId: 0
   cipher: auto
@@ -873,3 +855,36 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
+- cipher: aes-128-gcm
+  name: 🇭🇰 HK 002 | ⬆️ 0.00MB/s
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+  port: 10937
+  server: mn.qwer-cn.org
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 HK 006 | ⚡ 498.00ms
+  password: ljqdalu13..
+  port: 8319
+  server: 95.40.120.162
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇭🇰HK-45.149.92.75-1978 | 12.65MB
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+  port: 10934
+  server: mn.qwer-cn.org
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: asia.cendora.ru
+  name: hamedvpns 🇮🇱
+  port: 443
+  reality-opts:
+    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
+    short-id: e53048e82bb20077
+  server: 5.253.28.189
+  servername: asia.cendora.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
