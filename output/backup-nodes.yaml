@@ -1,5 +1,5 @@
-# last-updated: 2026-08-24T16:51:40Z
-# node-count: 104
+# last-updated: 2026-08-24T17:44:41Z
+# node-count: 97
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -424,18 +424,6 @@ proxies:
   sni: 64.94.95.118
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 004 | ⚡ 87.00ms
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 006 | ⚡ 93.00ms
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.118.10
-  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -574,21 +562,6 @@ proxies:
   server: 144.31.168.176
   tfo: false
   type: ss
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: yahoo.com
-  name: 🇺🇸 US 015 | ⚡ 89.00ms
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.133
-  servername: yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - cipher: aes-256-gcm
   name: 🇨🇦 CA 015 | ⚡ 274.00ms
   password: Y6R9pAtvxxzmGC
@@ -606,12 +579,6 @@ proxies:
   password: qwerREWQ@@
   port: 13979
   server: 221.139.79.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 243.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.57
   type: ss
 - client-fingerprint: random
   host: s1.test.anti-zapret.com
@@ -704,29 +671,11 @@ proxies:
   server: p141.panda001.net
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 002 | ⬆️ 0.00MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 004 | ⚡ 233.00ms
   password: CJmTCCx7Ltud
   port: 8388
   server: 108.181.58.239
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 008 | ⚡ 1337.00ms
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 008 | ⚡ 292.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -754,20 +703,6 @@ proxies:
   port: 4652
   server: 218.237.185.230
   type: ss
-- client-fingerprint: random
-  host: deepl.com
-  name: 🇫🇷 FR 002 | ⚡ 887.00ms
-  port: 40443
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-    short-id: a8ae
-  server: 194.76.154.31
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 1146.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -779,12 +714,6 @@ proxies:
   password: ljqdalu13..
   port: 8319
   server: 95.40.120.162
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⬆️ 0.00MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
   type: ss
 - alterId: 0
   cipher: auto
@@ -803,4 +732,10 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-92.112.126.90-0157 | 0.006MB
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
   type: ss

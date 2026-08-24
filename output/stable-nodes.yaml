@@ -1,4 +1,4 @@
-# last-updated: 2026-08-24T16:51:40Z
+# last-updated: 2026-08-24T17:44:41Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -424,18 +424,6 @@ proxies:
   sni: 64.94.95.118
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 004 | ⚡ 87.00ms
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 006 | ⚡ 93.00ms
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.118.10
-  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -574,21 +562,6 @@ proxies:
   server: 144.31.168.176
   tfo: false
   type: ss
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: yahoo.com
-  name: 🇺🇸 US 015 | ⚡ 89.00ms
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.133
-  servername: yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - cipher: aes-256-gcm
   name: 🇨🇦 CA 015 | ⚡ 274.00ms
   password: Y6R9pAtvxxzmGC
@@ -601,3 +574,38 @@ proxies:
   port: 8080
   server: 193.29.139.204
   type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-221.139.79.57-0177 | 0.02MB
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
+  type: ss
+- client-fingerprint: random
+  host: s1.test.anti-zapret.com
+  name: 🇩🇪 DE 006 | ⚡ 319.00ms
+  port: 8443
+  reality-opts:
+    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
+    short-id: 58fbcddfaae3ade9
+  server: 45.155.70.123
+  servername: s1.test.anti-zapret.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: f82332b2-dc8c-eac4-ac12-f276e37e278a
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: deepl.com
+  name: 🇮🇳 IN 002 | ⚡ 876.00ms
+  port: 40443
+  reality-opts:
+    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
+    short-id: 84fc
+  server: preview.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
