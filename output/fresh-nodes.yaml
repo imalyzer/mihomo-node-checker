@@ -1,5 +1,5 @@
-# last-updated: 2026-08-24T18:53:21Z
-# node-count: 17
+# last-updated: 2026-08-24T19:44:01Z
+# node-count: 20
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -26,12 +26,6 @@ proxies:
   password: CJmTCCx7Ltud
   port: 8388
   server: 108.181.126.122
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇱🇹 LT 001 | ⚡ 353.00ms
-  password: J1InuU6QRT5JOh1mQfkjU2
-  port: 16015
-  server: 144.31.243.2
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 004 | ⚡ 233.00ms
@@ -72,18 +66,6 @@ proxies:
   port: 8319
   server: 95.40.120.162
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 017 | ⚡ 142.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL-92.112.126.90-0157 | 0.006MB
   password: 9tqhMdIrTkgQ46PvhyAtMH
@@ -121,3 +103,61 @@ proxies:
   port: 65443
   server: 121.46.230.136
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 013 | ⚡ 223.00ms
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.118.10
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: yahoo.com
+  name: 🇺🇸 US 014 | ⚡ 283.00ms
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.133
+  servername: yahoo.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 421.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 001 | ⚡ 884.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0142 | 0.798MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇦 CA 012 | ⚡ 982.00ms
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      HOST: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
