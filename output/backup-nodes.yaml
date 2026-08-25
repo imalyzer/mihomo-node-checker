@@ -1,5 +1,5 @@
-# last-updated: 2026-08-25T18:51:21Z
-# node-count: 110
+# last-updated: 2026-08-25T19:44:31Z
+# node-count: 111
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -645,20 +645,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 JP 006 | ⚡ 908.00ms
-  network: ws
-  port: 13118
-  server: 140.83.57.20
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
-  ws-opts:
-    headers:
-      Host: sg.11160321.de5.net
-    path: /
-- alterId: 0
-  cipher: auto
   name: 🇨🇦 CA 015 | ⚡ 210.00ms
   network: ws
   port: 443
@@ -777,18 +763,6 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇳 CN 006 | ⚡ 1764.00ms
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - country: 🇺🇸US
   name: 🇺🇸 US 010 | ⚡ 180.00ms
   password: kkzh2prsyr2ik47as615
@@ -805,24 +779,6 @@ proxies:
   port: 443
   server: 173.244.56.9
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US-108.181.0.177-0103 | 69.29MB
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 002 | ⬆️ 0.00MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -870,9 +826,45 @@ proxies:
   tls: true
   type: vless
   uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇳 CN 002 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 958.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
+  name: 🇳🇱 NL 009 | ⚡ 265.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 010 | ⚡ 272.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 002 | ⚡ 450.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001287h3p.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 HK 012 | ⚡ 594.00ms
+  password: ljqdalu13..
+  port: 8319
+  server: 95.40.120.162
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧 GB 002 | ⚡ 1481.00ms
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
   type: ss
