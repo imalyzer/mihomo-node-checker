@@ -1,25 +1,13 @@
-# last-updated: 2026-08-25T14:57:20Z
-# node-count: 36
+# last-updated: 2026-08-25T15:55:06Z
+# node-count: 34
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US-108.181.0.177-0055 | 71.494MB
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: hamedvpns 1 2
   password: U9YAoqBgg5VyGBc6vQv1sN
   port: 7538
   server: 194.61.121.93
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 013 | ⚡ 223.00ms
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.118.10
   type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
@@ -175,26 +163,6 @@ proxies:
   server: 13.135.73.3
   type: ss
 - client-fingerprint: random
-  host: deepl.com
-  name: 🇫🇷 FR 002 | ⚡ 268.00ms
-  port: 40443
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-    short-id: a8ae
-  server: 194.76.154.31
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 468.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-- client-fingerprint: random
   flow: xtls-rprx-vision
   host: deepl.com
   name: 🇮🇳 IN 001 | ⚡ 1166.00ms
@@ -228,12 +196,6 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-108.181.58.239-0141 | 35.763MB
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇭🇰HK-95.40.120.162-0163 | 0.0MB
   password: ljqdalu13..
   port: 8319
@@ -266,18 +228,6 @@ proxies:
   port: 50099
   server: r3mrcg001287h3p.cybervena.com
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 012 | ⬆️ 0.00MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-cfb
   name: 🇬🇧 GB 002 | ⚡ 255.00ms
   password: amazonskr05
@@ -290,16 +240,41 @@ proxies:
   port: 8080
   server: 82.38.31.187
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 001 | ⚡ 756.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0164 | 1.3MB
+- cipher: aes-256-gcm
+  name: 🇬🇧 GB 002 | ⬆️ 0.00MB/s
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 003 | ⬆️ 0.00MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.135.73.177
+  type: ss
+- client-fingerprint: random
+  host: deepl.com
+  name: hamedvpns 3 3
+  port: 40443
+  reality-opts:
+    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
+    short-id: aae8
+  server: 194.55.189.249
+  servername: deepl.com
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-221.139.79.57-0174 | 0.011MB
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-218.237.185.230-0176 | 2.615MB
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
