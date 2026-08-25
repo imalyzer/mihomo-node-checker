@@ -1,5 +1,5 @@
-# last-updated: 2026-08-25T06:56:31Z
-# node-count: 37
+# last-updated: 2026-08-25T07:55:50Z
+# node-count: 36
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -97,18 +97,6 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 016 | ⚡ 205.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 🇱🇹 LT 001 | ⚡ 455.00ms
   password: J1InuU6QRT5JOh1mQfkjU2
@@ -138,12 +126,6 @@ proxies:
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-51.222.155.113-0134 | 2.231MB
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 51.222.155.113
   type: ss
 - alterId: 0
   cipher: auto
@@ -184,46 +166,12 @@ proxies:
   tls: true
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- cipher: aes-256-gcm
-  name: 🇬🇧GB-94.156.250.148-0141 | 0.0MB
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.186-0080 | 71.383MB
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.186
   type: ss
-- client-fingerprint: random
-  host: deepl.com
-  name: 🇫🇷 FR 002 | ⚡ 551.00ms
-  port: 40443
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-    short-id: a8ae
-  server: 194.76.154.31
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-- client-fingerprint: random
-  host: deepl.com
-  name: hamedvpns 3 2
-  port: 40443
-  reality-opts:
-    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
-    short-id: aae8
-  server: 194.55.189.249
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: google.com
@@ -246,18 +194,6 @@ proxies:
   port: 8080
   server: 137.184.174.93
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_52 ⇽中转_0@51
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 003 | ⬆️ 0.00MB/s
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -288,12 +224,6 @@ proxies:
   port: 8080
   server: 82.38.31.191
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 526.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇮🇳 IN 001 | ⚡ 878.00ms
@@ -320,4 +250,54 @@ proxies:
   ws-opts:
     headers:
       Host: sg.11160321.de5.net
+    path: /
+- cipher: aes-256-cfb
+  name: 🇨🇦 CA 014 | ⚡ 176.00ms
+  password: amazonskr05
+  port: 443
+  server: 16.52.44.93
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 015 | ⚡ 210.00ms
+  network: ws
+  port: 443
+  server: rush-t2tvv.ceeopp.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: rush-t2tvv.ceeopp.site
+    path: /
+- cipher: aes-256-cfb
+  name: 🇨🇦 CA 016 | ⚡ 221.00ms
+  password: amazonskr05
+  port: 443
+  server: 99.79.128.42
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 002 | ⚡ 261.00ms
+  password: amazonskr05
+  port: 443
+  server: 35.177.76.120
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 003 | ⚡ 261.00ms
+  password: amazonskr05
+  port: 443
+  server: 13.135.73.3
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 016 | ⚡ 890.00ms
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
     path: /
