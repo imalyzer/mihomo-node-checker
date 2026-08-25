@@ -1,4 +1,4 @@
-# last-updated: 2026-08-25T10:45:54Z
+# last-updated: 2026-08-25T11:40:50Z
 # node-count: 110
 # note: union of stable+fresh
 proxies:
@@ -778,12 +778,6 @@ proxies:
   port: 443
   server: 99.79.128.42
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⬆️ 0.00MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
 - cipher: aes-256-cfb
   name: 🇨🇦CA-35.183.121.177-2264 | 99.015MB
   password: amazonskr05
@@ -796,18 +790,6 @@ proxies:
   port: 7001
   server: 94.156.250.148
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 002 | ⬆️ 0.00MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
@@ -832,12 +814,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-cfb
-  name: 🇬🇧 GB 001 | ⚡ 373.00ms
-  password: amazonskr05
-  port: 443
-  server: 13.135.73.3
-  type: ss
 - name: LV-85.159.228.28-0225 | 21.477MB
   password: kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi
   port: 443
@@ -845,3 +821,22 @@ proxies:
   skip-cert-verify: false
   sni: tr-latvia1.unlimited-access.ru
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 001 | ⚡ 223.00ms
+  password: amazonskr05
+  port: 443
+  server: 35.178.212.194
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸 US 011 | ⚡ 242.00ms
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 561.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.57
+  type: ss
