@@ -1,4 +1,4 @@
-# last-updated: 2026-08-25T15:55:06Z
+# last-updated: 2026-08-25T16:49:53Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -328,19 +328,6 @@ proxies:
   server: autodiscover.fuzzyaytor.cyou
   type: ss
 - cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: 🇺🇸 US 015 | ⚡ 198.00ms
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.6
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸 US 010 | ⚡ 342.00ms
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.9
-  type: ss
-- cipher: aes-128-gcm
   name: 🇬🇧 GB 003 | ⚡ 293.00ms
   password: shadowsocks
   port: 443
@@ -415,15 +402,6 @@ proxies:
   skip-cert-verify: false
   sni: russiapower.accesscam.org
   type: trojan
-- country: 🇺🇸US
-  name: 🇺🇸 US 002 | ⚡ 85.00ms
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  sni: 64.94.95.118
-  type: trojan
-  udp: true
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -599,4 +577,32 @@ proxies:
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: switcher-nick-croquet.freesocks.work
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: hamedvpns 1 2
+  password: U9YAoqBgg5VyGBc6vQv1sN
+  port: 7538
+  server: 194.61.121.93
+  tfo: false
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: yahoo.com
+  name: 🇺🇸 US 014 | ⚡ 283.00ms
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.133
+  servername: yahoo.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 421.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
   type: ss

@@ -1,5 +1,5 @@
-# last-updated: 2026-08-25T15:55:06Z
-# node-count: 114
+# last-updated: 2026-08-25T16:49:53Z
+# node-count: 113
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -328,19 +328,6 @@ proxies:
   server: autodiscover.fuzzyaytor.cyou
   type: ss
 - cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: 🇺🇸 US 015 | ⚡ 198.00ms
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.6
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸 US 010 | ⚡ 342.00ms
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.9
-  type: ss
-- cipher: aes-128-gcm
   name: 🇬🇧 GB 003 | ⚡ 293.00ms
   password: shadowsocks
   port: 443
@@ -415,15 +402,6 @@ proxies:
   skip-cert-verify: false
   sni: russiapower.accesscam.org
   type: trojan
-- country: 🇺🇸US
-  name: 🇺🇸 US 002 | ⚡ 85.00ms
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  sni: 64.94.95.118
-  type: trojan
-  udp: true
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -652,12 +630,6 @@ proxies:
     headers:
       HOST: rush-6it6b.teeopp.quest
     path: /video/kz49hf/gbin5jve.m3u8
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0152 | 0.779MB
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
 - cipher: rc4-md5
   country: 🇺🇸US
   name: 🇨🇦 CA 012 | ⚡ 155.00ms
@@ -844,12 +816,6 @@ proxies:
   port: 7001
   server: 94.156.250.148
   type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧 GB 003 | ⬆️ 0.00MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.135.73.177
-  type: ss
 - client-fingerprint: random
   host: deepl.com
   name: hamedvpns 3 3
@@ -870,9 +836,60 @@ proxies:
   port: 13979
   server: 221.139.79.57
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0176 | 2.615MB
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
+- client-fingerprint: random
+  host: deepl.com
+  name: 🇫🇷 FR 002 | ⚡ 266.00ms
+  port: 40443
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+    short-id: a8ae
+  server: 194.76.154.31
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 012 | ⚡ 344.00ms
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 795.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 001 | ⚡ 1271.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0164 | 1.3MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇳 CN 006 | ⚡ 1764.00ms
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
