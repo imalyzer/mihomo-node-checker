@@ -1,4 +1,4 @@
-# last-updated: 2026-08-25T07:55:50Z
+# last-updated: 2026-08-25T08:54:57Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -542,12 +542,6 @@ proxies:
   port: 8080
   server: 82.38.31.194
   type: ss
-- cipher: aes-256-cfb
-  name: 🇹🇭 TH 001 | ⚡ 551.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪 DE 006 | ⬆️ 0.00MB/s
   password: eQvKkykBEbCky5p4BVghO0
@@ -608,4 +602,10 @@ proxies:
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-108.181.126.122-0123 | 22.365MB
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
   type: ss
