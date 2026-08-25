@@ -1,4 +1,4 @@
-# last-updated: 2026-08-25T12:57:55Z
+# last-updated: 2026-08-25T14:04:06Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -555,12 +555,6 @@ proxies:
   port: 8080
   server: 193.29.139.204
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-221.139.79.57-0177 | 0.02MB
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
 - client-fingerprint: random
   host: s1.test.anti-zapret.com
   name: 🇩🇪 DE 006 | ⚡ 319.00ms
@@ -599,4 +593,10 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.151
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-92.112.126.90-0157 | 0.006MB
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
   type: ss
