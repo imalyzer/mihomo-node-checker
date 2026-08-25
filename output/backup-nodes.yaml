@@ -1,5 +1,5 @@
-# last-updated: 2026-08-25T08:54:57Z
-# node-count: 118
+# last-updated: 2026-08-25T09:50:40Z
+# node-count: 110
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -575,21 +575,6 @@ proxies:
   tls: true
   type: vless
   uuid: f82332b2-dc8c-eac4-ac12-f276e37e278a
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: deepl.com
-  name: 🇮🇳 IN 002 | ⚡ 876.00ms
-  port: 40443
-  reality-opts:
-    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
-    short-id: 84fc
-  server: preview.netraidly.ru
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 005 | ⬆️ 0.00MB/s
   password: eDfN7SODQceIOmIAbtJJtK
@@ -602,18 +587,6 @@ proxies:
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-108.181.126.122-0123 | 22.365MB
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 233.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 008 | ⚡ 292.00ms
@@ -653,12 +626,6 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.57-0086 | 71.983MB
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 013 | ⚡ 223.00ms
   password: G5p6ww4o67HB
   port: 8388
@@ -685,19 +652,6 @@ proxies:
   port: 50099
   server: r3mrcg00129437x.cybervena.com
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 001 | ⚡ 884.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0142 | 0.798MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇱🇹 LT 001 | ⚡ 455.00ms
   password: J1InuU6QRT5JOh1mQfkjU2
@@ -767,12 +721,6 @@ proxies:
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 137.184.174.93
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 003 | ⬆️ 0.00MB/s
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
   type: ss
 - cipher: aes-256-cfb
   name: 🇬🇧 GB 002 | ⚡ 216.00ms
@@ -851,18 +799,6 @@ proxies:
   port: 443
   server: 99.79.128.42
   type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧 GB 002 | ⚡ 261.00ms
-  password: amazonskr05
-  port: 443
-  server: 35.177.76.120
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧 GB 003 | ⚡ 261.00ms
-  password: amazonskr05
-  port: 443
-  server: 13.135.73.3
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇭🇰 HK 016 | ⚡ 890.00ms
@@ -907,21 +843,15 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 010 | ⚡ 244.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 HK 011 | ⚡ 677.00ms
-  password: ljqdalu13..
-  port: 8319
-  server: 95.40.120.162
+- cipher: aes-256-cfb
+  name: 🇨🇦CA-35.183.121.177-2264 | 99.015MB
+  password: amazonskr05
+  port: 443
+  server: 35.183.121.177
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧GB-94.156.250.148-0209 | 11.649MB
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
   type: ss
