@@ -1,5 +1,5 @@
-# last-updated: 2026-08-25T21:41:28Z
-# node-count: 36
+# last-updated: 2026-08-25T22:38:56Z
+# node-count: 38
 # note: streak<3 or newly accepted
 proxies:
 - cipher: aes-256-cfb
@@ -166,18 +166,6 @@ proxies:
   tls: true
   type: vless
   uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇳 CN 002 | ⬆️ 0.00MB/s
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 265.00ms
   password: CJmTCCx7Ltud
@@ -201,12 +189,6 @@ proxies:
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.118.10
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 012 | ⚡ 292.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 013 | ⚡ 327.00ms
@@ -270,15 +252,48 @@ proxies:
   port: 8080
   server: 193.29.139.204
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
+  country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_11 ⇽中转_0@10
+  name: 🇺🇸 US 013 | ⚡ 262.00ms
   network: tcp
-  port: 30806
-  server: v6.hdacd.com
+  port: 180
+  server: 82.198.246.37
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 002 | ⚡ 281.00ms
+  password: amazonskr05
+  port: 443
+  server: 13.135.73.3
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 003 | ⚡ 318.00ms
+  password: amazonskr05
+  port: 443
+  server: 13.135.73.177
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 HK 012 | ⚡ 482.00ms
+  password: ljqdalu13..
+  port: 8319
+  server: 95.40.120.162
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: asia.cendora.ru
+  name: 🇮🇳 IN 001 | ⚡ 1117.00ms
+  port: 443
+  reality-opts:
+    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
+    short-id: e53048e82bb20077
+  server: 5.253.28.189
+  servername: asia.cendora.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
