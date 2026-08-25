@@ -1,4 +1,4 @@
-# last-updated: 2026-08-25T01:26:33Z
+# last-updated: 2026-08-25T03:13:09Z
 # node-count: 38
 # note: streak<3 or newly accepted
 proxies:
@@ -127,13 +127,6 @@ proxies:
     headers:
       HOST: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- name: 🇱🇻 LV 001 | ⬆️ 0.00MB/s
-  password: kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi
-  port: 443
-  server: tr-latvia1.unlimited-access.ru
-  skip-cert-verify: false
-  sni: tr-latvia1.unlimited-access.ru
-  type: trojan
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -151,12 +144,6 @@ proxies:
   password: J1InuU6QRT5JOh1mQfkjU2
   port: 16015
   server: 144.31.243.2
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.176-0144 | 5.239MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
   type: ss
 - alterId: 0
   cipher: auto
@@ -211,13 +198,6 @@ proxies:
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_113_0@112
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
   type: ss
 - alterId: 0
   cipher: auto
@@ -331,3 +311,34 @@ proxies:
   port: 8388
   server: 103.149.182.79
   type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇳 CN 002 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: rc4-md5
+  country: 🇺🇸US
+  name: 🇨🇦 CA 012 | ⚡ 155.00ms
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_52 ⇽中转_0@51
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
