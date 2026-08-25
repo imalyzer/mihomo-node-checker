@@ -1,5 +1,5 @@
-# last-updated: 2026-08-25T17:44:38Z
-# node-count: 28
+# last-updated: 2026-08-25T18:51:21Z
+# node-count: 30
 # note: streak<3 or newly accepted
 proxies:
 - cipher: aes-256-cfb
@@ -40,12 +40,6 @@ proxies:
     headers:
       Host: sg.11160321.de5.net
     path: /
-- cipher: aes-256-cfb
-  name: 🇨🇦 CA 014 | ⚡ 176.00ms
-  password: amazonskr05
-  port: 443
-  server: 16.52.44.93
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇨🇦 CA 015 | ⚡ 210.00ms
@@ -115,33 +109,12 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰HK-95.40.120.162-0163 | 0.0MB
-  password: ljqdalu13..
-  port: 8319
-  server: 95.40.120.162
-  type: ss
 - cipher: aes-256-cfb
   name: TH-103.169.67.34-0167 | 12.123MB
   password: 7eadc6dbe2ae
   port: 65443
   server: 103.169.67.34
   type: ss
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: asia.cendora.ru
-  name: hamedvpns 🇮🇱
-  port: 443
-  reality-opts:
-    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
-    short-id: e53048e82bb20077
-  server: 5.253.28.189
-  servername: asia.cendora.ru
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - cipher: aes-256-cfb
   name: 🇬🇧 GB 002 | ⚡ 255.00ms
   password: amazonskr05
@@ -221,9 +194,68 @@ proxies:
   port: 8388
   server: 108.181.0.177
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-51.222.155.113-0151 | 6.261MB
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 51.222.155.113
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 002 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 011 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-128-gcm
+  name: 🇺🇸 US 017 | ⚡ 261.00ms
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.6
+  type: ss
+- client-fingerprint: random
+  host: deepl.com
+  name: 🇺🇸 US 018 | ⚡ 412.00ms
+  port: 40443
+  reality-opts:
+    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
+    short-id: aae8
+  server: 194.55.189.249
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: deepl.com
+  name: 🇮🇳 IN 001 | ⚡ 875.00ms
+  port: 40443
+  reality-opts:
+    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
+    short-id: 84fc
+  server: preview.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 958.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
   type: ss
