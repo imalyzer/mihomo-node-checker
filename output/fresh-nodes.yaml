@@ -1,5 +1,5 @@
-# last-updated: 2026-08-25T05:45:25Z
-# node-count: 33
+# last-updated: 2026-08-25T06:56:31Z
+# node-count: 37
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -56,12 +56,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.57
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇳CN-121.46.230.136-0385 | 2.003MB
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.136
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 013 | ⚡ 223.00ms
@@ -245,18 +239,6 @@ proxies:
   tls: true
   type: vless
   uuid: 901e6dca-1b73-4266-978b-f7dc1266a7f6
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0188 | 0.0MB
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
 - cipher: rc4-md5
   country: 🇺🇸US
   name: 🇨🇦 CA 012 | ⚡ 155.00ms
@@ -276,15 +258,66 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf
-  name: 🇭🇰 HK 008 | ⚡ 576.00ms
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 003 | ⬆️ 0.00MB/s
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
   type: ss
-- cipher: chacha20-ietf
-  name: 🇸🇬SG-103.36.91.32-4860 | 12.48MB
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 002 | ⚡ 216.00ms
+  password: amazonskr05
+  port: 443
+  server: 13.135.252.176
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 245.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.210
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⚡ 247.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.192
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 009 | ⚡ 254.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.191
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 526.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 001 | ⚡ 878.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0164 | 1.3MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 006 | ⚡ 908.00ms
+  network: ws
+  port: 13118
+  server: 140.83.57.20
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  ws-opts:
+    headers:
+      Host: sg.11160321.de5.net
+    path: /
