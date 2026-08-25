@@ -1,5 +1,5 @@
-# last-updated: 2026-08-25T03:13:09Z
-# node-count: 118
+# last-updated: 2026-08-25T04:08:29Z
+# node-count: 115
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -484,13 +484,6 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- cipher: chacha20-ietf-poly1305
-  name: 🇦🇺 AU 001 | ⚡ 902.00ms
-  password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
-  port: 15675
-  server: 45.77.232.213
-  tfo: false
-  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -783,12 +776,6 @@ proxies:
   port: 5601
   server: 51.222.155.113
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 HK 001 | ⬆️ 0.00MB/s
-  password: ljqdalu13..
-  port: 8319
-  server: 95.40.120.162
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -913,12 +900,6 @@ proxies:
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     path: /
-- cipher: chacha20-ietf
-  name: 🇭🇰 HK 004 | ⚡ 550.00ms
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
-  type: ss
 - alterId: 2
   cipher: auto
   country: 🇨🇳CN
