@@ -1,5 +1,5 @@
-# last-updated: 2026-08-24T23:35:49Z
-# node-count: 117
+# last-updated: 2026-08-25T01:26:33Z
+# node-count: 118
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -933,3 +933,9 @@ proxies:
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     path: /
+- cipher: chacha20-ietf
+  name: 🇭🇰 HK 004 | ⚡ 550.00ms
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
