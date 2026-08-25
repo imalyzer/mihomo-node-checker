@@ -1,4 +1,4 @@
-# last-updated: 2026-08-25T16:49:53Z
+# last-updated: 2026-08-25T17:44:38Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -527,12 +527,6 @@ proxies:
   server: 144.31.168.176
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-193.29.139.204-0078 | 54.961MB
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
-  type: ss
 - client-fingerprint: random
   host: s1.test.anti-zapret.com
   name: 🇩🇪 DE 006 | ⚡ 319.00ms
@@ -567,18 +561,6 @@ proxies:
   server: 82.38.31.199
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 1146.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.151
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-92.112.126.90-0157 | 0.006MB
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: hamedvpns 1 2
   password: U9YAoqBgg5VyGBc6vQv1sN
   port: 7538
@@ -605,4 +587,35 @@ proxies:
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg00129437x.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇱🇹 LT 001 | ⚡ 455.00ms
+  password: J1InuU6QRT5JOh1mQfkjU2
+  port: 16015
+  server: 144.31.243.2
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_139 ⇽中转_0@138
+  network: ws
+  port: 443
+  server: rush-6it6b.teeopp.quest
+  servername: rush-6it6b.teeopp.quest
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: rush-6it6b.teeopp.quest
+    path: /video/kz49hf/gbin5jve.m3u8
+- cipher: rc4-md5
+  country: 🇺🇸US
+  name: 🇨🇦 CA 012 | ⚡ 155.00ms
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
   type: ss

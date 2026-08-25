@@ -1,38 +1,7 @@
-# last-updated: 2026-08-25T16:49:53Z
-# node-count: 33
+# last-updated: 2026-08-25T17:44:38Z
+# node-count: 28
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇱🇹 LT 001 | ⚡ 455.00ms
-  password: J1InuU6QRT5JOh1mQfkjU2
-  port: 16015
-  server: 144.31.243.2
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_139 ⇽中转_0@138
-  network: ws
-  port: 443
-  server: rush-6it6b.teeopp.quest
-  servername: rush-6it6b.teeopp.quest
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      HOST: rush-6it6b.teeopp.quest
-    path: /video/kz49hf/gbin5jve.m3u8
-- cipher: rc4-md5
-  country: 🇺🇸US
-  name: 🇨🇦 CA 012 | ⚡ 155.00ms
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
-  type: ss
 - cipher: aes-256-cfb
   name: 🇬🇧 GB 002 | ⚡ 216.00ms
   password: amazonskr05
@@ -128,21 +97,6 @@ proxies:
   port: 443
   server: 13.135.73.3
   type: ss
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: deepl.com
-  name: 🇮🇳 IN 001 | ⚡ 1166.00ms
-  port: 40443
-  reality-opts:
-    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
-    short-id: 84fc
-  server: preview.netraidly.ru
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 004 | ⬆️ 0.00MB/s
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -188,12 +142,6 @@ proxies:
   tls: true
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⬆️ 0.00MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
 - cipher: aes-256-cfb
   name: 🇬🇧 GB 002 | ⚡ 255.00ms
   password: amazonskr05
@@ -206,26 +154,6 @@ proxies:
   port: 8080
   server: 82.38.31.187
   type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 002 | ⬆️ 0.00MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-- client-fingerprint: random
-  host: deepl.com
-  name: hamedvpns 3 3
-  port: 40443
-  reality-opts:
-    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
-    short-id: aae8
-  server: 194.55.189.249
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
 - cipher: aes-256-cfb
   name: 🇰🇷KR-221.139.79.57-0174 | 0.011MB
   password: qwerREWQ@@
@@ -246,24 +174,6 @@ proxies:
   tls: true
   type: vless
   uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 012 | ⚡ 344.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 795.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇮🇳 IN 001 | ⚡ 1271.00ms
@@ -289,3 +199,31 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- country: 🇺🇸US
+  name: 🇺🇸 US 010 | ⚡ 180.00ms
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.118
+  skip-cert-verify: true
+  sni: 64.94.95.118
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_121_0@120
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.9
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US-108.181.0.177-0103 | 69.29MB
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.0.177
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-51.222.155.113-0151 | 6.261MB
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
+  type: ss
