@@ -1,5 +1,5 @@
-# last-updated: 2026-08-26T03:17:33Z
-# node-count: 123
+# last-updated: 2026-08-26T04:52:37Z
+# node-count: 122
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -754,21 +754,6 @@ proxies:
   tls: true
   type: vless
   uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: deepl.com
-  name: 🇮🇳 IN 001 | ⚡ 875.00ms
-  port: 40443
-  reality-opts:
-    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
-    short-id: 84fc
-  server: preview.netraidly.ru
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 265.00ms
   password: CJmTCCx7Ltud
