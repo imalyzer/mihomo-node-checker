@@ -1,5 +1,5 @@
-# last-updated: 2026-08-26T04:52:37Z
-# node-count: 42
+# last-updated: 2026-08-26T05:47:05Z
+# node-count: 38
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -175,18 +175,6 @@ proxies:
   port: 8388
   server: 108.181.0.177
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 001 | ⬆️ 0.00MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 001 | ⚡ 470.00ms
   password: qwerREWQ@@
@@ -213,12 +201,6 @@ proxies:
     headers:
       Host: sg.11160321.de5.net
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-193.29.139.151-0133 | 88.594MB
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.151
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 580.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -255,33 +237,6 @@ proxies:
   port: 8319
   server: 95.40.120.162
   type: ss
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: asia.cendora.ru
-  name: 🇮🇳 IN 001 | ⚡ 1117.00ms
-  port: 443
-  reality-opts:
-    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
-    short-id: e53048e82bb20077
-  server: 5.253.28.189
-  servername: asia.cendora.ru
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 012 | ⚡ 215.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -325,21 +280,9 @@ proxies:
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇦 CA 019 | ⚡ 131.00ms
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 023 | ⚡ 1626.00ms
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
+  type: ss
