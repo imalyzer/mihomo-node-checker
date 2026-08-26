@@ -1,5 +1,5 @@
-# last-updated: 2026-08-26T13:05:29Z
-# node-count: 109
+# last-updated: 2026-08-26T14:06:25Z
+# node-count: 111
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -544,12 +544,6 @@ proxies:
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 421.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇱🇹 LT 001 | ⚡ 455.00ms
   password: J1InuU6QRT5JOh1mQfkjU2
   port: 16015
@@ -678,26 +672,6 @@ proxies:
   port: 443
   server: 173.244.56.6
   type: ss
-- client-fingerprint: random
-  host: deepl.com
-  name: 🇺🇸 US 018 | ⚡ 412.00ms
-  port: 40443
-  reality-opts:
-    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
-    short-id: aae8
-  server: 194.55.189.249
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 002 | ⚡ 1481.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-140.83.57.20-0169 | 17.489MB
@@ -789,36 +763,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_137 ⇽中转_0@136
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- cipher: aes-256-cfb
-  name: 🇨🇳CN-121.46.230.138-0432 | 2.267MB
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⬆️ 0.00MB/s
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 🇭🇰 HK 008 | ⬆️ 0.00MB/s
   network: ws
   port: 35043
@@ -841,3 +785,73 @@ proxies:
   port: 8388
   server: 108.181.126.122
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 010 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 011 | ⚡ 146.00ms
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 009 | ⚡ 331.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 010 | ⚡ 512.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
+- name: 🇺🇸 US 012 | ⚡ 773.00ms
+  password: ND91608427
+  port: 443
+  server: 44.246.163.102
+  skip-cert-verify: false
+  sni: fleet-bonefish.rooster465.autos
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-218.237.185.230-0188 | 0.471MB
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 002 | ⚡ 845.00ms
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: deepl.com
+  name: hamedvpns 2
+  port: 40443
+  reality-opts:
+    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
+    short-id: 84fc
+  server: preview.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe

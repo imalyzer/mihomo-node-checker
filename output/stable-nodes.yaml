@@ -1,4 +1,4 @@
-# last-updated: 2026-08-26T13:05:29Z
+# last-updated: 2026-08-26T14:06:25Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -544,12 +544,6 @@ proxies:
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 421.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇱🇹 LT 001 | ⚡ 455.00ms
   password: J1InuU6QRT5JOh1mQfkjU2
   port: 16015
@@ -605,4 +599,10 @@ proxies:
   password: amazonskr05
   port: 443
   server: 35.183.121.177
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 001 | ⚡ 223.00ms
+  password: amazonskr05
+  port: 443
+  server: 35.178.212.194
   type: ss
