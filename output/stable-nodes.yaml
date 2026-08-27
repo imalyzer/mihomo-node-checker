@@ -1,4 +1,4 @@
-# last-updated: 2026-08-27T04:29:35Z
+# last-updated: 2026-08-27T16:20:33Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -494,13 +494,6 @@ proxies:
   server: 198.98.53.130
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: hamedvpns 1 2
-  password: U9YAoqBgg5VyGBc6vQv1sN
-  port: 7538
-  server: 194.61.121.93
-  tfo: false
-  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -555,18 +548,6 @@ proxies:
     headers:
       Host: rush-t2tvv.ceeopp.site
     path: /
-- cipher: aes-256-cfb
-  name: 🇨🇦 CA 016 | ⚡ 221.00ms
-  password: amazonskr05
-  port: 443
-  server: 99.79.128.42
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇦CA-35.183.121.177-2264 | 99.015MB
-  password: amazonskr05
-  port: 443
-  server: 35.183.121.177
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 561.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -578,12 +559,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.186
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧 GB 002 | ⚡ 255.00ms
-  password: amazonskr05
-  port: 443
-  server: 35.177.76.120
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 283.00ms
@@ -600,3 +575,28 @@ proxies:
   sni: 64.94.95.118
   type: trojan
   udp: true
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_121_0@120
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.9
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸 US 017 | ⚡ 261.00ms
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.6
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 HK 012 | ⚡ 482.00ms
+  password: ljqdalu13..
+  port: 8319
+  server: 95.40.120.162
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 400.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss

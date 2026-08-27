@@ -1,38 +1,7 @@
-# last-updated: 2026-08-27T04:29:35Z
-# node-count: 36
+# last-updated: 2026-08-27T16:20:33Z
+# node-count: 19
 # note: streak<3 or newly accepted
 proxies:
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_121_0@120
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.9
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸 US 017 | ⚡ 261.00ms
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.6
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 580.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 HK 012 | ⚡ 482.00ms
-  password: ljqdalu13..
-  port: 8319
-  server: 95.40.120.162
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 400.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 1198.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -50,12 +19,6 @@ proxies:
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: switcher-nick-croquet.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA-108.181.118.10-0145 | 49.286MB
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.118.10
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸US-108.181.0.177-0136 | 53.181MB
@@ -85,12 +48,6 @@ proxies:
   type: vless
   uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⬆️ 0.00MB/s
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇨🇳TW-61.231.8.64-0173 | 2.077MB
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
@@ -110,54 +67,12 @@ proxies:
   tls: true
   type: vless
   uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 218.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 002 | ⚡ 644.00ms
   password: qwerREWQ@@
   port: 13979
   server: 221.139.79.57
   type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇳 CN 005 | ⚡ 1082.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 336.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 001 | ⬆️ 0.00MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 008 | ⬆️ 0.00MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -170,30 +85,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 013 | ⚡ 181.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧 GB 001 | ⚡ 319.00ms
-  password: amazonskr05
-  port: 443
-  server: 13.135.252.176
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧 GB 002 | ⚡ 326.00ms
-  password: amazonskr05
-  port: 443
-  server: 18.175.227.220
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧GB-35.178.212.194-0153 | 25.106MB
-  password: amazonskr05
-  port: 443
-  server: 35.178.212.194
-  type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧GB-94.156.250.148-0171 | 3.003MB
   password: RexnBgU7EV5ADxG
@@ -274,18 +165,3 @@ proxies:
   port: 8080
   server: 82.38.31.210
   type: ss
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: asia.cendora.ru
-  name: 🇮🇳 IN 001 | ⚡ 838.00ms
-  port: 443
-  reality-opts:
-    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
-    short-id: e53048e82bb20077
-  server: 5.253.28.189
-  servername: asia.cendora.ru
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
