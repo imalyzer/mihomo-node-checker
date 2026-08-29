@@ -1,4 +1,4 @@
-# last-updated: 2026-08-29T06:03:05Z
+# last-updated: 2026-08-29T12:39:11Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -343,13 +343,6 @@ proxies:
   port: 8080
   server: 82.38.31.180
   type: ss
-- name: 🇪🇪 EE 001 | ⚡ 354.00ms
-  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
-  port: 449
-  server: 109.206.241.10
-  skip-cert-verify: false
-  sni: russiapower.accesscam.org
-  type: trojan
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -594,9 +587,23 @@ proxies:
   port: 8388
   server: 108.181.0.177
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-61.231.8.64-0173 | 2.077MB
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
+- client-fingerprint: random
+  host: deepl.com
+  name: 🇺🇸 US 003 | ⬆️ 0.00MB/s
+  port: 40443
+  reality-opts:
+    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
+    short-id: aae8
+  server: 194.55.189.249
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 002 | ⚡ 644.00ms
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
   type: ss
