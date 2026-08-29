@@ -1,4 +1,4 @@
-# last-updated: 2026-08-29T17:15:53Z
+# last-updated: 2026-08-29T19:56:35Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -562,12 +562,6 @@ proxies:
   server: 95.40.120.162
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 1198.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.151
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇺🇸US-108.181.0.177-0136 | 53.181MB
   password: G5p6ww4o67HB
   port: 8388
@@ -587,12 +581,6 @@ proxies:
   tls: true
   type: vless
   uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 002 | ⚡ 644.00ms
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -605,3 +593,35 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: random
+  host: deepl.com
+  name: 🇫🇷 FR 002 | ⚡ 477.00ms
+  port: 40443
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+    short-id: a8ae
+  server: 194.76.154.31
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇦 CA 019 | ⚡ 172.00ms
+  network: ws
+  port: 443
+  server: rush-6it6b.teeopp.quest
+  servername: rush-6it6b.teeopp.quest
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      HOST: rush-6it6b.teeopp.quest
+    path: /video/kz49hf/gbin5jve.m3u8
