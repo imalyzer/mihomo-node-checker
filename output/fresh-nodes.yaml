@@ -1,25 +1,7 @@
-# last-updated: 2026-08-29T12:39:11Z
-# node-count: 28
+# last-updated: 2026-08-29T17:15:53Z
+# node-count: 23
 # note: streak<3 or newly accepted
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 012 | ⚡ 107.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-gcm
-  name: 🇬🇧GB-94.156.250.148-0171 | 3.003MB
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
 - client-fingerprint: random
   host: deepl.com
   name: 🇫🇷 FR 002 | ⚡ 477.00ms
@@ -89,18 +71,6 @@ proxies:
   server: 193.29.139.204
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 469.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 020 | ⚡ 777.00ms
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 51.222.155.113
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⬆️ 0.00MB/s
   password: CJmTCCx7Ltud
   port: 8388
@@ -144,15 +114,6 @@ proxies:
     headers:
       Host: sg.11160321.de5.net
     path: /
-- country: 🇺🇸US
-  name: 🏳️ KZ 001 | ⚡ 1051.00ms
-  password: owefv0_92Z540k2F_nx83245_J9130oS_tY
-  port: 4443
-  server: 5.180.21.146
-  skip-cert-verify: true
-  sni: borat-hopp.bumbleshrimp.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇵🇱 PL 014 | ⚡ 1168.00ms
   password: U9YAoqBgg5VyGBc6vQv1sN
@@ -185,12 +146,6 @@ proxies:
   server: switcher-nick-croquet.freesocks.work
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0187 | 0.0MB
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- cipher: aes-256-cfb
   name: 🇨🇳CN-121.46.230.138-0184 | 1.429MB
   password: 7eadc6dbe2ae
   port: 65443
@@ -218,20 +173,26 @@ proxies:
   server: 82.38.31.176
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US-216.105.168.18-0197 | 0.0MB
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇨🇳 TW 001 | ⚡ 574.00ms
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
   type: ss
 - cipher: aes-256-cfb
-  name: 🇹🇭 TH 001 | ⚡ 647.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
+  name: 🇮🇪 IE 002 | ⚡ 301.00ms
+  password: amazonskr05
+  port: 443
+  server: 3.250.223.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 552.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001287h3p.cybervena.com
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 003 | ⚡ 702.00ms
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
   type: ss
