@@ -1,4 +1,4 @@
-# last-updated: 2026-08-30T13:51:37Z
+# last-updated: 2026-08-30T18:13:10Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -308,12 +308,6 @@ proxies:
   server: 149.22.87.204
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 010 | ⚡ 247.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.147
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇨🇦CA-142.4.216.225-5116 | 12.669MB
   password: ytw2awn
   port: 443
@@ -336,12 +330,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.212
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 305.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.180
   type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
@@ -419,12 +407,6 @@ proxies:
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 240.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 008 | ⚡ 257.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -466,13 +448,6 @@ proxies:
   password: eQvKkykBEbCky5p4BVghO0
   port: 45640
   server: 144.31.168.176
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 005 | ⬆️ 0.00MB/s
-  password: eDfN7SODQceIOmIAbtJJtK
-  port: 443
-  server: 198.98.53.130
   tfo: false
   type: ss
 - client-fingerprint: random
@@ -587,20 +562,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: random
-  host: deepl.com
-  name: 🇫🇷 FR 002 | ⚡ 477.00ms
-  port: 40443
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-    short-id: a8ae
-  server: 194.76.154.31
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 276.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -612,4 +573,53 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.235
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 004 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 247.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 008 | ⚡ 193.00ms
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 009 | ⚡ 196.00ms
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 🇵🇱 PL 014 | ⚡ 1168.00ms
+  password: U9YAoqBgg5VyGBc6vQv1sN
+  port: 7538
+  server: 194.61.121.93
+  tfo: false
   type: ss
