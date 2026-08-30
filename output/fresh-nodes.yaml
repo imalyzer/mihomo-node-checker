@@ -1,5 +1,5 @@
-# last-updated: 2026-08-30T01:20:10Z
-# node-count: 30
+# last-updated: 2026-08-30T08:12:32Z
+# node-count: 26
 # note: streak<3 or newly accepted
 proxies:
 - alterId: 0
@@ -75,12 +75,6 @@ proxies:
   port: 65443
   server: 95.170.13.47
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-92.112.126.90-0191 | 0.0MB
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
 - cipher: aes-256-cfb
   name: 🇨🇳CN-121.46.230.138-0184 | 1.429MB
   password: 7eadc6dbe2ae
@@ -109,12 +103,6 @@ proxies:
   server: r3mrcg001286ek2.cybervena.com
   type: ss
 - cipher: aes-256-cfb
-  name: 🇮🇪 IE 002 | ⚡ 301.00ms
-  password: amazonskr05
-  port: 443
-  server: 3.250.223.202
-  type: ss
-- cipher: aes-256-cfb
   name: 🇲🇾 MY 001 | ⚡ 680.00ms
   password: 7eadc6dbe2ae
   port: 65443
@@ -132,24 +120,6 @@ proxies:
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001287h3p.cybervena.com
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 012 | ⬆️ 0.00MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 51.222.155.113
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 003 | ⚡ 257.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 260.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.210
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 306.00ms
@@ -189,19 +159,6 @@ proxies:
     headers:
       Host: sg.11160321.de5.net
     path: /
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 005 | ⚡ 1307.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇮🇹 IT 001 | ⚡ 451.00ms
-  password: d1fa2f4b98a38bc8
-  port: 10901
-  server: 194.87.47.204
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 002 | ⚡ 561.00ms
   password: qwerREWQ@@
@@ -225,4 +182,22 @@ proxies:
   password: ljqdalu13..
   port: 8319
   server: 95.40.120.162
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 413.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇹🇭 TH 001 | ⚡ 613.00ms
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 103.169.67.34
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 003 | ⚡ 623.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
   type: ss
