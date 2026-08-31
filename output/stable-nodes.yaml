@@ -1,4 +1,4 @@
-# last-updated: 2026-08-30T23:27:15Z
+# last-updated: 2026-08-31T04:07:56Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -618,8 +618,8 @@ proxies:
   server: 95.170.13.47
   type: ss
 - cipher: aes-256-cfb
-  name: 🇨🇳CN-121.46.230.138-0184 | 1.429MB
+  name: 🇲🇾 MY 001 | ⚡ 680.00ms
   password: 7eadc6dbe2ae
   port: 65443
-  server: 121.46.230.138
+  server: 118.107.222.231
   type: ss

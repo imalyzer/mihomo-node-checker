@@ -1,4 +1,4 @@
-# last-updated: 2026-08-30T23:27:15Z
+# last-updated: 2026-08-31T04:07:56Z
 # node-count: 109
 # note: union of stable+fresh
 proxies:
@@ -618,23 +618,10 @@ proxies:
   server: 95.170.13.47
   type: ss
 - cipher: aes-256-cfb
-  name: 🇨🇳CN-121.46.230.138-0184 | 1.429MB
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-- cipher: aes-256-cfb
   name: 🇲🇾 MY 001 | ⚡ 680.00ms
   password: 7eadc6dbe2ae
   port: 65443
   server: 118.107.222.231
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇨🇳CN
-  name: 🇨🇳 CN 008 | ⚡ 1012.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
   type: ss
 - alterId: 0
   cipher: auto
@@ -794,13 +781,6 @@ proxies:
   server: 198.98.53.130
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 022 | ⚡ 167.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
 - cipher: aes-256-cfb
   name: 🇮🇪 IE 003 | ⚡ 292.00ms
   password: amazonskr05
@@ -844,3 +824,21 @@ proxies:
   skip-cert-verify: false
   sni: borat-hopp.bumbleshrimp.com
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 251.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 258.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 018 | ⚡ 278.00ms
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
+  type: ss
