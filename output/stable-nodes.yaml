@@ -1,4 +1,4 @@
-# last-updated: 2026-08-31T10:49:51Z
+# last-updated: 2026-08-31T18:10:27Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -568,24 +568,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 247.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 008 | ⚡ 193.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -617,9 +599,35 @@ proxies:
   port: 65443
   server: 95.170.13.47
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 001 | ⚡ 1189.00ms
+  network: ws
+  port: 13118
+  server: 140.83.57.20
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  ws-opts:
+    headers:
+      Host: sg.11160321.de5.net
+    path: /
 - cipher: aes-256-cfb
-  name: 🇲🇾 MY 001 | ⚡ 680.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 118.107.222.231
+  name: 🇰🇷 KR 002 | ⚡ 561.00ms
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 007 | ⚡ 809.00ms
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    path: /

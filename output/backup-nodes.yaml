@@ -1,5 +1,5 @@
-# last-updated: 2026-08-31T10:49:51Z
-# node-count: 108
+# last-updated: 2026-08-31T18:10:27Z
+# node-count: 103
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -568,24 +568,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 247.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 008 | ⚡ 193.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -616,12 +598,6 @@ proxies:
   password: 7eadc6dbe2ae
   port: 65443
   server: 95.170.13.47
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇲🇾 MY 001 | ⚡ 680.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 118.107.222.231
   type: ss
 - alterId: 0
   cipher: auto
@@ -735,12 +711,6 @@ proxies:
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 HK 007 | ⚡ 458.00ms
-  password: ljqdalu13..
-  port: 8319
-  server: 95.40.120.162
-  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: deepl.com
@@ -787,12 +757,6 @@ proxies:
   port: 10901
   server: 194.87.47.204
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0178 | 0.0MB
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
 - name: 🏳️ KZ 002 | ⚡ 986.00ms
   password: owefv0_92Z540k2F_nx83245_J9130oS_tY
   port: 4443
@@ -807,24 +771,6 @@ proxies:
   server: 193.29.139.147
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 258.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 018 | ⚡ 278.00ms
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 51.222.155.113
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 004 | ⬆️ 0.00MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 003 | ⬆️ 0.00MB/s
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -835,4 +781,23 @@ proxies:
   password: amazonskr05
   port: 443
   server: 3.250.223.202
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇨🇦 CA 018 | ⚡ 184.00ms
+  password: amazonskr05
+  port: 443
+  server: 35.182.250.193
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇹🇭 TH 001 | ⚡ 607.00ms
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 103.169.67.34
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  name: 🇨🇳 CN 008 | ⚡ 903.00ms
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
   type: ss
