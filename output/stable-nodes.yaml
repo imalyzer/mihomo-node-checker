@@ -1,4 +1,4 @@
-# last-updated: 2026-09-01T17:53:36Z
+# last-updated: 2026-09-01T20:51:15Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -543,12 +543,6 @@ proxies:
   port: 8080
   server: 82.38.31.199
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 289.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.235
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -605,12 +599,6 @@ proxies:
   ws-opts:
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 001 | ⚡ 413.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 003 | ⚡ 262.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -621,4 +609,16 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.210
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-211.178.105.134-0183 | 0.0MB
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 002 | ⚡ 270.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
   type: ss
