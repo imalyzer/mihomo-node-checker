@@ -1,4 +1,4 @@
-# last-updated: 2026-09-01T07:34:45Z
+# last-updated: 2026-09-01T13:23:07Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -592,12 +592,6 @@ proxies:
   port: 65443
   server: 95.170.13.47
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 002 | ⚡ 561.00ms
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇭🇰 HK 007 | ⚡ 809.00ms
@@ -621,4 +615,10 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 336.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.210
   type: ss
