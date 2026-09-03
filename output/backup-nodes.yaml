@@ -1,5 +1,5 @@
-# last-updated: 2026-09-03T01:18:30Z
-# node-count: 111
+# last-updated: 2026-09-03T07:09:06Z
+# node-count: 109
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -773,35 +773,11 @@ proxies:
   port: 8080
   server: 82.38.31.176
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_139 ⇽中转_1@138
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL-193.29.139.151-0094 | 0.0MB
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.151
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0253 | 0.037MB
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
   type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 009 | ⚡ 575.00ms
@@ -821,12 +797,6 @@ proxies:
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     path: /
-- cipher: chacha20-ietf
-  name: 🇸🇬 SG 002 | ⬆️ 0.00MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
@@ -852,4 +822,10 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 4444
   server: 15.204.247.244
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇨🇦 CA 001 | ⬆️ 0.00MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.182.226.121
   type: ss
