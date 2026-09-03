@@ -1,4 +1,4 @@
-# last-updated: 2026-09-03T07:09:06Z
+# last-updated: 2026-09-03T12:12:04Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -240,18 +240,6 @@ proxies:
   port: 8080
   server: 193.29.139.223
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_147_0@146
-  network: tcp
-  port: 18000
-  server: 149.88.23.207
-  skip-cert-verify: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
@@ -617,3 +605,18 @@ proxies:
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: deepl.com
+  name: 🇮🇳 IN 002 | ⚡ 865.00ms
+  port: 40443
+  reality-opts:
+    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
+    short-id: 84fc
+  server: preview.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe

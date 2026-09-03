@@ -1,22 +1,7 @@
-# last-updated: 2026-09-03T07:09:06Z
-# node-count: 29
+# last-updated: 2026-09-03T12:12:04Z
+# node-count: 24
 # note: streak<3 or newly accepted
 proxies:
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: deepl.com
-  name: 🇮🇳 IN 002 | ⚡ 865.00ms
-  port: 40443
-  reality-opts:
-    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
-    short-id: 84fc
-  server: preview.netraidly.ru
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 021 | ⚡ 165.00ms
   password: eDfN7SODQceIOmIAbtJJtK
@@ -72,12 +57,6 @@ proxies:
   port: 8080
   server: 82.38.31.180
   type: ss
-- cipher: aes-256-cfb
-  name: 🇲🇾 MY 001 | ⚡ 575.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 118.107.222.231
-  type: ss
 - country: 🇺🇸US
   name: 🇺🇸 US 026 | ⚡ 91.00ms
   password: kkzh2prsyr2ik47as615
@@ -104,12 +83,6 @@ proxies:
   port: 8080
   server: 82.38.31.187
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-221.139.79.57-0165 | 0.027MB
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL-193.29.139.235-0097 | 85.455MB
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -129,12 +102,6 @@ proxies:
   type: vmess
   uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-36.224.151.80-0149 | 4.072MB
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇨🇳 TW 001 | ⚡ 348.00ms
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
@@ -151,12 +118,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.46
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 431.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL-193.29.139.151-0094 | 0.0MB
@@ -195,13 +156,6 @@ proxies:
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_183_0@182
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
 - cipher: aes-256-gcm
   name: 🇺🇸US-15.204.247.244-0131 | 3.772MB
   password: pKEW8JPByTVTLtM
@@ -213,4 +167,10 @@ proxies:
   password: amazonskr05
   port: 443
   server: 35.182.226.121
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇹🇭 TH 001 | ⚡ 649.00ms
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 103.169.67.34
   type: ss
