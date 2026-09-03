@@ -1,26 +1,7 @@
-# last-updated: 2026-09-03T12:12:04Z
-# node-count: 24
+# last-updated: 2026-09-03T16:15:24Z
+# node-count: 19
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 021 | ⚡ 165.00ms
-  password: eDfN7SODQceIOmIAbtJJtK
-  port: 443
-  server: 198.98.53.130
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 297.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.219
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 314.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.155
-  type: ss
 - cipher: aes-256-gcm
   name: 🇮🇹 IT 001 | ⚡ 483.00ms
   password: d1fa2f4b98a38bc8
@@ -66,16 +47,16 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⬆️ 0.00MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 336.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.186
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⬆️ 0.00MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 002 | ⬆️ 0.00MB/s
@@ -125,12 +106,6 @@ proxies:
   port: 8080
   server: 193.29.139.151
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 009 | ⚡ 575.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇭🇰 HK 006 | ⚡ 852.00ms
@@ -156,21 +131,22 @@ proxies:
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   ws-path: /
-- cipher: aes-256-gcm
-  name: 🇺🇸US-15.204.247.244-0131 | 3.772MB
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 15.204.247.244
-  type: ss
 - cipher: aes-256-cfb
-  name: 🇨🇦 CA 001 | ⬆️ 0.00MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.182.226.121
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇹🇭 TH 001 | ⚡ 649.00ms
+  country: 🇨🇳CN
+  name: 🇨🇳 CN 003 | ⬆️ 0.00MB/s
   password: 7eadc6dbe2ae
   port: 65443
-  server: 103.169.67.34
+  server: 121.46.230.233
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇸🇬 SG 004 | ⚡ 572.00ms
+  network: tcp
+  port: 18000
+  server: 149.88.23.207
+  skip-cert-verify: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
