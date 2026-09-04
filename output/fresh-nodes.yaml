@@ -1,5 +1,5 @@
-# last-updated: 2026-09-04T01:02:45Z
-# node-count: 37
+# last-updated: 2026-09-04T05:47:03Z
+# node-count: 32
 # note: streak<3 or newly accepted
 proxies:
 - cipher: aes-256-gcm
@@ -144,12 +144,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- cipher: aes-256-cfb
-  name: 🇲🇾 MY 001 | ⚡ 744.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 118.107.222.231
-  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: deepl.com
@@ -171,36 +165,11 @@ proxies:
   port: 65443
   server: 121.46.230.232
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇦 CA 003 | ⬆️ 0.00MB/s
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 TW 001 | ⬆️ 0.00MB/s
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 014 | ⚡ 276.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 289.00ms
@@ -209,22 +178,10 @@ proxies:
   server: 193.29.139.151
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷 KR 006 | ⚡ 598.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- cipher: aes-256-cfb
   name: 🇰🇷 KR 007 | ⚡ 659.00ms
   password: qwerREWQ@@
   port: 13979
   server: 221.139.79.57
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 008 | ⚡ 664.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
   type: ss
 - cipher: aes-256-cfb
   name: 🇨🇳 CN 003 | ⚡ 800.00ms
@@ -269,14 +226,14 @@ proxies:
   server: 103.169.67.34
   type: ss
 - cipher: aes-256-cfb
-  name: 🇨🇳 CN 002 | ⚡ 616.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  type: ss
-- cipher: aes-256-cfb
   name: 🇰🇷 KR 009 | ⚡ 658.00ms
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 354.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
   type: ss
