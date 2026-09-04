@@ -1,5 +1,5 @@
-# last-updated: 2026-09-04T15:04:18Z
-# node-count: 28
+# last-updated: 2026-09-04T18:23:04Z
+# node-count: 26
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -34,12 +34,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⬆️ 0.00MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 336.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -123,12 +117,6 @@ proxies:
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 289.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.151
-  type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 007 | ⚡ 659.00ms
   password: qwerREWQ@@
@@ -171,19 +159,6 @@ proxies:
   port: 65443
   server: 118.107.222.231
   type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧GB-94.156.250.148-0164 | 2.784MB
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 016 | ⚡ 391.00ms
-  password: eDfN7SODQceIOmIAbtJJtK
-  port: 443
-  server: 198.98.53.130
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 TW 001 | ⚡ 451.00ms
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -201,4 +176,16 @@ proxies:
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇳🇱NL-158.173.20.171-0150 | 28.707MB
+  password: shadowsocks
+  port: 443
+  server: 158.173.20.171
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: NO-185.213.23.63-0153 | 24.944MB
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
   type: ss
