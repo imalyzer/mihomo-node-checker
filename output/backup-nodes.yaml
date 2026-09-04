@@ -1,5 +1,5 @@
-# last-updated: 2026-09-03T22:33:25Z
-# node-count: 110
+# last-updated: 2026-09-04T01:02:45Z
+# node-count: 117
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -847,4 +847,46 @@ proxies:
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: switcher-nick-croquet.freesocks.work
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇨🇦 CA 002 | ⬆️ 0.00MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.182.226.121
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE-8.209.74.72-0116 | 43.753MB
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧GB-13.40.94.70-0113 | 0.029MB
+  password: amazonskr05
+  port: 443
+  server: 13.40.94.70
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇴 NO 001 | ⚡ 490.00ms
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- cipher: aes-256-cfb
+  name: TH-103.169.67.34-0126 | 21.764MB
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 103.169.67.34
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇨🇳 CN 002 | ⚡ 616.00ms
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 009 | ⚡ 658.00ms
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
   type: ss
