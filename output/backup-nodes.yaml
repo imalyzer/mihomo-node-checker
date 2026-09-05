@@ -1,5 +1,5 @@
-# last-updated: 2026-09-04T23:59:18Z
-# node-count: 112
+# last-updated: 2026-09-05T03:21:51Z
+# node-count: 115
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -743,12 +743,6 @@ proxies:
   port: 8080
   server: 82.38.31.176
   type: ss
-- cipher: aes-256-cfb
-  name: 🇲🇾MY-118.107.222.231-0180 | 0.029MB
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 118.107.222.231
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 TW 001 | ⚡ 451.00ms
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -847,3 +841,35 @@ proxies:
   port: 13979
   server: 221.139.79.57
   type: ss
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  name: 🇨🇳 CN 003 | ⬆️ 0.00MB/s
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 245.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 006 | ⚡ 248.00ms
+  password: amazonskr05
+  port: 443
+  server: 13.40.94.70
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇲🇾 MY 001 | ⚡ 532.00ms
+  network: tcp
+  port: 10000
+  server: 47.250.135.244
+  skip-cert-verify: true
+  type: vmess
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  ws-path: /
