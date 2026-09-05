@@ -1,5 +1,5 @@
-# last-updated: 2026-09-05T20:15:01Z
-# node-count: 104
+# last-updated: 2026-09-05T22:52:42Z
+# node-count: 114
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -793,3 +793,77 @@ proxies:
   tls: true
   type: vless
   uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
+- country: 🇺🇸US
+  name: 🇭🇰 HK 007 | ⬆️ 0.00MB/s
+  password: i99Cef
+  port: 28101
+  server: 209.248.32.116
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷 FR 001 | ⚡ 251.00ms
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⚡ 299.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇮🇪 IE 001 | ⚡ 304.00ms
+  password: amazonskr05
+  port: 443
+  server: 3.252.205.48
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 010 | ⚡ 309.00ms
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 009 | ⚡ 556.00ms
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 010 | ⚡ 681.00ms
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 008 | ⚡ 1008.00ms
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 009 | ⚡ 1226.00ms
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 009 | ⚡ 1398.00ms
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
