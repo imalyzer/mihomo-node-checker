@@ -1,5 +1,5 @@
-# last-updated: 2026-09-05T18:10:03Z
-# node-count: 103
+# last-updated: 2026-09-05T20:15:01Z
+# node-count: 104
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -668,12 +668,6 @@ proxies:
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   ws-path: /
-- cipher: aes-256-cfb
-  name: 🇨🇦 CA 002 | ⬆️ 0.00MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.182.226.121
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE-8.209.74.72-0116 | 43.753MB
   password: PWpjPo3tqhPN4yRZ
@@ -730,12 +724,6 @@ proxies:
   server: 198.98.53.130
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-221.139.79.57-0179 | 0.0MB
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 245.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -747,12 +735,6 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 4444
   server: 15.204.247.244
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇴 NO 001 | ⚡ 411.00ms
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
   type: ss
 - alterId: 0
   cipher: auto
@@ -778,3 +760,36 @@ proxies:
   port: 65443
   server: 118.107.222.231
   type: ss
+- cipher: aes-256-cfb
+  name: 🇨🇦CA-3.97.16.160-0073 | 0.0MB
+  password: amazonskr05
+  port: 443
+  server: 3.97.16.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 JP 008 | ⚡ 417.00ms
+  password: uTBjZhDmOMwBVAJI
+  port: 8388
+  server: 45.32.16.53
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 002 | ⚡ 429.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: deepl.com
+  name: 🇮🇳 IN 002 | ⚡ 815.00ms
+  port: 40443
+  reality-opts:
+    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
+    short-id: 84fc
+  server: preview.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
