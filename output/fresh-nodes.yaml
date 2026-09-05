@@ -1,25 +1,7 @@
-# last-updated: 2026-09-05T16:02:12Z
-# node-count: 30
+# last-updated: 2026-09-05T18:10:03Z
+# node-count: 23
 # note: streak<3 or newly accepted
 proxies:
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 022 | ⚡ 278.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 242.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.180
-  type: ss
 - country: 🇺🇸US
   name: 🇺🇸 US 026 | ⚡ 91.00ms
   password: kkzh2prsyr2ik47as615
@@ -46,18 +28,6 @@ proxies:
   port: 8080
   server: 193.29.139.235
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_128_1@127
-  network: tcp
-  port: 10086
-  server: 107.172.75.141
-  skip-cert-verify: true
-  type: vmess
-  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
 - cipher: chacha20-ietf-poly1305
   name: 🇯🇵JP-176.97.73.215-0107 | 5.775MB
   password: ma6zc4JoLRJA
@@ -83,21 +53,6 @@ proxies:
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   ws-path: /
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: deepl.com
-  name: 🇮🇳 IN 002 | ⚡ 814.00ms
-  port: 40443
-  reality-opts:
-    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
-    short-id: 84fc
-  server: preview.netraidly.ru
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
 - cipher: aes-256-cfb
   name: 🇨🇦 CA 002 | ⬆️ 0.00MB/s
   password: amazonskr05
@@ -146,12 +101,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 947.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
-  type: ss
 - cipher: aes-256-cfb
   country: 🇨🇳CN
   name: 🇨🇳 CN 005 | ⚡ 1097.00ms
@@ -165,12 +114,6 @@ proxies:
   port: 443
   server: 198.98.53.130
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-92.112.126.90-0182 | 0.0MB
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
   type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷KR-221.139.79.57-0179 | 0.0MB
@@ -190,29 +133,11 @@ proxies:
   port: 4444
   server: 15.204.247.244
   type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇦 CA 011 | ⚡ 173.00ms
-  password: amazonskr05
-  port: 443
-  server: 3.97.16.160
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇴 NO 001 | ⚡ 411.00ms
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.213.23.63
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇳 CN 005 | ⬆️ 0.00MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇳🇱 NL 005 | ⚡ 233.00ms
-  password: shadowsocks
-  port: 443
-  server: 158.173.20.171
   type: ss
 - alterId: 0
   cipher: auto
@@ -226,3 +151,15 @@ proxies:
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     path: /
+- cipher: aes-256-cfb
+  name: TH-103.169.67.34-0175 | 11.483MB
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 103.169.67.34
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇲🇾MY-118.107.222.231-0160 | 0.0MB
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 118.107.222.231
+  type: ss
