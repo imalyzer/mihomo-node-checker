@@ -1,5 +1,5 @@
-# last-updated: 2026-09-06T10:34:14Z
-# node-count: 110
+# last-updated: 2026-09-06T14:10:33Z
+# node-count: 113
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -787,30 +787,6 @@ proxies:
   port: 4652
   server: p141.panda001.net
   type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 008 | ⚡ 1008.00ms
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 009 | ⚡ 1398.00ms
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
@@ -829,18 +805,6 @@ proxies:
   port: 8080
   server: 82.38.31.199
   type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 007 | ⬆️ 0.00MB/s-2
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   name: TH-103.169.67.34-0135 | 7.697MB
   password: 7eadc6dbe2ae
@@ -852,4 +816,64 @@ proxies:
   password: J1InuU6QRT5JOh1mQfkjU2
   port: 16015
   server: 144.31.243.2
+  type: ss
+- cipher: rc4-md5
+  name: 🇨🇦 CA 013 | ⚡ 119.00ms
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 003 | ⚡ 302.00ms
+  password: amazonskr05
+  port: 443
+  server: 13.40.17.62
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇦 CA 014 | ⚡ 609.00ms
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      HOST: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇮🇳 IN 001 | ⚡ 1090.00ms
+  network: ws
+  port: 443
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  ws-opts:
+    headers:
+      HOST: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 003 | ⚡ 1097.00ms
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇨🇳 CN 006 | ⚡ 1145.00ms
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
   type: ss
