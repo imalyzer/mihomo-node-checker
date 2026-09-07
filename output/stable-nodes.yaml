@@ -1,4 +1,4 @@
-# last-updated: 2026-09-07T09:10:42Z
+# last-updated: 2026-09-07T15:09:27Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -363,18 +363,6 @@ proxies:
   port: 8080
   server: 82.38.31.184
   type: ss
-- alterId: 1
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 006 | ⚡ 335.00ms
-  network: tcp
-  port: 22324
-  server: 67.220.72.237
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -624,3 +612,15 @@ proxies:
   port: 50099
   server: r3mrcg00129437x.cybervena.com
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇸🇬 SG 003 | ⚡ 506.00ms
+  network: tcp
+  port: 18000
+  server: 149.88.23.207
+  skip-cert-verify: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
