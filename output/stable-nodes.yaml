@@ -1,4 +1,4 @@
-# last-updated: 2026-09-07T15:09:27Z
+# last-updated: 2026-09-07T19:15:30Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -390,12 +390,6 @@ proxies:
   port: 8080
   server: 82.38.31.191
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 561.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.57
-  type: ss
 - country: 🇺🇸US
   name: 🇺🇸 US 010 | ⚡ 180.00ms
   password: kkzh2prsyr2ik47as615
@@ -417,12 +411,6 @@ proxies:
   password: shadowsocks
   port: 443
   server: 173.244.56.6
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US-108.181.0.177-0136 | 53.181MB
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
   type: ss
 - client-fingerprint: random
   host: deepl.com
@@ -480,12 +468,6 @@ proxies:
   port: 7538
   server: 194.61.121.93
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA-108.181.118.10-0143 | 79.144MB
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.118.10
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 336.00ms
@@ -575,18 +557,6 @@ proxies:
   port: 8080
   server: 193.29.139.235
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP-176.97.73.215-0107 | 5.775MB
-  password: ma6zc4JoLRJA
-  port: 8388
-  server: 176.97.73.215
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 493.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.46
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
@@ -624,3 +594,49 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 014 | ⚡ 190.00ms
+  password: eDfN7SODQceIOmIAbtJJtK
+  port: 443
+  server: 198.98.53.130
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸 US 011 | ⚡ 96.00ms
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 15.204.247.244
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 009 | ⚡ 1409.00ms
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: 🇲🇾MY-118.107.222.231-0160 | 0.0MB
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 118.107.222.231
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: deepl.com
+  name: 🇮🇳 IN 002 | ⚡ 815.00ms
+  port: 40443
+  reality-opts:
+    public-key: d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo
+    short-id: 84fc
+  server: preview.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
