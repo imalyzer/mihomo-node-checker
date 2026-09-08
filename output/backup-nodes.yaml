@@ -1,4 +1,4 @@
-# last-updated: 2026-09-08T18:37:24Z
+# last-updated: 2026-09-08T21:51:26Z
 # node-count: 103
 # note: union of stable+fresh
 proxies:
@@ -601,18 +601,6 @@ proxies:
   port: 4444
   server: 15.204.247.244
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 009 | ⚡ 1409.00ms
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
 - cipher: aes-256-cfb
   name: 🇲🇾MY-118.107.222.231-0160 | 0.0MB
   password: 7eadc6dbe2ae
@@ -639,12 +627,6 @@ proxies:
   password: J1InuU6QRT5JOh1mQfkjU2
   port: 16015
   server: 144.31.243.2
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 003 | ⚡ 1097.00ms
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.199-0115 | 3.129MB
@@ -744,12 +726,6 @@ proxies:
   port: 8080
   server: 82.38.31.62
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 011 | ⚡ 883.00ms
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.57-0157 | 57.701MB
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -793,8 +769,26 @@ proxies:
   server: r3mrcg001286ek2.cybervena.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: NO-185.213.23.63-0181 | 12.356MB
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
+  name: 🇳🇱 NL 007 | ⚡ 323.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.15
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 005 | ⚡ 627.00ms
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 009 | ⚡ 920.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧 GB 003 | ⚡ 1536.00ms
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
   type: ss
