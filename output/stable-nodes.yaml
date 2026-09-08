@@ -1,4 +1,4 @@
-# last-updated: 2026-09-08T15:09:59Z
+# last-updated: 2026-09-08T18:37:24Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -576,12 +576,6 @@ proxies:
   port: 20001
   server: 8.209.74.72
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 002 | ⚡ 464.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
@@ -640,3 +634,9 @@ proxies:
   tls: true
   type: vless
   uuid: 15fd22d1-8931-4d41-af37-8ba6711e93fe
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US-144.31.243.2-0132 | 18.672MB
+  password: J1InuU6QRT5JOh1mQfkjU2
+  port: 16015
+  server: 144.31.243.2
+  type: ss
