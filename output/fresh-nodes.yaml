@@ -1,31 +1,7 @@
-# last-updated: 2026-09-09T00:05:44Z
-# node-count: 31
+# last-updated: 2026-09-09T03:32:22Z
+# node-count: 28
 # note: streak<3 or newly accepted
 proxies:
-- cipher: rc4-md5
-  name: 🇺🇸 US 013 | ⚡ 127.00ms
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 138.199.42.68
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 306.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.61
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 307.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.82
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 325.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 325.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -136,12 +112,6 @@ proxies:
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 323.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.15
-  type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 005 | ⚡ 627.00ms
   password: qwerREWQ@@
@@ -159,12 +129,6 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇳 CN 017 | ⬆️ 0.00MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 007 | ⚡ 265.00ms
@@ -208,3 +172,27 @@ proxies:
   port: 65443
   server: 121.46.230.138
   type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷 FR 001 | ⚡ 284.00ms
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 469.00ms
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 004 | ⚡ 967.00ms
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    path: /
