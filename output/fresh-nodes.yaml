@@ -1,5 +1,5 @@
-# last-updated: 2026-09-09T08:57:54Z
-# node-count: 30
+# last-updated: 2026-09-09T13:44:17Z
+# node-count: 29
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -106,12 +106,6 @@ proxies:
   port: 8080
   server: 193.29.139.204
   type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 003 | ⚡ 1536.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 007 | ⚡ 265.00ms
   password: hCCWOcIsK5wrFz4OX70rWf
@@ -141,24 +135,6 @@ proxies:
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇳 CN 020 | ⚡ 1018.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇳 CN 021 | ⚡ 1403.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇫🇷 FR 001 | ⚡ 284.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 95.170.13.47
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 469.00ms
@@ -195,4 +171,23 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.213.23.63
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 259.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 263.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.10
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸 US
+  name: 🇯🇵 JP 004 | ⚡ 720.00ms
+  password: AyqX8KynyyQLReOZorQRQbsvmiwxBQOf
+  port: 443
+  server: 64.83.33.45
   type: ss
