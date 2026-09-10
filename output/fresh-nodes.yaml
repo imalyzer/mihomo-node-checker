@@ -1,5 +1,5 @@
-# last-updated: 2026-09-10T10:59:15Z
-# node-count: 27
+# last-updated: 2026-09-10T15:08:30Z
+# node-count: 29
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -111,12 +111,6 @@ proxies:
   port: 8080
   server: 82.38.31.10
   type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇳 CN 012 | ⬆️ 0.00MB/s
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇯🇵 JP 005 | ⚡ 424.00ms
   password: uTBjZhDmOMwBVAJI
@@ -184,3 +178,21 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 001 | ⬆️ 0.00MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.170.35.229
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇮🇪 IE 002 | ⚡ 307.00ms
+  password: amazonskr05
+  port: 443
+  server: 54.247.231.139
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 002 | ⚡ 690.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
