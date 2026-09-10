@@ -1,5 +1,5 @@
-# last-updated: 2026-09-10T01:13:54Z
-# node-count: 114
+# last-updated: 2026-09-10T05:56:25Z
+# node-count: 105
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -167,18 +167,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.217
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.36-5769 | 46.522MB
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.36
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 437.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.35
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.208-0115 | 55.026MB
@@ -679,12 +667,6 @@ proxies:
   server: 82.38.31.62
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.57-0157 | 57.701MB
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 009 | ⚡ 267.00ms
   password: G5p6ww4o67HB
   port: 8388
@@ -713,12 +695,6 @@ proxies:
   password: qwerREWQ@@
   port: 13979
   server: 221.139.79.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 920.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 008 | ⚡ 274.00ms
@@ -768,13 +744,6 @@ proxies:
   port: 8080
   server: 82.38.31.10
   type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸 US
-  name: 🇯🇵 JP 004 | ⚡ 720.00ms
-  password: AyqX8KynyyQLReOZorQRQbsvmiwxBQOf
-  port: 443
-  server: 64.83.33.45
-  type: ss
 - cipher: aes-256-cfb
   name: 🇨🇳 CN 012 | ⬆️ 0.00MB/s
   password: 7eadc6dbe2ae
@@ -786,12 +755,6 @@ proxies:
   password: uTBjZhDmOMwBVAJI
   port: 8388
   server: 45.32.16.53
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇳 CN 022 | ⚡ 1187.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
   type: ss
 - alterId: 0
   cipher: auto
@@ -807,29 +770,10 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-cfb
-  name: 🇨🇳 CN 020 | ⚡ 1233.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 017 | ⚡ 217.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- cipher: aes-256-cfb
   name: 🇰🇷 KR 007 | ⚡ 473.00ms
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇴 NO 001 | ⚡ 654.00ms
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
   type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷KR-218.237.185.230-0169 | 0.102MB
@@ -849,21 +793,9 @@ proxies:
   port: 50099
   server: r3mrcg001287h3p.cybervena.com
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇦 CA 012 | ⚡ 673.00ms
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+- cipher: aes-256-cfb
+  name: 🇨🇳 CN 018 | ⚡ 1384.00ms
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
