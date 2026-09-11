@@ -1,5 +1,5 @@
-# last-updated: 2026-09-11T08:54:36Z
-# node-count: 102
+# last-updated: 2026-09-11T13:33:04Z
+# node-count: 106
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -683,12 +683,6 @@ proxies:
   server: 35.178.181.116
   type: ss
 - cipher: aes-256-cfb
-  name: 🇬🇧 GB 001 | ⬆️ 0.00MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.170.35.229
-  type: ss
-- cipher: aes-256-cfb
   name: 🇮🇪 IE 002 | ⚡ 307.00ms
   password: amazonskr05
   port: 443
@@ -730,18 +724,6 @@ proxies:
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     path: /
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 002 | ⚡ 886.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 006 | ⬆️ 0.00MB/s
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 141.164.45.187
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 256.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -754,12 +736,6 @@ proxies:
   port: 443
   server: 198.98.53.130
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 003 | ⚡ 611.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
   type: ss
 - alterId: 0
   cipher: auto
@@ -780,4 +756,59 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.151
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US 022 | ⚡ 201.00ms
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-128-gcm
+  name: 🇳🇱 NL 006 | ⚡ 249.00ms
+  password: shadowsocks
+  port: 443
+  server: 158.173.20.171
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 257.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⚡ 264.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.235
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 009 | ⚡ 279.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇮🇪 IE 001 | ⚡ 286.00ms
+  password: amazonskr05
+  port: 443
+  server: 108.129.176.139
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇵🇱 PL 004 | ⚡ 359.00ms
+  password: U9YAoqBgg5VyGBc6vQv1sN
+  port: 7538
+  server: 194.61.121.93
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇯🇵 JP 004 | ⚡ 569.00ms
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
   type: ss
