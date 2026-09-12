@@ -1,13 +1,7 @@
-# last-updated: 2026-09-12T07:11:10Z
-# node-count: 30
+# last-updated: 2026-09-12T11:47:24Z
+# node-count: 26
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 259.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.2
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 263.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -136,55 +130,6 @@ proxies:
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇨🇿CZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪 DE 006 | ⚡ 678.00ms
-  network: ws
-  port: 443
-  server: 95.85.233.138
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      HOST: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 002 | ⚡ 782.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0188 | 0.0MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪 DE 007 | ⚡ 980.00ms
-  network: ws
-  port: 443
-  server: 64.188.106.254
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      HOST: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 003 | ⚡ 241.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -229,12 +174,6 @@ proxies:
     headers:
       HOST: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- cipher: aes-256-gcm
-  name: 🇲🇽 MX 001 | ⚡ 244.00ms
-  password: BWyPPTusFKhGgzKh
-  port: 8388
-  server: 64.177.90.30
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇺🇸 US
@@ -252,6 +191,15 @@ proxies:
   name: 🇺🇸US_103 ⇽中转_1@102
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10046
+  server: z-sg2.6send.com
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  name: 🇸🇬 SG 005 | ⚡ 817.00ms
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10045
   server: z-sg2.6send.com
   skip-cert-verify: true
   sni: www.cloudflare.com
