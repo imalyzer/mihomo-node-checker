@@ -1,19 +1,7 @@
-# last-updated: 2026-09-12T15:22:00Z
-# node-count: 22
+# last-updated: 2026-09-12T18:25:53Z
+# node-count: 20
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 263.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.10
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⬆️ 0.00MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
-  type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 011 | ⚡ 652.00ms
   password: qwerREWQ@@
@@ -107,12 +95,6 @@ proxies:
   server: 193.29.139.168
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 024 | ⚡ 307.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 504.00ms
   password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
@@ -156,3 +138,16 @@ proxies:
   port: 8388
   server: 108.181.58.239
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US_173_0@172
+  network: raw
+  port: 18112
+  server: 168.110.60.104
+  skip-cert-verify: true
+  type: vmess
+  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
+  ws-path: /

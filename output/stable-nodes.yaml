@@ -1,4 +1,4 @@
-# last-updated: 2026-09-12T15:22:00Z
+# last-updated: 2026-09-12T18:25:53Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -560,19 +560,6 @@ proxies:
   port: 8080
   server: 82.38.31.82
   type: ss
-- alterId: 1
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 008 | ⚡ 306.00ms
-  network: tcp
-  port: 22324
-  server: 67.220.72.237
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸US-108.181.0.177-0069 | 160.539MB
   password: G5p6ww4o67HB
@@ -609,12 +596,6 @@ proxies:
   port: 8080
   server: 137.184.174.93
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 005 | ⚡ 627.00ms
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 008 | ⚡ 274.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -632,4 +613,16 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 263.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.10
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⬆️ 0.00MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
   type: ss
