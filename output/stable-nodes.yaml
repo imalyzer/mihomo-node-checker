@@ -1,4 +1,4 @@
-# last-updated: 2026-09-13T03:40:24Z
+# last-updated: 2026-09-13T09:21:52Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -597,12 +597,6 @@ proxies:
   server: 137.184.174.93
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 274.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 282.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
@@ -625,4 +619,10 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.204
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 011 | ⚡ 652.00ms
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
   type: ss
