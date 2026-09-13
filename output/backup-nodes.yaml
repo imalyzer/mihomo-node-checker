@@ -1,5 +1,5 @@
-# last-updated: 2026-09-13T17:35:32Z
-# node-count: 106
+# last-updated: 2026-09-13T20:40:41Z
+# node-count: 103
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -620,24 +620,6 @@ proxies:
   port: 8080
   server: 193.29.139.204
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 011 | ⚡ 652.00ms
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 004 | ⚡ 836.00ms
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 256.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -686,12 +668,6 @@ proxies:
   password: 3eOFeNssde7PYYMv
   port: 80
   server: 84.247.155.196
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 504.00ms
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
   type: ss
 - alterId: 0
   cipher: auto
