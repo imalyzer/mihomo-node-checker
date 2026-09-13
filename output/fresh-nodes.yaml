@@ -1,5 +1,5 @@
-# last-updated: 2026-09-13T20:40:41Z
-# node-count: 23
+# last-updated: 2026-09-13T23:12:19Z
+# node-count: 24
 # note: streak<3 or newly accepted
 proxies:
 - alterId: 0
@@ -38,12 +38,6 @@ proxies:
   port: 7538
   server: 194.61.121.93
   tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵 JP 004 | ⚡ 569.00ms
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
   type: ss
 - alterId: 0
   cipher: auto
@@ -158,12 +152,6 @@ proxies:
   port: 8080
   server: 193.29.139.168
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 001 | ⬆️ 0.00MB/s
-  password: 1234!@#$
-  port: 1774
-  server: 49.254.204.134
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇮🇳IN-152.67.8.205-0134 | 2.881MB
@@ -177,3 +165,34 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸 US 024 | ⚡ 290.00ms
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧 GB 004 | ⚡ 382.00ms
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇦 CA 016 | ⚡ 744.00ms
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      HOST: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
