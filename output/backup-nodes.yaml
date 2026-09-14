@@ -1,5 +1,5 @@
-# last-updated: 2026-09-14T12:13:54Z
-# node-count: 102
+# last-updated: 2026-09-14T18:06:46Z
+# node-count: 98
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -360,15 +360,6 @@ proxies:
   port: 8080
   server: 82.38.31.191
   type: ss
-- country: 🇺🇸US
-  name: 🇺🇸 US 010 | ⚡ 180.00ms
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  sni: 64.94.95.118
-  type: trojan
-  udp: true
 - cipher: aes-128-gcm
   country: 🇺🇸US
   name: 🇺🇸US_121_0@120
@@ -470,14 +461,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- country: 🇺🇸US
-  name: 🇺🇸 US 026 | ⚡ 91.00ms
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 336.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -663,33 +646,6 @@ proxies:
   server: 194.61.121.93
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵 JP 004 | ⚡ 473.00ms
-  network: tcp
-  port: 18112
-  server: oc.imfun.fun
-  servername: oc.imfun.fun
-  skip-cert-verify: true
-  type: vmess
-  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US_173_0@172
-  network: raw
-  port: 18112
-  server: 168.110.60.104
-  skip-cert-verify: true
-  type: vmess
-  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 001 | ⬆️ 0.00MB/s
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -763,27 +719,21 @@ proxies:
   port: 6123
   server: 211.178.105.134
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 003 | ⚡ 587.00ms
-  password: 1234!@#$
-  port: 1774
-  server: 49.254.204.134
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 004 | ⚡ 939.00ms
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
 - cipher: aes-256-gcm
   name: 🇯🇵JP-84.247.155.196-0187 | 1.911MB
   password: 3eOFeNssde7PYYMv
   port: 80
   server: 84.247.155.196
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-108.181.126.122-0176 | 46.216MB
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-92.112.126.90-0201 | 0.024MB
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
   type: ss
