@@ -1,4 +1,4 @@
-# last-updated: 2026-09-14T01:03:23Z
+# last-updated: 2026-09-14T06:08:59Z
 # node-count: 28
 # note: streak<3 or newly accepted
 proxies:
@@ -84,19 +84,6 @@ proxies:
   port: 8080
   server: 82.38.31.199
   type: ss
-- alterId: 1
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 021 | ⚡ 675.00ms
-  network: tcp
-  port: 22324
-  server: 67.220.72.237
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: hamedvpns 11
   password: eDfN7SODQceIOmIAbtJJtK
@@ -152,19 +139,6 @@ proxies:
   port: 8080
   server: 193.29.139.168
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳IN-152.67.8.205-0134 | 2.881MB
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0134 | 2.881MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
   name: 🇺🇸 US 024 | ⚡ 290.00ms
@@ -177,42 +151,6 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇦 CA 016 | ⚡ 744.00ms
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- cipher: aes-256-gcm
-  name: MX-64.177.90.30-0257 | 78.367MB
-  password: BWyPPTusFKhGgzKh
-  port: 8388
-  server: 64.177.90.30
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US-15.204.247.244-0129 | 1.985MB
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 15.204.247.244
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0164 | 0.0MB
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
   type: ss
 - alterId: 0
   cipher: auto
@@ -232,3 +170,45 @@ proxies:
     headers:
       HOST: renderer-stream-2-62.mirra.now
     path: /api/v1/gpu-stream/socket
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇴 NO 001 | ⚡ 423.00ms
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 002 | ⚡ 560.00ms
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 003 | ⚡ 587.00ms
+  password: 1234!@#$
+  port: 1774
+  server: 49.254.204.134
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇲🇾 MY 001 | ⚡ 747.00ms
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 118.107.222.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 004 | ⚡ 939.00ms
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf
+  name: 🇭🇰 HK 005 | ⚡ 963.00ms
+  password: asd123456
+  port: 8388
+  server: 103.149.182.105
+  type: ss
