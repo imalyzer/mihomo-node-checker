@@ -1,5 +1,5 @@
-# last-updated: 2026-09-14T06:08:59Z
-# node-count: 28
+# last-updated: 2026-09-14T12:13:54Z
+# node-count: 22
 # note: streak<3 or newly accepted
 proxies:
 - alterId: 0
@@ -53,18 +53,6 @@ proxies:
   type: vmess
   uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 356.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 436.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇺🇸 US
@@ -139,42 +127,11 @@ proxies:
   port: 8080
   server: 193.29.139.168
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 024 | ⚡ 290.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧 GB 004 | ⚡ 382.00ms
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪 DE 013 | ⚡ 717.00ms
-  network: ws
-  port: 443
-  server: 64.188.106.254
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      HOST: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇴 NO 001 | ⚡ 423.00ms
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
   type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 002 | ⚡ 560.00ms
@@ -188,12 +145,6 @@ proxies:
   port: 1774
   server: 49.254.204.134
   type: ss
-- cipher: aes-256-cfb
-  name: 🇲🇾 MY 001 | ⚡ 747.00ms
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 118.107.222.231
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇭🇰 HK 004 | ⚡ 939.00ms
@@ -206,9 +157,9 @@ proxies:
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     path: /
-- cipher: chacha20-ietf
-  name: 🇭🇰 HK 005 | ⚡ 963.00ms
-  password: asd123456
-  port: 8388
-  server: 103.149.182.105
+- cipher: aes-256-gcm
+  name: 🇯🇵JP-84.247.155.196-0187 | 1.911MB
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
   type: ss
