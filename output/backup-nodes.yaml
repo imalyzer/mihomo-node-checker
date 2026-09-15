@@ -1,5 +1,5 @@
-# last-updated: 2026-09-15T06:10:52Z
-# node-count: 104
+# last-updated: 2026-09-15T11:27:08Z
+# node-count: 101
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -743,12 +743,6 @@ proxies:
   port: 8388
   server: 108.181.58.239
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-49.254.204.134-0225 | 1.499MB
-  password: 1234!@#$
-  port: 1774
-  server: 49.254.204.134
-  type: ss
 - alterId: 1
   cipher: auto
   country: 🇺🇸US
@@ -762,21 +756,9 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   ws-path: /
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0256 | 0.039MB
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: NO-185.213.23.63-0190 | 6.835MB
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.213.23.63
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0258 | 0.486MB
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
   type: ss
