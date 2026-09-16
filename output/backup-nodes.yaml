@@ -1,5 +1,5 @@
-# last-updated: 2026-09-16T03:50:18Z
-# node-count: 102
+# last-updated: 2026-09-16T09:25:12Z
+# node-count: 101
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -449,18 +449,6 @@ proxies:
   port: 8080
   server: 82.38.31.155
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US 022 | ⚡ 278.00ms
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 336.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -745,27 +733,26 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 047 | ⚡ 598.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇴 NO 001 | ⚡ 315.00ms
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.213.23.63
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸 US 045 | ⚡ 532.00ms
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 15.204.247.244
   type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 005 | ⚡ 793.00ms
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.199-0140 | 6.194MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷FR-15.237.218.241-0127 | 16.63MB
+  password: amazonskr05
+  port: 443
+  server: 15.237.218.241
   type: ss
