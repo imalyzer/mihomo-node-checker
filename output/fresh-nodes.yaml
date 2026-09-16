@@ -1,5 +1,5 @@
-# last-updated: 2026-09-15T23:44:24Z
-# node-count: 21
+# last-updated: 2026-09-16T03:50:18Z
+# node-count: 22
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -126,15 +126,21 @@ proxies:
   port: 443
   server: 216.105.168.18
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 006 | ⚡ 635.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇴 NO 001 | ⚡ 315.00ms
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸 US 045 | ⚡ 532.00ms
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 15.204.247.244
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷 KR 007 | ⚡ 749.00ms
+  name: 🇰🇷 KR 005 | ⚡ 793.00ms
   password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
+  port: 6123
+  server: 211.178.105.134
   type: ss
