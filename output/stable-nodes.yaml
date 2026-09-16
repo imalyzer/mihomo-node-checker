@@ -1,4 +1,4 @@
-# last-updated: 2026-09-16T18:59:24Z
+# last-updated: 2026-09-16T22:12:01Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -373,20 +373,6 @@ proxies:
   port: 443
   server: 173.244.56.6
   type: ss
-- client-fingerprint: random
-  host: deepl.com
-  name: 🇺🇸 US 003 | ⬆️ 0.00MB/s
-  port: 40443
-  reality-opts:
-    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
-    short-id: aae8
-  server: 194.55.189.249
-  servername: deepl.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -614,4 +600,10 @@ proxies:
   port: 443
   server: 198.98.53.130
   tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 003 | ⚡ 428.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
   type: ss
