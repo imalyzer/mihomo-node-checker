@@ -1,5 +1,5 @@
-# last-updated: 2026-09-17T00:25:29Z
-# node-count: 101
+# last-updated: 2026-09-17T06:04:50Z
+# node-count: 102
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -700,24 +700,6 @@ proxies:
   tls: true
   type: vless
   uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_126 ⇽中转_1@125
-  network: ws
-  port: 443
-  server: 64.188.106.254
-  servername: renderer-stream-2-62.mirra.now
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      HOST: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 244.00ms
   password: CJmTCCx7Ltud
@@ -737,13 +719,6 @@ proxies:
   server: 15.237.218.241
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 040 | ⚡ 291.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇴 NO 001 | ⚡ 385.00ms
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
@@ -761,3 +736,39 @@ proxies:
   port: 80
   server: 84.247.155.196
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇵🇰PK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇩🇪 DE 006 | ⬆️ 0.00MB/s
+  network: ws
+  port: 443
+  server: 111.88.74.167
+  servername: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      HOST: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 008 | ⚡ 825.00ms
+  password: 1234!@#$
+  port: 1774
+  server: 49.254.204.134
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 003 | ⚡ 1095.00ms
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    path: /
