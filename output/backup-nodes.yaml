@@ -1,5 +1,5 @@
-# last-updated: 2026-09-18T17:46:00Z
-# node-count: 98
+# last-updated: 2026-09-18T20:44:32Z
+# node-count: 95
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -688,41 +688,11 @@ proxies:
   port: 8080
   server: 193.29.139.151
   type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵 JP 003 | ⚡ 618.00ms
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵 JP 004 | ⚡ 622.00ms
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 003 | ⚡ 1095.00ms
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 003 | ⚡ 334.00ms
   password: CJmTCCx7Ltud
   port: 8388
   server: 108.181.58.239
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇴 NO 001 | ⚡ 384.00ms
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
   type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 011 | ⚡ 895.00ms
@@ -730,9 +700,30 @@ proxies:
   port: 6123
   server: 211.178.105.134
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 004 | ⚡ 561.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇲🇾 MY 001 | ⬆️ 0.00MB/s
+  network: tcp
+  port: 10000
+  server: 47.250.135.244
+  skip-cert-verify: true
+  type: vmess
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  ws-path: /
+- client-fingerprint: random
+  host: deepl.com
+  name: 🇺🇸 US 047 | ⚡ 248.00ms
+  port: 40443
+  reality-opts:
+    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
+    short-id: aae8
+  server: 194.55.189.249
+  servername: deepl.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
