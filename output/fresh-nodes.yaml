@@ -1,5 +1,5 @@
-# last-updated: 2026-09-19T08:53:33Z
-# node-count: 13
+# last-updated: 2026-09-19T13:10:04Z
+# node-count: 15
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -96,3 +96,23 @@ proxies:
   port: 990
   server: 185.213.23.63
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 004 | ⚡ 597.00ms
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 013 | ⚡ 876.00ms
+  network: ws
+  port: 80
+  server: 188.114.96.19
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+    path: /
