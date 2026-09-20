@@ -1,5 +1,5 @@
-# last-updated: 2026-09-20T10:58:58Z
-# node-count: 99
+# last-updated: 2026-09-20T14:46:43Z
+# node-count: 103
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -727,12 +727,6 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 002 | ⚡ 419.00ms
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
 - cipher: aes-256-cfb
   name: 🇩🇪DE-3.71.182.230-0634 | 19.825MB
   password: amazonskr05
@@ -750,4 +744,35 @@ proxies:
   password: amazonskr05
   port: 443
   server: 13.36.169.164
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸 US 029 | ⚡ 139.00ms
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷 FR 004 | ⚡ 346.00ms
+  password: amazonskr05
+  port: 443
+  server: 15.237.180.114
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳TW-36.224.185.173-0227 | 1.988MB
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇩🇪DE-18.156.84.97-0632 | 4.612MB
+  password: amazonskr05
+  port: 443
+  server: 18.156.84.97
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-218.237.185.230-5444 | 0.0MB
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
   type: ss
