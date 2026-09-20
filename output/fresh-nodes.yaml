@@ -1,13 +1,7 @@
-# last-updated: 2026-09-20T06:02:04Z
-# node-count: 22
+# last-updated: 2026-09-20T10:58:58Z
+# node-count: 19
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.199-0140 | 6.194MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.199
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 003 | ⚡ 262.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -111,43 +105,12 @@ proxies:
   type: vmess
   uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
   ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_128 ⇽中转_1@127
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: aes-256-cfb
   name: 🇫🇷FR-15.237.252.23-2007 | 19.867MB
   password: amazonskr05
   port: 443
   server: 15.237.252.23
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳IN-152.67.8.205-0204 | 1.007MB
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0204 | 1.007MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: NO-185.213.23.63-4902 | 1.814MB
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
@@ -174,28 +137,21 @@ proxies:
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 002 | ⚡ 992.00ms
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_162_0@161
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
 - cipher: aes-256-cfb
   name: 🇩🇪DE-3.71.182.230-0634 | 19.825MB
   password: amazonskr05
   port: 443
   server: 3.71.182.230
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷FR-15.237.210.147-0412 | 11.66MB
+  password: amazonskr05
+  port: 443
+  server: 15.237.210.147
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷FR-13.36.169.164-0429 | 4.379MB
+  password: amazonskr05
+  port: 443
+  server: 13.36.169.164
   type: ss
