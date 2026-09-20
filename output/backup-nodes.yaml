@@ -1,5 +1,5 @@
-# last-updated: 2026-09-20T18:15:00Z
-# node-count: 98
+# last-updated: 2026-09-20T20:58:09Z
+# node-count: 97
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -676,19 +676,6 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US_158_0@157
-  network: raw
-  port: 18112
-  server: 168.110.60.104
-  skip-cert-verify: true
-  type: vmess
-  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
-  ws-path: /
 - cipher: aes-256-cfb
   name: 🇫🇷FR-15.237.252.23-2007 | 19.867MB
   password: amazonskr05
@@ -727,13 +714,6 @@ proxies:
   port: 443
   server: 13.36.169.164
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 029 | ⚡ 139.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
 - cipher: aes-256-cfb
   name: 🇫🇷 FR 004 | ⚡ 346.00ms
   password: amazonskr05
@@ -746,3 +726,16 @@ proxies:
   port: 443
   server: 18.156.84.97
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 001 | ⚡ 677.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0135 | 0.409MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
