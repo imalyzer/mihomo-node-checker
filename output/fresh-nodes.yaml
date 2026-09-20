@@ -1,4 +1,4 @@
-# last-updated: 2026-09-19T22:24:31Z
+# last-updated: 2026-09-20T00:59:21Z
 # node-count: 22
 # note: streak<3 or newly accepted
 proxies:
@@ -83,12 +83,6 @@ proxies:
   password: 3eOFeNssde7PYYMv
   port: 443
   server: 84.247.155.196
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 597.00ms
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
   type: ss
 - alterId: 0
   cipher: auto
@@ -180,12 +174,6 @@ proxies:
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 008 | ⚡ 710.00ms
-  password: 1234!@#$
-  port: 1774
-  server: 49.254.204.134
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇭🇰 HK 002 | ⚡ 992.00ms
@@ -198,3 +186,16 @@ proxies:
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     path: /
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸US_162_0@161
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇩🇪DE-3.71.182.230-0634 | 19.825MB
+  password: amazonskr05
+  port: 443
+  server: 3.71.182.230
+  type: ss
