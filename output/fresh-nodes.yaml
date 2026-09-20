@@ -1,5 +1,5 @@
-# last-updated: 2026-09-20T20:58:09Z
-# node-count: 17
+# last-updated: 2026-09-20T23:15:46Z
+# node-count: 21
 # note: streak<3 or newly accepted
 proxies:
 - client-fingerprint: random
@@ -143,3 +143,39 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 030 | ⚡ 297.00ms
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇴 NO 001 | ⚡ 582.00ms
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 006 | ⚡ 866.00ms
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_122 ⇽中转_1@121
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      HOST: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
