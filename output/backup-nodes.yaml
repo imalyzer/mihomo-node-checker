@@ -1,5 +1,5 @@
-# last-updated: 2026-09-21T01:17:06Z
-# node-count: 97
+# last-updated: 2026-09-21T07:57:46Z
+# node-count: 96
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -689,24 +689,6 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 030 | ⚡ 297.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇴 NO 001 | ⚡ 582.00ms
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 006 | ⚡ 866.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
@@ -737,15 +719,29 @@ proxies:
   port: 1774
   server: 49.254.204.134
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 031 | ⚡ 164.00ms
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.0.177
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 002 | ⚡ 447.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-156.245.232.239-0154 | 0.0MB
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇯🇵 JP 003 | ⚡ 590.00ms
+  network: tcp
+  port: 18112
+  server: oc.imfun.fun
+  servername: oc.imfun.fun
+  skip-cert-verify: true
   type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
+  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
+  ws-path: /
