@@ -1,5 +1,5 @@
-# last-updated: 2026-09-21T23:17:25Z
-# node-count: 17
+# last-updated: 2026-09-22T03:47:21Z
+# node-count: 15
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -64,20 +64,6 @@ proxies:
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵 JP 003 | ⚡ 590.00ms
-  network: tcp
-  port: 18112
-  server: oc.imfun.fun
-  servername: oc.imfun.fun
-  skip-cert-verify: true
-  type: vmess
-  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.218-0134 | 0.03MB
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -98,19 +84,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵 JP 002 | ⚡ 536.00ms
-  network: raw
-  port: 18112
-  server: 168.110.60.104
-  skip-cert-verify: true
-  type: vmess
-  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 🇨🇦 CA 015 | ⚡ 732.00ms
   network: ws
   port: 80
@@ -123,19 +96,6 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇲🇾 MY 001 | ⚡ 775.00ms
-  network: tcp
-  port: 10000
-  server: 47.250.135.244
-  skip-cert-verify: true
-  type: vmess
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  ws-path: /
 - alterId: 0
   cipher: auto
   country: 🏁ZZ
@@ -154,3 +114,9 @@ proxies:
     headers:
       HOST: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
+- cipher: chacha20-ietf-poly1305
+  name: NO-185.213.23.63-0115 | 0.738MB
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
