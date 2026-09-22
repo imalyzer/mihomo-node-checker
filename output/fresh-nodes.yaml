@@ -1,5 +1,5 @@
-# last-updated: 2026-09-22T03:47:21Z
-# node-count: 15
+# last-updated: 2026-09-22T09:21:15Z
+# node-count: 17
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -96,27 +96,34 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
     path: /
-- alterId: 0
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-108.181.118.10-0177 | 0.0MB
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.118.10
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 001 | ⚡ 613.00ms
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- alterId: 2
   cipher: auto
-  country: 🏁ZZ
+  country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 🇨🇦 CA 016 | ⚡ 1046.00ms
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
+  name: 🇭🇰 HK 003 | ⚡ 688.00ms
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: NO-185.213.23.63-0115 | 0.738MB
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
+  country: 🇺🇸US
+  name: 🇿🇦 ZA 001 | ⚡ 1059.00ms
+  password: tfAcRikawhNoZAhu
+  port: 8388
+  server: 139.84.247.164
   type: ss
