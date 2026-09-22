@@ -1,4 +1,4 @@
-# last-updated: 2026-09-22T09:21:15Z
+# last-updated: 2026-09-22T14:38:55Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -555,12 +555,6 @@ proxies:
   port: 8080
   server: 193.29.139.168
   type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 004 | ⚡ 382.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
 - alterId: 1
   cipher: auto
   country: 🇺🇸US
@@ -606,3 +600,9 @@ proxies:
   tls: true
   type: vless
   uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 244.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
