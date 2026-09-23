@@ -1,5 +1,5 @@
-# last-updated: 2026-09-23T15:33:39Z
-# node-count: 109
+# last-updated: 2026-09-23T19:42:40Z
+# node-count: 112
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -631,22 +631,10 @@ proxies:
   server: 84.247.155.196
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.219-0129 | 0.01MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.219
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 031 | ⚡ 164.00ms
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.0.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.218-0134 | 0.03MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.218
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷FR-54.36.174.140-0392 | 3.148MB
@@ -821,3 +809,33 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf
+  name: 🇭🇰 HK 004 | ⬆️ 0.00MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 306.00ms [fresh]
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.203
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 402.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⚡ 422.00ms
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵 JP 006 | ⚡ 484.00ms
+  password: amazonskr05
+  port: 443
+  server: 13.230.153.249
+  type: ss
