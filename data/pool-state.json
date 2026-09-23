@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-09-22T22:03:44Z",
+  "updated_at": "2026-09-23T00:17:49Z",
   "nodes": {
     "ss|156.146.38.170|443|shadowsocks|||||": {
-      "streak": 446,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 447,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -15,8 +15,8 @@
       }
     },
     "vmess|38.110.1.246|18000|f8c8dc3d-0d37-46b0-8b34-a7232882fcfe||tcp|||": {
-      "streak": 446,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 447,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -34,8 +34,8 @@
       }
     },
     "ss|156.146.38.169|443|shadowsocks|||||": {
-      "streak": 446,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 447,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -47,8 +47,8 @@
       }
     },
     "ss|156.146.38.167|443|shadowsocks|||||": {
-      "streak": 446,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 447,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -60,8 +60,8 @@
       }
     },
     "vmess|67.220.95.3|18000|f8c8dc3d-0d37-46b0-8b34-a7232882fcfe||tcp|||": {
-      "streak": 446,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 447,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -79,8 +79,8 @@
       }
     },
     "ss|156.146.38.168|443|shadowsocks|||||": {
-      "streak": 446,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 447,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -92,8 +92,8 @@
       }
     },
     "ss|149.22.95.183|443|shadowsocks|||||": {
-      "streak": 446,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 447,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -105,8 +105,8 @@
       }
     },
     "ss|209.46.102.22|8388|1hhrqrokj3ag|||||": {
-      "streak": 446,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 447,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "country": "🇺🇸US",
@@ -118,8 +118,8 @@
       }
     },
     "ss|149.22.87.240|443|shadowsocks|||||": {
-      "streak": 446,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 447,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -131,8 +131,8 @@
       }
     },
     "ss|149.22.87.241|443|shadowsocks|||||": {
-      "streak": 446,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 447,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -144,8 +144,8 @@
       }
     },
     "ss|37.19.198.160|443|shadowsocks|||||": {
-      "streak": 445,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 446,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇺🇸 US 006 | ⚡ 116.00ms",
@@ -156,8 +156,8 @@
       }
     },
     "ss|37.19.198.244|443|shadowsocks|||||": {
-      "streak": 445,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 446,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇺🇸 US 007 | ⚡ 122.00ms",
@@ -168,8 +168,8 @@
       }
     },
     "ss|82.38.31.174|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 445,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 446,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 013 | ⚡ 475.00ms",
@@ -180,8 +180,8 @@
       }
     },
     "ss|102.37.156.224|443|aduB9HGxQHjA2SBMRjkHX6|||||": {
-      "streak": 445,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 446,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇿🇦 ZA 001 | ⚡ 1030.00ms",
@@ -192,8 +192,8 @@
       }
     },
     "ss|37.19.198.236|443|shadowsocks|||||": {
-      "streak": 443,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 444,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇺🇸 US 009 | ⚡ 84.00ms",
@@ -204,8 +204,8 @@
       }
     },
     "ss|82.38.31.174|443|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 443,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 444,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 010 | ⚡ 313.00ms",
@@ -216,8 +216,8 @@
       }
     },
     "ss|82.38.31.34|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 442,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 443,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 016 | ⚡ 260.00ms",
@@ -228,8 +228,8 @@
       }
     },
     "ss|102.133.165.160|16233|Xsy8Ox4yOV3xLlpxtjzs3X|||||": {
-      "streak": 442,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 443,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇿🇦 ZA 001 | ⚡ 1378.00ms",
@@ -240,8 +240,8 @@
       }
     },
     "ss|82.38.31.149|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 438,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 439,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 008 | ⚡ 284.00ms",
@@ -252,8 +252,8 @@
       }
     },
     "ss|82.38.31.48|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 438,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 439,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 009 | ⚡ 287.00ms",
@@ -264,8 +264,8 @@
       }
     },
     "ss|82.38.31.49|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 437,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 438,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 014 | ⚡ 1072.00ms",
@@ -276,8 +276,8 @@
       }
     },
     "ss|109.201.152.181|443|shadowsocks|||||": {
-      "streak": 436,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 437,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-cfb",
         "name": "🇳🇱NL-109.201.152.181-0152 | 39.477MB",
@@ -288,8 +288,8 @@
       }
     },
     "ss|146.70.61.37|8080|14fFPrbezE3HDZzsMOr6|||||": {
-      "streak": 433,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 434,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "rc4-md5",
         "name": "🇬🇧 GB 002 | ⚡ 229.00ms",
@@ -300,8 +300,8 @@
       }
     },
     "ss|82.38.31.217|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 413,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 414,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.217-5756 | 50.107MB",
@@ -312,8 +312,8 @@
       }
     },
     "ss|82.38.31.208|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 408,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 409,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.208-0115 | 55.026MB",
@@ -324,8 +324,8 @@
       }
     },
     "ss|82.38.31.35|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 408,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 409,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.35-0111 | 56.67MB",
@@ -336,8 +336,8 @@
       }
     },
     "ss|82.38.31.189|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 408,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 409,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.189-0103 | 56.161MB",
@@ -348,8 +348,8 @@
       }
     },
     "ss|82.38.31.214|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 405,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 406,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 005 | ⚡ 257.00ms",
@@ -360,8 +360,8 @@
       }
     },
     "ss|82.38.31.205|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 405,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 406,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 006 | ⚡ 273.00ms",
@@ -372,8 +372,8 @@
       }
     },
     "ss|82.38.31.216|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 404,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 405,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 009 | ⚡ 383.00ms",
@@ -384,8 +384,8 @@
       }
     },
     "ss|193.29.139.223|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 403,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 404,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 003 | ⚡ 375.00ms",
@@ -396,8 +396,8 @@
       }
     },
     "vmess|149.88.23.202|18000|f8c8dc3d-0d37-46b0-8b34-a7232882fcfe||tcp|||": {
-      "streak": 400,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 401,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -414,8 +414,8 @@
       }
     },
     "ss|141.98.101.181|443|shadowsocks|||||": {
-      "streak": 352,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 353,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇬🇧 GB 003 | ⚡ 293.00ms",
@@ -426,8 +426,8 @@
       }
     },
     "ss|37.19.198.243|443|shadowsocks|||||": {
-      "streak": 348,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 349,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇺🇸US-37.19.198.243-0229 | 37.158MB",
@@ -438,8 +438,8 @@
       }
     },
     "ss|149.22.87.204|443|shadowsocks|||||": {
-      "streak": 343,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 344,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇯🇵 JP 005 | ⚡ 495.00ms",
@@ -450,8 +450,8 @@
       }
     },
     "ss|82.38.31.202|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 278,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 279,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 004 | ⚡ 491.00ms",
@@ -462,8 +462,8 @@
       }
     },
     "ss|82.38.31.212|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 269,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 270,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 006 | ⚡ 302.00ms",
@@ -474,8 +474,8 @@
       }
     },
     "vless|169.40.42.16|443|d65cc14c-f53f-4fe2-b262-97856601319c|||yahoo.com|e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg|c39cc7310a": {
-      "streak": 264,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 265,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -496,8 +496,8 @@
       }
     },
     "vless|169.40.42.75|443|d65cc14c-f53f-4fe2-b262-97856601319c|||yahoo.com|e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg|c39cc7310a": {
-      "streak": 264,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 265,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -518,8 +518,8 @@
       }
     },
     "vless|169.40.42.231|443|d65cc14c-f53f-4fe2-b262-97856601319c|||yahoo.com|e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg|c39cc7310a": {
-      "streak": 264,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 265,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -540,8 +540,8 @@
       }
     },
     "vless|169.40.42.74|443|d65cc14c-f53f-4fe2-b262-97856601319c|||yahoo.com|e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg|c39cc7310a": {
-      "streak": 264,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 265,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -562,8 +562,8 @@
       }
     },
     "vless|169.40.42.104|443|d65cc14c-f53f-4fe2-b262-97856601319c|||yahoo.com|e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg|c39cc7310a": {
-      "streak": 263,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 264,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -584,8 +584,8 @@
       }
     },
     "ss|82.38.31.184|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 261,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 262,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 008 | ⚡ 257.00ms",
@@ -596,8 +596,8 @@
       }
     },
     "vless|169.40.42.133|443|d65cc14c-f53f-4fe2-b262-97856601319c|||yahoo.com|e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg|c39cc7310a": {
-      "streak": 194,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 195,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "client-fingerprint": "random",
         "flow": "xtls-rprx-vision",
@@ -618,8 +618,8 @@
       }
     },
     "ss|82.38.31.192|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 184,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 185,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 008 | ⚡ 247.00ms",
@@ -630,8 +630,8 @@
       }
     },
     "ss|82.38.31.191|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 184,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 185,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 009 | ⚡ 254.00ms",
@@ -642,8 +642,8 @@
       }
     },
     "ss|173.244.56.9|443|shadowsocks|||||": {
-      "streak": 173,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 174,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "country": "🇺🇸US",
@@ -655,8 +655,8 @@
       }
     },
     "ss|173.244.56.6|443|shadowsocks|||||": {
-      "streak": 172,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 173,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-128-gcm",
         "name": "🇺🇸 US 017 | ⚡ 261.00ms",
@@ -667,8 +667,8 @@
       }
     },
     "vmess|82.198.246.250|180|d13fc2f5-3e05-4795-81eb-44143a09e552||tcp|||": {
-      "streak": 148,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 149,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -685,8 +685,8 @@
       }
     },
     "vmess|82.198.246.97|180|d13fc2f5-3e05-4795-81eb-44143a09e552||tcp|||": {
-      "streak": 147,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 148,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -703,8 +703,8 @@
       }
     },
     "ss|82.38.31.210|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 138,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 139,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 005 | ⚡ 336.00ms",
@@ -715,8 +715,8 @@
       }
     },
     "ss|82.38.31.155|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 135,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 136,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 006 | ⚡ 314.00ms",
@@ -727,8 +727,8 @@
       }
     },
     "vmess|67.220.85.46|18000|f8c8dc3d-0d37-46b0-8b34-a7232882fcfe||tcp|||": {
-      "streak": 118,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 119,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -746,8 +746,8 @@
       }
     },
     "ss|8.209.74.72|20001|PWpjPo3tqhPN4yRZ|||||": {
-      "streak": 112,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 113,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇩🇪DE-8.209.74.72-0116 | 43.753MB",
@@ -758,8 +758,8 @@
       }
     },
     "vmess|149.88.23.207|18000|f8c8dc3d-0d37-46b0-8b34-a7232882fcfe||tcp|||": {
-      "streak": 107,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 108,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -776,8 +776,8 @@
       }
     },
     "ss|138.199.42.68|8080|14fFPrbezE3HDZzsMOr6|||||": {
-      "streak": 89,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 90,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "rc4-md5",
         "name": "🇺🇸 US 013 | ⚡ 127.00ms",
@@ -788,8 +788,8 @@
       }
     },
     "ss|82.38.31.61|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 89,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 90,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 006 | ⚡ 306.00ms",
@@ -800,8 +800,8 @@
       }
     },
     "ss|82.38.31.82|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 89,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 90,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 007 | ⚡ 307.00ms",
@@ -812,8 +812,8 @@
       }
     },
     "ss|82.38.31.66|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 86,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 87,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.66-5008 | 61.016MB",
@@ -824,8 +824,8 @@
       }
     },
     "ss|82.38.31.62|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 86,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 87,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.62-0408 | 63.406MB",
@@ -836,8 +836,8 @@
       }
     },
     "ss|137.184.174.93|8080|14fFPrbezE3HDZzsMOr6|||||": {
-      "streak": 83,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 84,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "rc4-md5",
         "name": "🇨🇦 CA 009 | ⚡ 315.00ms",
@@ -848,8 +848,8 @@
       }
     },
     "ss|82.38.31.16|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 78,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 79,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 005 | ⚡ 282.00ms",
@@ -860,8 +860,8 @@
       }
     },
     "ss|82.38.31.2|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 77,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 78,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 006 | ⚡ 259.00ms",
@@ -872,8 +872,8 @@
       }
     },
     "ss|82.38.31.10|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 77,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 78,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 007 | ⚡ 263.00ms",
@@ -884,8 +884,8 @@
       }
     },
     "ss|193.29.139.204|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 68,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 69,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 005 | ⬆️ 0.00MB/s",
@@ -896,8 +896,8 @@
       }
     },
     "ss|82.38.31.180|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 65,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 66,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 005 | ⚡ 256.00ms",
@@ -908,8 +908,8 @@
       }
     },
     "ss|193.29.139.147|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 64,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 65,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 007 | ⚡ 257.00ms",
@@ -920,8 +920,8 @@
       }
     },
     "ss|193.29.139.235|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 64,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 65,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 008 | ⚡ 264.00ms",
@@ -932,8 +932,8 @@
       }
     },
     "ss|82.38.31.179|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 64,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 65,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 009 | ⚡ 279.00ms",
@@ -944,8 +944,8 @@
       }
     },
     "ss|198.98.53.130|443|eDfN7SODQceIOmIAbtJJtK|||||": {
-      "streak": 53,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 54,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "hamedvpns 11",
@@ -957,8 +957,8 @@
       }
     },
     "ss|82.38.31.176|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 51,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 52,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 003 | ⚡ 428.00ms",
@@ -969,8 +969,8 @@
       }
     },
     "ss|82.38.31.194|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 51,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 52,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.194-0091 | 56.039MB",
@@ -981,8 +981,8 @@
       }
     },
     "ss|158.173.221.214|11001|c58d16e593d44f42|||||": {
-      "streak": 51,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 52,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱NL-158.173.221.214-0578 | 6.175MB",
@@ -993,8 +993,8 @@
       }
     },
     "ss|193.29.139.168|8080|QCXDxuDlTTMD7jtgHUjIoj|||||": {
-      "streak": 51,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 52,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 004 | ⚡ 885.00ms",
@@ -1005,8 +1005,8 @@
       }
     },
     "vmess|67.220.72.237|22324|04621bae-ab36-11ec-b909-0242ac120002||tcp|||": {
-      "streak": 42,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 43,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "alterId": 1,
         "cipher": "auto",
@@ -1024,8 +1024,8 @@
       }
     },
     "ss|82.38.31.199|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 35,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 36,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.199-0140 | 6.194MB",
@@ -1036,8 +1036,8 @@
       }
     },
     "ss|82.38.31.187|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 33,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 34,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 003 | ⚡ 262.00ms",
@@ -1048,8 +1048,8 @@
       }
     },
     "ss|82.38.31.186|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 33,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 34,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 004 | ⚡ 264.00ms",
@@ -1060,8 +1060,8 @@
       }
     },
     "vless|194.76.154.31|40443|9f0baff8-bdee-4de9-9515-bcc4932b41fa|||deepl.com|MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ|a8ae": {
-      "streak": 32,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 33,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "client-fingerprint": "random",
         "host": "deepl.com",
@@ -1081,8 +1081,8 @@
       }
     },
     "ss|108.181.126.122|8388|CJmTCCx7Ltud|||||": {
-      "streak": 31,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 32,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 005 | ⚡ 244.00ms",
@@ -1093,8 +1093,8 @@
       }
     },
     "ss|193.29.139.151|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 31,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 32,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 006 | ⚡ 246.00ms",
@@ -1105,8 +1105,8 @@
       }
     },
     "ss|108.181.58.239|8388|CJmTCCx7Ltud|||||": {
-      "streak": 27,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 28,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 003 | ⚡ 334.00ms",
@@ -1117,8 +1117,8 @@
       }
     },
     "ss|84.247.155.196|80|3eOFeNssde7PYYMv|||||": {
-      "streak": 22,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 23,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-256-gcm",
         "name": "🇯🇵 JP 002 | ⚡ 528.00ms",
@@ -1129,8 +1129,8 @@
       }
     },
     "ss|84.247.155.196|443|3eOFeNssde7PYYMv|||||": {
-      "streak": 22,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 23,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-256-gcm",
         "name": "🇯🇵 JP 003 | ⚡ 563.00ms",
@@ -1141,8 +1141,8 @@
       }
     },
     "ss|82.38.31.219|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 8,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 9,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.219-0129 | 0.01MB",
@@ -1153,8 +1153,8 @@
       }
     },
     "ss|108.181.0.177|8388|G5p6ww4o67HB|||||": {
-      "streak": 7,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 8,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇺🇸 US 031 | ⚡ 164.00ms",
@@ -1165,8 +1165,8 @@
       }
     },
     "ss|82.38.31.218|8080|k1dBOmOB4oqi7Ump37a1bQ|||||": {
-      "streak": 6,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 7,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇬🇧GB-82.38.31.218-0134 | 0.03MB",
@@ -1177,8 +1177,8 @@
       }
     },
     "ss|54.36.174.140|443|mrs2e9a|||||": {
-      "streak": 6,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 7,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇫🇷FR-54.36.174.140-0392 | 3.148MB",
@@ -1189,8 +1189,8 @@
       }
     },
     "ss|82.38.31.46|8080|oZIoA69Q8yhcQV8ka3Pa3A|||||": {
-      "streak": 5,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 6,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇳🇱 NL 004 | ⚡ 251.00ms",
@@ -1201,8 +1201,8 @@
       }
     },
     "vmess|188.114.96.19|80|479526cd-5011-43cf-a788-504da95e07c2|/|ws|||": {
-      "streak": 5,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 6,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -1223,8 +1223,8 @@
       }
     },
     "ss|108.181.118.10|8388|G5p6ww4o67HB|||||": {
-      "streak": 3,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 4,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "name": "🇨🇦CA-108.181.118.10-0177 | 0.0MB",
@@ -1235,8 +1235,8 @@
       }
     },
     "ss|211.178.105.134|6123|qwerREWQ@@|||||": {
-      "streak": 3,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 4,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "aes-256-cfb",
         "name": "🇰🇷 KR 001 | ⚡ 613.00ms",
@@ -1247,8 +1247,8 @@
       }
     },
     "vmess|v6.hdacd.com|30806|cbb3f877-d1fb-344c-87a9-d153bffd5484||tcp|||": {
-      "streak": 3,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 4,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "alterId": 2,
         "cipher": "auto",
@@ -1265,8 +1265,8 @@
       }
     },
     "ss|139.84.247.164|8388|tfAcRikawhNoZAhu|||||": {
-      "streak": 3,
-      "last_ok_at": "2026-09-22T21:48:05Z",
+      "streak": 4,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "country": "🇺🇸US",
@@ -1278,8 +1278,8 @@
       }
     },
     "vmess|104.17.77.77|8443|60441548-b68e-43b2-8191-e3b884be4b3c|/lMnsZUN4/|ws|v2ray1.dozapp.xyz||": {
-      "streak": 1,
-      "last_ok_at": "2026-09-22T22:03:44Z",
+      "streak": 2,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -1304,8 +1304,8 @@
       }
     },
     "ss|216.105.168.18|443|hCCWOcIsK5wrFz4OX70rWf|||||": {
-      "streak": 1,
-      "last_ok_at": "2026-09-22T22:03:44Z",
+      "streak": 2,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "cipher": "chacha20-ietf-poly1305",
         "country": "🇺🇸US",
@@ -1317,8 +1317,8 @@
       }
     },
     "vmess|156.245.232.239|35043|b15e481d-17e4-41a8-84c2-23d4f0514d9a|/|ws|||": {
-      "streak": 1,
-      "last_ok_at": "2026-09-22T22:03:44Z",
+      "streak": 2,
+      "last_ok_at": "2026-09-23T00:01:58Z",
       "proxy": {
         "alterId": 0,
         "cipher": "auto",
@@ -1333,6 +1333,40 @@
         "ws-opts": {
           "path": "/"
         }
+      }
+    },
+    "vmess|188.114.96.19|80|aed88e79-5762-4d2f-86fa-f438f32a7654|/|ws|||": {
+      "streak": 1,
+      "last_ok_at": "2026-09-23T00:17:49Z",
+      "proxy": {
+        "alterId": 0,
+        "cipher": "auto",
+        "name": "🇨🇦 CA 022 | ⚡ 472.00ms",
+        "network": "ws",
+        "port": 80,
+        "server": "188.114.96.19",
+        "skip-cert-verify": false,
+        "tls": false,
+        "type": "vmess",
+        "uuid": "aed88e79-5762-4d2f-86fa-f438f32a7654",
+        "ws-opts": {
+          "headers": {
+            "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
+          },
+          "path": "/"
+        }
+      }
+    },
+    "ss|185.213.23.63|990|ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=|||||": {
+      "streak": 1,
+      "last_ok_at": "2026-09-23T00:17:49Z",
+      "proxy": {
+        "cipher": "chacha20-ietf-poly1305",
+        "name": "🇳🇴 NO 001 | ⚡ 751.00ms",
+        "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=",
+        "port": 990,
+        "server": "185.213.23.63",
+        "type": "ss"
       }
     }
   }
