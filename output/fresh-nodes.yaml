@@ -1,5 +1,5 @@
-# last-updated: 2026-09-24T01:23:31Z
-# node-count: 34
+# last-updated: 2026-09-24T07:29:41Z
+# node-count: 35
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -44,31 +44,11 @@ proxies:
   port: 8080
   server: 82.38.31.46
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA 015 | ⚡ 732.00ms
-  network: ws
-  port: 80
-  server: 188.114.96.19
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 479526cd-5011-43cf-a788-504da95e07c2
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇦CA-108.181.118.10-0177 | 0.0MB
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.118.10
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 001 | ⚡ 613.00ms
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
@@ -211,12 +191,6 @@ proxies:
   port: 8080
   server: 82.38.31.218
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-49.254.204.134-0160 | 0.0MB
-  password: 1234!@#$
-  port: 1774
-  server: 49.254.204.134
-  type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧GB-94.156.250.148-0143 | 8.456MB
   password: RexnBgU7EV5ADxG
@@ -229,10 +203,48 @@ proxies:
   port: 8080
   server: 82.38.31.219
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 025 | ⚡ 418.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 001 | ⬆️ 0.00MB/s
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_62 ⇽中转_0@61
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_61 ⇽中转_0@60
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- country: 🇺🇸US
+  name: 🇺🇸US_153_0@152
+  password: BxceQaOe
   port: 443
-  server: 216.105.168.18
+  server: 100.42.228.109
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NO-185.213.23.63-0135 | 8.538MB
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
   type: ss
