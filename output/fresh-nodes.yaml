@@ -1,13 +1,7 @@
-# last-updated: 2026-09-24T07:29:41Z
-# node-count: 35
+# last-updated: 2026-09-24T13:30:58Z
+# node-count: 34
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 246.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.151
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 003 | ⚡ 334.00ms
   password: CJmTCCx7Ltud
@@ -203,12 +197,6 @@ proxies:
   port: 8080
   server: 82.38.31.219
   type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 001 | ⬆️ 0.00MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 141.164.45.187
-  type: ss
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
@@ -247,4 +235,10 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.213.23.63
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 001 | ⬆️ 0.00MB/s
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
   type: ss
