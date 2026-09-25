@@ -1,4 +1,4 @@
-# last-updated: 2026-09-25T06:08:10Z
+# last-updated: 2026-09-25T11:30:18Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -532,25 +532,6 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-158.173.221.214-0578 | 6.175MB
-  password: c58d16e593d44f42
-  port: 11001
-  server: 158.173.221.214
-  type: ss
-- alterId: 1
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_97_0@96
-  network: tcp
-  port: 22324
-  server: 67.220.72.237
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.199-0140 | 6.194MB
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -605,4 +586,16 @@ proxies:
   password: 3eOFeNssde7PYYMv
   port: 80
   server: 84.247.155.196
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇯🇵 JP 003 | ⚡ 563.00ms
+  password: 3eOFeNssde7PYYMv
+  port: 443
+  server: 84.247.155.196
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US 031 | ⚡ 164.00ms
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.0.177
   type: ss
