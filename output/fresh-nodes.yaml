@@ -1,5 +1,5 @@
-# last-updated: 2026-09-26T09:23:13Z
-# node-count: 42
+# last-updated: 2026-09-26T14:22:40Z
+# node-count: 48
 # note: streak<3 or newly accepted
 proxies:
 - cipher: aes-256-gcm
@@ -107,12 +107,6 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: NO-185.213.23.63-0135 | 8.538MB
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 004 | ⚡ 367.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -144,18 +138,6 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
     path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 006 | ⚡ 1269.00ms
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   name: 🇯🇵JP-18.181.165.254-0226 | 0.0MB
   password: amazonskr05
@@ -217,12 +199,6 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇳🇱 NL 004 | ⚡ 289.00ms
-  password: shadowsocks
-  port: 443
-  server: 158.173.20.171
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 308.00ms
@@ -316,3 +292,57 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 015 | ⚡ 96.00ms
+  password: amazonskr05
+  port: 443
+  server: 18.205.21.144
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 016 | ⚡ 102.00ms
+  password: amazonskr05
+  port: 443
+  server: 54.227.186.25
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 017 | ⚡ 149.00ms
+  password: amazonskr05
+  port: 443
+  server: 54.147.191.121
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇪 SE 001 | ⚡ 313.00ms
+  password: amazonskr05
+  port: 443
+  server: 16.170.214.108
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇪 SE 003 | ⚡ 364.00ms
+  password: amazonskr05
+  port: 443
+  server: 16.171.55.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 TW 005 | ⚡ 458.00ms
+  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+  port: 50099
+  server: namrcg001640lrm.cybervena.com
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇯🇵 JP 002 | ⚡ 518.00ms
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
+  type: ss
+- cipher: rc4-md5
+  name: 🇸🇬 SG 003 | ⚡ 533.00ms
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 004 | ⚡ 821.00ms
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
