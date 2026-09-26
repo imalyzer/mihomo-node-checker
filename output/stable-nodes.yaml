@@ -1,4 +1,4 @@
-# last-updated: 2026-09-26T00:04:11Z
+# last-updated: 2026-09-26T03:57:05Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -563,18 +563,6 @@ proxies:
   port: 8388
   server: 108.181.58.239
   type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵 JP 002 | ⚡ 528.00ms
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵 JP 003 | ⚡ 563.00ms
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 031 | ⚡ 164.00ms
   password: G5p6ww4o67HB
@@ -599,3 +587,24 @@ proxies:
   port: 8388
   server: 108.181.118.10
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇿🇦 ZA 001 | ⚡ 1059.00ms
+  password: tfAcRikawhNoZAhu
+  port: 8388
+  server: 139.84.247.164
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 022 | ⚡ 472.00ms
+  network: ws
+  port: 80
+  server: 188.114.96.19
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+    path: /
