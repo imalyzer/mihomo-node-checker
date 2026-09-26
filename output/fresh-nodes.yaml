@@ -1,14 +1,7 @@
-# last-updated: 2026-09-26T14:22:40Z
-# node-count: 48
+# last-updated: 2026-09-26T18:37:21Z
+# node-count: 45
 # note: streak<3 or newly accepted
 proxies:
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_191_0@190
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 15.204.247.206
-  type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
   name: 🇺🇸 US 020 | ⚡ 181.00ms
@@ -124,31 +117,11 @@ proxies:
   port: 443
   server: 18.207.155.184
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 CA 014 | ⚡ 1070.00ms
-  network: ws
-  port: 80
-  server: 188.114.96.19
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 479526cd-5011-43cf-a788-504da95e07c2
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
-    path: /
 - cipher: aes-256-cfb
   name: 🇯🇵JP-18.181.165.254-0226 | 0.0MB
   password: amazonskr05
   port: 443
   server: 18.181.165.254
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.176-0216 | 0.011MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: hamedvpns 1 2
@@ -223,12 +196,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.219
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷 FR 003 | ⚡ 285.00ms
-  password: c58d16e593d44f42
-  port: 11001
-  server: 158.173.221.214
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 533.00ms
@@ -322,18 +289,6 @@ proxies:
   port: 443
   server: 16.171.55.2
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 TW 005 | ⚡ 458.00ms
-  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
-  port: 50099
-  server: namrcg001640lrm.cybervena.com
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵 JP 002 | ⚡ 518.00ms
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  type: ss
 - cipher: rc4-md5
   name: 🇸🇬 SG 003 | ⚡ 533.00ms
   password: 14fFPrbezE3HDZzsMOr6
@@ -346,3 +301,34 @@ proxies:
   port: 6123
   server: 211.178.105.134
   type: ss
+- cipher: aes-256-cfb
+  name: SE-13.49.64.122-0597 | 19.214MB
+  password: amazonskr05
+  port: 443
+  server: 13.49.64.122
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_103 ⇽中转_0@102
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 004 | ⚡ 1293.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0163 | 0.0MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
