@@ -1,5 +1,5 @@
-# last-updated: 2026-09-26T22:06:37Z
-# node-count: 50
+# last-updated: 2026-09-27T00:29:52Z
+# node-count: 54
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -376,3 +376,27 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 001 | ⚡ 225.00ms
+  password: c58d16e593d44f42
+  port: 11001
+  server: 158.173.221.214
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 003 | ⚡ 263.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇪 SE 001 | ⚡ 276.00ms
+  password: amazonskr05
+  port: 443
+  server: 51.20.122.188
+  type: ss
+- cipher: chacha20-ietf
+  name: 🇭🇰 HK 004 | ⚡ 603.00ms
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
