@@ -1,4 +1,4 @@
-# last-updated: 2026-09-27T17:46:46Z
+# last-updated: 2026-09-27T21:10:57Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -318,18 +318,6 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 247.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 254.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.191
-  type: ss
 - cipher: aes-128-gcm
   country: 🇺🇸US
   name: 🇺🇸US_121_0@120
@@ -575,12 +563,6 @@ proxies:
   server: 82.38.31.3
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 010 | ⚡ 329.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.193
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 012 | ⚡ 360.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
@@ -597,4 +579,22 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.203
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵 JP 006 | ⚡ 484.00ms
+  password: amazonskr05
+  port: 443
+  server: 13.230.153.249
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.42-4776 | 73.166MB
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.42
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 004 | ⚡ 367.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.194
   type: ss
