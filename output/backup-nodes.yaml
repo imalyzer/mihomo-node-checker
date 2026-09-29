@@ -1,5 +1,5 @@
-# last-updated: 2026-09-29T11:23:07Z
-# node-count: 108
+# last-updated: 2026-09-29T17:58:30Z
+# node-count: 104
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -237,21 +237,6 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   server: 169.40.42.16
-  servername: yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: yahoo.com
-  name: 🇺🇸 US 009 | ⚡ 105.00ms
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.75
   servername: yahoo.com
   skip-cert-verify: false
   tfo: false
@@ -600,18 +585,6 @@ proxies:
   server: 82.38.31.218
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 664.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.190
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 674.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.223
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 004 | ⚡ 280.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -757,36 +730,12 @@ proxies:
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 018 | ⚡ 115.00ms
-  password: amazonskr05
-  port: 443
-  server: 18.205.21.144
-  type: ss
 - cipher: aes-256-gcm
   name: 🇺🇸 US 019 | ⚡ 506.00ms
   password: pKEW8JPByTVTLtM
   port: 4444
   server: 15.204.247.206
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇨🇦 CA 021 | ⚡ 1209.00ms
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
@@ -804,4 +753,10 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.186
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 021 | ⚡ 136.00ms
+  password: amazonskr05
+  port: 443
+  server: 54.234.217.115
   type: ss
