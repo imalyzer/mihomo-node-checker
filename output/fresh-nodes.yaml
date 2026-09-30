@@ -1,13 +1,7 @@
-# last-updated: 2026-09-30T08:18:37Z
-# node-count: 31
+# last-updated: 2026-09-30T20:49:54Z
+# node-count: 28
 # note: streak<3 or newly accepted
 proxies:
-- cipher: aes-256-gcm
-  name: 🇯🇵 JP 008 | ⚡ 540.00ms
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
-  type: ss
 - cipher: rc4-md5
   name: 🇸🇬 SG 003 | ⚡ 533.00ms
   password: 14fFPrbezE3HDZzsMOr6
@@ -134,33 +128,6 @@ proxies:
   port: 8080
   server: 82.38.31.186
   type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 021 | ⚡ 136.00ms
-  password: amazonskr05
-  port: 443
-  server: 54.234.217.115
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 017 | ⚡ 92.00ms
-  password: amazonskr05
-  port: 443
-  server: 18.205.21.144
-  type: ss
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: yahoo.com
-  name: 🇺🇸 US 018 | ⚡ 104.00ms
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.75
-  servername: yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 003 | ⚡ 386.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -186,20 +153,36 @@ proxies:
   server: 51.20.143.248
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-49.254.204.134-0161 | 0.0MB
-  password: 1234!@#$
-  port: 1774
-  server: 49.254.204.134
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 001 | ⬆️ 0.00MB/s
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇪 SE 002 | ⚡ 723.00ms
+  country: 🇺🇸US
+  name: 🇺🇸 US 028 | ⚡ 74.00ms
   password: amazonskr05
   port: 443
-  server: 51.20.122.188
+  server: 54.90.169.61
   type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇸🇪 SE 003 | ⚡ 281.00ms
+  password: amazonskr05
+  port: 443
+  server: 51.20.86.152
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸 US 029 | ⚡ 376.00ms
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 003 | ⚡ 688.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0138 | 0.0MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /

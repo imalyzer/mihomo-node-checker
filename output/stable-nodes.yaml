@@ -1,4 +1,4 @@
-# last-updated: 2026-09-30T08:18:37Z
+# last-updated: 2026-09-30T20:49:54Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -534,12 +534,6 @@ proxies:
   port: 443
   server: 82.38.31.162
   type: ss
-- cipher: aes-256-gcm
-  name: IT-57.131.48.45-4729 | 37.969MB
-  password: itzvpn@321
-  port: 8388
-  server: 57.131.48.45
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 306.00ms-2
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -595,4 +589,10 @@ proxies:
   password: Xsy8Ox4yOV3xLlpxtjzs3X
   port: 16233
   server: 102.133.165.160
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇯🇵 JP 008 | ⚡ 540.00ms
+  password: 3eOFeNssde7PYYMv
+  port: 443
+  server: 84.247.155.196
   type: ss
