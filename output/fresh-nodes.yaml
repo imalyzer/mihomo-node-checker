@@ -1,5 +1,5 @@
-# last-updated: 2026-09-30T20:49:54Z
-# node-count: 28
+# last-updated: 2026-10-01T00:38:06Z
+# node-count: 30
 # note: streak<3 or newly accepted
 proxies:
 - cipher: rc4-md5
@@ -166,13 +166,6 @@ proxies:
   port: 443
   server: 51.20.86.152
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 029 | ⚡ 376.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇮🇳 IN 003 | ⚡ 688.00ms
@@ -186,3 +179,30 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
+- cipher: aes-256-cfb
+  name: 🇺🇸 US 030 | ⚡ 110.00ms
+  password: amazonskr05
+  port: 443
+  server: 18.205.21.144
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: yahoo.com
+  name: 🇺🇸 US 031 | ⚡ 183.00ms
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.75
+  servername: yahoo.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- cipher: aes-256-gcm
+  name: 🇬🇧 GB 004 | ⚡ 396.00ms
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  type: ss
