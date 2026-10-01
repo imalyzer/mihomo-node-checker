@@ -1,5 +1,5 @@
-# last-updated: 2026-10-01T07:06:22Z
-# node-count: 109
+# last-updated: 2026-10-01T14:27:57Z
+# node-count: 117
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -735,12 +735,6 @@ proxies:
   server: 193.29.139.223
   type: ss
 - cipher: aes-256-cfb
-  name: 🇸🇪 SE 004 | ⚡ 356.00ms
-  password: amazonskr05
-  port: 443
-  server: 51.20.143.248
-  type: ss
-- cipher: aes-256-cfb
   country: 🇺🇸US
   name: 🇸🇪 SE 003 | ⚡ 281.00ms
   password: amazonskr05
@@ -775,15 +769,83 @@ proxies:
   server: 94.156.250.148
   type: ss
 - cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇸🇪 SE 001 | ⚡ 285.00ms
-  password: amazonskr05
-  port: 443
-  server: 51.20.72.15
-  type: ss
-- cipher: aes-256-cfb
   name: 🇸🇪 SE 002 | ⚡ 293.00ms
   password: amazonskr05
   port: 443
   server: 51.20.122.188
   type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇳 IN 002 | ⬆️ 0.00MB/s
+  password: GEdoeeqLZtkJRgSa
+  port: 8388
+  server: 139.84.166.47
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸US_169_0@168
+  password: amazonskr05
+  port: 443
+  server: 54.90.169.61
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-51.222.200.165-2359 | 2.383MB
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.222.200.165
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: NO-185.213.23.63-0145 | 0.009MB
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: CH-132.243.175.144-2367 | 0.429MB
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  port: 8388
+  server: 132.243.175.144
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR-51.255.13.232-2372 | 35.554MB
+  password: BqnqToih0PbU
+  port: 8388
+  server: 51.255.13.232
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR-141.164.45.187-2379 | 0.0MB
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 141.164.45.187
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN-152.67.8.205-0166 | 0.501MB
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0166 | 0.501MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-51.79.64.198-2363 | 0.4MB
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.79.64.198
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_186_0@185
+  network: tcp
+  port: 10000
+  server: 47.250.135.244
+  skip-cert-verify: true
+  type: vmess
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  ws-path: /
