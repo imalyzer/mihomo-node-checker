@@ -1,5 +1,5 @@
-# last-updated: 2026-10-01T00:38:06Z
-# node-count: 30
+# last-updated: 2026-10-01T07:06:22Z
+# node-count: 29
 # note: streak<3 or newly accepted
 proxies:
 - cipher: rc4-md5
@@ -140,12 +140,6 @@ proxies:
   port: 8080
   server: 193.29.139.223
   type: ss
-- cipher: aes-128-gcm
-  name: 🇳🇱NL-158.173.20.171-0093 | 0.0MB
-  password: shadowsocks
-  port: 443
-  server: 158.173.20.171
-  type: ss
 - cipher: aes-256-cfb
   name: 🇸🇪 SE 004 | ⚡ 356.00ms
   password: amazonskr05
@@ -154,31 +148,11 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   country: 🇺🇸US
-  name: 🇺🇸 US 028 | ⚡ 74.00ms
-  password: amazonskr05
-  port: 443
-  server: 54.90.169.61
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
   name: 🇸🇪 SE 003 | ⚡ 281.00ms
   password: amazonskr05
   port: 443
   server: 51.20.86.152
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 003 | ⚡ 688.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0138 | 0.0MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
 - cipher: aes-256-cfb
   name: 🇺🇸 US 030 | ⚡ 110.00ms
   password: amazonskr05
@@ -205,4 +179,17 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇸🇪 SE 001 | ⚡ 285.00ms
+  password: amazonskr05
+  port: 443
+  server: 51.20.72.15
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇪 SE 002 | ⚡ 293.00ms
+  password: amazonskr05
+  port: 443
+  server: 51.20.122.188
   type: ss
