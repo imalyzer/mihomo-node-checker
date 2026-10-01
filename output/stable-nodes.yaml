@@ -1,4 +1,4 @@
-# last-updated: 2026-10-01T14:27:57Z
+# last-updated: 2026-10-01T20:21:53Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -215,12 +215,6 @@ proxies:
   password: shadowsocks
   port: 443
   server: 149.22.87.204
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 491.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.202
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 302.00ms
@@ -477,12 +471,6 @@ proxies:
   server: 108.181.0.177
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 251.00ms
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.46
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇨🇦CA-108.181.118.10-0177 | 0.0MB
   password: G5p6ww4o67HB
   port: 8388
@@ -547,12 +535,6 @@ proxies:
   server: 82.38.31.42
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 367.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.194
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: hamedvpns 1 2
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
@@ -595,4 +577,22 @@ proxies:
   password: 3eOFeNssde7PYYMv
   port: 443
   server: 84.247.155.196
+  type: ss
+- cipher: rc4-md5
+  name: 🇸🇬 SG 003 | ⚡ 533.00ms
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 004 | ⚡ 821.00ms
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 375.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.184
   type: ss
