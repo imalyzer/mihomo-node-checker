@@ -1,5 +1,5 @@
-# last-updated: 2026-10-01T20:21:53Z
-# node-count: 36
+# last-updated: 2026-10-02T00:45:44Z
+# node-count: 40
 # note: streak<3 or newly accepted
 proxies:
 - cipher: aes-256-gcm
@@ -37,18 +37,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.207
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 213.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 229.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 008 | ⚡ 253.00ms
@@ -123,12 +111,6 @@ proxies:
   port: 443
   server: 51.20.86.152
   type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸 US 030 | ⚡ 110.00ms
-  password: amazonskr05
-  port: 443
-  server: 18.205.21.144
-  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -162,24 +144,11 @@ proxies:
   port: 8388
   server: 139.84.166.47
   type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸US_169_0@168
-  password: amazonskr05
-  port: 443
-  server: 54.90.169.61
-  type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦CA-51.222.200.165-2359 | 2.383MB
   password: Y6R9pAtvxxzmGC
   port: 5000
   server: 51.222.200.165
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: NO-185.213.23.63-0145 | 0.009MB
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: CH-132.243.175.144-2367 | 0.429MB
@@ -192,12 +161,6 @@ proxies:
   password: BqnqToih0PbU
   port: 8388
   server: 51.255.13.232
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷KR-141.164.45.187-2379 | 0.0MB
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 141.164.45.187
   type: ss
 - alterId: 0
   cipher: auto
@@ -243,3 +206,89 @@ proxies:
   port: 8388
   server: 140.174.184.5
   type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹 IT 001 | ⬆️ 0.00MB/s
+  password: itzvpn@321
+  port: 8388
+  server: 57.131.48.45
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 012 | ⚡ 145.00ms
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦 CA 013 | ⚡ 202.00ms
+  password: FD3rCuOsxOay
+  port: 8388
+  server: 15.235.75.71
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸 US 021 | ⚡ 270.00ms
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 449.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.46
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 014 | ⚡ 455.00ms
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.79.49.116
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 460.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.190
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇲🇾 MY 001 | ⚡ 550.00ms
+  network: tcp
+  port: 10000
+  server: 47.250.135.244
+  skip-cert-verify: true
+  type: vmess
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇦 CA 015 | ⚡ 839.00ms
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      HOST: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 009 | ⚡ 1367.00ms
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
