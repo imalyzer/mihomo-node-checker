@@ -1,5 +1,5 @@
-# last-updated: 2026-10-02T13:47:44Z
-# node-count: 122
+# last-updated: 2026-10-02T19:12:00Z
+# node-count: 116
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -555,28 +555,10 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 308.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.218
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 280.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.219
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇿🇦 ZA 001 | ⚡ 951.00ms
   password: Xsy8Ox4yOV3xLlpxtjzs3X
   port: 16233
   server: 102.133.165.160
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵 JP 008 | ⚡ 540.00ms
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
   type: ss
 - cipher: rc4-md5
   name: 🇸🇬 SG 003 | ⚡ 533.00ms
@@ -589,12 +571,6 @@ proxies:
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵JP-84.247.155.196-0132 | 0.38MB
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 359.00ms
@@ -692,13 +668,6 @@ proxies:
   port: 8080
   server: 193.29.139.223
   type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇸🇪 SE 003 | ⚡ 281.00ms
-  password: amazonskr05
-  port: 443
-  server: 51.20.86.152
-  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -719,12 +688,6 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇪 SE 002 | ⚡ 293.00ms
-  password: amazonskr05
-  port: 443
-  server: 51.20.122.188
   type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦CA-51.222.200.165-2359 | 2.383MB
@@ -756,35 +719,17 @@ proxies:
   port: 8388
   server: 140.174.184.5
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 012 | ⚡ 145.00ms
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 51.222.155.113
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 449.00ms
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.46
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 014 | ⚡ 455.00ms
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.79.49.116
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 460.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.190
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 003 | ⬆️ 0.00MB/s
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 141.164.45.187
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: NO-185.213.23.63-0145 | 0.009MB
@@ -798,30 +743,11 @@ proxies:
   port: 8080
   server: 82.38.31.194
   type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 003 | ⬆️ 0.00MB/s-2
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 005 | ⬆️ 0.00MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 141.164.45.187
-  type: ss
 - cipher: aes-128-gcm
   name: 🇺🇸 US 017 | ⚡ 172.00ms
   password: 62dd75ba944947d4ca983cf1679b3797
   port: 15240
   server: 173.234.25.90
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇸🇪 SE 001 | ⚡ 317.00ms
-  password: amazonskr05
-  port: 443
-  server: 51.20.72.15
   type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦 CA 016 | ⚡ 350.00ms
@@ -834,12 +760,6 @@ proxies:
   password: itzvpn@321
   port: 8388
   server: 57.131.48.45
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇪 SE 002 | ⚡ 522.00ms
-  password: amazonskr05
-  port: 443
-  server: 51.20.143.248
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 004 | ⚡ 576.00ms
@@ -867,3 +787,45 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 004 | ⚡ 222.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 263.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.184
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇳🇱 NL 006 | ⚡ 265.00ms
+  password: shadowsocks
+  port: 443
+  server: 158.173.20.171
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 016 | ⚡ 283.00ms
+  password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
+  port: 9443
+  server: yyz-ca-01.blncvpn4u.cc
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇩 ID 001 | ⚡ 672.00ms
+  password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
+  port: 31348
+  server: 103.160.63.199
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 017 | ⚡ 942.00ms
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.79.64.198
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 018 | ⚡ 1221.00ms
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.79.85.185
+  type: ss
