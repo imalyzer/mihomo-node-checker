@@ -1,5 +1,5 @@
-# last-updated: 2026-10-02T06:57:46Z
-# node-count: 115
+# last-updated: 2026-10-02T13:47:44Z
+# node-count: 122
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -750,12 +750,6 @@ proxies:
   port: 9443
   server: 185.156.47.97
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 018 | ⚡ 386.00ms
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 51.222.12.127
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇪🇸 ES 003 | ⚡ 447.00ms
   password: qItG8SueYQcP
@@ -767,13 +761,6 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 51.222.155.113
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 021 | ⚡ 270.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 449.00ms
@@ -793,29 +780,11 @@ proxies:
   port: 8080
   server: 82.38.31.190
   type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 009 | ⚡ 1367.00ms
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
   name: 🇰🇷 KR 003 | ⬆️ 0.00MB/s
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 007 | ⬆️ 0.00MB/s
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 51.79.64.198
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: NO-185.213.23.63-0145 | 0.009MB
@@ -829,3 +798,72 @@ proxies:
   port: 8080
   server: 82.38.31.194
   type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 003 | ⬆️ 0.00MB/s-2
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 005 | ⬆️ 0.00MB/s
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸 US 017 | ⚡ 172.00ms
+  password: 62dd75ba944947d4ca983cf1679b3797
+  port: 15240
+  server: 173.234.25.90
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇸🇪 SE 001 | ⚡ 317.00ms
+  password: amazonskr05
+  port: 443
+  server: 51.20.72.15
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 016 | ⚡ 350.00ms
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.222.136.236
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹 IT 001 | ⚡ 356.00ms
+  password: itzvpn@321
+  port: 8388
+  server: 57.131.48.45
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇪 SE 002 | ⚡ 522.00ms
+  password: amazonskr05
+  port: 443
+  server: 51.20.143.248
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 004 | ⚡ 576.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.202
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇵🇭 PH 001 | ⚡ 684.00ms
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 149.104.109.252
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 008 | ⚡ 836.00ms
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 141.164.45.187
+  type: ss
+- country: 🇺🇸US
+  name: 🇲🇾 MY 001 | ⚡ 1065.00ms
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  port: 443
+  server: 47.250.84.25
+  skip-cert-verify: true
+  type: trojan
+  udp: true
