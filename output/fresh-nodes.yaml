@@ -1,5 +1,5 @@
-# last-updated: 2026-10-04T15:52:50Z
-# node-count: 58
+# last-updated: 2026-10-04T19:26:24Z
+# node-count: 66
 # note: streak<3 or newly accepted
 proxies:
 - cipher: aes-256-gcm
@@ -13,12 +13,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.186
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 004 | ⚡ 396.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
   type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦CA-51.222.200.165-2359 | 2.383MB
@@ -123,12 +117,6 @@ proxies:
   port: 8080
   server: 82.38.31.219
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 009 | ⬆️ 0.00MB/s
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.222.136.236
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 US 013 | ⚡ 200.00ms
   password: eDfN7SODQceIOmIAbtJJtK
@@ -181,29 +169,11 @@ proxies:
   port: 8080
   server: 82.38.31.202
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG-45.128.12.20-0197 | 0.207MB
-  password: 9epp3o9ng8ej59uv
-  port: 14249
-  server: 45.128.12.20
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇩 ID 001 | ⚡ 685.00ms
-  password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
-  port: 31348
-  server: 103.160.63.199
-  type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦 CA 021 | ⚡ 138.00ms
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 51.79.85.185
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 022 | ⚡ 437.00ms
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 51.222.12.127
   type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦 CA 023 | ⚡ 487.00ms
@@ -212,28 +182,10 @@ proxies:
   server: 51.222.141.125
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇴 NO 001 | ⚡ 510.00ms
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 009 | ⚡ 338.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 193.29.139.223
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 004 | ⚡ 1470.00ms
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 002 | ⬆️ 0.00MB/s
-  password: ac9c0a7b
-  port: 49642
-  server: ce1fc2d8.krkt.hkssip.com
   type: ss
 - name: 🇺🇸 US 010 | ⚡ 147.00ms
   password: UX82473651
@@ -249,12 +201,6 @@ proxies:
   skip-cert-verify: false
   sni: guided-ferret.rooster465.autos
   type: trojan
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 014 | ⚡ 230.00ms
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 51.222.155.32
-  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -382,14 +328,131 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: 🇨🇦 CA 015 | ⚡ 706.00ms
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.79.49.116
+  name: 🇰🇷 KR 002 | ⬆️ 0.00MB/s
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 141.164.45.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸 US 004 | ⬆️ 0.00MB/s
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
   type: ss
 - cipher: aes-256-gcm
-  name: 🇮🇳IN-139.84.166.47-0184 | 0.0MB
-  password: GEdoeeqLZtkJRgSa
+  name: 🇲🇽 MX 001 | ⚡ 222.00ms
+  password: BWyPPTusFKhGgzKh
   port: 8388
-  server: 139.84.166.47
+  server: 64.177.90.30
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⚡ 241.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+- name: 🇯🇵 JP 003 | ⚡ 490.00ms
+  password: UX82473651
+  port: 443
+  server: concrete-aardvark.rooster465.autos
+  skip-cert-verify: false
+  sni: concrete-aardvark.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 004 | ⚡ 492.00ms
+  password: UX82473651
+  port: 443
+  server: evolving-platypus.rooster465.autos
+  skip-cert-verify: false
+  sni: evolving-platypus.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 005 | ⚡ 494.00ms
+  password: UX82473651
+  port: 443
+  server: fancy-javelin.rooster465.autos
+  skip-cert-verify: false
+  sni: fancy-javelin.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 006 | ⚡ 494.00ms
+  password: UX82473651
+  port: 443
+  server: winning-marten.rooster465.autos
+  skip-cert-verify: false
+  sni: winning-marten.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 007 | ⚡ 499.00ms
+  password: UX82473651
+  port: 443
+  server: brief-glider.rooster465.autos
+  skip-cert-verify: false
+  sni: brief-glider.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 008 | ⚡ 503.00ms
+  password: UX82473651
+  port: 443
+  server: comic-poodle.rooster465.autos
+  skip-cert-verify: false
+  sni: comic-poodle.rooster465.autos
+  type: trojan
+- name: 🇸🇬 SG 003 | ⚡ 584.00ms
+  password: UX82473651
+  port: 443
+  server: glowing-marmoset.rooster465.autos
+  skip-cert-verify: false
+  sni: glowing-marmoset.rooster465.autos
+  type: trojan
+- name: 🇰🇷 KR 010 | ⚡ 588.00ms
+  password: UX82473651
+  port: 443
+  server: kind-stork.rooster465.autos
+  skip-cert-verify: false
+  sni: kind-stork.rooster465.autos
+  type: trojan
+- name: 🇰🇷 KR 011 | ⚡ 589.00ms
+  password: UX82473651
+  port: 443
+  server: balanced-stag.rooster465.autos
+  skip-cert-verify: false
+  sni: balanced-stag.rooster465.autos
+  type: trojan
+- name: 🇰🇷 KR 012 | ⚡ 590.00ms
+  password: UX82473651
+  port: 443
+  server: optimum-snapper.rooster465.autos
+  skip-cert-verify: false
+  sni: optimum-snapper.rooster465.autos
+  type: trojan
+- name: 🇸🇬 SG 004 | ⚡ 597.00ms
+  password: UX82473651
+  port: 443
+  server: desired-boxer.rooster465.autos
+  skip-cert-verify: false
+  sni: desired-boxer.rooster465.autos
+  type: trojan
+- name: 🇸🇬 SG 005 | ⚡ 604.00ms
+  password: UX82473651
+  port: 443
+  server: real-cardinal.rooster465.autos
+  skip-cert-verify: false
+  sni: real-cardinal.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 009 | ⚡ 645.00ms
+  password: UX82473651
+  port: 443
+  server: assuring-skink.rooster465.autos
+  skip-cert-verify: false
+  sni: assuring-skink.rooster465.autos
+  type: trojan
+- name: 🇭🇰 HK 006 | ⚡ 706.00ms
+  password: UX82473651
+  port: 443
+  server: strong-haddock.rooster465.autos
+  skip-cert-verify: false
+  sni: strong-haddock.rooster465.autos
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 017 | ⚡ 1503.00ms
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
   type: ss
