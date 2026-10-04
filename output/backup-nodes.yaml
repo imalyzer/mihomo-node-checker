@@ -1,5 +1,5 @@
-# last-updated: 2026-10-04T11:08:55Z
-# node-count: 120
+# last-updated: 2026-10-04T15:52:50Z
+# node-count: 138
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -261,21 +261,6 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   server: 169.40.42.104
-  servername: yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: yahoo.com
-  name: 🇺🇸 US 014 | ⚡ 283.00ms
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.133
   servername: yahoo.com
   skip-cert-verify: false
   tfo: false
@@ -646,12 +631,6 @@ proxies:
   server: 82.38.31.194
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 222.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 005 | ⚡ 263.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -662,12 +641,6 @@ proxies:
   password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
   port: 9443
   server: yyz-ca-01.blncvpn4u.cc
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⚡ 380.00ms
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
   type: ss
 - cipher: aes-256-gcm
   name: 🇯🇵 JP 009 | ⚡ 487.00ms
@@ -749,12 +722,6 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   ws-path: /
-- cipher: aes-256-gcm
-  name: 🇲🇽 MX 001 | ⬆️ 0.00MB/s
-  password: BWyPPTusFKhGgzKh
-  port: 8388
-  server: 64.177.90.30
-  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -781,12 +748,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.202
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: RO-154.46.31.106-0186 | 1.701MB
-  password: QFWzCw2uX9B9i6qAYeFBIE
-  port: 443
-  server: 154.46.31.106
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇸🇬SG-45.128.12.20-0197 | 0.207MB
@@ -835,4 +796,168 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 002 | ⬆️ 0.00MB/s
+  password: ac9c0a7b
+  port: 49642
+  server: ce1fc2d8.krkt.hkssip.com
+  type: ss
+- name: 🇺🇸 US 010 | ⚡ 147.00ms
+  password: UX82473651
+  port: 443
+  server: happy-gibbon.rooster465.autos
+  skip-cert-verify: false
+  sni: happy-gibbon.rooster465.autos
+  type: trojan
+- name: 🇺🇸 US 011 | ⚡ 172.00ms
+  password: UX82473651
+  port: 443
+  server: guided-ferret.rooster465.autos
+  skip-cert-verify: false
+  sni: guided-ferret.rooster465.autos
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 014 | ⚡ 230.00ms
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.222.155.32
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: yahoo.com
+  name: 🇺🇸 US 012 | ⚡ 277.00ms
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.75
+  servername: yahoo.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 🇮🇪 IE 001 | ⚡ 352.00ms
+  password: UX82473651
+  port: 443
+  server: loved-shark.rooster465.autos
+  skip-cert-verify: false
+  sni: loved-shark.rooster465.autos
+  type: trojan
+- name: 🇩🇪 DE 009 | ⚡ 380.00ms
+  password: UX82473651
+  port: 443
+  server: pleased-albacore.rooster465.autos
+  skip-cert-verify: false
+  sni: pleased-albacore.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 003 | ⚡ 426.00ms
+  password: UX82473651
+  port: 443
+  server: intense-sole.rooster465.autos
+  skip-cert-verify: false
+  sni: intense-sole.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 004 | ⚡ 429.00ms
+  password: UX82473651
+  port: 443
+  server: promoted-rattler.rooster465.autos
+  skip-cert-verify: false
+  sni: promoted-rattler.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 005 | ⚡ 435.00ms
+  password: UX82473651
+  port: 443
+  server: organic-caribou.rooster465.autos
+  skip-cert-verify: false
+  sni: organic-caribou.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP-54.199.66.128-0487 | 38.66MB
+  password: UX82473651
+  port: 443
+  server: integral-rodent.rooster465.autos
+  skip-cert-verify: false
+  sni: integral-rodent.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP-54.238.153.132-2478 | 39.45MB
+  password: UX82473651
+  port: 443
+  server: obliging-louse.rooster465.autos
+  skip-cert-verify: false
+  sni: obliging-louse.rooster465.autos
+  type: trojan
+- name: 🇰🇷 KR 006 | ⚡ 498.00ms
+  password: UX82473651
+  port: 443
+  server: evolving-ewe.rooster465.autos
+  skip-cert-verify: false
+  sni: evolving-ewe.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇴 RO 001 | ⚡ 506.00ms
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  port: 443
+  server: bogging-eyeteeth-fly.freesocks.work
+  type: ss
+- cipher: aes-256-gcm
+  name: CL-64.176.2.21-0113 | 86.379MB
+  password: xBStBEVqvGwHPocc
+  port: 8388
+  server: 64.176.2.21
+  type: ss
+- name: 🇰🇷 KR 007 | ⚡ 510.00ms
+  password: UX82473651
+  port: 443
+  server: noted-cougar.rooster465.autos
+  skip-cert-verify: false
+  sni: noted-cougar.rooster465.autos
+  type: trojan
+- name: 🇰🇷 KR 008 | ⚡ 512.00ms
+  password: UX82473651
+  port: 443
+  server: pretty-rat.rooster465.autos
+  skip-cert-verify: false
+  sni: pretty-rat.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-13.125.69.162-0495 | 28.193MB
+  password: UX82473651
+  port: 443
+  server: engaging-toucan.rooster465.autos
+  skip-cert-verify: false
+  sni: engaging-toucan.rooster465.autos
+  type: trojan
+- name: 🇰🇷 KR 009 | ⚡ 523.00ms
+  password: UX82473651
+  port: 443
+  server: liked-eft.rooster465.autos
+  skip-cert-verify: false
+  sni: liked-eft.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-3.35.207.188-0493 | 28.033MB
+  password: UX82473651
+  port: 443
+  server: main-fawn.rooster465.autos
+  skip-cert-verify: false
+  sni: main-fawn.rooster465.autos
+  type: trojan
+- country: 🇺🇸US
+  name: 🇺🇸US_217_0@216
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  port: 443
+  server: 47.250.84.25
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 015 | ⚡ 706.00ms
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.79.49.116
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇳IN-139.84.166.47-0184 | 0.0MB
+  password: GEdoeeqLZtkJRgSa
+  port: 8388
+  server: 139.84.166.47
   type: ss
