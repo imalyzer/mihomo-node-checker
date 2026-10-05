@@ -1,5 +1,5 @@
-# last-updated: 2026-10-04T22:59:12Z
-# node-count: 80
+# last-updated: 2026-10-05T01:50:40Z
+# node-count: 84
 # note: streak<3 or newly accepted
 proxies:
 - cipher: aes-256-gcm
@@ -277,12 +277,6 @@ proxies:
   password: QFWzCw2uX9B9i6qAYeFBIE
   port: 443
   server: bogging-eyeteeth-fly.freesocks.work
-  type: ss
-- cipher: aes-256-gcm
-  name: CL-64.176.2.21-0113 | 86.379MB
-  password: xBStBEVqvGwHPocc
-  port: 8388
-  server: 64.176.2.21
   type: ss
 - name: 🇰🇷 KR 007 | ⚡ 510.00ms
   password: UX82473651
@@ -563,5 +557,35 @@ proxies:
   name: 🇰🇷 KR 007 | ⚡ 1490.00ms
   password: KixLvKzwjekG00rm
   port: 8000
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 018 | ⚡ 204.00ms
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.222.136.236
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇳🇱 NL 009 | ⚡ 242.00ms
+  password: shadowsocks
+  port: 443
+  server: 158.173.20.171
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 011 | ⚡ 246.00ms
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
+- cipher: chacha20-ietf
+  name: 🇭🇰 HK 005 | ⚡ 560.00ms
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 009 | ⚡ 736.00ms
+  password: lGqs95QkFHo2NV
+  port: 5498
   server: 141.164.45.187
   type: ss
