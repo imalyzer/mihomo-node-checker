@@ -1,5 +1,5 @@
-# last-updated: 2026-10-06T05:17:16Z
-# node-count: 83
+# last-updated: 2026-10-06T13:02:05Z
+# node-count: 87
 # note: streak<3 or newly accepted
 proxies:
 - cipher: chacha20-ietf-poly1305
@@ -13,12 +13,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.194
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 016 | ⚡ 283.00ms
-  password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
-  port: 9443
-  server: yyz-ca-01.blncvpn4u.cc
   type: ss
 - cipher: aes-256-gcm
   name: 🇯🇵 JP 009 | ⚡ 487.00ms
@@ -178,27 +172,6 @@ proxies:
   skip-cert-verify: false
   sni: integral-rodent.rooster465.autos
   type: trojan
-- name: 🇯🇵JP-54.238.153.132-2478 | 39.45MB
-  password: UX82473651
-  port: 443
-  server: obliging-louse.rooster465.autos
-  skip-cert-verify: false
-  sni: obliging-louse.rooster465.autos
-  type: trojan
-- name: 🇰🇷 KR 007 | ⚡ 510.00ms
-  password: UX82473651
-  port: 443
-  server: noted-cougar.rooster465.autos
-  skip-cert-verify: false
-  sni: noted-cougar.rooster465.autos
-  type: trojan
-- name: 🇰🇷 KR 008 | ⚡ 512.00ms
-  password: UX82473651
-  port: 443
-  server: pretty-rat.rooster465.autos
-  skip-cert-verify: false
-  sni: pretty-rat.rooster465.autos
-  type: trojan
 - name: 🇰🇷KR-13.125.69.162-0495 | 28.193MB
   password: UX82473651
   port: 443
@@ -343,12 +316,6 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 002 | ⚡ 837.00ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇭🇰 HK 006 | ⚡ 972.00ms
@@ -388,12 +355,6 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 006 | ⚡ 1423.00ms
-  password: ac9c0a7b
-  port: 49642
-  server: ce1fc2d8.krkt.hkssip.com
-  type: ss
 - name: 🇺🇸 US 009 | ⚡ 100.00ms
   password: UX82473651
   port: 443
@@ -470,35 +431,10 @@ proxies:
   server: telegramx.khp25.com
   type: ss
 - cipher: aes-256-gcm
-  name: 🇰🇷 KR 003 | ⬆️ 0.00MB/s
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 141.164.45.187
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇳 IN 003 | ⬆️ 0.00MB/s
-  password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
-  port: 777
-  server: 45.149.114.171
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_188_0@187
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-- cipher: aes-256-gcm
   name: 🇨🇦CA-51.222.12.127-0191 | 1.594MB
   password: zDNVedRFPQexG9v
   port: 445
   server: 51.222.12.127
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-51.79.49.116-0233 | 1.514MB
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.79.49.116
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.207-0085 | 71.033MB
@@ -557,12 +493,6 @@ proxies:
   port: 5003
   server: 51.222.155.32
   type: ss
-- cipher: aes-128-gcm
-  name: 🇳🇱 NL 009 | ⚡ 372.00ms
-  password: shadowsocks
-  port: 443
-  server: 158.173.20.171
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.184-0103 | 75.603MB
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -586,4 +516,98 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.206
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 006 | ⬆️ 0.00MB/s
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.79.85.185
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸 US 011 | ⚡ 207.00ms
+  password: 89d3a0375a279f6e743fea76e72952a8
+  port: 16995
+  server: 66.23.204.210
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇨🇦 CA 023 | ⚡ 217.00ms
+  password: 4efe1af272e7292139b889f6a63ee071
+  port: 18766
+  server: 64.74.163.69
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 024 | ⚡ 299.00ms
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.222.200.165
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷 FR 001 | ⚡ 382.00ms
+  password: amazonskr05
+  port: 443
+  server: 35.181.55.52
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧GB-149.102.132.184-2618 | 1.425MB
+  password: g5h5jleTRSyO3Rk4
+  port: 443
+  server: 149.102.132.184
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧 GB 004 | ⚡ 390.00ms
+  password: LXchLsIwtCeUAUgu
+  port: 80
+  server: 149.102.149.207
+  type: ss
+- name: 🇯🇵JP-3.112.245.255-0224 | 28.707MB
+  password: UX82473651
+  port: 443
+  server: dynamic-imp.rooster465.autos
+  skip-cert-verify: false
+  sni: dynamic-imp.rooster465.autos
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇬🇧 GB 005 | ⚡ 415.00ms
+  password: LXchLsIwtCeUAUgu
+  port: 443
+  server: 149.102.149.207
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧 GB 006 | ⚡ 437.00ms
+  password: g5h5jleTRSyO3Rk4
+  port: 80
+  server: 149.102.132.184
+  type: ss
+- cipher: aes-128-gcm
+  name: FI-185.103.110.68-0513 | 19.41MB
+  password: f9300a9bf39ae0347c3a3bfbc4dd7754
+  port: 18283
+  server: 185.103.110.68
+  type: ss
+- name: 🇰🇷 KR 002 | ⚡ 473.00ms
+  password: UX82473651
+  port: 443
+  server: neutral-quail.rooster465.autos
+  skip-cert-verify: false
+  sni: neutral-quail.rooster465.autos
+  type: trojan
+- name: 🇰🇷 KR 003 | ⚡ 483.00ms
+  password: UX82473651
+  port: 443
+  server: delicate-buck.rooster465.autos
+  skip-cert-verify: false
+  sni: delicate-buck.rooster465.autos
+  type: trojan
+- name: 🇩🇪DE-3.75.93.113-0537 | 18.467MB
+  password: UX82473651
+  port: 443
+  server: meet-goshawk.rooster465.autos
+  skip-cert-verify: false
+  sni: meet-goshawk.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 493.00ms
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.159
   type: ss
