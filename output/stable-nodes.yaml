@@ -1,4 +1,4 @@
-# last-updated: 2026-10-05T18:09:33Z
+# last-updated: 2026-10-06T00:02:47Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -538,12 +538,6 @@ proxies:
   port: 8080
   server: 82.38.31.186
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-51.222.200.165-2359 | 2.383MB
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 51.222.200.165
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: CH-132.243.175.144-2367 | 0.429MB
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
@@ -561,4 +555,10 @@ proxies:
   password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
   port: 9443
   server: 185.156.47.97
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇪🇸 ES 003 | ⚡ 447.00ms
+  password: qItG8SueYQcP
+  port: 8388
+  server: 140.174.184.5
   type: ss
