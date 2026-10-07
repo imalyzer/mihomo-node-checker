@@ -1,5 +1,5 @@
-# last-updated: 2026-10-07T02:20:07Z
-# node-count: 94
+# last-updated: 2026-10-07T10:05:16Z
+# node-count: 88
 # note: streak<3 or newly accepted
 proxies:
 - cipher: aes-256-gcm
@@ -83,13 +83,6 @@ proxies:
   port: 8080
   server: 193.29.139.223
   type: ss
-- name: 🇺🇸 US 010 | ⚡ 147.00ms
-  password: UX82473651
-  port: 443
-  server: happy-gibbon.rooster465.autos
-  skip-cert-verify: false
-  sni: happy-gibbon.rooster465.autos
-  type: trojan
 - name: 🇺🇸 US 011 | ⚡ 172.00ms
   password: UX82473651
   port: 443
@@ -395,12 +388,6 @@ proxies:
   server: bogging-eyeteeth-fly.freesocks.work
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: ZA-102.37.156.224-0178 | 4.272MB
-  password: aduB9HGxQHjA2SBMRjkHX6
-  port: 443
-  server: 102.37.156.224
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.184-0103 | 75.603MB
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -564,12 +551,6 @@ proxies:
   port: 8882
   server: 51.79.49.116
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 003 | ⬆️ 0.00MB/s
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.222.136.236
-  type: ss
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -591,12 +572,6 @@ proxies:
   port: 18766
   server: 64.74.163.69
   type: ss
-- cipher: aes-128-gcm
-  name: 🇳🇱 NL 006 | ⚡ 275.00ms
-  password: shadowsocks
-  port: 443
-  server: 158.173.20.171
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇮🇳 IN 003 | ⚡ 364.00ms
   password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
@@ -615,18 +590,6 @@ proxies:
   port: 4652
   server: p141.panda001.net
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 028 | ⚡ 1153.00ms
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 51.222.155.32
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 029 | ⚡ 1455.00ms
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 51.79.64.198
-  type: ss
 - cipher: aes-256-cfb
   name: 🇺🇸 US 001 | ⬆️ 0.00MB/s
   password: amazonskr05
@@ -639,12 +602,6 @@ proxies:
   port: 990
   server: 185.213.23.63
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 025 | ⚡ 675.00ms
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 51.79.85.185
-  type: ss
 - name: 🇩🇪 DE 011 | ⚡ 746.00ms
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 4443
@@ -652,3 +609,15 @@ proxies:
   skip-cert-verify: false
   sni: grape-test-italy.dynuddns.net
   type: trojan
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 010 | ⚡ 1108.00ms
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
