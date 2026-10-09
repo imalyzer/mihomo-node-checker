@@ -1,5 +1,5 @@
-# last-updated: 2026-10-08T23:10:53Z
-# node-count: 154
+# last-updated: 2026-10-09T03:03:43Z
+# node-count: 153
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -493,12 +493,6 @@ proxies:
   server: 132.243.175.144
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR-51.255.13.232-2372 | 35.554MB
-  password: BqnqToih0PbU
-  port: 8388
-  server: 51.255.13.232
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 460.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -617,13 +611,6 @@ proxies:
   server: concrete-aardvark.rooster465.autos
   skip-cert-verify: false
   sni: concrete-aardvark.rooster465.autos
-  type: trojan
-- name: 🇯🇵 JP 004 | ⚡ 492.00ms
-  password: UX82473651
-  port: 443
-  server: evolving-platypus.rooster465.autos
-  skip-cert-verify: false
-  sni: evolving-platypus.rooster465.autos
   type: trojan
 - name: 🇯🇵 JP 006 | ⚡ 494.00ms
   password: UX82473651
@@ -982,18 +969,6 @@ proxies:
   port: 990
   server: 185.213.23.63
   type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 005 | ⚡ 900.00ms
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
   name: 🇸🇬 SG 003 | ⚡ 1032.00ms
   password: 9epp3o9ng8ej59uv
@@ -1033,12 +1008,6 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- cipher: aes-256-cfb
-  name: 🇫🇷FR-15.237.53.180-2665 | 22.004MB
-  password: amazonskr05
-  port: 443
-  server: 15.237.53.180
-  type: ss
 - cipher: aes-256-cfb
   name: 🇺🇸 US 009 | ⚡ 55.00ms
   password: amazonskr05
@@ -1095,4 +1064,22 @@ proxies:
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 51.79.85.185
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 015 | ⚡ 183.00ms
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 016 | ⚡ 386.00ms
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 51.222.12.127
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇿🇦 ZA 001 | ⚡ 975.00ms
+  password: aduB9HGxQHjA2SBMRjkHX6
+  port: 443
+  server: 102.37.156.224
   type: ss
