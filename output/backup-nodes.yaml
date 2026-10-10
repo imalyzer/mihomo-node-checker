@@ -1,5 +1,5 @@
-# last-updated: 2026-10-09T22:30:58Z
-# node-count: 152
+# last-updated: 2026-10-10T02:19:15Z
+# node-count: 162
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -939,18 +939,6 @@ proxies:
   skip-cert-verify: false
   sni: inviting-ferret.rooster465.autos
   type: trojan
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 011 | ⚡ 1026.00ms
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 008 | ⚡ 479.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -984,12 +972,6 @@ proxies:
   password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=
   port: 52351
   server: pphfree2.mvpnpvpn.de5.net
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇸🇬 SG 001 | ⬆️ 0.00MB/s
-  password: qpSevKaUXYQKvSjp
-  port: 8388
-  server: 139.180.220.175
   type: ss
 - cipher: aes-256-cfb
   name: 🇺🇸 US 013 | ⚡ 53.00ms
@@ -1071,3 +1053,84 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  host: yahoo.com
+  name: 🇺🇸 US 010 | ⚡ 81.00ms
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.75
+  servername: yahoo.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- cipher: aes-128-gcm
+  name: 🇨🇦 CA 016 | ⚡ 125.00ms
+  password: 4efe1af272e7292139b889f6a63ee071
+  port: 18766
+  server: 64.74.163.69
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 017 | ⚡ 219.00ms
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.222.155.32
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇩🇪 DE 009 | ⚡ 244.00ms
+  password: amazonskr05
+  port: 443
+  server: 18.196.88.40
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 008 | ⚡ 262.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇩🇪 DE 010 | ⚡ 270.00ms
+  password: amazonskr05
+  port: 443
+  server: 3.67.197.81
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇴 RO 001 | ⚡ 395.00ms
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  port: 443
+  server: 154.46.31.106
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 018 | ⚡ 758.00ms
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.79.85.185
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 019 | ⚡ 1301.00ms
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.222.136.236
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇿🇦 ZA 002 | ⚡ 1348.00ms
+  password: aduB9HGxQHjA2SBMRjkHX6
+  port: 443
+  server: 102.37.156.224
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 020 | ⚡ 1421.00ms
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 51.222.141.125
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 001 | ⚡ 1696.00ms
+  password: 9epp3o9ng8ej59uv
+  port: 14249
+  server: 45.128.12.20
+  type: ss
