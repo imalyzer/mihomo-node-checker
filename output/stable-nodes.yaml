@@ -1,4 +1,4 @@
-# last-updated: 2026-10-10T02:19:15Z
+# last-updated: 2026-10-10T09:40:18Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -359,18 +359,6 @@ proxies:
   server: 193.29.139.151
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 031 | ⚡ 164.00ms
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA-108.181.118.10-0177 | 0.0MB
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.118.10
-  type: ss
-- cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
   name: 🇺🇸 US 020 | ⚡ 181.00ms
   password: ZoZtfPOyVvmKARUN
@@ -534,4 +522,18 @@ proxies:
   server: guided-ferret.rooster465.autos
   skip-cert-verify: false
   sni: guided-ferret.rooster465.autos
+  type: trojan
+- name: 🇮🇪 IE 001 | ⚡ 352.00ms
+  password: UX82473651
+  port: 443
+  server: loved-shark.rooster465.autos
+  skip-cert-verify: false
+  sni: loved-shark.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 005 | ⚡ 435.00ms
+  password: UX82473651
+  port: 443
+  server: organic-caribou.rooster465.autos
+  skip-cert-verify: false
+  sni: organic-caribou.rooster465.autos
   type: trojan
