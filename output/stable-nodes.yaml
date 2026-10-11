@@ -1,4 +1,4 @@
-# last-updated: 2026-10-10T23:27:16Z
+# last-updated: 2026-10-11T04:24:07Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -76,13 +76,6 @@ proxies:
   password: shadowsocks
   port: 443
   server: 149.22.87.240
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: 🇯🇵 JP 003 | ⚡ 468.00ms
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.241
   type: ss
 - cipher: aes-128-gcm
   name: 🇺🇸 US 006 | ⚡ 116.00ms
@@ -539,4 +532,11 @@ proxies:
   server: concrete-aardvark.rooster465.autos
   skip-cert-verify: false
   sni: concrete-aardvark.rooster465.autos
+  type: trojan
+- name: 🇯🇵 JP 006 | ⚡ 494.00ms
+  password: UX82473651
+  port: 443
+  server: winning-marten.rooster465.autos
+  skip-cert-verify: false
+  sni: winning-marten.rooster465.autos
   type: trojan
