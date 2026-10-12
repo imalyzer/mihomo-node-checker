@@ -1,65 +1,12 @@
-# last-updated: 2026-10-12T08:51:37Z
-# node-count: 103
+# last-updated: 2026-10-12T18:49:55Z
+# node-count: 89
 # note: streak<3 or newly accepted
 proxies:
-- name: 🇯🇵 JP 009 | ⚡ 645.00ms
-  password: UX82473651
-  port: 443
-  server: assuring-skink.rooster465.autos
-  skip-cert-verify: false
-  sni: assuring-skink.rooster465.autos
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 010 | ⚡ 296.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.189
-  type: ss
-- name: 🇮🇪 IE 002 | ⚡ 390.00ms
-  password: UX82473651
-  port: 443
-  server: sacred-anemone.rooster465.autos
-  skip-cert-verify: false
-  sni: sacred-anemone.rooster465.autos
-  type: trojan
-- name: 🇯🇵 JP 003 | ⚡ 418.00ms
-  password: UX82473651
-  port: 443
-  server: musical-terrier.rooster465.autos
-  skip-cert-verify: false
-  sni: musical-terrier.rooster465.autos
-  type: trojan
-- name: 🇯🇵 JP 004 | ⚡ 425.00ms
-  password: UX82473651
-  port: 443
-  server: accurate-frog.rooster465.autos
-  skip-cert-verify: false
-  sni: accurate-frog.rooster465.autos
-  type: trojan
-- name: 🇯🇵JP-54.249.55.154-0403 | 31.926MB
-  password: UX82473651
-  port: 443
-  server: prime-corgi.rooster465.autos
-  skip-cert-verify: false
-  sni: prime-corgi.rooster465.autos
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.184-0103 | 75.603MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.184
-  type: ss
 - cipher: rc4-md5
   name: 🇸🇬SG-68.183.227.4-0134 | 23.028MB
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 68.183.227.4
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.206-0089 | 70.643MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.206
   type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧GB-149.102.132.184-2618 | 1.425MB
@@ -110,12 +57,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.159
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 254.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
   type: ss
 - name: 🇯🇵 JP 003 | ⚡ 508.00ms
   password: UX82473651
@@ -175,18 +116,6 @@ proxies:
   skip-cert-verify: false
   sni: pleased-albacore.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 004 | ⚡ 837.00ms
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
 - client-fingerprint: random
   flow: xtls-rprx-vision
   host: yahoo.com
@@ -458,21 +387,6 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  host: yahoo.com
-  name: 🇺🇸 US 010 | ⚡ 288.00ms
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.75
-  servername: yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - name: 🇯🇵 JP 004 | ⚡ 374.00ms
   password: UX82473651
   port: 443
@@ -535,12 +449,6 @@ proxies:
   skip-cert-verify: false
   sni: musical-mouse.rooster465.autos
   type: trojan
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 013 | ⬆️ 0.00MB/s
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 51.79.85.185
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 007 | ⚡ 356.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -570,12 +478,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.180
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇳 IN 003 | ⚡ 441.00ms
-  password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
-  port: 777
-  server: 45.149.114.171
   type: ss
 - cipher: aes-256-cfb
   name: 🇰🇷 KR 002 | ⚡ 544.00ms
@@ -610,12 +512,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 006 | ⬆️ 0.00MB/s
-  password: ac9c0a7b
-  port: 49642
-  server: 211.174.113.172
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧 GB 003 | ⚡ 260.00ms
   password: zRZNBszYyWo5
@@ -663,25 +559,11 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
-- country: 🇺🇸US
-  name: 🇬🇧 GB 005 | ⚡ 837.00ms
-  password: Trojan@82164024
-  port: 443
-  server: gb.tronsg.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇭 CH 001 | ⚡ 861.00ms
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   port: 8388
   server: 132.243.175.144
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 008 | ⚡ 943.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.207
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷 FR 001 | ⚡ 294.00ms
@@ -701,31 +583,6 @@ proxies:
   port: 5601
   server: 51.222.155.113
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇿🇦 ZA 001 | ⚡ 1347.00ms
-  password: aduB9HGxQHjA2SBMRjkHX6
-  port: 443
-  server: 102.37.156.224
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 017 | ⚡ 270.00ms
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 51.79.64.198
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 🇺🇸 US 009 | ⚡ 314.00ms
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 15.204.247.206
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇴 RO 001 | ⚡ 478.00ms
-  password: QFWzCw2uX9B9i6qAYeFBIE
-  port: 443
-  server: 154.46.31.106
-  type: ss
 - cipher: aes-256-gcm
   name: 🇯🇵 JP 005 | ⚡ 458.00ms
   password: 3eOFeNssde7PYYMv
@@ -738,9 +595,47 @@ proxies:
   port: 80
   server: 84.247.155.196
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇴 NO 001 | ⚡ 1684.00ms
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
+- cipher: aes-256-cfb
+  name: 🇬🇧 GB 003 | ⚡ 386.00ms
+  password: amazonskr05
+  port: 443
+  server: 13.40.25.145
   type: ss
+- cipher: aes-128-gcm
+  name: 🇫🇮 FI 001 | ⚡ 430.00ms
+  password: f9300a9bf39ae0347c3a3bfbc4dd7754
+  port: 18280
+  server: 185.103.110.66
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 009 | ⚡ 430.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.192
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇮🇹 IT 002 | ⚡ 469.00ms
+  password: qMvJmCbMduKUoeHq
+  port: 8388
+  server: 66.245.207.70
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 010 | ⚡ 512.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.191
+  type: ss
+- name: 🇩🇪DE-178.104.254.1-0767 | 26.14MB
+  password: 3ixF51QWmFNmKOO_utPxVL-7gYYUb6HC
+  port: 8443
+  server: b1.3danimation3.com
+  skip-cert-verify: false
+  sni: b1.3danimation3.com
+  type: trojan
+- name: IE-3.253.106.233-0240 | 4.186MB
+  password: UX82473651
+  port: 443
+  server: 3.253.106.233
+  skip-cert-verify: false
+  sni: loved-shark.rooster465.autos
+  type: trojan
