@@ -1,4 +1,4 @@
-# last-updated: 2026-10-11T21:44:06Z
+# last-updated: 2026-10-12T01:12:05Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -425,18 +425,6 @@ proxies:
   port: 8080
   server: 82.38.31.194
   type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵 JP 009 | ⚡ 487.00ms
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵JP-84.247.155.196-0189 | 0.228MB
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇪🇸 ES 001 | ⚡ 370.00ms
   password: WSyL4XTwNsdv
@@ -540,4 +528,18 @@ proxies:
   server: comic-poodle.rooster465.autos
   skip-cert-verify: false
   sni: comic-poodle.rooster465.autos
+  type: trojan
+- name: 🇰🇷 KR 010 | ⚡ 588.00ms
+  password: UX82473651
+  port: 443
+  server: kind-stork.rooster465.autos
+  skip-cert-verify: false
+  sni: kind-stork.rooster465.autos
+  type: trojan
+- name: 🇰🇷 KR 012 | ⚡ 590.00ms
+  password: UX82473651
+  port: 443
+  server: optimum-snapper.rooster465.autos
+  skip-cert-verify: false
+  sni: optimum-snapper.rooster465.autos
   type: trojan
