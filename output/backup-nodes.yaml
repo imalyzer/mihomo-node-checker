@@ -1,5 +1,5 @@
-# last-updated: 2026-10-13T17:05:19Z
-# node-count: 148
+# last-updated: 2026-10-13T21:55:09Z
+# node-count: 159
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -900,12 +900,6 @@ proxies:
   server: 82.38.31.184
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 010 | ⚡ 389.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.205
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 011 | ⚡ 389.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -916,12 +910,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 193.29.139.223
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 013 | ⚡ 400.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.203
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 014 | ⚡ 403.00ms
@@ -978,18 +966,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: 🇮🇹 IT 001 | ⬆️ 0.00MB/s
-  password: qMvJmCbMduKUoeHq
-  port: 8388
-  server: 66.245.207.70
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷 KR 001 | ⬆️ 0.00MB/s
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 141.164.45.187
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 008 | ⚡ 245.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -1010,12 +986,6 @@ proxies:
   password: U83u9OGpvSatIUW7LsWffr
   port: 64546
   server: 194.68.44.42
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇳🇱 NL 006 | ⚡ 267.00ms
-  password: shadowsocks
-  port: 443
-  server: 158.173.20.171
   type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧 GB 002 | ⚡ 366.00ms
@@ -1048,3 +1018,113 @@ proxies:
   skip-cert-verify: false
   sni: inviting-ferret.rooster465.autos
   type: trojan
+- cipher: aes-256-gcm
+  name: 🇺🇸US-15.204.247.206-0217 | 1.789MB
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 15.204.247.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 004 | ⚡ 181.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.181
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 189.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 193.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.180
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 007 | ⚡ 197.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.147
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-51.222.155.32-0220 | 5.485MB
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.222.155.32
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 003 | ⚡ 209.00ms
+  password: BqnqToih0PbU
+  port: 8388
+  server: 51.255.13.232
+  type: ss
+- cipher: aes-256-gcm
+  name: IT-57.131.48.45-0189 | 54.844MB
+  password: itzvpn@321
+  port: 8388
+  server: 57.131.48.45
+  type: ss
+- name: 🇩🇪 DE 011 | ⚡ 316.00ms
+  password: UX82473651
+  port: 443
+  server: pleased-albacore.rooster465.autos
+  skip-cert-verify: false
+  sni: pleased-albacore.rooster465.autos
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-218.237.185.234-5625 | 0.0MB
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳IN-152.67.8.205-0210 | 3.541MB
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0210 | 3.541MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: ZA-102.37.156.224-0194 | 0.0MB
+  password: aduB9HGxQHjA2SBMRjkHX6
+  port: 443
+  server: 102.37.156.224
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE-57.129.113.16-0251 | 5.005MB
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  port: 8388
+  server: 57.129.113.16
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK 008 | ⚡ 641.00ms
+  network: ws
+  port: 35043
+  server: 156.245.232.239
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 006 | ⚡ 680.00ms
+  password: ac9c0a7b
+  port: 49642
+  server: 211.174.113.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 007 | ⚡ 910.00ms
+  password: ac9c0a7b
+  port: 49642
+  server: ce1fc2d8.krkt.hkssip.com
+  type: ss
