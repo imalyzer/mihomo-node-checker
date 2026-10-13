@@ -1,4 +1,4 @@
-# last-updated: 2026-10-12T18:49:55Z
+# last-updated: 2026-10-13T01:16:38Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -507,13 +507,6 @@ proxies:
   skip-cert-verify: false
   sni: optimum-snapper.rooster465.autos
   type: trojan
-- name: 🇸🇬 SG 005 | ⚡ 604.00ms
-  password: UX82473651
-  port: 443
-  server: real-cardinal.rooster465.autos
-  skip-cert-verify: false
-  sni: real-cardinal.rooster465.autos
-  type: trojan
 - name: 🇯🇵 JP 009 | ⚡ 645.00ms
   password: UX82473651
   port: 443
@@ -549,3 +542,9 @@ proxies:
   skip-cert-verify: false
   sni: prime-corgi.rooster465.autos
   type: trojan
+- cipher: rc4-md5
+  name: 🇸🇬SG-68.183.227.4-0134 | 23.028MB
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
