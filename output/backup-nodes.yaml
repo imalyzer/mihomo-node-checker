@@ -1,5 +1,5 @@
-# last-updated: 2026-10-14T16:52:15Z
-# node-count: 119
+# last-updated: 2026-10-14T20:41:48Z
+# node-count: 123
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -726,18 +726,6 @@ proxies:
   skip-cert-verify: false
   sni: inviting-ferret.rooster465.autos
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.234-5625 | 0.0MB
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: ZA-102.37.156.224-0194 | 0.0MB
-  password: aduB9HGxQHjA2SBMRjkHX6
-  port: 443
-  server: 102.37.156.224
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE-57.129.113.16-0251 | 5.005MB
   password: NcAXc0UZI6yQJE1p8QmOv8
@@ -768,35 +756,11 @@ proxies:
   port: 8080
   server: 82.38.31.203
   type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_144 ⇽中转_1@143
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      HOST: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: aes-256-gcm
   name: 🇬🇧 GB 005 | ⚡ 168.00ms
   password: g5h5jleTRSyO3Rk4
   port: 80
   server: 149.102.132.184
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇳🇱NL-158.173.20.171-0273 | 14.858MB
-  password: shadowsocks
-  port: 443
-  server: 158.173.20.171
   type: ss
 - cipher: aes-256-gcm
   name: 🇸🇪 SE 001 | ⚡ 209.00ms
@@ -842,9 +806,67 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf
-  name: 🇭🇰HK-103.149.182.79-0229 | 0.0MB
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 020 | ⬆️ 0.00MB/s
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 51.222.141.125
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧 GB 006 | ⚡ 198.00ms
+  password: g5h5jleTRSyO3Rk4
+  port: 443
+  server: 149.102.132.184
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸 US 011 | ⚡ 241.00ms
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 15.204.247.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸 US 012 | ⚡ 411.00ms
+  password: eDfN7SODQceIOmIAbtJJtK
+  port: 443
+  server: 198.98.53.130
+  type: ss
+- name: 🇸🇬 SG 002 | ⚡ 499.00ms
+  password: UX82473651
+  port: 443
+  server: brave-tomcat.rooster465.autos
+  skip-cert-verify: false
+  sni: brave-tomcat.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇴 RO 001 | ⚡ 501.00ms
+  password: U83u9OGpvSatIUW7LsWffr
+  port: 64546
+  server: 194.68.44.42
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 002 | ⚡ 859.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0193 | 1.166MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-51.222.200.165-0202 | 1.352MB
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.222.200.165
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧GB-94.156.250.148-0214 | 0.495MB
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
   type: ss
