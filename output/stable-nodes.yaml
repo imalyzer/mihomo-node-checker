@@ -1,4 +1,4 @@
-# last-updated: 2026-10-15T03:34:48Z
+# last-updated: 2026-10-15T09:05:46Z
 # node-count: 80
 # note: streak>=3 sticky survivors
 proxies:
@@ -190,12 +190,6 @@ proxies:
   password: shadowsocks
   port: 443
   server: 149.22.87.204
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 302.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.212
   type: ss
 - cipher: aes-128-gcm
   country: 🇺🇸US
@@ -578,3 +572,10 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 🇸🇬SG-54.151.181.75-0524 | 4.137MB
+  password: UX82473651
+  port: 443
+  server: moral-basilisk.rooster465.autos
+  skip-cert-verify: false
+  sni: moral-basilisk.rooster465.autos
+  type: trojan

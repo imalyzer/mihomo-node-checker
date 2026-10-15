@@ -1,5 +1,5 @@
-# last-updated: 2026-10-15T03:34:48Z
-# node-count: 133
+# last-updated: 2026-10-15T09:05:46Z
+# node-count: 125
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -190,12 +190,6 @@ proxies:
   password: shadowsocks
   port: 443
   server: 149.22.87.204
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 006 | ⚡ 302.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.212
   type: ss
 - cipher: aes-128-gcm
   country: 🇺🇸US
@@ -686,21 +680,6 @@ proxies:
   port: 8080
   server: 82.38.31.193
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 018 | ⚡ 451.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.214
-  type: ss
-- country: 🇺🇸US
-  name: 🇮🇳 IN 004 | ⚡ 847.00ms
-  password: Trojan@82164024
-  port: 443
-  server: in.tronsg.com
-  skip-cert-verify: true
-  sni: in.tronsg.com
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   name: 🇬🇧 GB 002 | ⚡ 366.00ms
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -720,18 +699,6 @@ proxies:
   port: 8388
   server: 57.129.113.16
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 008 | ⚡ 641.00ms
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 202.00ms
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -756,35 +723,11 @@ proxies:
   port: 8388
   server: 70.34.212.124
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 004 | ⬆️ 0.00MB/s
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.180
-  type: ss
 - cipher: aes-256-gcm
   name: 🇹🇭 TH 001 | ⬆️ 0.00MB/s
   password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=
   port: 52351
   server: pphfree2.mvpnpvpn.de5.net
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-193.29.139.147-0125 | 52.434MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.147
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.181-0204 | 50.589MB
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.181
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 007 | ⚡ 233.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
   type: ss
 - country: 🇺🇸US
   name: 🇺🇸US_125_0@124
@@ -820,43 +763,11 @@ proxies:
   skip-cert-verify: false
   sni: brave-tomcat.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 002 | ⚡ 859.00ms
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 🇮🇳IN-152.67.8.205-0193 | 1.166MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-51.222.200.165-0202 | 1.352MB
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 51.222.200.165
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧GB-94.156.250.148-0214 | 0.495MB
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦 CA 013 | ⬆️ 0.00MB/s
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 51.222.155.32
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸 US 009 | ⚡ 94.00ms
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
   type: ss
 - cipher: aes-128-gcm
   name: 🇺🇸US-64.74.163.69-0118 | 55.661MB
@@ -945,6 +856,44 @@ proxies:
   network: tcp
   port: 30829
   server: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  name: 🇮🇹 IT 002 | ⚡ 322.00ms
+  password: itzvpn@321
+  port: 8388
+  server: 57.131.48.45
+  type: ss
+- country: 🇺🇸US
+  name: 🇮🇳 IN 003 | ⚡ 499.00ms
+  password: Trojan@82164024
+  port: 443
+  server: in.tronsg.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 005 | ⚡ 570.00ms
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 006 | ⚡ 578.00ms
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
