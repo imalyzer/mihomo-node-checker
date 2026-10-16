@@ -1,37 +1,7 @@
-# last-updated: 2026-10-16T15:25:36Z
-# node-count: 42
+# last-updated: 2026-10-16T19:33:23Z
+# node-count: 34
 # note: streak<3 or newly accepted
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 430.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 010 | ⚡ 512.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.191
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 009 | ⚡ 380.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.184
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 017 | ⚡ 420.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.193
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧 GB 002 | ⚡ 366.00ms
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 82.110.60.9
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE-57.129.113.16-0251 | 5.005MB
   password: NcAXc0UZI6yQJE1p8QmOv8
@@ -90,23 +60,11 @@ proxies:
   port: 18766
   server: 64.74.163.69
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷 KR 007 | ⚡ 300.00ms
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
 - cipher: aes-256-gcm
   name: 🇮🇹 IT 002 | ⚡ 322.00ms
   password: itzvpn@321
   port: 8388
   server: 57.131.48.45
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 005 | ⚡ 153.00ms
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.210
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⚡ 200.00ms
@@ -144,13 +102,6 @@ proxies:
   port: 8080
   server: 82.38.31.181
   type: ss
-- name: 🇸🇬 SG 002 | ⚡ 435.00ms
-  password: UX82473651
-  port: 443
-  server: simple-molly.rooster465.autos
-  skip-cert-verify: false
-  sni: simple-molly.rooster465.autos
-  type: trojan
 - cipher: rc4-md5
   name: 🇺🇸 US 007 | ⚡ 108.00ms
   password: 14fFPrbezE3HDZzsMOr6
@@ -170,24 +121,11 @@ proxies:
   skip-cert-verify: false
   sni: inviting-ferret.rooster465.autos
   type: trojan
-- cipher: aes-256-gcm
-  name: 🇹🇭 TH 001 | ⚡ 390.00ms
-  password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=
-  port: 52351
-  server: pphfree2.mvpnpvpn.de5.net
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.190-0123 | 54.1MB
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.190
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_78_0@77
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.206-0115 | 51.627MB
@@ -220,23 +158,11 @@ proxies:
   port: 8080
   server: 82.38.31.189
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦 CA 019 | ⬆️ 0.00MB/s
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 51.79.64.198
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 NL 006 | ⬆️ 0.00MB/s
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.207
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US-140.82.63.79-0238 | 0.0MB
-  password: ZoZtfPOyVvmKARUN
-  port: 8388
-  server: 140.82.63.79
   type: ss
 - alterId: 0
   cipher: auto
@@ -250,12 +176,6 @@ proxies:
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     path: /
-- cipher: aes-256-gcm
-  name: 🇰🇷KR-211.174.113.172-0250 | 0.0MB
-  password: ac9c0a7b
-  port: 49642
-  server: ce1fc2d8.krkt.hkssip.com
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: RO-194.68.44.42-0166 | 0.0MB
   password: U83u9OGpvSatIUW7LsWffr
@@ -268,3 +188,40 @@ proxies:
   port: 8080
   server: 137.184.174.93
   type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 012 | ⬆️ 0.00MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.222.200.165
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇳🇱 NL 003 | ⚡ 160.00ms
+  password: shadowsocks
+  port: 443
+  server: 158.173.20.171
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 004 | ⚡ 217.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.223
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 023 | ⚡ 257.00ms
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.222.155.32
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 002 | ⚡ 411.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0193 | 1.166MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
