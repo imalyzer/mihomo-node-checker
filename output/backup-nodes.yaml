@@ -1,5 +1,5 @@
-# last-updated: 2026-10-15T22:11:00Z
-# node-count: 120
+# last-updated: 2026-10-16T00:22:09Z
+# node-count: 126
 # note: union of stable+fresh
 proxies:
 - cipher: aes-128-gcm
@@ -854,3 +854,47 @@ proxies:
     headers:
       HOST: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸US_78_0@77
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.206-0115 | 51.627MB
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.206
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-51.222.155.32-0183 | 0.0MB
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.222.155.32
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇴 RO 001 | ⚡ 306.00ms
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  port: 443
+  server: bogging-eyeteeth-fly.freesocks.work
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 IN 004 | ⚡ 492.00ms
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 🇮🇳IN-152.67.8.205-0193 | 1.166MB
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 019 | ⚡ 508.00ms
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 51.222.141.125
+  type: ss
