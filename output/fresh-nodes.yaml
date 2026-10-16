@@ -1,5 +1,5 @@
-# last-updated: 2026-10-16T00:22:09Z
-# node-count: 46
+# last-updated: 2026-10-16T05:43:07Z
+# node-count: 51
 # note: streak<3 or newly accepted
 proxies:
 - cipher: aes-256-gcm
@@ -210,18 +210,6 @@ proxies:
   skip-cert-verify: false
   sni: simple-molly.rooster465.autos
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 005 | ⚡ 776.00ms
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    path: /
 - cipher: rc4-md5
   name: 🇺🇸 US 007 | ⚡ 108.00ms
   password: 14fFPrbezE3HDZzsMOr6
@@ -321,3 +309,43 @@ proxies:
   port: 445
   server: 51.222.141.125
   type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸 US 011 | ⚡ 78.00ms
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 15.204.247.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 005 | ⚡ 135.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇴 NO 001 | ⚡ 185.00ms
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- cipher: chacha20-ietf
+  name: 🇭🇰 HK 004 | ⚡ 331.00ms
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 NL 006 | ⚡ 339.00ms
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.189
+  type: ss
+- country: 🇺🇸US
+  name: 🇮🇳 IN 004 | ⚡ 429.00ms
+  password: Trojan@82164024
+  port: 443
+  server: in.tronsg.com
+  skip-cert-verify: true
+  sni: in.tronsg.com
+  type: trojan
+  udp: true
